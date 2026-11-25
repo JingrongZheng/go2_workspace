@@ -1,0 +1,648 @@
+{
+  "seconds": 40.0,
+  "topics": {
+    "/ak_rotate_reeds_shepp_candidates": [
+      "visualization_msgs/msg/MarkerArray"
+    ],
+    "/awared_global_path": [
+      "nav_msgs/msg/Path"
+    ],
+    "/base_to_footprint_pose": [
+      "geometry_msgs/msg/PoseWithCovarianceStamped"
+    ],
+    "/best_trajectory": [
+      "geometry_msgs/msg/PoseArray"
+    ],
+    "/body_pose": [
+      "geometry_msgs/msg/Pose"
+    ],
+    "/clicked_point": [
+      "geometry_msgs/msg/PointStamped"
+    ],
+    "/clock": [
+      "rosgraph_msgs/msg/Clock"
+    ],
+    "/cmd_vel": [
+      "geometry_msgs/msg/Twist"
+    ],
+    "/euclidean_cluster_extraction": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/foot": [
+      "visualization_msgs/msg/MarkerArray"
+    ],
+    "/foot_contacts": [
+      "champ_msgs/msg/ContactsStamped"
+    ],
+    "/full_cloud_info": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/goal_pose_3d": [
+      "geometry_msgs/msg/PoseStamped"
+    ],
+    "/ground_cloud": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/ground_normal": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/initial_3d_pose": [
+      "geometry_msgs/msg/PoseWithCovarianceStamped"
+    ],
+    "/joint_group_effort_controller/joint_trajectory": [
+      "trajectory_msgs/msg/JointTrajectory"
+    ],
+    "/joint_states": [
+      "sensor_msgs/msg/JointState"
+    ],
+    "/laser_cloud_corner_last": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/laser_cloud_flat": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/laser_cloud_less_flat": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/laser_cloud_less_sharp": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/laser_cloud_sharp": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/laser_cloud_surf_last": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/laser_odom_to_init": [
+      "nav_msgs/msg/Odometry"
+    ],
+    "/map1/key_poses": [
+      "geometry_msgs/msg/PoseArray"
+    ],
+    "/map1/mapcloud": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/map1/mapground": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/map1/mapsurface": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/map1/surfaced_mapground": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/mcl_pose": [
+      "geometry_msgs/msg/PoseWithCovarianceStamped"
+    ],
+    "/objects_excluding_cloud": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/odom": [
+      "nav_msgs/msg/Odometry"
+    ],
+    "/odom/raw": [
+      "nav_msgs/msg/Odometry"
+    ],
+    "/originized_laser_odom_path": [
+      "nav_msgs/msg/Path"
+    ],
+    "/originized_wheel_odom_path": [
+      "nav_msgs/msg/Path"
+    ],
+    "/outlier_cloud": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/outlier_cloud_last": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/p2p_move_base/_action/feedback": [
+      "dddmr_sys_core/action/PToPMoveBase_FeedbackMessage"
+    ],
+    "/p2p_move_base/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/parameter_events": [
+      "rcl_interfaces/msg/ParameterEvent"
+    ],
+    "/particles": [
+      "geometry_msgs/msg/PoseArray"
+    ],
+    "/perception_3d_global/gpu_lidar/marked_voxel": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/perception_3d_global/lidar/tracing_objects": [
+      "visualization_msgs/msg/MarkerArray"
+    ],
+    "/perception_3d_local/lidar/current_observation": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/perception_3d_ros/dGraph": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/projected_image": [
+      "sensor_msgs/msg/Image"
+    ],
+    "/prune_plan": [
+      "nav_msgs/msg/Path"
+    ],
+    "/robot_cuboid": [
+      "visualization_msgs/msg/MarkerArray"
+    ],
+    "/robot_description": [
+      "std_msgs/msg/String"
+    ],
+    "/rosout": [
+      "rcl_interfaces/msg/Log"
+    ],
+    "/segmented_cloud_info": [
+      "cloud_msgs/msg/CloudInfo"
+    ],
+    "/segmented_cloud_pure": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/steering_markers": [
+      "visualization_msgs/msg/MarkerArray"
+    ],
+    "/sub_mapcloud": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/sub_mapcloud_warmup": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/sub_mapground": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/sub_mapground_warmup": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/tf": [
+      "tf2_msgs/msg/TFMessage"
+    ],
+    "/tf_static": [
+      "tf2_msgs/msg/TFMessage"
+    ],
+    "/trajectory": [
+      "geometry_msgs/msg/PoseArray"
+    ],
+    "/zrollpitchfeature_cloud": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/accepted_trajectory": [
+      "geometry_msgs/msg/PoseArray"
+    ],
+    "/ackermann_drive_cmd": [
+      "ackermann_msgs/msg/AckermannDriveStamped"
+    ],
+    "/aggregated_pc": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/dynamic_joint_states": [
+      "control_msgs/msg/DynamicJointState"
+    ],
+    "/get_dwa_plan/_action/feedback": [
+      "dddmr_sys_core/action/GetPlan_FeedbackMessage"
+    ],
+    "/get_dwa_plan/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/get_plan/_action/feedback": [
+      "dddmr_sys_core/action/GetPlan_FeedbackMessage"
+    ],
+    "/get_plan/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/global_path": [
+      "nav_msgs/msg/Path"
+    ],
+    "/imu/data": [
+      "sensor_msgs/msg/Imu"
+    ],
+    "/joint_group_effort_controller/controller_state": [
+      "control_msgs/msg/JointTrajectoryControllerState"
+    ],
+    "/joint_group_effort_controller/follow_joint_trajectory/_action/feedback": [
+      "control_msgs/action/FollowJointTrajectory_FeedbackMessage"
+    ],
+    "/joint_group_effort_controller/follow_joint_trajectory/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/joint_group_effort_controller/state": [
+      "control_msgs/msg/JointTrajectoryControllerState"
+    ],
+    "/joint_group_effort_controller/transition_event": [
+      "lifecycle_msgs/msg/TransitionEvent"
+    ],
+    "/joint_states_controller/transition_event": [
+      "lifecycle_msgs/msg/TransitionEvent"
+    ],
+    "/map/dGraph": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/perception_3d_global/lidar/current_observation": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/perception_3d_global/lidar/current_projected": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/perception_3d_global/lidar/current_segmentation": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/perception_3d_global/lidar/current_window_marking": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/perception_3d_global/lidar/dGraph": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/perception_3d_global/lidar/global_marking": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/perception_3d_global/lidar/lethal": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/perception_3d_global/lidar/marked_voxel": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/perception_3d_local/lidar/lethal": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/performance_metrics": [
+      "gazebo_msgs/msg/PerformanceMetrics"
+    ],
+    "/recovery_behaviors/_action/feedback": [
+      "dddmr_sys_core/action/RecoveryBehaviors_FeedbackMessage"
+    ],
+    "/recovery_behaviors/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/rotate_inplace_trajectory": [
+      "geometry_msgs/msg/PoseArray"
+    ],
+    "/static_graph": [
+      "visualization_msgs/msg/MarkerArray"
+    ],
+    "/steering_state_topic": [
+      "ackermann_msgs/msg/AckermannDriveStamped"
+    ],
+    "/velodyne_points": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/weighted_ground": [
+      "sensor_msgs/msg/PointCloud2"
+    ]
+  },
+  "observations": {
+    "/awared_global_path": {
+      "messages": 2,
+      "max_path_poses": 30
+    },
+    "/clock": {
+      "messages": 7309,
+      "last_clock": 82.99,
+      "first_clock": 46.45
+    },
+    "/cmd_vel": {
+      "messages": 58,
+      "nonzero_commands": 56,
+      "last_command": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "/euclidean_cluster_extraction": {
+      "messages": 366,
+      "nonempty_frames": 366,
+      "last_points": 268,
+      "frame_id": "base_link"
+    },
+    "/full_cloud_info": {
+      "messages": 0
+    },
+    "/ground_cloud": {
+      "messages": 366,
+      "nonempty_frames": 366,
+      "last_points": 2287,
+      "frame_id": "velodyne"
+    },
+    "/ground_normal": {
+      "messages": 0
+    },
+    "/laser_cloud_corner_last": {
+      "messages": 0
+    },
+    "/laser_cloud_flat": {
+      "messages": 366,
+      "nonempty_frames": 366,
+      "last_points": 171,
+      "frame_id": "velodyne"
+    },
+    "/laser_cloud_less_flat": {
+      "messages": 366,
+      "nonempty_frames": 366,
+      "last_points": 3038,
+      "frame_id": "velodyne"
+    },
+    "/laser_cloud_less_sharp": {
+      "messages": 366,
+      "nonempty_frames": 366,
+      "last_points": 207,
+      "frame_id": "velodyne"
+    },
+    "/laser_cloud_sharp": {
+      "messages": 366,
+      "nonempty_frames": 366,
+      "last_points": 93,
+      "frame_id": "velodyne"
+    },
+    "/laser_cloud_surf_last": {
+      "messages": 0
+    },
+    "/laser_odom_to_init": {
+      "messages": 0
+    },
+    "/map1/mapcloud": {
+      "messages": 0
+    },
+    "/map1/mapground": {
+      "messages": 0
+    },
+    "/map1/mapsurface": {
+      "messages": 0
+    },
+    "/map1/surfaced_mapground": {
+      "messages": 0
+    },
+    "/objects_excluding_cloud": {
+      "messages": 366,
+      "nonempty_frames": 0,
+      "last_points": 0,
+      "frame_id": "velodyne"
+    },
+    "/odom": {
+      "messages": 29697,
+      "first_position": [
+        0.14809560453264226,
+        -0.00885652697785598,
+        0.2187133638455254
+      ],
+      "last_position": [
+        2.457602257880916,
+        -0.34169690455934065,
+        0.21867737551698155
+      ],
+      "finite_pose": true,
+      "frames": [
+        "odom",
+        "base_link"
+      ]
+    },
+    "/odom/raw": {
+      "messages": 1998,
+      "first_position": [
+        -6664558735261696.0,
+        -1348514504245248.0,
+        0.0
+      ],
+      "last_position": [
+        -5.560907188509082e+16,
+        1.676592023601152e+16,
+        0.0
+      ],
+      "finite_pose": true,
+      "frames": [
+        "odom",
+        "base_footprint"
+      ]
+    },
+    "/originized_laser_odom_path": {
+      "messages": 0
+    },
+    "/originized_wheel_odom_path": {
+      "messages": 0
+    },
+    "/outlier_cloud": {
+      "messages": 0
+    },
+    "/outlier_cloud_last": {
+      "messages": 0
+    },
+    "/perception_3d_global/gpu_lidar/marked_voxel": {
+      "messages": 0
+    },
+    "/perception_3d_local/lidar/current_observation": {
+      "messages": 366,
+      "nonempty_frames": 0,
+      "last_points": 0,
+      "frame_id": "map"
+    },
+    "/perception_3d_ros/dGraph": {
+      "messages": 20,
+      "nonempty_frames": 20,
+      "last_points": 43526,
+      "frame_id": "map"
+    },
+    "/prune_plan": {
+      "messages": 113,
+      "max_path_poses": 31
+    },
+    "/segmented_cloud_pure": {
+      "messages": 366,
+      "nonempty_frames": 366,
+      "last_points": 4400,
+      "frame_id": "velodyne"
+    },
+    "/sub_mapcloud": {
+      "messages": 0
+    },
+    "/sub_mapcloud_warmup": {
+      "messages": 0
+    },
+    "/sub_mapground": {
+      "messages": 0
+    },
+    "/sub_mapground_warmup": {
+      "messages": 0
+    },
+    "/tf": {
+      "messages": 29859
+    },
+    "/tf_static": {
+      "messages": 2
+    },
+    "/zrollpitchfeature_cloud": {
+      "messages": 366,
+      "nonempty_frames": 366,
+      "last_points": 5840,
+      "frame_id": "velodyne"
+    },
+    "/aggregated_pc": {
+      "messages": 56,
+      "nonempty_frames": 0,
+      "last_points": 0,
+      "frame_id": "map"
+    },
+    "/global_path": {
+      "messages": 0
+    },
+    "/map/dGraph": {
+      "messages": 499,
+      "nonempty_frames": 499,
+      "last_points": 43526,
+      "frame_id": "map"
+    },
+    "/perception_3d_global/lidar/current_observation": {
+      "messages": 352,
+      "nonempty_frames": 348,
+      "last_points": 162,
+      "frame_id": "base_link"
+    },
+    "/perception_3d_global/lidar/current_projected": {
+      "messages": 335,
+      "nonempty_frames": 280,
+      "last_points": 13,
+      "frame_id": "map"
+    },
+    "/perception_3d_global/lidar/current_segmentation": {
+      "messages": 335,
+      "nonempty_frames": 335,
+      "last_points": 161,
+      "frame_id": "map"
+    },
+    "/perception_3d_global/lidar/current_window_marking": {
+      "messages": 373,
+      "nonempty_frames": 276,
+      "last_points": 50,
+      "frame_id": "map"
+    },
+    "/perception_3d_global/lidar/dGraph": {
+      "messages": 21,
+      "nonempty_frames": 21,
+      "last_points": 43526,
+      "frame_id": "map"
+    },
+    "/perception_3d_global/lidar/global_marking": {
+      "messages": 39,
+      "nonempty_frames": 28,
+      "last_points": 50,
+      "frame_id": "map"
+    },
+    "/perception_3d_global/lidar/lethal": {
+      "messages": 373,
+      "nonempty_frames": 0,
+      "last_points": 0,
+      "frame_id": "map"
+    },
+    "/perception_3d_global/lidar/marked_voxel": {
+      "messages": 373,
+      "nonempty_frames": 276,
+      "last_points": 7,
+      "frame_id": "map"
+    },
+    "/perception_3d_local/lidar/lethal": {
+      "messages": 0
+    },
+    "/velodyne_points": {
+      "messages": 365,
+      "nonempty_frames": 365,
+      "last_points": 6326,
+      "frame_id": "velodyne"
+    },
+    "/weighted_ground": {
+      "messages": 0
+    }
+  },
+  "tf_edges": [
+    [
+      "base_link",
+      "trunk"
+    ],
+    [
+      "base_link",
+      "velodyne_base_link"
+    ],
+    [
+      "lf_hip_link",
+      "lf_upper_leg_link"
+    ],
+    [
+      "lf_lower_leg_link",
+      "lf_foot_link"
+    ],
+    [
+      "lf_upper_leg_link",
+      "lf_lower_leg_link"
+    ],
+    [
+      "lh_hip_link",
+      "lh_upper_leg_link"
+    ],
+    [
+      "lh_lower_leg_link",
+      "lh_foot_link"
+    ],
+    [
+      "lh_upper_leg_link",
+      "lh_lower_leg_link"
+    ],
+    [
+      "map",
+      "camera_init"
+    ],
+    [
+      "map",
+      "odom"
+    ],
+    [
+      "odom",
+      "base_link"
+    ],
+    [
+      "rf_hip_link",
+      "rf_upper_leg_link"
+    ],
+    [
+      "rf_lower_leg_link",
+      "rf_foot_link"
+    ],
+    [
+      "rf_upper_leg_link",
+      "rf_lower_leg_link"
+    ],
+    [
+      "rh_hip_link",
+      "rh_upper_leg_link"
+    ],
+    [
+      "rh_lower_leg_link",
+      "rh_foot_link"
+    ],
+    [
+      "rh_upper_leg_link",
+      "rh_lower_leg_link"
+    ],
+    [
+      "trunk",
+      "imu_link"
+    ],
+    [
+      "trunk",
+      "lf_hip_link"
+    ],
+    [
+      "trunk",
+      "lh_hip_link"
+    ],
+    [
+      "trunk",
+      "rf_hip_link"
+    ],
+    [
+      "trunk",
+      "rh_hip_link"
+    ],
+    [
+      "velodyne_base_link",
+      "velodyne"
+    ]
+  ]
+}

@@ -1,0 +1,331 @@
+# DDDMR LeGO LOAM BOR
+
+## 🚀 Big update - Deep Lego Loam with YOLO11+TensorRT!
+<p align='center'>
+    <img src="https://github.com/dfl-rlab/dddmr_documentation_materials/blob/main/dddmr_lego_loam_bor/yolo_lego_loam.gif" width="400" height="260"/><p align='center'>Lego Loam + YOLOV11 using TensorRT</p>
+</p>
+<table align='center'>
+  <tr width="40%">
+    <td width="40%"><img src="https://github.com/dfl-rlab/dddmr_documentation_materials/blob/main/dddmr_lego_loam_bor/no_yolo_lego_loam.png" width="400" height="260"/><p align='center'>Human being SLAMed in the map (without YOLO)</p></td>
+    <td width="40%"><img src="https://github.com/dfl-rlab/dddmr_documentation_materials/blob/main/dddmr_lego_loam_bor/yolo_lego_loam.png" width="400" height="260"/><p align='center'>Human being detected and not used in SLAM (with YOLO)</p></td>
+  </tr>
+</table>
+
+> [!NOTE]
+> Our current trained model only support RoboSense Airy with 45 deg tilting. We suggest using dense lidar such as Airy/Jt128/Mid360/E1R to get a better performance in YOLO.
+> Original labelled data and training setup can be found: [DDDMR_YOLO_Training](https://github.com/dddmobilerobot/dddmr_yolo)
+
+
+## 🚀 Example Configuration of Different Lidar and Setup
+We provide multiple bags file for users to quickly configirate their Lidar TF setup. Current tested bag including:
+| Lidar | Tilting (degree) | Yaw (Degree) | Note |
+| :--- | :--- | :--- | :--- |
+| Leishen C16 | 0 | 180 | similar to hesai XT16 |
+| Robosense Airy | 45 | 0 | |
+| Mid360 | 13 | 0 | |
+| Mid360 | 180 | 180 | Same as rolling=180, usually used in humanoid |
+| Hesai JT128 | 45 (roll) | 90 | Supported in v2.1.0 with rolling correction |
+
+Found the details in our [CICD docs](https://github.com/dfl-rlab/dddmr_navigation/tree/main/CICD_setup#dddmr-lego-loam-ci)
+
+## DDDMR LEGO LOAM
+This repo is based on the [LeGO-LOAM-BOR](https://github.com/facontidavide/LeGO-LOAM-BOR), and has been modified for ground vehicles. We did not fork the repo due to significant modifications, variant features and frameworks are implemented.
+
+The original authors deserve all the credits, we just stand on the shoulders of giants.
+
+<p align='center'>
+    <img src="https://github.com/dfl-rlab/dddmr_documentation_materials/blob/main/dddmr_lego_loam_bor/mapping.gif" width="700" height="420"/>
+</p>
+
+The following features are provided and are different from original version:
+
+- ROS2 version (Humble) of LeGO LOAM BOR, support online and offline(bag) mapping, IMU/Odometry is optional.
+- Interactive mapping. Users can pause and resume mapping during bag playing, and change parameters accordingly.
+- Pose graph visualization.
+- Conditional loop closure mechanism for a more stable mapping result.
+- The result is saved as a pose graph, users can leverage our pose graph editor to modify the result ex: manual loop closure.
+- Our pose graph editor allow users to merge two pose graphs.
+- The pose graph can be used in DDDMR MCL localization.
+- [Optimized ICP](https://github.com/zm0612/optimized_ICP) is leveraged for the loop closure.
+
+<p align='center'>
+    <img src="https://github.com/dfl-rlab/dddmr_documentation_materials/blob/main/dddmr_lego_loam_bor/legoloam_weiwuyin.png" width="700" height="320"/>
+</p>
+
+## LeGO LOAM with a tilted lidar
+
+SLAM with a tilted lidar is supported, the static tf broadcaster should be setup:
+<table align='center'>
+  <tr width="100%">
+    <td><img src="https://github.com/dfl-rlab/dddmr_documentation_materials/blob/main/dddmr_lego_loam_bor/lidar_tilt_10deg.png" width="420" height="260"/><p align='center'>Lidar tilts 10 degree and rotates 180 deg at the yaw direction</p></td>
+    <td><img src="https://github.com/dfl-rlab/dddmr_documentation_materials/blob/main/dddmr_lego_loam_bor/lidar_no_tilt.png" width="420" height="260"/><p align='center'>Lidar with no tilting and rotates 180 deg at the yaw direction</p></td>
+  </tr>
+</table>
+
+If your baselink is not on the ground, you can setup a base_footprint to connect the base_link, and control the robot at base_footprint frame.
+<table align='center'>
+  <tr width="100%">
+    <td><img src="https://github.com/dfl-rlab/dddmr_documentation_materials/blob/main/dddmr_lego_loam_bor/lidar_link_footprint.png" width="420" height="260"/><p align='center'>Frames of lidar, base_link and base_footprint</p></td>
+  </tr>
+</table>
+
+## Ground FOV Setup
+The ground fov setup allow the algorithm to find the ground more effectively. Following are illustrations of ground_fov setup.
+
+Example 1, installation is horizontal: 
+
+<p align='center'>
+    <img src="https://github.com/dfl-rlab/dddmr_documentation_materials/blob/main/dddmr_lego_loam_bor/ground_fov.png" width="700" height="420"/>
+</p>
+
+Example 2, installation is 90 degree tilted:
+
+<p align='center'>
+    <img src="https://github.com/dfl-rlab/dddmr_documentation_materials/blob/main/dddmr_lego_loam_bor/ground_fov_tilted.png" width="700" height="420"/>
+</p>
+
+
+## Cite *LeGO-LOAM*
+
+Many thanks to *LeGO-LOAM* paper: 
+```
+@inproceedings{legoloam2018,
+  title={LeGO-LOAM: Lightweight and Ground-Optimized Lidar Odometry and Mapping on Variable Terrain},
+  author={Tixiao Shan and Brendan Englot},
+  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={4758-4765},
+  year={2018},
+  organization={IEEE}
+}
+```
+
+<details><summary><h2>💡 Click me to see DDDMR LeGO-LOAM Demo</h2></summary>
+
+### 1. Create docker image
+> [!NOTE]
+> The package runs in the docker, so we need to build the image first. We support both x64 with or without GPU and arm64 (tested in nvidia jetson jpack6.2).
+> 
+> Follow the instruction to build either x64 or l4t docker images. It will take some time depending on your harware
+
+
+```
+cd ~
+git clone https://github.com/dfl-rlab/dddmr_navigation.git
+cd ~/dddmr_navigation/dddmr_docker/docker_file && ./build.bash
+```
+
+
+### 2. Download bag files
+To play SLAM, you will need to download bag file (4.0GB). To play pose graph editor, you will need to download pose graph folder (2.6MB).
+```
+cd ~/dddmr_navigation/src/dddmr_lego_loam && ./download_files.bash
+```
+### 3. Run demo
+#### Create a docker container
+> [!NOTE]
+> The following command will create an interactive docker container using the image we built. The we can launch the demo in the container.
+```
+cd ~/dddmr_navigation/dddmr_docker && ./run_demo.bash
+```
+#### Play mapping using bag files in docker container
+```
+cd ~/dddmr_navigation && source /opt/ros/humble/setup.bash && colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
+source install/setup.bash
+ros2 launch lego_loam_bor lego_loam_bag.launch
+```
+In the Rviz2, click resume to start mapping, and change the parameter accordingly during mapping.
+
+<p align='center'>
+    <img src="https://github.com/dfl-rlab/dddmr_documentation_materials/blob/main/dddmr_lego_loam_bor/interactive_mapping_panel.png" width="700" height="420"/>
+</p>
+
+</details>
+
+
+<details><summary><h2>💡 Click me to see Pose Graph Editor Demo</h2></summary>
+    
+# Pose Graph Editor Tutorial
+#### Play pose graph editor in docker container
+```
+cd ~/dddmr_navigation && source /opt/ros/humble/setup.bash && colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
+source install/setup.bash
+ros2 launch lego_loam_bor pose_graph_editor.launch
+```
+## Edit the First Pose Graph
+### Open a pose graph folder
+<p align="center">
+<img src="https://github.com/dfl-rlab/dddmr_documentation_materials/blob/main/pose_graph_editor/open_file.gif" width="700" height="320"/>
+</p>
+
+### Select first key frame
+
+Press "shift" and select a pose, the selected key frame will be red
+<p align="center">
+<img src="https://github.com/dfl-rlab/dddmr_documentation_materials/blob/main/pose_graph_editor/select_key_frame.gif" width="600" height="280"/>
+</p>
+
+### Select second key frame
+
+Select a pose without pressing any key, the selected key frame will be green
+<p align="center">
+<img src="https://github.com/dfl-rlab/dddmr_documentation_materials/blob/main/pose_graph_editor/select_second_key_frame.gif" width="600" height="280"/>
+</p>
+
+### Use ICP to find an edge between the first key frame and the second key frame
+
+Use buttons px+, px-, py+, py-, to move the second key frame to match the first frame, and then click ICP to optimize two keyframes transform. If the result is satisfied, click "Accept", an edge will be added
+<p align="center">
+<img src="https://github.com/dfl-rlab/dddmr_documentation_materials/blob/main/pose_graph_editor/icp.gif" width="600" height="280"/>
+</p>
+
+****
+## Merge two pose graphs
+
+<table align='center'>
+  <tr width="100%">
+    <td><img src="https://github.com/dfl-rlab/dddmr_documentation_materials/blob/main/pose_graph_editor/map1.png" width="420" height="260"/><p align='center'>Map1</p></td>
+    <td><img src="https://github.com/dfl-rlab/dddmr_documentation_materials/blob/main/pose_graph_editor/map2.png" width="420" height="260"/><p align='center'>Map2</p></td>
+  </tr>
+</table>
+<table align='center'>
+  <tr width="100%">
+    <td><img src="https://github.com/dfl-rlab/dddmr_documentation_materials/blob/main/pose_graph_editor/map1+2.png" width="420" height="260"/><p align='center'>Map1+2</p></td>
+  </tr>
+</table>
+The Merge ICP button will match the first key frame of each pose graph. i.e.: Merge red key frame of the first pose graph and the red key frame of the second pose graph.
+After click accept merge, there will be a pop up window to ask the new directory to save the merged result.
+Once the result is saved, you can go back to pose graph panel to keep working on the merge result.
+Steps:
+
+1. Switch to the first pose graph, and pressed "shift" to select the first key frame of pose graph1.
+
+2. Switch to the second pose graph, and pressed "shift" to select the first key frame of pose graph2.
+
+3. Tick Merge visualization on the Rviz, then you will see two key frames. You can ICP them and fine tune the result.
+
+4. Click accpet to save the result.
+
+#### Check the demo video:
+
+[![YouTube video thumbnail](https://github.com/dfl-rlab/dddmr_documentation_materials/blob/main/pose_graph_editor/merge_yt.png)](https://www.youtube.com/watch?v=QKRoJy30-ds)
+ 
+</details>
+
+<details><summary><h2>💡 Click me to see Exporting Projection Images</h2></summary>
+
+# Exporting Projection Images From a Lidar Bag File
+
+## Record a lidar bag file
+
+we suggest using a dense lidar such as jt128, Airy, mid360. Prepare a lidar bag file or  you can download a one using our script:
+```
+cd ~/dddmr_navigation/CICD_setup
+./download_example_bags.bash
+```
+Choose mapping_airy_t45.
+
+## ROS2 launch Lidar2DepthImage
+```
+docker exec -it dddmr_humble_cuda_dev bash
+cd dddmr_navigation
+source install/setup.bash
+```
+
+Modify bag file path:
+```
+nano ~/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/config/loam_bag_lidar2depthimg_config.yaml
+```
+
+You will see something like below:
+```
+bag_reader:
+  ros__parameters:
+    use_sim_time: true
+    bag_file_dir: "/root/dddmr_bags/cicdtest/mapping_airy_t45"
+    bag_format: "mcap"
+    point_cloud_topic: "/airy_points"
+    odometry_topic: "/odom"
+    skip_frame: 1
+
+lego_loam_ip:
+  ros__parameters:
+    use_sim_time: true
+    laser:
+        odom_type: "laser_odometry"         #wheel_odometry/laser_odometry 
+        base_ground_frame: "base_link"
+        num_vertical_scans: 100
+        num_horizontal_scans: 400
+        vertical_angle_bottom: 0.0          # degrees
+        vertical_angle_top: 90.0            # degrees
+        scan_period: 0.0                   # seconds
+```
+
+> [!NOTE]
+> You need to check 7 places:
+> 1. bag_file_dir --> provide the bag folder derectory (not metadata.yaml)
+> 2. bag_format --> either mcap or sqlite3
+> 3. point_cloud_topic --> pointcloud topic in your bag
+> 4. num_vertical_scans --> this number can be lower than your lidar vertical scan
+> 5. num_horizontal_scans --> this number does not need to be the same as the horizontal scan of a lidar (usually the lidar horizontal scan is much larger), we set it smaller to down sample it. In most cases, it is suggested to be 4 times of vertical scans. otherwise the projection image will be too width
+> 6. vertical_angle_bottom --> this number should better fit your lidar spec
+> 7. vertical_angle_top --> this number should better fit your lidar spec
+
+
+Before launch, make sure TF is provided in lego_loam_bag_lidar2depthimg.launch:
+```
+nano ~/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/config/loam_bag_lidar2depthimg_config.yaml
+```
+
+Add your lidar TF to base_ground_frame:
+```
+<node pkg="tf2_ros" exec="static_transform_publisher" name="sensor2baselink"  args="0.3 0 0.5 0.0 0.78539815 0 base_link airy" />
+```
+
+Launch the converting:
+```
+ros2 launch lego_loam_bor lego_loam_bag_lidar2depthimg.launch
+```
+
+In the terminal, the log will show where the projection images are stored:
+```
+...
+[lego_loam_bag_lidar2depthimg_node-1] [INFO] [1792323325.097649727] [bag_reader]: bag_file_dir: /root/dddmr_bags/cicdtest/mapping_airy_t45
+[lego_loam_bag_lidar2depthimg_node-1] [INFO] [1792323325.097703971] [bag_reader]: bag_format: mcap
+[lego_loam_bag_lidar2depthimg_node-1] [INFO] [1792323325.097739586] [bag_reader]: point_cloud_topic: /airy_points
+[lego_loam_bag_lidar2depthimg_node-1] [INFO] [1792323325.097765287] [bag_reader]: odometry_topic: /odom
+[lego_loam_bag_lidar2depthimg_node-1] [INFO] [1792323325.097884271] [bag_reader]: skip_frame: 1
+[lego_loam_bag_lidar2depthimg_node-1] [INFO] [1792323325.117104756] [bag_reader]: Create dir: /tmp/2026_10_18_11_35_25
+```
+And then, click resume, the converting is fast, once the bag is finish, ctrl+c the launch 
+
+</details>
+---
+ 
+## 📋 Release Notes
+ 
+### 📦 v2.1.0
+ 
+#### 🔄 Support for Rolling LiDAR Configurations (Hesai JT128)
+- **Automatic Roll & Yaw Decoupling:** Added full support for LiDARs mounted with simultaneous roll and yaw angles (e.g., Hesai JT128 mounted with a 45° roll tilt).
+  - In `ImageProjection`, detects roll + yaw configurations (`fabs(sensor_install_yaw) > 0.0 && fabs(sensor_install_roll) > 0.0`), normalizes the base-to-sensor transform to isolate pure pitch in the LOAM camera coordinate system, and computes the relative offset `ideal_sensor_orientation2sensor`.
+  - Automatically applies horizontal yaw pre-rotation (`trans_lidar2horizontal`) to the raw point cloud before range image projection and feature extraction.
+- **True Sensor TF Reconstruction:** In `MapOptimization::publishTF()`, accurately reconstructs the full TF tree using the ideal sensor orientation (`map -> camera_init -> camera -> ideal_sensor -> actual_sensor -> base_link -> odom`), eliminating coordinate frame drift and map distortion caused by rolling mounts.
+- **Pipeline-Wide Orientation Propagation:** Extended `ProjectionOut` and `AssociationOut` channel data structures in `utility.h` to propagate `ideal_sensor_orientation2sensor` across all processing nodes.
+ 
+#### 🧪 Automated CI/CD Regression Test for Hesai JT128
+- **New Integration Test:** Added `mapping_jt128_t45.py` and configuration `mapping_jt128_t45.yaml` to the automated CI test suite.
+  - Automatically validates mapping accuracy and convergence using ICP scoring against verified ground truth datasets.
+  - Includes `correct_yaml_format_by_ros2_version()` to handle multi-distro bag playback compatibility (Humble through Jazzy+).
+- **Test Coordinate Fixes:** Corrected static transform arguments in `mapping_mid360_t180_test.py` to maintain consistent rotational conventions.
+ 
+#### ⏱️ Odometry & LiDAR Desync Tolerance
+- In `FeatureAssociation::assignMappingOdometry`, added timestamp drift detection between external odometry and LiDAR messages.
+- When timestamp difference exceeds 1.0s (`fabs(odom_time - cloud_time) > 1.0`), the system issues a throttled warning and synchronizes the odometry timestamp to the LiDAR header timestamp, preventing TF extrapolation errors and mapping halts caused by bag time desynchronization.
+ 
+#### ⚡ Thread Safety & Performance Optimizations
+- **Safe 6D Pose Sharing:** Refactored keyframe pose passing between `MapOptimization` and `LegoLoamVisualization` in `lego_loam_bag_node` to use `cloudKeyPoses6D_callback()` with shared pointers instead of direct raw pointer dereferencing.
+- **Sparse Cloud Publishing Guards:** Added safety checks in `LegoLoamVisualization` (`points.size() > 5`) before voxel grid filtering and publishing global map/ground clouds to prevent redundant computations and log warnings on sparse or empty frames.
+- **Reused Message Buffers:** Cached `cloud_msg_pose_6d_` as a class member in `MapOptimization` to reduce memory allocations during keyframe publishing.
+ 
+#### ⚙️ Configuration & Launch Updates
+- Updated `loam_bag_airy_config.yaml` and `lego_loam_bag_airy.launch` defaults for testing Hesai JT128 datasets and rolling mount static transforms.

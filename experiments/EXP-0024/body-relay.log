@@ -1,0 +1,7 @@
+{"pc_minus_dock_s": 0.020307196, "clock_probe_roundtrip_s": 0.001615404}
+1795573144.689692 [0]    python3: config: //CycloneDDS/Domain/General: 'NetworkInterfaceAddress': deprecated element (CYCLONEDDS_URI+0 line 1)
+{"clock_mode": "auto", "common_stamp_offset_s": 47.640561419, "dock_minus_sensor_s": 47.620254223}
+{"topic": "/go2/bodytrial/imu", "first": {"frame_id": "go2_chassis_imu", "source_stamp_ns": 1795573098165255517, "published_stamp_ns": 1795573145805816936, "pc_age_ms": 19.9}}
+{"topic": "/go2/bodytrial/cloud", "first": {"frame_id": "utlidar_lidar", "source_stamp_ns": 1795573098172981977, "published_stamp_ns": 1795573145813543396, "pc_age_ms": 71.69, "points": 1513, "fields": ["x", "y", "z", "intensity", "ring", "time"]}}
+{"topic": "/go2/bodytrial/cloud", "samples": 374, "hz": 15.42}
+{"topic": "/go2/bodytrial/imu", "samples": 10329, "hz": 425.95}

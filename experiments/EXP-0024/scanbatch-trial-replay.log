@@ -1,0 +1,37 @@
+[INFO] [launch]: All log files can be found below /tmp/.ros/log/2026-11-25-02-55-42-957707-6053e05def72-18
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [pointlio_mapping-1]: process started with pid [41]
+[pointlio_mapping-1] Multi thread started 
+[pointlio_mapping-1] lidar_type: 5
+[pointlio_mapping-1] ~~~~/lio-ws/src/point_lio/ file opened
+[pointlio_mapping-1] first lidar time1.79557e+09
+[pointlio_mapping-1] LIO_DIAG points=529 matched=11 groups=1 imu_queue=475 time=1795573327.165915
+[pointlio_mapping-1] LIO_STATE pos=0.000000,0.000000,0.000000 vel=0.000000,0.000000,0.000000 acc=0.000000,0.000000,0.000000 grav=0.000000,0.000000,0.000000
+[pointlio_mapping-1] LIO_DIAG points=556 matched=150 groups=1 imu_queue=739 time=1795573328.463608
+[pointlio_mapping-1] LIO_STATE pos=0.000000,0.000000,0.000000 vel=0.000000,0.000000,0.000000 acc=0.000000,0.000000,0.000000 grav=0.000000,0.000000,0.000000
+[pointlio_mapping-1] LIO_DIAG points=638 matched=404 groups=1 imu_queue=1040 time=1795573329.763431
+[pointlio_mapping-1] LIO_STATE pos=0.000000,0.000000,0.000000 vel=0.000000,0.000000,0.000000 acc=0.000000,0.000000,0.000000 grav=0.000000,0.000000,0.000000
+[pointlio_mapping-1] LIO_DIAG points=542 matched=374 groups=1 imu_queue=1292 time=1795573331.058604
+[pointlio_mapping-1] LIO_STATE pos=0.000000,0.000000,0.000000 vel=0.000000,0.000000,0.000000 acc=0.000000,0.000000,0.000000 grav=0.000000,0.000000,0.000000
+[pointlio_mapping-1] LIO_DIAG points=510 matched=364 groups=1 imu_queue=1581 time=1795573332.355613
+[pointlio_mapping-1] LIO_STATE pos=0.000000,0.000000,0.000000 vel=0.000000,0.000000,0.000000 acc=0.000000,0.000000,0.000000 grav=0.000000,0.000000,0.000000
+[pointlio_mapping-1] LIO_DIAG points=639 matched=387 groups=1 imu_queue=1920 time=1795573333.652598
+[pointlio_mapping-1] LIO_STATE pos=0.000000,0.000000,0.000000 vel=0.000000,0.000000,0.000000 acc=0.000000,0.000000,0.000000 grav=0.000000,0.000000,0.000000
+[pointlio_mapping-1] LIO_DIAG points=528 matched=279 groups=1 imu_queue=2244 time=1795573334.949872
+[pointlio_mapping-1] LIO_STATE pos=0.000000,0.000000,0.000000 vel=0.000000,0.000000,0.000000 acc=0.000000,0.000000,0.000000 grav=0.000000,0.000000,0.000000
+[pointlio_mapping-1] LIO_DIAG points=499 matched=300 groups=1 imu_queue=2567 time=1795573336.247597
+[pointlio_mapping-1] LIO_STATE pos=0.000000,0.000000,0.000000 vel=0.000000,0.000000,0.000000 acc=0.000000,0.000000,0.000000 grav=0.000000,0.000000,0.000000
+[pointlio_mapping-1] LIO_DIAG points=610 matched=440 groups=1 imu_queue=2876 time=1795573337.545582
+[pointlio_mapping-1] LIO_STATE pos=0.000000,0.000000,0.000000 vel=0.000000,0.000000,0.000000 acc=0.000000,0.000000,0.000000 grav=0.000000,0.000000,0.000000
+[pointlio_mapping-1] LIO_DIAG points=562 matched=415 groups=1 imu_queue=3215 time=1795573338.843100
+[pointlio_mapping-1] LIO_STATE pos=0.000000,0.000000,0.000000 vel=0.000000,0.000000,0.000000 acc=0.000000,0.000000,0.000000 grav=0.000000,0.000000,0.000000
+[pointlio_mapping-1] LIO_DIAG points=469 matched=286 groups=1 imu_queue=3525 time=1795573340.140545
+[pointlio_mapping-1] LIO_STATE pos=0.000000,0.000000,0.000000 vel=0.000000,0.000000,0.000000 acc=0.000000,0.000000,0.000000 grav=0.000000,0.000000,0.000000
+[pointlio_mapping-1] LIO_DIAG points=636 matched=158 groups=1 imu_queue=3865 time=1795573341.438109
+[pointlio_mapping-1] LIO_STATE pos=0.000000,0.000000,0.000000 vel=0.000000,0.000000,0.000000 acc=0.000000,0.000000,0.000000 grav=0.000000,0.000000,0.000000
+[pointlio_mapping-1] LIO_DIAG points=595 matched=0 groups=1 imu_queue=4189 time=1795573342.735631
+[pointlio_mapping-1] LIO_STATE pos=0.000000,0.000000,0.000000 vel=0.000000,0.000000,0.000000 acc=0.000000,0.000000,0.000000 grav=0.000000,0.000000,0.000000
+[pointlio_mapping-1] LIO_DIAG points=474 matched=0 groups=1 imu_queue=4512 time=1795573344.033618
+[pointlio_mapping-1] LIO_STATE pos=0.000000,0.000000,0.000000 vel=0.000000,0.000000,0.000000 acc=0.000000,0.000000,0.000000 grav=0.000000,0.000000,0.000000
+[pointlio_mapping-1] LIO_DIAG points=593 matched=0 groups=1 imu_queue=4835 time=1795573345.330609
+[pointlio_mapping-1] LIO_STATE pos=0.000000,0.000000,0.000000 vel=0.000000,0.000000,0.000000 acc=0.000000,0.000000,0.000000 grav=0.000000,0.000000,0.000000

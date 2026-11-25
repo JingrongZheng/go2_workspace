@@ -1,0 +1,73 @@
+(base) suiliang@suiliang-device:~$ sudo timeout 20 tcpdump -ni enp2s0 -e \
+  'arp or (udp and not src host 192.168.123.161 and not portrange 7400-7600)'
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on enp2s0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+14:51:02.403621 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.1 tell 192.168.123.18, length 46
+14:51:02.499785 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.162 tell 192.168.123.18, length 46
+14:51:02.499800 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.164 tell 192.168.123.18, length 46
+14:51:02.503570 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.163 tell 192.168.123.18, length 46
+14:51:03.427626 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.1 tell 192.168.123.18, length 46
+14:51:03.523599 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.163 tell 192.168.123.18, length 46
+14:51:03.523615 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.162 tell 192.168.123.18, length 46
+14:51:03.523619 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.164 tell 192.168.123.18, length 46
+14:51:04.451762 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.1 tell 192.168.123.18, length 46
+14:51:05.472119 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.162 tell 192.168.123.18, length 46
+14:51:05.474321 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.164 tell 192.168.123.18, length 46
+14:51:05.475248 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.163 tell 192.168.123.18, length 46
+14:51:05.475573 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.1 tell 192.168.123.18, length 46
+14:51:06.499585 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.1 tell 192.168.123.18, length 46
+14:51:06.499595 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.163 tell 192.168.123.18, length 46
+14:51:06.499596 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.164 tell 192.168.123.18, length 46
+14:51:06.499598 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.162 tell 192.168.123.18, length 46
+14:51:07.523593 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.164 tell 192.168.123.18, length 46
+14:51:07.523607 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.163 tell 192.168.123.18, length 46
+14:51:07.523611 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.162 tell 192.168.123.18, length 46
+14:51:07.523662 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.1 tell 192.168.123.18, length 46
+14:51:08.547614 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.1 tell 192.168.123.18, length 46
+14:51:09.476848 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.162 tell 192.168.123.18, length 46
+14:51:09.478349 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.163 tell 192.168.123.18, length 46
+14:51:09.479534 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.164 tell 192.168.123.18, length 46
+14:51:09.571596 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.1 tell 192.168.123.18, length 46
+14:51:10.499576 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.162 tell 192.168.123.18, length 46
+14:51:10.499583 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.164 tell 192.168.123.18, length 46
+14:51:10.503586 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.163 tell 192.168.123.18, length 46
+14:51:10.596067 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.1 tell 192.168.123.18, length 46
+14:51:11.523832 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.164 tell 192.168.123.18, length 46
+14:51:11.523852 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.163 tell 192.168.123.18, length 46
+14:51:11.523855 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.162 tell 192.168.123.18, length 46
+14:51:11.623606 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.1 tell 192.168.123.18, length 46
+14:51:12.643638 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.1 tell 192.168.123.18, length 46
+14:51:13.481561 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.162 tell 192.168.123.18, length 46
+14:51:13.482602 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.163 tell 192.168.123.18, length 46
+14:51:13.484169 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.164 tell 192.168.123.18, length 46
+14:51:13.667807 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.1 tell 192.168.123.18, length 46
+14:51:14.499615 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.162 tell 192.168.123.18, length 46
+14:51:14.499631 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.164 tell 192.168.123.18, length 46
+14:51:14.503576 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.163 tell 192.168.123.18, length 46
+14:51:14.691837 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.1 tell 192.168.123.18, length 46
+14:51:15.523610 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.162 tell 192.168.123.18, length 46
+14:51:15.523627 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.164 tell 192.168.123.18, length 46
+14:51:15.527572 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.163 tell 192.168.123.18, length 46
+14:51:15.715841 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.1 tell 192.168.123.18, length 46
+14:51:16.739760 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.1 tell 192.168.123.18, length 46
+14:51:17.485744 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.162 tell 192.168.123.18, length 46
+14:51:17.486653 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.163 tell 192.168.123.18, length 46
+14:51:17.487790 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.164 tell 192.168.123.18, length 46
+14:51:17.763641 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.1 tell 192.168.123.18, length 46
+14:51:18.499627 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.163 tell 192.168.123.18, length 46
+14:51:18.503577 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.162 tell 192.168.123.18, length 46
+14:51:18.503581 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.164 tell 192.168.123.18, length 46
+14:51:18.787632 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.1 tell 192.168.123.18, length 46
+14:51:19.523606 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.163 tell 192.168.123.18, length 46
+14:51:19.523617 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.162 tell 192.168.123.18, length 46
+14:51:19.523618 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.164 tell 192.168.123.18, length 46
+14:51:19.811821 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.1 tell 192.168.123.18, length 46
+14:51:20.835616 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.1 tell 192.168.123.18, length 46
+14:51:21.489239 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.162 tell 192.168.123.18, length 46
+14:51:21.489996 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.164 tell 192.168.123.18, length 46
+14:51:21.491965 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.163 tell 192.168.123.18, length 46
+14:51:21.859841 4c:bb:47:02:5a:81 > ff:ff:ff:ff:ff:ff, ethertype ARP (0x0806), length 60: Request who-has 192.168.123.1 tell 192.168.123.18, length 46
+
+65 packets captured
+65 packets received by filter
+0 packets dropped by kernel

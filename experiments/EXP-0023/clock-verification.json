@@ -1,0 +1,17 @@
+{
+  "/go2/relay/cloud": {
+    "count": 547,
+    "header_rate_hz": 15.386625434573022,
+    "receive_minus_header_median_ms": 77.575809,
+    "receive_minus_header_p95_ms": 94.0727106,
+    "receive_minus_header_max_ms": 148.980451
+  },
+  "/go2/relay/imu": {
+    "count": 8874,
+    "header_rate_hz": 249.26255241248086,
+    "receive_minus_header_median_ms": 4.683654499999999,
+    "receive_minus_header_p95_ms": 20.0245005,
+    "receive_minus_header_max_ms": 95.406518
+  },
+  "cloud_per_point_span_median_ms": 62.59763240814209
+}

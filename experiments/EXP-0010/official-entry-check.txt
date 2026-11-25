@@ -1,0 +1,9 @@
+Driver: HesaiTechnology/HesaiLidar_ROS_2.0
+Workspace: /home/unitree/go2-lidar-diagnostic/hesai_v2_ws
+Config: /home/unitree/go2-lidar-diagnostic/hesai_v2_ws/config_xt16_official.yaml
+PointCloud2: /lidar_points; Ctrl+C stops.
+-------- Hesai Lidar ROS V2.0.12 --------
+-------- Hesai Lidar SDK V2.0.12 --------
+[INFO] [1795168115.458507712] [rclcpp]: signal_handler(signal_value=2)
+bash: line 1:  6047 Killed                  GO2_ROS_DOMAIN_ID=83 GO2_ROS_LOCALHOST_ONLY=1 timeout -s INT -k 3 12 bash /home/unitree/go2-lidar-diagnostic/run_xt16_official.sh
+Bounded launch status=137

@@ -1,0 +1,72 @@
+[INFO] [launch]: All log files can be found below /tmp/.ros/log/2026-11-25-07-13-00-551561-7d2c7f93a83d-18
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [pointlio_mapping-1]: process started with pid [30]
+[INFO] [python3-2]: process started with pid [32]
+[INFO] [static_transform_publisher-3]: process started with pid [34]
+[INFO] [static_transform_publisher-4]: process started with pid [36]
+[INFO] [static_transform_publisher-5]: process started with pid [38]
+[INFO] [static_transform_publisher-6]: process started with pid [40]
+[INFO] [ros2-7]: process started with pid [42]
+[static_transform_publisher-6] [INFO] [1795590780.715759378] [published_cloud_alias]: Spinning until stopped - publishing transform
+[static_transform_publisher-6] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-6] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-6] from 'utlidar_lidar' to 'lidar_link'
+[static_transform_publisher-3] [INFO] [1795590780.715759358] [chassis_imu_to_base]: Spinning until stopped - publishing transform
+[static_transform_publisher-3] translation: ('0.025570', '-0.000000', '-0.042320')
+[static_transform_publisher-3] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-3] from 'go2_chassis_imu' to 'base_link'
+[static_transform_publisher-5] [INFO] [1795590780.715814051] [base_to_published_cloud]: Spinning until stopped - publishing transform
+[static_transform_publisher-5] translation: ('0.282160', '0.000000', '-0.000000')
+[static_transform_publisher-5] rotation: ('0.871312', '-0.473081', '0.114618', '-0.062233')
+[static_transform_publisher-5] from 'base_link' to 'utlidar_lidar'
+[static_transform_publisher-4] [INFO] [1795590780.716490362] [base_to_model_radar]: Spinning until stopped - publishing transform
+[static_transform_publisher-4] translation: ('0.289450', '0.000000', '-0.046825')
+[static_transform_publisher-4] rotation: ('0.000000', '0.991341', '0.000000', '0.131316')
+[static_transform_publisher-4] from 'base_link' to 'radar'
+[pointlio_mapping-1] Multi thread started 
+[pointlio_mapping-1] lidar_type: 5
+[pointlio_mapping-1] ~~~~/lio-ws/src/point_lio/ file opened
+[ros2-7] stdin is not a terminal device. Keyboard handling disabled.[INFO] [1795590780.955978406] [rosbag2_storage]: Opened database '/recorded-bag/motion-trial-02_0.db3' for READ_ONLY.
+[ros2-7] [INFO] [1795590780.956021777] [rosbag2_player]: Set rate to 1
+[ros2-7] [INFO] [1795590780.961075227] [rosbag2_player]: Adding keyboard callbacks.
+[ros2-7] [INFO] [1795590780.961102508] [rosbag2_player]: Press SPACE for Pause/Resume
+[ros2-7] [INFO] [1795590780.961113419] [rosbag2_player]: Press CURSOR_RIGHT for Play Next Message
+[ros2-7] [INFO] [1795590780.961118859] [rosbag2_player]: Press CURSOR_UP for Increase Rate 10%
+[ros2-7] [INFO] [1795590780.961123828] [rosbag2_player]: Press CURSOR_DOWN for Decrease Rate 10%
+[ros2-7] [INFO] [1795590780.961181647] [rosbag2_player]: Sleep 3000000000 ns
+[ros2-7] [INFO] [1795590783.961671244] [rosbag2_storage]: Opened database '/recorded-bag/motion-trial-02_0.db3' for READ_ONLY.
+[pointlio_mapping-1] first lidar time1.79559e+09
+[pointlio_mapping-1] [INFO] [1795590784.400598524] [laserMapping]: IMU Initializing: 1.0 %
+[pointlio_mapping-1] [WARN] [1795590784.400720232] [laserMapping]: Reset ImuProcess
+[pointlio_mapping-1] [INFO] [1795590784.473027633] [laserMapping]: IMU Initializing: 4.0 %
+[pointlio_mapping-1] [INFO] [1795590784.555801700] [laserMapping]: IMU Initializing: 12.0 %
+[pointlio_mapping-1] [INFO] [1795590784.635537396] [laserMapping]: IMU Initializing: 22.0 %
+[pointlio_mapping-1] [INFO] [1795590784.685885115] [laserMapping]: IMU Initializing: 31.0 %
+[pointlio_mapping-1] [INFO] [1795590784.738814146] [laserMapping]: IMU Initializing: 40.0 %
+[pointlio_mapping-1] [INFO] [1795590784.875909392] [laserMapping]: IMU Initializing: 48.0 %
+[pointlio_mapping-1] [INFO] [1795590784.960015082] [laserMapping]: IMU Initializing: 57.0 %
+[pointlio_mapping-1] [INFO] [1795590784.962047172] [laserMapping]: IMU Initializing: 66.0 %
+[pointlio_mapping-1] [INFO] [1795590784.985408099] [laserMapping]: IMU Initializing: 75.0 %
+[pointlio_mapping-1] [INFO] [1795590785.046020134] [laserMapping]: IMU Initializing: 85.0 %
+[pointlio_mapping-1] [INFO] [1795590785.118714885] [laserMapping]: IMU Initializing: 95.0 %
+[pointlio_mapping-1] [INFO] [1795590785.118754770] [laserMapping]: IMU Initializing: 100.0 %
+[INFO] [ros2-7]: process has finished cleanly [pid 42]
+[INFO] [launch]: process[ros2-7] was required: shutting down launched system
+[INFO] [static_transform_publisher-6]: sending signal 'SIGINT' to process[static_transform_publisher-6]
+[INFO] [static_transform_publisher-5]: sending signal 'SIGINT' to process[static_transform_publisher-5]
+[INFO] [static_transform_publisher-4]: sending signal 'SIGINT' to process[static_transform_publisher-4]
+[INFO] [static_transform_publisher-3]: sending signal 'SIGINT' to process[static_transform_publisher-3]
+[INFO] [python3-2]: sending signal 'SIGINT' to process[python3-2]
+[INFO] [pointlio_mapping-1]: sending signal 'SIGINT' to process[pointlio_mapping-1]
+[static_transform_publisher-6] [INFO] [1795590864.959177101] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[static_transform_publisher-5] [INFO] [1795590864.959747113] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[static_transform_publisher-4] [INFO] [1795590864.960388079] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[static_transform_publisher-3] [INFO] [1795590864.961163288] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[pointlio_mapping-1] [WARN] [1795590864.962649885] [laserMapping]: catch sig 2
+[INFO] [static_transform_publisher-6]: process has finished cleanly [pid 40]
+[INFO] [static_transform_publisher-5]: process has finished cleanly [pid 38]
+[INFO] [static_transform_publisher-4]: process has finished cleanly [pid 36]
+[INFO] [static_transform_publisher-3]: process has finished cleanly [pid 34]
+[pointlio_mapping-1] Rebuild thread terminated normally
+[INFO] [pointlio_mapping-1]: process has finished cleanly [pid 30]
+[INFO] [python3-2]: process has finished cleanly [pid 32]

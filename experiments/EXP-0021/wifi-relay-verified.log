@@ -1,0 +1,5 @@
+1795521528.535720 [0]    python3: config: //CycloneDDS/Domain/General: 'NetworkInterfaceAddress': deprecated element (CYCLONEDDS_URI+0 line 1)
+{"topic": "/go2/relay/cloud", "first": {"frame_id": "utlidar_lidar", "stamp_sec": 1795521485, "stamp_nanosec": 745799064, "pc_receive_lag_s": 43.169, "points": 1323, "fields": ["x", "y", "z", "intensity", "ring", "time"]}}
+{"topic": "/go2/relay/imu", "first": {"frame_id": "utlidar_imu", "stamp_sec": 1795521485, "stamp_nanosec": 900186300, "pc_receive_lag_s": 43.015}}
+{"topic": "/go2/relay/cloud", "samples": 202, "hz": 15.48}
+{"topic": "/go2/relay/imu", "samples": 3245, "hz": 249.73}

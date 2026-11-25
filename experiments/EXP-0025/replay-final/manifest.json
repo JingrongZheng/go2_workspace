@@ -1,0 +1,34 @@
+{
+  "experiment": "EXP-0025",
+  "date": "2026-11-25",
+  "input": "experiments/EXP-0024/motion-trial-02",
+  "point_lio_revision": "a8e2d0d5090af97ead8dd4fac3d37cf3dbb33ff7",
+  "map_directory": "experiments/EXP-0025/replay-final/maps/2026_11_25_07_39_27",
+  "map_server_reload_proof": "experiments/EXP-0025/map-reload-check-final.json",
+  "file_sha256": {
+    "shared/dddmr/real/mapping_cloud.py": "df9a167a78e46a1a7f3980c3175d26bbfc008c62759cc733c02f8eb168f47036",
+    "shared/dddmr/real/go2_l2_mapping.launch.py": "c9f467278f8a90709a3bcf4f37ece696cebe01d02082960c646971a8beffc86e",
+    "shared/dddmr/real/prepare_l2_mapping.py": "521510180c63a8a920bd204a7d4b8c8e8e806d99c275aae508538af99e293722",
+    "shared/dddmr/real/run_mapping_replay.sh": "2ca55156c2ce78325a1d9f569a790c78e2b7dd8e8d2628ca85623590e0e16665",
+    "shared/dddmr/real/mapping_session.py": "ed8b0905999a427b58350bd36690c60c682703c19fcbabb81df4b46b70cc367c",
+    "shared/dddmr/real/go2_published_cloud_geometry.json": "15da65198e48bfece6fc60021a1b19fbf33db535fb5ccdd76c458e00a02bd9eb",
+    "shared/dddmr/real/point_lio_chassis.launch.py": "1592f1cd0426a3be45fe081295c59e376ddcf43494233c16a0e5bae5e86e696f",
+    "experiments/EXP-0024/motion-trial-02/metadata.yaml": "abf072e9cb7171dee67779f2e38ff1d732620873ef00c475dfe32b2110042e0a",
+    "experiments/EXP-0025/l2-mapping-v1.yaml": "dc2180cff900083f6fbabba04dc338a786ec02aa951fe4d385e272f44820fa57",
+    "shared/dddmr/real/run_mapping.sh": "a48ddf88b2f3e3c03023426071b7d936663852af42465114d0d1220b35a9a923",
+    "shared/dddmr/real/config/l2_mapping_lab.yaml": "dc2180cff900083f6fbabba04dc338a786ec02aa951fe4d385e272f44820fa57",
+    "shared/dddmr/real/go2_mapping.rviz": "3ceda5f955c014fdd0989a81547cb06584967d531dc1e894a8c74a209052462d",
+    "shared/dddmr/real/patch_point_lio.py": "b510fa18bf2f6d0e3b7f94e8ec0c2492ea6b6278dd8e55346f82b22ed767949f",
+    ".work/dddmr-real/ws/install/point_lio/lib/point_lio/pointlio_mapping": "941c458414a1b0f65ce1e5e3b60695de285ab555c44d241d5ae128813177ed77",
+    ".work/dddmr-local/navigation-ws/build/lego_loam_bor/lego_loam": "06b5ecfe78e8aadcfa97bbc0b3576682eec400b0289390ce8a1162e522d79b59"
+  },
+  "limits": [
+    "Short manually driven path only",
+    "Map server reload is not localization validation",
+    "No planner or motion control launched"
+  ],
+  "docker_image_identities": [
+    "[\"dddmr-point-lio:go2-local\"] sha256:3e3703c078573cbf4413f0b4cc45b66741e7a09aaeaa45837b58ecbb10a9f689",
+    "[\"dddmr:go2-local\"] sha256:4b95184c14a2f393b67707069573cf53d7b156fb1d2b4e40a310aeed4710c3a4"
+  ]
+}

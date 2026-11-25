@@ -1,0 +1,27 @@
+CASE rmw_fastrtps_cpp domain=0
+bad_alloc caught: std::bad_alloc
+bad_alloc caught: std::bad_alloc
+bad_alloc caught: std::bad_alloc
+bad_alloc caught: std::bad_alloc
+bad_alloc caught: std::bad_alloc
+bad_alloc caught: std::bad_alloc
+bad_alloc caught: std::bad_alloc
+bad_alloc caught: std::bad_alloc
+bad_alloc caught: std::bad_alloc
+bad_alloc caught: std::bad_alloc
+bad_alloc caught: std::bad_alloc
+bad_alloc caught: std::bad_alloc
+bad_alloc caught: std::bad_alloc
+bad_alloc caught: std::bad_alloc
+bad_alloc caught: std::bad_alloc
+bad_alloc caught: std::bad_alloc
+CASE_STATUS=124
+CASE rmw_cyclonedds_cpp domain=0
+1795168366.979713 [0]    python3: using network interface eth10 (udp/192.168.123.18) selected arbitrarily from: eth10, docker0
+timeout: the monitored command dumped core
+CASE_STATUS=139
+/bin/bash: line 2:  8074 Segmentation fault      RMW_IMPLEMENTATION="$GO2_TEST_RMW" ROS_DOMAIN_ID="$GO2_TEST_DOMAIN" ROS_LOCALHOST_ONLY=0 timeout -s TERM -k 2 7 /usr/bin/python3 -u -c 'import rclpy,time; rclpy.init(); n=rclpy.create_node("xt16_middleware_probe"); print("NODE_CREATED",flush=True); end=time.monotonic()+2; exec("while time.monotonic()<end: rclpy.spin_once(n,timeout_sec=0.1)"); n.destroy_node(); rclpy.shutdown(); print("CLEAN_EXIT",flush=True)'
+CASE rmw_fastrtps_cpp domain=83
+NODE_CREATED
+CLEAN_EXIT
+CASE_STATUS=0

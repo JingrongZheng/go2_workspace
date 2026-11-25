@@ -1,0 +1,945 @@
+tar: usb-wifi-kit/build_on_go2.sh: time stamp 2026-11-19 17:35:41 is 1794820849.313494272 s in the future
+tar: usb-wifi-kit/SOURCE.txt: time stamp 2026-11-19 17:35:41 is 1794820849.313224352 s in the future
+tar: usb-wifi-kit/source/include/rtl8723d_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.31305776 s in the future
+tar: usb-wifi-kit/source/include/wlan_bssdef.h: time stamp 2026-11-19 17:34:33 is 1794820781.312931328 s in the future
+tar: usb-wifi-kit/source/include/rtw_ht.h: time stamp 2026-11-19 17:34:33 is 1794820781.31279776 s in the future
+tar: usb-wifi-kit/source/include/rtl8192f_rf.h: time stamp 2026-11-19 17:34:33 is 1794820781.31269264 s in the future
+tar: usb-wifi-kit/source/include/rtl8723fu_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.312597312 s in the future
+tar: usb-wifi-kit/source/include/rtl8188f_led.h: time stamp 2026-11-19 17:34:33 is 1794820781.312491104 s in the future
+tar: usb-wifi-kit/source/include/rtl8192e_recv.h: time stamp 2026-11-19 17:34:33 is 1794820781.312372864 s in the future
+tar: usb-wifi-kit/source/include/rtw_btcoex_wifionly.h: time stamp 2026-11-19 17:34:33 is 1794820781.31228 s in the future
+tar: usb-wifi-kit/source/include/rtl8192e_sreset.h: time stamp 2026-11-19 17:34:33 is 1794820781.312181696 s in the future
+tar: usb-wifi-kit/source/include/ieee80211_ext.h: time stamp 2026-11-19 17:34:33 is 1794820781.312083264 s in the future
+tar: usb-wifi-kit/source/include/rtw_ioctl.h: time stamp 2026-11-19 17:34:33 is 1794820781.311982272 s in the future
+tar: usb-wifi-kit/source/include/rtl8723d_dm.h: time stamp 2026-11-19 17:34:33 is 1794820781.31188944 s in the future
+tar: usb-wifi-kit/source/include/rtw_wapi.h: time stamp 2026-11-19 17:34:33 is 1794820781.3117816 s in the future
+tar: usb-wifi-kit/source/include/Hal8192FPhyReg.h: time stamp 2026-11-19 17:34:33 is 1794820781.311626656 s in the future
+tar: usb-wifi-kit/source/include/rtw_android.h: time stamp 2026-11-19 17:34:33 is 1794820781.311523488 s in the future
+tar: usb-wifi-kit/source/include/rtw_xmit.h: time stamp 2026-11-19 17:34:33 is 1794820781.311374752 s in the future
+tar: usb-wifi-kit/source/include/rtl8723b_recv.h: time stamp 2026-11-19 17:34:33 is 1794820781.311278688 s in the future
+tar: usb-wifi-kit/source/include/ieee80211.h: time stamp 2026-11-19 17:34:33 is 1794820781.310942272 s in the future
+tar: usb-wifi-kit/source/include/osdep_service_linux.h: time stamp 2026-11-19 17:34:33 is 1794820781.31065664 s in the future
+tar: usb-wifi-kit/source/include/osdep_service_bsd.h: time stamp 2026-11-19 17:34:33 is 1794820781.310389504 s in the future
+tar: usb-wifi-kit/source/include/rtl8812a_xmit.h: time stamp 2026-11-19 17:34:33 is 1794820781.31026528 s in the future
+tar: usb-wifi-kit/source/include/rtl8192e_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.310071968 s in the future
+tar: usb-wifi-kit/source/include/rtl8723b_spec.h: time stamp 2026-11-19 17:34:33 is 1794820781.30995056 s in the future
+tar: usb-wifi-kit/source/include/sdio_ops_xp.h: time stamp 2026-11-19 17:34:33 is 1794820781.309855392 s in the future
+tar: usb-wifi-kit/source/include/rtl8723d_recv.h: time stamp 2026-11-19 17:34:33 is 1794820781.309748544 s in the future
+tar: usb-wifi-kit/source/include/rtw_mlme_ext.h: time stamp 2026-11-19 17:34:33 is 1794820781.309470912 s in the future
+tar: usb-wifi-kit/source/include/rtl8821a_spec.h: time stamp 2026-11-19 17:34:33 is 1794820781.309370816 s in the future
+tar: usb-wifi-kit/source/include/rtl8821c_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.309275168 s in the future
+tar: usb-wifi-kit/source/include/rtl8822cu_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.309172736 s in the future
+tar: usb-wifi-kit/source/include/rtl8821cu_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.309077088 s in the future
+tar: usb-wifi-kit/source/include/rtw_bt_mp.h: time stamp 2026-11-19 17:34:33 is 1794820781.3089656 s in the future
+tar: usb-wifi-kit/source/include/rtl8812a_led.h: time stamp 2026-11-19 17:34:33 is 1794820781.308871296 s in the future
+tar: usb-wifi-kit/source/include/rtw_pwrctrl.h: time stamp 2026-11-19 17:34:33 is 1794820781.308735488 s in the future
+tar: usb-wifi-kit/source/include/rtl8703b_xmit.h: time stamp 2026-11-19 17:34:33 is 1794820781.308589728 s in the future
+tar: usb-wifi-kit/source/include/Hal8188FPhyCfg.h: time stamp 2026-11-19 17:34:33 is 1794820781.308488 s in the future
+tar: usb-wifi-kit/source/include/rtl8192f_cmd.h: time stamp 2026-11-19 17:34:33 is 1794820781.308366496 s in the future
+tar: usb-wifi-kit/source/include/rtl8703b_cmd.h: time stamp 2026-11-19 17:34:33 is 1794820781.308252224 s in the future
+tar: usb-wifi-kit/source/include/rtw_ioctl_set.h: time stamp 2026-11-19 17:34:33 is 1794820781.308155808 s in the future
+tar: usb-wifi-kit/source/include/if_ether.h: time stamp 2026-11-19 17:34:33 is 1794820781.308048928 s in the future
+tar: usb-wifi-kit/source/include/rtl8188f_sreset.h: time stamp 2026-11-19 17:34:33 is 1794820781.307954336 s in the future
+tar: usb-wifi-kit/source/include/drv_types_sdio.h: time stamp 2026-11-19 17:34:33 is 1794820781.30786272 s in the future
+tar: usb-wifi-kit/source/include/gspi_ops_linux.h: time stamp 2026-11-19 17:34:33 is 1794820781.307771424 s in the future
+tar: usb-wifi-kit/source/include/hal_data.h: time stamp 2026-11-19 17:34:33 is 1794820781.3076288 s in the future
+tar: usb-wifi-kit/source/include/rtl8814a_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.307505856 s in the future
+tar: usb-wifi-kit/source/include/usb_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.3074048 s in the future
+tar: usb-wifi-kit/source/include/rtw_rm_fsm.h: time stamp 2026-11-19 17:34:33 is 1794820781.307290208 s in the future
+tar: usb-wifi-kit/source/include/rtl8723b_cmd.h: time stamp 2026-11-19 17:34:33 is 1794820781.30717888 s in the future
+tar: usb-wifi-kit/source/include/hal_sdio.h: time stamp 2026-11-19 17:34:33 is 1794820781.307077504 s in the future
+tar: usb-wifi-kit/source/include/rtl8814a_led.h: time stamp 2026-11-19 17:34:33 is 1794820781.306967392 s in the future
+tar: usb-wifi-kit/source/include/rtl8188e_led.h: time stamp 2026-11-19 17:34:33 is 1794820781.306866688 s in the future
+tar: usb-wifi-kit/source/include/drv_types_xp.h: time stamp 2026-11-19 17:34:33 is 1794820781.306774336 s in the future
+tar: usb-wifi-kit/source/include/rtw_security.h: time stamp 2026-11-19 17:34:33 is 1794820781.30665728 s in the future
+tar: usb-wifi-kit/source/include/hal_com.h: time stamp 2026-11-19 17:34:33 is 1794820781.306514176 s in the future
+tar: usb-wifi-kit/source/include/byteorder/generic.h: time stamp 2026-11-19 17:34:33 is 1794820781.306393408 s in the future
+tar: usb-wifi-kit/source/include/byteorder/swabb.h: time stamp 2026-11-19 17:34:33 is 1794820781.306302784 s in the future
+tar: usb-wifi-kit/source/include/byteorder/swab.h: time stamp 2026-11-19 17:34:33 is 1794820781.306206336 s in the future
+tar: usb-wifi-kit/source/include/byteorder/big_endian.h: time stamp 2026-11-19 17:34:33 is 1794820781.306082656 s in the future
+tar: usb-wifi-kit/source/include/byteorder/little_endian.h: time stamp 2026-11-19 17:34:33 is 1794820781.30596832 s in the future
+tar: usb-wifi-kit/source/include/byteorder: time stamp 2026-11-19 17:34:33 is 1794820781.305939968 s in the future
+tar: usb-wifi-kit/source/include/rtl8703b_dm.h: time stamp 2026-11-19 17:34:33 is 1794820781.305846848 s in the future
+tar: usb-wifi-kit/source/include/rtl8710b_cmd.h: time stamp 2026-11-19 17:34:33 is 1794820781.305736704 s in the future
+tar: usb-wifi-kit/source/include/rtw_qos.h: time stamp 2026-11-19 17:34:33 is 1794820781.305642656 s in the future
+tar: usb-wifi-kit/source/include/hal_sdio_coex.h: time stamp 2026-11-19 17:34:33 is 1794820781.305534464 s in the future
+tar: usb-wifi-kit/source/include/rtl8814a_xmit.h: time stamp 2026-11-19 17:34:33 is 1794820781.305400672 s in the future
+tar: usb-wifi-kit/source/include/Hal8723BPwrSeq.h: time stamp 2026-11-19 17:34:33 is 1794820781.305261984 s in the future
+tar: usb-wifi-kit/source/include/rtl8814a_spec.h: time stamp 2026-11-19 17:34:33 is 1794820781.305125408 s in the future
+tar: usb-wifi-kit/source/include/HalVerDef.h: time stamp 2026-11-19 17:34:33 is 1794820781.305010112 s in the future
+tar: usb-wifi-kit/source/include/rtl8812a_spec.h: time stamp 2026-11-19 17:34:33 is 1794820781.304893248 s in the future
+tar: usb-wifi-kit/source/include/rtw_byteorder.h: time stamp 2026-11-19 17:34:33 is 1794820781.304791872 s in the future
+tar: usb-wifi-kit/source/include/rtw_mp_phy_regdef.h: time stamp 2026-11-19 17:34:33 is 1794820781.304637472 s in the future
+tar: usb-wifi-kit/source/include/rtl8814a_cmd.h: time stamp 2026-11-19 17:34:33 is 1794820781.304482496 s in the future
+tar: usb-wifi-kit/source/include/rtl8192e_dm.h: time stamp 2026-11-19 17:34:33 is 1794820781.304385152 s in the future
+tar: usb-wifi-kit/source/include/wifi.h: time stamp 2026-11-19 17:34:33 is 1794820781.304170208 s in the future
+tar: usb-wifi-kit/source/include/rtl8192e_cmd.h: time stamp 2026-11-19 17:34:33 is 1794820781.304056608 s in the future
+tar: usb-wifi-kit/source/include/sdio_ops_ce.h: time stamp 2026-11-19 17:34:33 is 1794820781.303961312 s in the future
+tar: usb-wifi-kit/source/include/circ_buf.h: time stamp 2026-11-19 17:34:33 is 1794820781.303869952 s in the future
+tar: usb-wifi-kit/source/include/rtl8814a_dm.h: time stamp 2026-11-19 17:34:33 is 1794820781.303777088 s in the future
+tar: usb-wifi-kit/source/include/rtl8812a_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.303638368 s in the future
+tar: usb-wifi-kit/source/include/sdio_ops.h: time stamp 2026-11-19 17:34:33 is 1794820781.303522944 s in the future
+tar: usb-wifi-kit/source/include/rtl8188e_sreset.h: time stamp 2026-11-19 17:34:33 is 1794820781.303429504 s in the future
+tar: usb-wifi-kit/source/include/rtl8192f_led.h: time stamp 2026-11-19 17:34:33 is 1794820781.303338304 s in the future
+tar: usb-wifi-kit/source/include/rtw_br_ext.h: time stamp 2026-11-19 17:34:33 is 1794820781.30324576 s in the future
+tar: usb-wifi-kit/source/include/rtw_rson.h: time stamp 2026-11-19 17:34:33 is 1794820781.303145856 s in the future
+tar: usb-wifi-kit/source/include/sta_info.h: time stamp 2026-11-19 17:34:33 is 1794820781.302961248 s in the future
+tar: usb-wifi-kit/source/include/rtl8723fs_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.302860128 s in the future
+tar: usb-wifi-kit/source/include/Hal8723BPhyReg.h: time stamp 2026-11-19 17:34:33 is 1794820781.302695584 s in the future
+tar: usb-wifi-kit/source/include/rtl8188e_cmd.h: time stamp 2026-11-19 17:34:33 is 1794820781.302591488 s in the future
+tar: usb-wifi-kit/source/include/rtw_event.h: time stamp 2026-11-19 17:34:33 is 1794820781.302498816 s in the future
+tar: usb-wifi-kit/source/include/rtl8188f_spec.h: time stamp 2026-11-19 17:34:33 is 1794820781.302381824 s in the future
+tar: usb-wifi-kit/source/include/rtw_vht.h: time stamp 2026-11-19 17:34:33 is 1794820781.302266016 s in the future
+tar: usb-wifi-kit/source/include/rtl8188f_cmd.h: time stamp 2026-11-19 17:34:33 is 1794820781.30213072 s in the future
+tar: usb-wifi-kit/source/include/autoconf.h: time stamp 2026-11-19 17:34:33 is 1794820781.302016768 s in the future
+tar: usb-wifi-kit/source/include/rtl8703b_recv.h: time stamp 2026-11-19 17:34:33 is 1794820781.3019216 s in the future
+tar: usb-wifi-kit/source/include/hal_ic_cfg.h: time stamp 2026-11-19 17:34:33 is 1794820781.301791616 s in the future
+tar: usb-wifi-kit/source/include/rtl8188e_dm.h: time stamp 2026-11-19 17:34:33 is 1794820781.301697024 s in the future
+tar: usb-wifi-kit/source/include/Hal8812PwrSeq.h: time stamp 2026-11-19 17:34:33 is 1794820781.301568928 s in the future
+tar: usb-wifi-kit/source/include/rtl8723d_cmd.h: time stamp 2026-11-19 17:34:33 is 1794820781.301452928 s in the future
+tar: usb-wifi-kit/source/include/hal_com_reg.h: time stamp 2026-11-19 17:34:33 is 1794820781.301017696 s in the future
+tar: usb-wifi-kit/source/include/rtw_rm_util.h: time stamp 2026-11-19 17:34:33 is 1794820781.300917312 s in the future
+tar: usb-wifi-kit/source/include/Hal8814PhyReg.h: time stamp 2026-11-19 17:34:33 is 1794820781.300759584 s in the future
+tar: usb-wifi-kit/source/include/rtl8703b_sreset.h: time stamp 2026-11-19 17:34:33 is 1794820781.300662624 s in the future
+tar: usb-wifi-kit/source/include/hal_btcoex_wifionly.h: time stamp 2026-11-19 17:34:33 is 1794820781.300568768 s in the future
+tar: usb-wifi-kit/source/include/rtw_ap.h: time stamp 2026-11-19 17:34:33 is 1794820781.300460288 s in the future
+tar: usb-wifi-kit/source/include/linux/wireless.h: time stamp 2026-11-19 17:34:33 is 1794820781.300355872 s in the future
+tar: usb-wifi-kit/source/include/linux: time stamp 2026-11-19 17:34:33 is 1794820781.300327456 s in the future
+tar: usb-wifi-kit/source/include/Hal8188FPwrSeq.h: time stamp 2026-11-19 17:34:33 is 1794820781.300184544 s in the future
+tar: usb-wifi-kit/source/include/rtw_odm.h: time stamp 2026-11-19 17:34:33 is 1794820781.30006208 s in the future
+tar: usb-wifi-kit/source/include/drv_types_pci.h: time stamp 2026-11-19 17:34:33 is 1794820781.299969504 s in the future
+tar: usb-wifi-kit/source/include/basic_types.h: time stamp 2026-11-19 17:34:33 is 1794820781.299855552 s in the future
+tar: usb-wifi-kit/source/include/rtl8192f_sreset.h: time stamp 2026-11-19 17:34:33 is 1794820781.299761248 s in the future
+tar: usb-wifi-kit/source/include/rtl8192f_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.299651328 s in the future
+tar: usb-wifi-kit/source/include/rtl8723d_sreset.h: time stamp 2026-11-19 17:34:33 is 1794820781.299561248 s in the future
+tar: usb-wifi-kit/source/include/Hal8814PhyCfg.h: time stamp 2026-11-19 17:34:33 is 1794820781.29945568 s in the future
+tar: usb-wifi-kit/source/include/cmn_info/rtw_sta_info.h: time stamp 2026-11-19 17:34:33 is 1794820781.299329024 s in the future
+tar: usb-wifi-kit/source/include/cmn_info: time stamp 2026-11-19 17:34:33 is 1794820781.299300736 s in the future
+tar: usb-wifi-kit/source/include/rtl8192f_dm.h: time stamp 2026-11-19 17:34:33 is 1794820781.299215808 s in the future
+tar: usb-wifi-kit/source/include/rtl8188f_recv.h: time stamp 2026-11-19 17:34:33 is 1794820781.299125248 s in the future
+tar: usb-wifi-kit/source/include/rtl8822bs_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.29901888 s in the future
+tar: usb-wifi-kit/source/include/Hal8710BPhyCfg.h: time stamp 2026-11-19 17:34:33 is 1794820781.298915456 s in the future
+tar: usb-wifi-kit/source/include/rtl8723d_xmit.h: time stamp 2026-11-19 17:34:33 is 1794820781.298781504 s in the future
+tar: usb-wifi-kit/source/include/rtw_mi.h: time stamp 2026-11-19 17:34:33 is 1794820781.29864224 s in the future
+tar: usb-wifi-kit/source/include/rtw_btcoex.h: time stamp 2026-11-19 17:34:33 is 1794820781.298515008 s in the future
+tar: usb-wifi-kit/source/include/rtl8710b_led.h: time stamp 2026-11-19 17:34:33 is 1794820781.298415072 s in the future
+tar: usb-wifi-kit/source/include/pci_osintf.h: time stamp 2026-11-19 17:34:33 is 1794820781.298325568 s in the future
+tar: usb-wifi-kit/source/include/rtl8812a_cmd.h: time stamp 2026-11-19 17:34:33 is 1794820781.298216832 s in the future
+tar: usb-wifi-kit/source/include/rtw_swcrypto.h: time stamp 2026-11-19 17:34:33 is 1794820781.29812368 s in the future
+tar: usb-wifi-kit/source/include/ip.h: time stamp 2026-11-19 17:34:33 is 1794820781.298032864 s in the future
+tar: usb-wifi-kit/source/include/rtw_tdls.h: time stamp 2026-11-19 17:34:33 is 1794820781.297922496 s in the future
+tar: usb-wifi-kit/source/include/rtl8812a_sreset.h: time stamp 2026-11-19 17:34:33 is 1794820781.297819904 s in the future
+tar: usb-wifi-kit/source/include/rtl8703b_rf.h: time stamp 2026-11-19 17:34:33 is 1794820781.297727392 s in the future
+tar: usb-wifi-kit/source/include/pci_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.297634048 s in the future
+tar: usb-wifi-kit/source/include/rtl8192e_spec.h: time stamp 2026-11-19 17:34:33 is 1794820781.297511488 s in the future
+tar: usb-wifi-kit/source/include/osdep_intf.h: time stamp 2026-11-19 17:34:33 is 1794820781.297402592 s in the future
+tar: usb-wifi-kit/source/include/rtl8723b_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.297291776 s in the future
+tar: usb-wifi-kit/source/include/hal_btcoex.h: time stamp 2026-11-19 17:34:33 is 1794820781.297184864 s in the future
+tar: usb-wifi-kit/source/include/Hal8188FPhyReg.h: time stamp 2026-11-19 17:34:33 is 1794820781.297026304 s in the future
+tar: usb-wifi-kit/source/include/rtl8822cs_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.2969328 s in the future
+tar: usb-wifi-kit/source/include/drv_types.h: time stamp 2026-11-19 17:34:33 is 1794820781.296745312 s in the future
+tar: usb-wifi-kit/source/include/Hal8710BPwrSeq.h: time stamp 2026-11-19 17:34:33 is 1794820781.29657536 s in the future
+tar: usb-wifi-kit/source/include/hal_pg.h: time stamp 2026-11-19 17:34:33 is 1794820781.29629872 s in the future
+tar: usb-wifi-kit/source/include/rtw_io.h: time stamp 2026-11-19 17:34:33 is 1794820781.2961632 s in the future
+tar: usb-wifi-kit/source/include/rtl8192f_spec.h: time stamp 2026-11-19 17:34:33 is 1794820781.29597936 s in the future
+tar: usb-wifi-kit/source/include/osdep_service_xp.h: time stamp 2026-11-19 17:34:33 is 1794820781.295874464 s in the future
+tar: usb-wifi-kit/source/include/drv_types_ce.h: time stamp 2026-11-19 17:34:33 is 1794820781.295781312 s in the future
+tar: usb-wifi-kit/source/include/gspi_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.295636096 s in the future
+tar: usb-wifi-kit/source/include/rtw_mem.h: time stamp 2026-11-19 17:34:33 is 1794820781.295541408 s in the future
+tar: usb-wifi-kit/source/include/rtl8192e_rf.h: time stamp 2026-11-19 17:34:33 is 1794820781.295451648 s in the future
+tar: usb-wifi-kit/source/include/rtw_rm.h: time stamp 2026-11-19 17:34:33 is 1794820781.2953576 s in the future
+tar: usb-wifi-kit/source/include/rtl8188e_xmit.h: time stamp 2026-11-19 17:34:33 is 1794820781.29523312 s in the future
+tar: usb-wifi-kit/source/include/Hal8188EPhyCfg.h: time stamp 2026-11-19 17:34:33 is 1794820781.295123584 s in the future
+tar: usb-wifi-kit/source/include/rtl8723d_spec.h: time stamp 2026-11-19 17:34:33 is 1794820781.294972608 s in the future
+tar: usb-wifi-kit/source/include/drv_types_gspi.h: time stamp 2026-11-19 17:34:33 is 1794820781.294874816 s in the future
+tar: usb-wifi-kit/source/include/rtw_mcc.h: time stamp 2026-11-19 17:34:33 is 1794820781.294761568 s in the future
+tar: usb-wifi-kit/source/include/rtl8703b_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.294641824 s in the future
+tar: usb-wifi-kit/source/include/rtl8188f_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.294530752 s in the future
+tar: usb-wifi-kit/source/include/rtl8188f_dm.h: time stamp 2026-11-19 17:34:33 is 1794820781.294435264 s in the future
+tar: usb-wifi-kit/source/include/hal_phy.h: time stamp 2026-11-19 17:34:33 is 1794820781.29432784 s in the future
+tar: usb-wifi-kit/source/include/rtw_mlme.h: time stamp 2026-11-19 17:34:33 is 1794820781.294157184 s in the future
+tar: usb-wifi-kit/source/include/rtl8710b_rf.h: time stamp 2026-11-19 17:34:33 is 1794820781.294061088 s in the future
+tar: usb-wifi-kit/source/include/rtw_beamforming.h: time stamp 2026-11-19 17:34:33 is 1794820781.29395104 s in the future
+tar: usb-wifi-kit/source/include/sdio_osintf.h: time stamp 2026-11-19 17:34:33 is 1794820781.293856832 s in the future
+tar: usb-wifi-kit/source/include/rtw_sdio.h: time stamp 2026-11-19 17:34:33 is 1794820781.29376672 s in the future
+tar: usb-wifi-kit/source/include/rtl8814a_sreset.h: time stamp 2026-11-19 17:34:33 is 1794820781.293669376 s in the future
+tar: usb-wifi-kit/source/include/rtw_mbo.h: time stamp 2026-11-19 17:34:33 is 1794820781.293573344 s in the future
+tar: usb-wifi-kit/source/include/Hal8192FPwrSeq.h: time stamp 2026-11-19 17:34:33 is 1794820781.293440704 s in the future
+tar: usb-wifi-kit/source/include/sdio_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.293345408 s in the future
+tar: usb-wifi-kit/source/include/rtl8812a_dm.h: time stamp 2026-11-19 17:34:33 is 1794820781.293253472 s in the future
+tar: usb-wifi-kit/source/include/osdep_service_ce.h: time stamp 2026-11-19 17:34:33 is 1794820781.293152672 s in the future
+tar: usb-wifi-kit/source/include/rtl8192e_xmit.h: time stamp 2026-11-19 17:34:33 is 1794820781.293020128 s in the future
+tar: usb-wifi-kit/source/include/Hal8192FPhyCfg.h: time stamp 2026-11-19 17:34:33 is 1794820781.292923904 s in the future
+tar: usb-wifi-kit/source/include/Hal8723DPhyReg.h: time stamp 2026-11-19 17:34:33 is 1794820781.292767104 s in the future
+tar: usb-wifi-kit/source/include/rtl8821a_xmit.h: time stamp 2026-11-19 17:34:33 is 1794820781.292665088 s in the future
+tar: usb-wifi-kit/source/include/rtl8188e_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.292544576 s in the future
+tar: usb-wifi-kit/source/include/rtl8814b_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.292428256 s in the future
+tar: usb-wifi-kit/source/include/ethernet.h: time stamp 2026-11-19 17:34:33 is 1794820781.292329568 s in the future
+tar: usb-wifi-kit/source/include/Hal8192EPhyReg.h: time stamp 2026-11-19 17:34:33 is 1794820781.292131168 s in the future
+tar: usb-wifi-kit/source/include/rtw_ioctl_query.h: time stamp 2026-11-19 17:34:33 is 1794820781.292018688 s in the future
+tar: usb-wifi-kit/source/include/rtl8723d_rf.h: time stamp 2026-11-19 17:34:33 is 1794820781.291926688 s in the future
+tar: usb-wifi-kit/source/include/recv_osdep.h: time stamp 2026-11-19 17:34:33 is 1794820781.291835136 s in the future
+tar: usb-wifi-kit/source/include/hal_com_phycfg.h: time stamp 2026-11-19 17:34:33 is 1794820781.29169504 s in the future
+tar: usb-wifi-kit/source/include/rtw_eeprom.h: time stamp 2026-11-19 17:34:33 is 1794820781.291586912 s in the future
+tar: usb-wifi-kit/source/include/rtl8710b_sreset.h: time stamp 2026-11-19 17:34:33 is 1794820781.291491264 s in the future
+tar: usb-wifi-kit/source/include/gspi_ops.h: time stamp 2026-11-19 17:34:33 is 1794820781.291387328 s in the future
+tar: usb-wifi-kit/source/include/rtl8821ce_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.291291424 s in the future
+tar: usb-wifi-kit/source/include/rtl8188f_xmit.h: time stamp 2026-11-19 17:34:33 is 1794820781.29115648 s in the future
+tar: usb-wifi-kit/source/include/rtw_ft.h: time stamp 2026-11-19 17:34:33 is 1794820781.291004864 s in the future
+tar: usb-wifi-kit/source/include/rtl8723b_led.h: time stamp 2026-11-19 17:34:33 is 1794820781.290904288 s in the future
+tar: usb-wifi-kit/source/include/hal_gspi.h: time stamp 2026-11-19 17:34:33 is 1794820781.290810112 s in the future
+tar: usb-wifi-kit/source/include/rtw_cmd.h: time stamp 2026-11-19 17:34:33 is 1794820781.290677664 s in the future
+tar: usb-wifi-kit/source/include/rtl8814a_rf.h: time stamp 2026-11-19 17:34:33 is 1794820781.290581376 s in the future
+tar: usb-wifi-kit/source/include/usb_osintf.h: time stamp 2026-11-19 17:34:33 is 1794820781.290488608 s in the future
+tar: usb-wifi-kit/source/include/custom_gpio.h: time stamp 2026-11-19 17:34:33 is 1794820781.2903856 s in the future
+tar: usb-wifi-kit/source/include/rtl8822ce_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.290290976 s in the future
+tar: usb-wifi-kit/source/include/rtl8822be_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.29019856 s in the future
+tar: usb-wifi-kit/source/include/nic_spec.h: time stamp 2026-11-19 17:34:33 is 1794820781.290106816 s in the future
+tar: usb-wifi-kit/source/include/rtl8188f_rf.h: time stamp 2026-11-19 17:34:33 is 1794820781.290012544 s in the future
+tar: usb-wifi-kit/source/include/rtl8723b_rf.h: time stamp 2026-11-19 17:34:33 is 1794820781.289920448 s in the future
+tar: usb-wifi-kit/source/include/rtw_debug.h: time stamp 2026-11-19 17:34:33 is 1794820781.289765792 s in the future
+tar: usb-wifi-kit/source/include/rtl8822bu_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.289660544 s in the future
+tar: usb-wifi-kit/source/include/rtl8703b_led.h: time stamp 2026-11-19 17:34:33 is 1794820781.289567808 s in the future
+tar: usb-wifi-kit/source/include/Hal8192EPhyCfg.h: time stamp 2026-11-19 17:34:33 is 1794820781.28947536 s in the future
+tar: usb-wifi-kit/source/include/rtl8710b_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.289360416 s in the future
+tar: usb-wifi-kit/source/include/cmd_osdep.h: time stamp 2026-11-19 17:34:33 is 1794820781.28926768 s in the future
+tar: usb-wifi-kit/source/include/Hal8723DPwrSeq.h: time stamp 2026-11-19 17:34:33 is 1794820781.28914288 s in the future
+tar: usb-wifi-kit/source/include/hal_intf.h: time stamp 2026-11-19 17:34:33 is 1794820781.288969376 s in the future
+tar: usb-wifi-kit/source/include/Hal8821APwrSeq.h: time stamp 2026-11-19 17:34:33 is 1794820781.288838912 s in the future
+tar: usb-wifi-kit/source/include/rtl8188e_spec.h: time stamp 2026-11-19 17:34:33 is 1794820781.288735456 s in the future
+tar: usb-wifi-kit/source/include/rtl8812a_rf.h: time stamp 2026-11-19 17:34:33 is 1794820781.288643264 s in the future
+tar: usb-wifi-kit/source/include/rtw_version.h: time stamp 2026-11-19 17:34:33 is 1794820781.288551328 s in the future
+tar: usb-wifi-kit/source/include/rtl8710b_dm.h: time stamp 2026-11-19 17:34:33 is 1794820781.288453728 s in the future
+tar: usb-wifi-kit/source/include/rtl8814bu_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.288359712 s in the future
+tar: usb-wifi-kit/source/include/drv_types_linux.h: time stamp 2026-11-19 17:34:33 is 1794820781.288267136 s in the future
+tar: usb-wifi-kit/source/include/sdio_ops_linux.h: time stamp 2026-11-19 17:34:33 is 1794820781.288175328 s in the future
+tar: usb-wifi-kit/source/include/rtl8710b_lps_poff.h: time stamp 2026-11-19 17:34:33 is 1794820781.288075392 s in the future
+tar: usb-wifi-kit/source/include/rtw_wnm.h: time stamp 2026-11-19 17:34:33 is 1794820781.287975328 s in the future
+tar: usb-wifi-kit/source/include/rtw_roch.h: time stamp 2026-11-19 17:34:33 is 1794820781.28787552 s in the future
+tar: usb-wifi-kit/source/include/rtw_recv.h: time stamp 2026-11-19 17:34:33 is 1794820781.287737824 s in the future
+tar: usb-wifi-kit/source/include/Hal8723PwrSeq.h: time stamp 2026-11-19 17:34:33 is 1794820781.287609536 s in the future
+tar: usb-wifi-kit/source/include/rtl8723b_dm.h: time stamp 2026-11-19 17:34:33 is 1794820781.287513824 s in the future
+tar: usb-wifi-kit/source/include/Hal8812PhyReg.h: time stamp 2026-11-19 17:34:33 is 1794820781.287368416 s in the future
+tar: usb-wifi-kit/source/include/Hal8723BPhyCfg.h: time stamp 2026-11-19 17:34:33 is 1794820781.287264832 s in the future
+tar: usb-wifi-kit/source/include/rtl8723b_sreset.h: time stamp 2026-11-19 17:34:33 is 1794820781.287167712 s in the future
+tar: usb-wifi-kit/source/include/Hal8812PhyCfg.h: time stamp 2026-11-19 17:34:33 is 1794820781.287072064 s in the future
+tar: usb-wifi-kit/source/include/rtl8192e_led.h: time stamp 2026-11-19 17:34:33 is 1794820781.286788096 s in the future
+tar: usb-wifi-kit/source/include/rtl8821cs_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.286682368 s in the future
+tar: usb-wifi-kit/source/include/rtl8192f_xmit.h: time stamp 2026-11-19 17:34:33 is 1794820781.286519488 s in the future
+tar: usb-wifi-kit/source/include/rtl8192f_recv.h: time stamp 2026-11-19 17:34:33 is 1794820781.286400704 s in the future
+tar: usb-wifi-kit/source/include/pci_ops.h: time stamp 2026-11-19 17:34:33 is 1794820781.286296416 s in the future
+tar: usb-wifi-kit/source/include/Hal8192EPwrSeq.h: time stamp 2026-11-19 17:34:33 is 1794820781.286173824 s in the future
+tar: usb-wifi-kit/source/include/rtw_mp.h: time stamp 2026-11-19 17:34:33 is 1794820781.286030176 s in the future
+tar: usb-wifi-kit/source/include/rtw_efuse.h: time stamp 2026-11-19 17:34:33 is 1794820781.285914176 s in the future
+tar: usb-wifi-kit/source/include/usb_vendor_req.h: time stamp 2026-11-19 17:34:33 is 1794820781.285815392 s in the future
+tar: usb-wifi-kit/source/include/HalPwrSeqCmd.h: time stamp 2026-11-19 17:34:33 is 1794820781.285708512 s in the future
+tar: usb-wifi-kit/source/include/osdep_service.h: time stamp 2026-11-19 17:34:33 is 1794820781.285551392 s in the future
+tar: usb-wifi-kit/source/include/Hal8188EPhyReg.h: time stamp 2026-11-19 17:34:33 is 1794820781.285389856 s in the future
+tar: usb-wifi-kit/source/include/hal_phy_reg.h: time stamp 2026-11-19 17:34:33 is 1794820781.285266848 s in the future
+tar: usb-wifi-kit/source/include/rtl8822b_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.285151328 s in the future
+tar: usb-wifi-kit/source/include/rtw_sreset.h: time stamp 2026-11-19 17:34:33 is 1794820781.285056992 s in the future
+tar: usb-wifi-kit/source/include/rtl8814a_recv.h: time stamp 2026-11-19 17:34:33 is 1794820781.284940544 s in the future
+tar: usb-wifi-kit/source/include/rtl8188e_rf.h: time stamp 2026-11-19 17:34:33 is 1794820781.284844256 s in the future
+tar: usb-wifi-kit/source/include/Hal8814PwrSeq.h: time stamp 2026-11-19 17:34:33 is 1794820781.284699456 s in the future
+tar: usb-wifi-kit/source/include/rtl8821c_spec.h: time stamp 2026-11-19 17:34:33 is 1794820781.284587776 s in the future
+tar: usb-wifi-kit/source/include/rtl8710b_recv.h: time stamp 2026-11-19 17:34:33 is 1794820781.284490624 s in the future
+tar: usb-wifi-kit/source/include/Hal8710BPhyReg.h: time stamp 2026-11-19 17:34:33 is 1794820781.284328448 s in the future
+tar: usb-wifi-kit/source/include/rtl8821c_dm.h: time stamp 2026-11-19 17:34:33 is 1794820781.284230624 s in the future
+tar: usb-wifi-kit/source/include/Hal8188EPwrSeq.h: time stamp 2026-11-19 17:34:33 is 1794820781.28411152 s in the future
+tar: usb-wifi-kit/source/include/rtl8710b_xmit.h: time stamp 2026-11-19 17:34:33 is 1794820781.283975104 s in the future
+tar: usb-wifi-kit/source/include/hal_com_led.h: time stamp 2026-11-19 17:34:33 is 1794820781.283833024 s in the future
+tar: usb-wifi-kit/source/include/Hal8703BPhyReg.h: time stamp 2026-11-19 17:34:33 is 1794820781.283444704 s in the future
+tar: usb-wifi-kit/source/include/rtl8710b_spec.h: time stamp 2026-11-19 17:34:33 is 1794820781.283313888 s in the future
+tar: usb-wifi-kit/source/include/xmit_osdep.h: time stamp 2026-11-19 17:34:33 is 1794820781.283210912 s in the future
+tar: usb-wifi-kit/source/include/hal_com_h2c.h: time stamp 2026-11-19 17:34:33 is 1794820781.283018944 s in the future
+tar: usb-wifi-kit/source/include/Hal8723DPhyCfg.h: time stamp 2026-11-19 17:34:33 is 1794820781.282907744 s in the future
+tar: usb-wifi-kit/source/include/rtl8723d_lps_poff.h: time stamp 2026-11-19 17:34:33 is 1794820781.282811744 s in the future
+tar: usb-wifi-kit/source/include/gspi_osintf.h: time stamp 2026-11-19 17:34:33 is 1794820781.28271904 s in the future
+tar: usb-wifi-kit/source/include/Hal8703BPhyCfg.h: time stamp 2026-11-19 17:34:33 is 1794820781.282617376 s in the future
+tar: usb-wifi-kit/source/include/rtw_p2p.h: time stamp 2026-11-19 17:34:33 is 1794820781.282511808 s in the future
+tar: usb-wifi-kit/source/include/rtl8822c_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.282396512 s in the future
+tar: usb-wifi-kit/source/include/drv_conf.h: time stamp 2026-11-19 17:34:33 is 1794820781.282248 s in the future
+tar: usb-wifi-kit/source/include/usb_ops_linux.h: time stamp 2026-11-19 17:34:33 is 1794820781.282139328 s in the future
+tar: usb-wifi-kit/source/include/rtl8723f_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.282018912 s in the future
+tar: usb-wifi-kit/source/include/rtw_rf.h: time stamp 2026-11-19 17:34:33 is 1794820781.281897888 s in the future
+tar: usb-wifi-kit/source/include/usb_ops.h: time stamp 2026-11-19 17:34:33 is 1794820781.281793344 s in the future
+tar: usb-wifi-kit/source/include/h2clbk.h: time stamp 2026-11-19 17:34:33 is 1794820781.281698496 s in the future
+tar: usb-wifi-kit/source/include/rtl8723d_led.h: time stamp 2026-11-19 17:34:33 is 1794820781.2816048 s in the future
+tar: usb-wifi-kit/source/include/rtl8723b_xmit.h: time stamp 2026-11-19 17:34:33 is 1794820781.281466304 s in the future
+tar: usb-wifi-kit/source/include/rtl8812a_recv.h: time stamp 2026-11-19 17:34:33 is 1794820781.281360256 s in the future
+tar: usb-wifi-kit/source/include/rtw_iol.h: time stamp 2026-11-19 17:34:33 is 1794820781.281244768 s in the future
+tar: usb-wifi-kit/source/include/rtl8188e_recv.h: time stamp 2026-11-19 17:34:33 is 1794820781.281149184 s in the future
+tar: usb-wifi-kit/source/include/mlme_osdep.h: time stamp 2026-11-19 17:34:33 is 1794820781.28104768 s in the future
+tar: usb-wifi-kit/source/include/rtl8814be_hal.h: time stamp 2026-11-19 17:34:33 is 1794820781.280950208 s in the future
+tar: usb-wifi-kit/source/include/Hal8703BPwrSeq.h: time stamp 2026-11-19 17:34:33 is 1794820781.280815264 s in the future
+tar: usb-wifi-kit/source/include/rtl8703b_spec.h: time stamp 2026-11-19 17:34:33 is 1794820781.280683744 s in the future
+tar: usb-wifi-kit/source/include: time stamp 2026-11-19 17:34:33 is 1794820781.280651104 s in the future
+tar: usb-wifi-kit/source/halmac.mk: time stamp 2026-11-19 17:34:33 is 1794820781.280563872 s in the future
+tar: usb-wifi-kit/source/88x2cu.conf: time stamp 2026-11-19 17:34:33 is 1794820781.280467456 s in the future
+tar: usb-wifi-kit/source/wlan0dhcp: time stamp 2026-11-19 17:34:33 is 1794820781.280376032 s in the future
+tar: usb-wifi-kit/source/dkms.conf: time stamp 2026-11-19 17:34:33 is 1794820781.280278304 s in the future
+tar: usb-wifi-kit/source/install.sh: time stamp 2026-11-19 17:34:33 is 1794820781.280190816 s in the future
+tar: usb-wifi-kit/source/ifcfg-wlan0: time stamp 2026-11-19 17:34:33 is 1794820781.280105024 s in the future
+tar: usb-wifi-kit/source/platform/platform_ARM_SUNxI_usb.c: time stamp 2026-11-19 17:34:33 is 1794820781.279986272 s in the future
+tar: usb-wifi-kit/source/platform/platform_ops.c: time stamp 2026-11-19 17:34:33 is 1794820781.279898176 s in the future
+tar: usb-wifi-kit/source/platform/platform_hisilicon_hi3798_sdio.c: time stamp 2026-11-19 17:34:33 is 1794820781.279807808 s in the future
+tar: usb-wifi-kit/source/platform/platform_sprd_sdio.c: time stamp 2026-11-19 17:34:33 is 1794820781.279700896 s in the future
+tar: usb-wifi-kit/source/platform/custom_country_chplan.h: time stamp 2026-11-19 17:34:33 is 1794820781.279612448 s in the future
+tar: usb-wifi-kit/source/platform/platform_aml_s905_sdio.h: time stamp 2026-11-19 17:34:33 is 1794820781.279517024 s in the future
+tar: usb-wifi-kit/source/platform/platform_arm_act_sdio.c: time stamp 2026-11-19 17:34:33 is 1794820781.279429184 s in the future
+tar: usb-wifi-kit/source/platform/platform_zte_zx296716_sdio.h: time stamp 2026-11-19 17:34:33 is 1794820781.279338176 s in the future
+tar: usb-wifi-kit/source/platform/platform_aml_s905_sdio.c: time stamp 2026-11-19 17:34:33 is 1794820781.279250208 s in the future
+tar: usb-wifi-kit/source/platform/platform_hisilicon_hi3798_sdio.h: time stamp 2026-11-19 17:34:33 is 1794820781.279161248 s in the future
+tar: usb-wifi-kit/source/platform/platform_ops.h: time stamp 2026-11-19 17:34:33 is 1794820781.279056064 s in the future
+tar: usb-wifi-kit/source/platform/platform_ARM_SUNnI_sdio.c: time stamp 2026-11-19 17:34:33 is 1794820781.278961216 s in the future
+tar: usb-wifi-kit/source/platform/platform_zte_zx296716_sdio.c: time stamp 2026-11-19 17:34:33 is 1794820781.278871328 s in the future
+tar: usb-wifi-kit/source/platform/platform_ARM_WMT_sdio.c: time stamp 2026-11-19 17:34:33 is 1794820781.278783552 s in the future
+tar: usb-wifi-kit/source/platform/platform_ARM_SUNxI_sdio.c: time stamp 2026-11-19 17:34:33 is 1794820781.278680992 s in the future
+tar: usb-wifi-kit/source/platform/platform_RTK_DMP_usb.c: time stamp 2026-11-19 17:34:33 is 1794820781.278569952 s in the future
+tar: usb-wifi-kit/source/platform/platform_ARM_SUN50IW1P1_sdio.c: time stamp 2026-11-19 17:34:33 is 1794820781.278464224 s in the future
+tar: usb-wifi-kit/source/platform: time stamp 2026-11-19 17:34:33 is 1794820781.278436352 s in the future
+tar: usb-wifi-kit/source/Kconfig: time stamp 2026-11-19 17:34:33 is 1794820781.278357952 s in the future
+tar: usb-wifi-kit/source/Makefile: time stamp 2026-11-19 17:34:33 is 1794820781.2781264 s in the future
+tar: usb-wifi-kit/source/os_dep/linux/ioctl_cfg80211.h: time stamp 2026-11-19 17:34:33 is 1794820781.277881376 s in the future
+tar: usb-wifi-kit/source/os_dep/linux/rtw_android.c: time stamp 2026-11-19 17:34:33 is 1794820781.27758208 s in the future
+tar: usb-wifi-kit/source/os_dep/linux/os_intfs.c: time stamp 2026-11-19 17:34:33 is 1794820781.276173952 s in the future
+tar: usb-wifi-kit/source/os_dep/linux/ioctl_cfg80211.c: time stamp 2026-11-19 17:34:33 is 1794820781.273342912 s in the future
+tar: usb-wifi-kit/source/os_dep/linux/rhashtable.c: time stamp 2026-11-19 17:34:33 is 1794820781.273054496 s in the future
+tar: usb-wifi-kit/source/os_dep/linux/wifi_regd.h: time stamp 2026-11-19 17:34:33 is 1794820781.272953376 s in the future
+tar: usb-wifi-kit/source/os_dep/linux/usb_ops_linux.c: time stamp 2026-11-19 17:34:33 is 1794820781.272805312 s in the future
+tar: usb-wifi-kit/source/os_dep/linux/nlrtw.c: time stamp 2026-11-19 17:34:33 is 1794820781.272686656 s in the future
+tar: usb-wifi-kit/source/os_dep/linux/mlme_linux.c: time stamp 2026-11-19 17:34:33 is 1794820781.272525088 s in the future
+tar: usb-wifi-kit/source/os_dep/linux/custom_gpio_linux.c: time stamp 2026-11-19 17:34:33 is 1794820781.272409056 s in the future
+tar: usb-wifi-kit/source/os_dep/linux/recv_linux.c: time stamp 2026-11-19 17:34:33 is 1794820781.272254752 s in the future
+tar: usb-wifi-kit/source/os_dep/linux/ioctl_linux.c: time stamp 2026-11-19 17:34:33 is 1794820781.269156064 s in the future
+tar: usb-wifi-kit/source/os_dep/linux/rtw_proc.h: time stamp 2026-11-19 17:34:33 is 1794820781.268911744 s in the future
+tar: usb-wifi-kit/source/os_dep/linux/rhashtable.h: time stamp 2026-11-19 17:34:33 is 1794820781.268766432 s in the future
+tar: usb-wifi-kit/source/os_dep/linux/rtw_rhashtable.c: time stamp 2026-11-19 17:34:33 is 1794820781.268643712 s in the future
+tar: usb-wifi-kit/source/os_dep/linux/ioctl_mp.c: time stamp 2026-11-19 17:34:33 is 1794820781.267819872 s in the future
+tar: usb-wifi-kit/source/os_dep/linux/wifi_regd.c: time stamp 2026-11-19 17:34:33 is 1794820781.267679584 s in the future
+tar: usb-wifi-kit/source/os_dep/linux/nlrtw.h: time stamp 2026-11-19 17:34:33 is 1794820781.267584736 s in the future
+tar: usb-wifi-kit/source/os_dep/linux/rtw_cfgvendor.h: time stamp 2026-11-19 17:34:33 is 1794820781.26741184 s in the future
+tar: usb-wifi-kit/source/os_dep/linux/rtw_rhashtable.h: time stamp 2026-11-19 17:34:33 is 1794820781.267317344 s in the future
+tar: usb-wifi-kit/source/os_dep/linux/rtw_cfgvendor.c: time stamp 2026-11-19 17:34:33 is 1794820781.26694224 s in the future
+tar: usb-wifi-kit/source/os_dep/linux/usb_intf.c: time stamp 2026-11-19 17:34:33 is 1794820781.266403616 s in the future
+tar: usb-wifi-kit/source/os_dep/linux/xmit_linux.c: time stamp 2026-11-19 17:34:33 is 1794820781.266275072 s in the future
+tar: usb-wifi-kit/source/os_dep/linux/rtw_proc.c: time stamp 2026-11-19 17:34:33 is 1794820781.265123424 s in the future
+tar: usb-wifi-kit/source/os_dep/linux: time stamp 2026-11-19 17:34:33 is 1794820781.265089376 s in the future
+tar: usb-wifi-kit/source/os_dep/osdep_service.c: time stamp 2026-11-19 17:34:33 is 1794820781.264557056 s in the future
+tar: usb-wifi-kit/source/os_dep: time stamp 2026-11-19 17:34:33 is 1794820781.264320544 s in the future
+tar: usb-wifi-kit/source/dkms-remove.sh: time stamp 2026-11-19 17:34:33 is 1794820781.264224224 s in the future
+tar: usb-wifi-kit/source/README.md: time stamp 2026-11-19 17:34:33 is 1794820781.264133728 s in the future
+tar: usb-wifi-kit/source/dkms-install.sh: time stamp 2026-11-19 17:34:33 is 1794820781.264046304 s in the future
+tar: usb-wifi-kit/source/hal/hal_dm_acs.c: time stamp 2026-11-19 17:34:33 is 1794820781.263908704 s in the future
+tar: usb-wifi-kit/source/hal/hal_mcc.c: time stamp 2026-11-19 17:34:33 is 1794820781.263122688 s in the future
+tar: usb-wifi-kit/source/hal/hal_btcoex_wifionly.c: time stamp 2026-11-19 17:34:33 is 1794820781.26276448 s in the future
+tar: usb-wifi-kit/source/hal/hal_hci/hal_usb.c: time stamp 2026-11-19 17:34:33 is 1794820781.262620928 s in the future
+tar: usb-wifi-kit/source/hal/hal_hci: time stamp 2026-11-19 17:34:33 is 1794820781.262589984 s in the future
+tar: usb-wifi-kit/source/hal/hal_dm.c: time stamp 2026-11-19 17:34:33 is 1794820781.262309088 s in the future
+tar: usb-wifi-kit/source/hal/hal_dm.h: time stamp 2026-11-19 17:34:33 is 1794820781.262214432 s in the future
+tar: usb-wifi-kit/source/hal/rtl8822c/rtl8822c_mac.c: time stamp 2026-11-19 17:34:33 is 1794820781.262096 s in the future
+tar: usb-wifi-kit/source/hal/rtl8822c/rtl8822c_phy.c: time stamp 2026-11-19 17:34:33 is 1794820781.261724992 s in the future
+tar: usb-wifi-kit/source/hal/rtl8822c/rtl8822c.h: time stamp 2026-11-19 17:34:33 is 1794820781.261621376 s in the future
+tar: usb-wifi-kit/source/hal/rtl8822c/hal8822c_fw.c: time stamp 2026-11-19 17:34:33 is 1794820781.236037952 s in the future
+tar: usb-wifi-kit/source/hal/rtl8822c/hal8822c_fw.h: time stamp 2026-11-19 17:34:33 is 1794820781.235803968 s in the future
+tar: usb-wifi-kit/source/hal/rtl8822c/usb/rtl8822cu_halinit.c: time stamp 2026-11-19 17:34:33 is 1794820781.235632736 s in the future
+tar: usb-wifi-kit/source/hal/rtl8822c/usb/rtl8822cu_recv.c: time stamp 2026-11-19 17:34:33 is 1794820781.235518176 s in the future
+tar: usb-wifi-kit/source/hal/rtl8822c/usb/rtl8822cu_halmac.c: time stamp 2026-11-19 17:34:33 is 1794820781.235399584 s in the future
+tar: usb-wifi-kit/source/hal/rtl8822c/usb/rtl8822cu_xmit.c: time stamp 2026-11-19 17:34:33 is 1794820781.23524368 s in the future
+tar: usb-wifi-kit/source/hal/rtl8822c/usb/rtl8822cu_io.c: time stamp 2026-11-19 17:34:33 is 1794820781.23514208 s in the future
+tar: usb-wifi-kit/source/hal/rtl8822c/usb/rtl8822cu_ops.c: time stamp 2026-11-19 17:34:33 is 1794820781.234993568 s in the future
+tar: usb-wifi-kit/source/hal/rtl8822c/usb/rtl8822cu_led.c: time stamp 2026-11-19 17:34:33 is 1794820781.234897184 s in the future
+tar: usb-wifi-kit/source/hal/rtl8822c/usb/rtl8822cu.h: time stamp 2026-11-19 17:34:33 is 1794820781.234805728 s in the future
+tar: usb-wifi-kit/source/hal/rtl8822c/usb: time stamp 2026-11-19 17:34:33 is 1794820781.234776128 s in the future
+tar: usb-wifi-kit/source/hal/rtl8822c/rtl8822c_ops.c: time stamp 2026-11-19 17:34:33 is 1794820781.234245696 s in the future
+tar: usb-wifi-kit/source/hal/rtl8822c/rtl8822c_halinit.c: time stamp 2026-11-19 17:34:33 is 1794820781.234063488 s in the future
+tar: usb-wifi-kit/source/hal/rtl8822c/hal8822c_fw_10M.h: time stamp 2026-11-19 17:34:33 is 1794820781.23396192 s in the future
+tar: usb-wifi-kit/source/hal/rtl8822c/hal8822c_fw_10M.c: time stamp 2026-11-19 17:34:33 is 1794820781.20873632 s in the future
+tar: usb-wifi-kit/source/hal/rtl8822c/rtl8822c_cmd.c: time stamp 2026-11-19 17:34:33 is 1794820781.208464032 s in the future
+tar: usb-wifi-kit/source/hal/rtl8822c: time stamp 2026-11-19 17:34:33 is 1794820781.20842016 s in the future
+tar: usb-wifi-kit/source/hal/efuse/rtl8822c/HalEfuseMask8822C_USB.h: time stamp 2026-11-19 17:34:33 is 1794820781.208290528 s in the future
+tar: usb-wifi-kit/source/hal/efuse/rtl8822c/HalEfuseMask8822C_SDIO.h: time stamp 2026-11-19 17:34:33 is 1794820781.208184416 s in the future
+tar: usb-wifi-kit/source/hal/efuse/rtl8822c/HalEfuseMask8822C_SDIO.c: time stamp 2026-11-19 17:34:33 is 1794820781.208088544 s in the future
+tar: usb-wifi-kit/source/hal/efuse/rtl8822c/HalEfuseMask8822C_PCIE.c: time stamp 2026-11-19 17:34:33 is 1794820781.207990048 s in the future
+tar: usb-wifi-kit/source/hal/efuse/rtl8822c/HalEfuseMask8822C_USB.c: time stamp 2026-11-19 17:34:33 is 1794820781.207891744 s in the future
+tar: usb-wifi-kit/source/hal/efuse/rtl8822c/HalEfuseMask8822C_PCIE.h: time stamp 2026-11-19 17:34:33 is 1794820781.207800672 s in the future
+tar: usb-wifi-kit/source/hal/efuse/rtl8822c: time stamp 2026-11-19 17:34:33 is 1794820781.207771904 s in the future
+tar: usb-wifi-kit/source/hal/efuse/efuse_mask.h: time stamp 2026-11-19 17:34:33 is 1794820781.207667744 s in the future
+tar: usb-wifi-kit/source/hal/efuse: time stamp 2026-11-19 17:34:33 is 1794820781.207637696 s in the future
+tar: usb-wifi-kit/source/hal/hal_dm_acs.h: time stamp 2026-11-19 17:34:33 is 1794820781.207545024 s in the future
+tar: usb-wifi-kit/source/hal/hal_com_c2h.h: time stamp 2026-11-19 17:34:33 is 1794820781.207439136 s in the future
+tar: usb-wifi-kit/source/hal/hal_com.c: time stamp 2026-11-19 17:34:33 is 1794820781.203500896 s in the future
+tar: usb-wifi-kit/source/hal/hal_halmac.h: time stamp 2026-11-19 17:34:33 is 1794820781.20332 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_pcie_reg.h: time stamp 2026-11-19 17:34:33 is 1794820781.203187648 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_reg2.h: time stamp 2026-11-19 17:34:33 is 1794820781.201873088 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_pwr_seq_cmd.h: time stamp 2026-11-19 17:34:33 is 1794820781.201760256 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_api.h: time stamp 2026-11-19 17:34:33 is 1794820781.201666848 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_original_c2h_ap.h: time stamp 2026-11-19 17:34:33 is 1794820781.201434048 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_tx_bd_nic.h: time stamp 2026-11-19 17:34:33 is 1794820781.201329536 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_dbg.h: time stamp 2026-11-19 17:34:33 is 1794820781.2012376 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_fw_offload_c2h_nic.h: time stamp 2026-11-19 17:34:33 is 1794820781.201080352 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_original_c2h_nic.h: time stamp 2026-11-19 17:34:33 is 1794820781.20092704 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_dbg.c: time stamp 2026-11-19 17:34:33 is 1794820781.200822752 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_8822c/halmac_cfg_wmac_8822c.h: time stamp 2026-11-19 17:34:33 is 1794820781.20069872 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_8822c/halmac_gpio_8822c.h: time stamp 2026-11-19 17:34:33 is 1794820781.200605152 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_8822c/halmac_gpio_8822c.c: time stamp 2026-11-19 17:34:33 is 1794820781.200434656 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_8822c/halmac_pwr_seq_8822c.h: time stamp 2026-11-19 17:34:33 is 1794820781.20033712 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_8822c/halmac_pwr_seq_8822c.c: time stamp 2026-11-19 17:34:33 is 1794820781.200207488 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_8822c/halmac_common_8822c.c: time stamp 2026-11-19 17:34:33 is 1794820781.200096896 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_8822c/halmac_phy_8822c.c: time stamp 2026-11-19 17:34:33 is 1794820781.200004224 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_8822c/halmac_init_8822c.h: time stamp 2026-11-19 17:34:33 is 1794820781.199901888 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_8822c/halmac_cfg_wmac_8822c.c: time stamp 2026-11-19 17:34:33 is 1794820781.199803552 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_8822c/halmac_init_8822c.c: time stamp 2026-11-19 17:34:33 is 1794820781.199621984 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_8822c/halmac_usb_8822c.c: time stamp 2026-11-19 17:34:33 is 1794820781.199519712 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_8822c/halmac_usb_8822c.h: time stamp 2026-11-19 17:34:33 is 1794820781.199421088 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_8822c/halmac_8822c_cfg.h: time stamp 2026-11-19 17:34:33 is 1794820781.199320992 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_8822c/halmac_common_8822c.h: time stamp 2026-11-19 17:34:33 is 1794820781.199230848 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_8822c: time stamp 2026-11-19 17:34:33 is 1794820781.199205312 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_usb_88xx.h: time stamp 2026-11-19 17:34:33 is 1794820781.199117888 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_cfg_wmac_88xx.h: time stamp 2026-11-19 17:34:33 is 1794820781.19896608 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_flash_88xx.c: time stamp 2026-11-19 17:34:33 is 1794820781.198849088 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_gpio_88xx.c: time stamp 2026-11-19 17:34:33 is 1794820781.198752992 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_usb_88xx.c: time stamp 2026-11-19 17:34:33 is 1794820781.198631072 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_common_88xx.h: time stamp 2026-11-19 17:34:33 is 1794820781.198526656 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_common_88xx.c: time stamp 2026-11-19 17:34:33 is 1794820781.198001536 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_efuse_88xx.c: time stamp 2026-11-19 17:34:33 is 1794820781.197466624 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_bb_rf_88xx.h: time stamp 2026-11-19 17:34:33 is 1794820781.197368544 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_init_88xx.c: time stamp 2026-11-19 17:34:33 is 1794820781.197206432 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_flash_88xx.h: time stamp 2026-11-19 17:34:33 is 1794820781.19710992 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_mimo_88xx.h: time stamp 2026-11-19 17:34:33 is 1794820781.19701408 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_efuse_88xx.h: time stamp 2026-11-19 17:34:33 is 1794820781.196914688 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_bb_rf_88xx.c: time stamp 2026-11-19 17:34:33 is 1794820781.196789792 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_gpio_88xx.h: time stamp 2026-11-19 17:34:33 is 1794820781.19669216 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_88xx_cfg.h: time stamp 2026-11-19 17:34:33 is 1794820781.196600896 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_mimo_88xx.c: time stamp 2026-11-19 17:34:33 is 1794820781.196464224 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_init_88xx.h: time stamp 2026-11-19 17:34:33 is 1794820781.1963704 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_fw_88xx.c: time stamp 2026-11-19 17:34:33 is 1794820781.196217632 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_fw_88xx.h: time stamp 2026-11-19 17:34:33 is 1794820781.1961232 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_cfg_wmac_88xx.c: time stamp 2026-11-19 17:34:33 is 1794820781.19592896 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_88xx: time stamp 2026-11-19 17:34:33 is 1794820781.195899072 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_original_h2c_ap.h: time stamp 2026-11-19 17:34:33 is 1794820781.195366656 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_reg_8812f.h: time stamp 2026-11-19 17:34:33 is 1794820781.195037152 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_rx_desc_ap.h: time stamp 2026-11-19 17:34:33 is 1794820781.194826784 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_state_machine.h: time stamp 2026-11-19 17:34:33 is 1794820781.194714688 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_bit_8197f.h: time stamp 2026-11-19 17:34:33 is 1794820781.18858528 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_bit_8822b.h: time stamp 2026-11-19 17:34:33 is 1794820781.182386848 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_fw_offload_c2h_ap.h: time stamp 2026-11-19 17:34:33 is 1794820781.182120992 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_2_platform.h: time stamp 2026-11-19 17:34:33 is 1794820781.182003424 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_fw_offload_h2c_ap.h: time stamp 2026-11-19 17:34:33 is 1794820781.181668768 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_tx_desc_ie_nic.h: time stamp 2026-11-19 17:34:33 is 1794820781.181355232 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_api.c: time stamp 2026-11-19 17:34:33 is 1794820781.181089952 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_usb_reg.h: time stamp 2026-11-19 17:34:33 is 1794820781.180990016 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_tx_desc_chip.h: time stamp 2026-11-19 17:34:33 is 1794820781.179897888 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_bit_8821c.h: time stamp 2026-11-19 17:34:33 is 1794820781.173047808 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_tx_desc_ie_chip.h: time stamp 2026-11-19 17:34:33 is 1794820781.172852032 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_tx_desc_buffer_ap.h: time stamp 2026-11-19 17:34:33 is 1794820781.172437312 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_tx_desc_ap.h: time stamp 2026-11-19 17:34:33 is 1794820781.17182112 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_reg_8814b.h: time stamp 2026-11-19 17:34:33 is 1794820781.17132944 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_fw_offload_h2c_nic.h: time stamp 2026-11-19 17:34:33 is 1794820781.171072544 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_original_h2c_nic.h: time stamp 2026-11-19 17:34:33 is 1794820781.17061456 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_hw_cfg.h: time stamp 2026-11-19 17:34:33 is 1794820781.1705144 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_h2c_extra_info_ap.h: time stamp 2026-11-19 17:34:33 is 1794820781.170369184 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_tx_desc_buffer_nic.h: time stamp 2026-11-19 17:34:33 is 1794820781.170153504 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_bit_8822c.h: time stamp 2026-11-19 17:34:33 is 1794820781.16280192 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_reg_8822b.h: time stamp 2026-11-19 17:34:33 is 1794820781.162495648 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_gpio_cmd.h: time stamp 2026-11-19 17:34:33 is 1794820781.162388928 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_reg_8821c.h: time stamp 2026-11-19 17:34:33 is 1794820781.162177632 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_intf_phy_cmd.h: time stamp 2026-11-19 17:34:33 is 1794820781.162073728 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_fw_info.h: time stamp 2026-11-19 17:34:33 is 1794820781.161974048 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_tx_desc_buffer_chip.h: time stamp 2026-11-19 17:34:33 is 1794820781.161829408 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_rx_bd_nic.h: time stamp 2026-11-19 17:34:33 is 1794820781.161732576 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_sdio_reg.h: time stamp 2026-11-19 17:34:33 is 1794820781.16163376 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_tx_desc_ie_ap.h: time stamp 2026-11-19 17:34:33 is 1794820781.16131296 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_rx_desc_nic.h: time stamp 2026-11-19 17:34:33 is 1794820781.1611816 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_reg_8822c.h: time stamp 2026-11-19 17:34:33 is 1794820781.16098064 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_h2c_extra_info_nic.h: time stamp 2026-11-19 17:34:33 is 1794820781.160863136 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_bit2.h: time stamp 2026-11-19 17:34:33 is 1794820781.142390624 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_reg_8197f.h: time stamp 2026-11-19 17:34:33 is 1794820781.142157344 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_rx_desc_chip.h: time stamp 2026-11-19 17:34:33 is 1794820781.141889824 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_type.h: time stamp 2026-11-19 17:34:33 is 1794820781.141123968 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_tx_desc_nic.h: time stamp 2026-11-19 17:34:33 is 1794820781.140835488 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_bit_8812f.h: time stamp 2026-11-19 17:34:33 is 1794820781.13337072 s in the future
+tar: usb-wifi-kit/source/hal/halmac/halmac_bit_8814b.h: time stamp 2026-11-19 17:34:33 is 1794820781.124554688 s in the future
+tar: usb-wifi-kit/source/hal/halmac: time stamp 2026-11-19 17:34:33 is 1794820781.12449824 s in the future
+tar: usb-wifi-kit/source/hal/hal_phy.c: time stamp 2026-11-19 17:34:33 is 1794820781.12423904 s in the future
+tar: usb-wifi-kit/source/hal/hal_intf.c: time stamp 2026-11-19 17:34:33 is 1794820781.123695776 s in the future
+tar: usb-wifi-kit/source/hal/btc/mp_precomp.h: time stamp 2026-11-19 17:34:33 is 1794820781.123570816 s in the future
+tar: usb-wifi-kit/source/hal/btc/halbtccommon.h: time stamp 2026-11-19 17:34:33 is 1794820781.123472256 s in the future
+tar: usb-wifi-kit/source/hal/btc/halbtc8822c.h: time stamp 2026-11-19 17:34:33 is 1794820781.12338096 s in the future
+tar: usb-wifi-kit/source/hal/btc/halbtc8822cwifionly.c: time stamp 2026-11-19 17:34:33 is 1794820781.123283648 s in the future
+tar: usb-wifi-kit/source/hal/btc/halbtccommon.c: time stamp 2026-11-19 17:34:33 is 1794820781.122292512 s in the future
+tar: usb-wifi-kit/source/hal/btc/btc_basic_types.h: time stamp 2026-11-19 17:34:33 is 1794820781.122185024 s in the future
+tar: usb-wifi-kit/source/hal/btc/halbtc8822cwifionly.h: time stamp 2026-11-19 17:34:33 is 1794820781.12209424 s in the future
+tar: usb-wifi-kit/source/hal/btc/halbtcoutsrc.h: time stamp 2026-11-19 17:34:33 is 1794820781.1216456 s in the future
+tar: usb-wifi-kit/source/hal/btc/halbtc8822c.c: time stamp 2026-11-19 17:34:33 is 1794820781.121508896 s in the future
+tar: usb-wifi-kit/source/hal/btc: time stamp 2026-11-19 17:34:33 is 1794820781.121478784 s in the future
+tar: usb-wifi-kit/source/hal/hal_mp.c: time stamp 2026-11-19 17:34:33 is 1794820781.120578624 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_mp.c: time stamp 2026-11-19 17:34:33 is 1794820781.12042656 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_rainfo.h: time stamp 2026-11-19 17:34:33 is 1794820781.120312672 s in the future
+tar: usb-wifi-kit/source/hal/phydm/mp_precomp.h: time stamp 2026-11-19 17:34:33 is 1794820781.120209504 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_features_ce2_kernel.h: time stamp 2026-11-19 17:34:33 is 1794820781.1201184 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_interface.c: time stamp 2026-11-19 17:34:33 is 1794820781.119951648 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_dynamictxpower.h: time stamp 2026-11-19 17:34:33 is 1794820781.119851104 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_lna_sat.c: time stamp 2026-11-19 17:34:33 is 1794820781.119669376 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_rssi_monitor.c: time stamp 2026-11-19 17:34:33 is 1794820781.119453728 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm.mk: time stamp 2026-11-19 17:34:33 is 1794820781.11933648 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_regtable.h: time stamp 2026-11-19 17:34:33 is 1794820781.119114272 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_cck_rx_pathdiv.h: time stamp 2026-11-19 17:34:33 is 1794820781.118998752 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_types.h: time stamp 2026-11-19 17:34:33 is 1794820781.118882144 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_antdiv.h: time stamp 2026-11-19 17:34:33 is 1794820781.118729504 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_noisemonitor.c: time stamp 2026-11-19 17:34:33 is 1794820781.118601728 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_debug.c: time stamp 2026-11-19 17:34:33 is 1794820781.117171968 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_regdefine11ac.h: time stamp 2026-11-19 17:34:33 is 1794820781.117072672 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_pathdiv.c: time stamp 2026-11-19 17:34:33 is 1794820781.116842688 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm.c: time stamp 2026-11-19 17:34:33 is 1794820781.116037152 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_cfotracking.h: time stamp 2026-11-19 17:34:33 is 1794820781.115938208 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_beamforming.h: time stamp 2026-11-19 17:34:33 is 1794820781.115823808 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_pmac_tx_setting.c: time stamp 2026-11-19 17:34:33 is 1794820781.115693824 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm.h: time stamp 2026-11-19 17:34:33 is 1794820781.11534816 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_rssi_monitor.h: time stamp 2026-11-19 17:34:33 is 1794820781.1152368 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_direct_bf.c: time stamp 2026-11-19 17:34:33 is 1794820781.11508016 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_dfs.c: time stamp 2026-11-19 17:34:33 is 1794820781.114290848 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_hwconfig.h: time stamp 2026-11-19 17:34:33 is 1794820781.114188256 s in the future
+tar: usb-wifi-kit/source/hal/phydm/ap_makefile.mk: time stamp 2026-11-19 17:34:33 is 1794820781.114072736 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_pathdiv.h: time stamp 2026-11-19 17:34:33 is 1794820781.113971232 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_mp.h: time stamp 2026-11-19 17:34:33 is 1794820781.113877472 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_debug.h: time stamp 2026-11-19 17:34:33 is 1794820781.113759584 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_dig.c: time stamp 2026-11-19 17:34:33 is 1794820781.11297264 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halrf_powertracking_win.c: time stamp 2026-11-19 17:34:33 is 1794820781.112685856 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halrf_txgapcal.c: time stamp 2026-11-19 17:34:33 is 1794820781.112447264 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halphyrf_ce.c: time stamp 2026-11-19 17:34:33 is 1794820781.112142496 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halrf_powertracking_ce.h: time stamp 2026-11-19 17:34:33 is 1794820781.11202496 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halrf_iqk.h: time stamp 2026-11-19 17:34:33 is 1794820781.111872256 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halrf_powertracking_ce.c: time stamp 2026-11-19 17:34:33 is 1794820781.11162304 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halrf_powertracking.c: time stamp 2026-11-19 17:34:33 is 1794820781.111511584 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halrf_features.h: time stamp 2026-11-19 17:34:33 is 1794820781.11141776 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/rtl8822c/halrf_dpk_8822c.h: time stamp 2026-11-19 17:34:33 is 1794820781.111312672 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/rtl8822c/halrf_rfk_init_8822c.h: time stamp 2026-11-19 17:34:33 is 1794820781.111213792 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/rtl8822c/halrf_tssi_8822c.h: time stamp 2026-11-19 17:34:33 is 1794820781.111121312 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/rtl8822c/halrf_txgapk_8822c.c: time stamp 2026-11-19 17:34:33 is 1794820781.110958912 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/rtl8822c/version_rtl8822c_rf.h: time stamp 2026-11-19 17:34:33 is 1794820781.110862816 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/rtl8822c/halhwimg8822c_rf.h: time stamp 2026-11-19 17:34:33 is 1794820781.110765504 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/rtl8822c/halrf_dpk_8822c.c: time stamp 2026-11-19 17:34:33 is 1794820781.110562912 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/rtl8822c/halrf_txgapk_8822c.h: time stamp 2026-11-19 17:34:33 is 1794820781.110364864 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/rtl8822c/halrf_8822c.c: time stamp 2026-11-19 17:34:33 is 1794820781.11003568 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/rtl8822c/halrf_rfk_init_8822c.c: time stamp 2026-11-19 17:34:33 is 1794820781.109604608 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/rtl8822c/halhwimg8822c_rf.c: time stamp 2026-11-19 17:34:33 is 1794820781.102936768 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/rtl8822c/halrf_iqk_8822c.h: time stamp 2026-11-19 17:34:33 is 1794820781.102747936 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/rtl8822c/halrf_tssi_8822c.c: time stamp 2026-11-19 17:34:33 is 1794820781.102259552 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/rtl8822c/halrf_iqk_8822c.c: time stamp 2026-11-19 17:34:33 is 1794820781.101070208 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/rtl8822c/halrf_8822c.h: time stamp 2026-11-19 17:34:33 is 1794820781.10096368 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/rtl8822c: time stamp 2026-11-19 17:34:33 is 1794820781.100931936 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halphyrf_win.h: time stamp 2026-11-19 17:34:33 is 1794820781.100741408 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halphyrf_ce.h: time stamp 2026-11-19 17:34:33 is 1794820781.100643904 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halrf_powertracking_win.h: time stamp 2026-11-19 17:34:33 is 1794820781.100530496 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halrf_dpk.h: time stamp 2026-11-19 17:34:33 is 1794820781.100421824 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halphyrf_iot.c: time stamp 2026-11-19 17:34:33 is 1794820781.100258112 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halrf_psd.c: time stamp 2026-11-19 17:34:33 is 1794820781.100130112 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halphyrf_ap.c: time stamp 2026-11-19 17:34:33 is 1794820781.099642784 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halrf_psd.h: time stamp 2026-11-19 17:34:33 is 1794820781.099542752 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halrf_kfree.c: time stamp 2026-11-19 17:34:33 is 1794820781.098727616 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halrf_debug.c: time stamp 2026-11-19 17:34:33 is 1794820781.098501824 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halrf_txgapcal.h: time stamp 2026-11-19 17:34:33 is 1794820781.098403808 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halrf.c: time stamp 2026-11-19 17:34:33 is 1794820781.097750336 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halrf.h: time stamp 2026-11-19 17:34:33 is 1794820781.097474912 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halrf_powertracking_ap.c: time stamp 2026-11-19 17:34:33 is 1794820781.096974496 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halrf_powertracking_ap.h: time stamp 2026-11-19 17:34:33 is 1794820781.096853376 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halphyrf_ap.h: time stamp 2026-11-19 17:34:33 is 1794820781.096708 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halrf_powertracking_iot.h: time stamp 2026-11-19 17:34:33 is 1794820781.096594048 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halrf_powertracking.h: time stamp 2026-11-19 17:34:33 is 1794820781.09650048 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halphyrf_win.c: time stamp 2026-11-19 17:34:33 is 1794820781.096328096 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halrf_kfree.h: time stamp 2026-11-19 17:34:33 is 1794820781.096125312 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halphyrf_iot.h: time stamp 2026-11-19 17:34:33 is 1794820781.096030336 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halrf_powertracking_iot.c: time stamp 2026-11-19 17:34:33 is 1794820781.095813152 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf/halrf_debug.h: time stamp 2026-11-19 17:34:33 is 1794820781.09569728 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halrf: time stamp 2026-11-19 17:34:33 is 1794820781.095666752 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_adaptivity.h: time stamp 2026-11-19 17:34:33 is 1794820781.095570848 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_phystatus.c: time stamp 2026-11-19 17:34:33 is 1794820781.094778624 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_interface.h: time stamp 2026-11-19 17:34:33 is 1794820781.094659072 s in the future
+tar: usb-wifi-kit/source/hal/phydm/sd4_phydm_2_kernel.mk: time stamp 2026-11-19 17:34:33 is 1794820781.094558496 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_adc_sampling.h: time stamp 2026-11-19 17:34:33 is 1794820781.09444848 s in the future
+tar: usb-wifi-kit/source/hal/phydm/rtl8822c/mp_precomp.h: time stamp 2026-11-19 17:34:33 is 1794820781.094343488 s in the future
+tar: usb-wifi-kit/source/hal/phydm/rtl8822c/phydm_rtl8822c.h: time stamp 2026-11-19 17:34:33 is 1794820781.094252192 s in the future
+tar: usb-wifi-kit/source/hal/phydm/rtl8822c/phydm_regconfig8822c.h: time stamp 2026-11-19 17:34:33 is 1794820781.09415648 s in the future
+tar: usb-wifi-kit/source/hal/phydm/rtl8822c/phydm_regconfig8822c.c: time stamp 2026-11-19 17:34:33 is 1794820781.094059168 s in the future
+tar: usb-wifi-kit/source/hal/phydm/rtl8822c/halhwimg8822c_bb.c: time stamp 2026-11-19 17:34:33 is 1794820781.093595872 s in the future
+tar: usb-wifi-kit/source/hal/phydm/rtl8822c/phydm_rtl8822c.c: time stamp 2026-11-19 17:34:33 is 1794820781.09349936 s in the future
+tar: usb-wifi-kit/source/hal/phydm/rtl8822c/halhwimg8822c_bb.h: time stamp 2026-11-19 17:34:33 is 1794820781.093407104 s in the future
+tar: usb-wifi-kit/source/hal/phydm/rtl8822c/version_rtl8822c.h: time stamp 2026-11-19 17:34:33 is 1794820781.093312576 s in the future
+tar: usb-wifi-kit/source/hal/phydm/rtl8822c/phydm_hal_api8822c.h: time stamp 2026-11-19 17:34:33 is 1794820781.093214048 s in the future
+tar: usb-wifi-kit/source/hal/phydm/rtl8822c/phydm_hal_api8822c.c: time stamp 2026-11-19 17:34:33 is 1794820781.092964736 s in the future
+tar: usb-wifi-kit/source/hal/phydm/rtl8822c: time stamp 2026-11-19 17:34:33 is 1794820781.092932704 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_cck_pd.c: time stamp 2026-11-19 17:34:33 is 1794820781.092446528 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_phystatus.h: time stamp 2026-11-19 17:34:33 is 1794820781.0921896 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_auto_dbg.c: time stamp 2026-11-19 17:34:33 is 1794820781.092054336 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_lna_sat.h: time stamp 2026-11-19 17:34:33 is 1794820781.091896864 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_features_ce.h: time stamp 2026-11-19 17:34:33 is 1794820781.091794368 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_math_lib.h: time stamp 2026-11-19 17:34:33 is 1794820781.091695456 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_dfs.h: time stamp 2026-11-19 17:34:33 is 1794820781.091595584 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_pre_define.h: time stamp 2026-11-19 17:34:33 is 1794820781.091451328 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_math_lib.c: time stamp 2026-11-19 17:34:33 is 1794820781.091341568 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_pow_train.c: time stamp 2026-11-19 17:34:33 is 1794820781.09123344 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_reg.h: time stamp 2026-11-19 17:34:33 is 1794820781.091123776 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_cck_rx_pathdiv.c: time stamp 2026-11-19 17:34:33 is 1794820781.091002464 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_precomp.h: time stamp 2026-11-19 17:34:33 is 1794820781.090871424 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_antdect.c: time stamp 2026-11-19 17:34:33 is 1794820781.090662752 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_smt_ant.h: time stamp 2026-11-19 17:34:33 is 1794820781.090553952 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_hwconfig.c: time stamp 2026-11-19 17:34:33 is 1794820781.090130816 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_pow_train.h: time stamp 2026-11-19 17:34:33 is 1794820781.09003168 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_adc_sampling.c: time stamp 2026-11-19 17:34:33 is 1794820781.089781248 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_ccx.h: time stamp 2026-11-19 17:34:33 is 1794820781.089508352 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_adaptivity.c: time stamp 2026-11-19 17:34:33 is 1794820781.089209632 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_pmac_tx_setting.h: time stamp 2026-11-19 17:34:33 is 1794820781.089103392 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_soml.h: time stamp 2026-11-19 17:34:33 is 1794820781.089004896 s in the future
+tar: usb-wifi-kit/source/hal/phydm/txbf/haltxbf8822b.c: time stamp 2026-11-19 17:34:33 is 1794820781.088837824 s in the future
+tar: usb-wifi-kit/source/hal/phydm/txbf/haltxbf8192e.h: time stamp 2026-11-19 17:34:33 is 1794820781.088630432 s in the future
+tar: usb-wifi-kit/source/hal/phydm/txbf/phydm_hal_txbf_api.h: time stamp 2026-11-19 17:34:33 is 1794820781.088536928 s in the future
+tar: usb-wifi-kit/source/hal/phydm/txbf/haltxbfinterface.c: time stamp 2026-11-19 17:34:33 is 1794820781.088322528 s in the future
+tar: usb-wifi-kit/source/hal/phydm/txbf/halcomtxbf.h: time stamp 2026-11-19 17:34:33 is 1794820781.08820992 s in the future
+tar: usb-wifi-kit/source/hal/phydm/txbf/haltxbf8814a.h: time stamp 2026-11-19 17:34:33 is 1794820781.088115936 s in the future
+tar: usb-wifi-kit/source/hal/phydm/txbf/haltxbfjaguar.c: time stamp 2026-11-19 17:34:33 is 1794820781.087992448 s in the future
+tar: usb-wifi-kit/source/hal/phydm/txbf/haltxbf8822b.h: time stamp 2026-11-19 17:34:33 is 1794820781.0879 s in the future
+tar: usb-wifi-kit/source/hal/phydm/txbf/haltxbfjaguar.h: time stamp 2026-11-19 17:34:33 is 1794820781.087811232 s in the future
+tar: usb-wifi-kit/source/hal/phydm/txbf/halcomtxbf.c: time stamp 2026-11-19 17:34:33 is 1794820781.087690816 s in the future
+tar: usb-wifi-kit/source/hal/phydm/txbf/haltxbf8192e.c: time stamp 2026-11-19 17:34:33 is 1794820781.087551168 s in the future
+tar: usb-wifi-kit/source/hal/phydm/txbf/haltxbf8814a.c: time stamp 2026-11-19 17:34:33 is 1794820781.087407904 s in the future
+tar: usb-wifi-kit/source/hal/phydm/txbf/phydm_hal_txbf_api.c: time stamp 2026-11-19 17:34:33 is 1794820781.087271616 s in the future
+tar: usb-wifi-kit/source/hal/phydm/txbf/haltxbfinterface.h: time stamp 2026-11-19 17:34:33 is 1794820781.087178592 s in the future
+tar: usb-wifi-kit/source/hal/phydm/txbf: time stamp 2026-11-19 17:34:33 is 1794820781.087148288 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_regdefine11n.h: time stamp 2026-11-19 17:34:33 is 1794820781.087036512 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_noisemonitor.h: time stamp 2026-11-19 17:34:33 is 1794820781.086940416 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_psd.h: time stamp 2026-11-19 17:34:33 is 1794820781.086847552 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_dynamictxpower.c: time stamp 2026-11-19 17:34:33 is 1794820781.086710368 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_beamforming.c: time stamp 2026-11-19 17:34:33 is 1794820781.08633088 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_features.h: time stamp 2026-11-19 17:34:33 is 1794820781.086234176 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_auto_dbg.h: time stamp 2026-11-19 17:34:33 is 1794820781.086136224 s in the future
+tar: usb-wifi-kit/source/hal/phydm/halhwimg.h: time stamp 2026-11-19 17:34:33 is 1794820781.086034528 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_api.h: time stamp 2026-11-19 17:34:33 is 1794820781.085928544 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_api.c: time stamp 2026-11-19 17:34:33 is 1794820781.0854576 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_psd.c: time stamp 2026-11-19 17:34:33 is 1794820781.08518784 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_cfotracking.c: time stamp 2026-11-19 17:34:33 is 1794820781.084950336 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_soml.c: time stamp 2026-11-19 17:34:33 is 1794820781.084661376 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_features_win.h: time stamp 2026-11-19 17:34:33 is 1794820781.08454816 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_antdiv.c: time stamp 2026-11-19 17:34:33 is 1794820781.082857056 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_primary_cca.h: time stamp 2026-11-19 17:34:33 is 1794820781.0827528 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_rainfo.c: time stamp 2026-11-19 17:34:33 is 1794820781.082275552 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_antdect.h: time stamp 2026-11-19 17:34:33 is 1794820781.082177024 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_cck_pd.h: time stamp 2026-11-19 17:34:33 is 1794820781.082067936 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_direct_bf.h: time stamp 2026-11-19 17:34:33 is 1794820781.081974688 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_dig.h: time stamp 2026-11-19 17:34:33 is 1794820781.081836224 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_smt_ant.c: time stamp 2026-11-19 17:34:33 is 1794820781.081300736 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_features_iot.h: time stamp 2026-11-19 17:34:33 is 1794820781.081196736 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_primary_cca.c: time stamp 2026-11-19 17:34:33 is 1794820781.081012704 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_features_ap.h: time stamp 2026-11-19 17:34:33 is 1794820781.080908096 s in the future
+tar: usb-wifi-kit/source/hal/phydm/phydm_ccx.c: time stamp 2026-11-19 17:34:33 is 1794820781.080226848 s in the future
+tar: usb-wifi-kit/source/hal/phydm: time stamp 2026-11-19 17:34:33 is 1794820781.080194656 s in the future
+tar: usb-wifi-kit/source/hal/hal_halmac.c: time stamp 2026-11-19 17:34:33 is 1794820781.079053824 s in the future
+tar: usb-wifi-kit/source/hal/hal_btcoex.c: time stamp 2026-11-19 17:34:33 is 1794820781.077573184 s in the future
+tar: usb-wifi-kit/source/hal/led/hal_usb_led.c: time stamp 2026-11-19 17:34:33 is 1794820781.076920832 s in the future
+tar: usb-wifi-kit/source/hal/led/hal_led.c: time stamp 2026-11-19 17:34:33 is 1794820781.076731168 s in the future
+tar: usb-wifi-kit/source/hal/led: time stamp 2026-11-19 17:34:33 is 1794820781.076700576 s in the future
+tar: usb-wifi-kit/source/hal/hal_com_phycfg.c: time stamp 2026-11-19 17:34:33 is 1794820781.07533072 s in the future
+tar: usb-wifi-kit/source/hal/HalPwrSeqCmd.c: time stamp 2026-11-19 17:34:33 is 1794820781.074954816 s in the future
+tar: usb-wifi-kit/source/hal: time stamp 2026-11-19 17:34:33 is 1794820781.074922496 s in the future
+tar: usb-wifi-kit/source/clean: time stamp 2026-11-19 17:34:33 is 1794820781.07482224 s in the future
+tar: usb-wifi-kit/source/runwpa: time stamp 2026-11-19 17:34:33 is 1794820781.074733408 s in the future
+tar: usb-wifi-kit/source/.gitignore: time stamp 2026-11-19 17:34:33 is 1794820781.074645696 s in the future
+tar: usb-wifi-kit/source/core/rtw_rf.c: time stamp 2026-11-19 17:34:33 is 1794820781.074363488 s in the future
+tar: usb-wifi-kit/source/core/rtw_recv.c: time stamp 2026-11-19 17:34:33 is 1794820781.073182496 s in the future
+tar: usb-wifi-kit/source/core/rtw_br_ext.c: time stamp 2026-11-19 17:34:33 is 1794820781.072652032 s in the future
+tar: usb-wifi-kit/source/core/rtw_wlan_util.c: time stamp 2026-11-19 17:34:33 is 1794820781.071179264 s in the future
+tar: usb-wifi-kit/source/core/crypto/aes_wrap.h: time stamp 2026-11-19 17:34:33 is 1794820781.07105328 s in the future
+tar: usb-wifi-kit/source/core/crypto/aes-ccm.c: time stamp 2026-11-19 17:34:33 is 1794820781.070943712 s in the future
+tar: usb-wifi-kit/source/core/crypto/ccmp.c: time stamp 2026-11-19 17:34:33 is 1794820781.070830368 s in the future
+tar: usb-wifi-kit/source/core/crypto/sha256-prf.c: time stamp 2026-11-19 17:34:33 is 1794820781.070738112 s in the future
+tar: usb-wifi-kit/source/core/crypto/gcmp.c: time stamp 2026-11-19 17:34:33 is 1794820781.070632928 s in the future
+tar: usb-wifi-kit/source/core/crypto/aes-ctr.c: time stamp 2026-11-19 17:34:33 is 1794820781.070539456 s in the future
+tar: usb-wifi-kit/source/core/crypto/sha256.h: time stamp 2026-11-19 17:34:33 is 1794820781.070452448 s in the future
+tar: usb-wifi-kit/source/core/crypto/aes-gcm.c: time stamp 2026-11-19 17:34:33 is 1794820781.070352096 s in the future
+tar: usb-wifi-kit/source/core/crypto/wlancrypto_wrap.h: time stamp 2026-11-19 17:34:33 is 1794820781.070260288 s in the future
+tar: usb-wifi-kit/source/core/crypto/aes_i.h: time stamp 2026-11-19 17:34:33 is 1794820781.070156768 s in the future
+tar: usb-wifi-kit/source/core/crypto/aes-internal.c: time stamp 2026-11-19 17:34:33 is 1794820781.069991712 s in the future
+tar: usb-wifi-kit/source/core/crypto/aes_siv.h: time stamp 2026-11-19 17:34:33 is 1794820781.069898816 s in the future
+tar: usb-wifi-kit/source/core/crypto/aes.h: time stamp 2026-11-19 17:34:33 is 1794820781.069808864 s in the future
+tar: usb-wifi-kit/source/core/crypto/sha256-internal.c: time stamp 2026-11-19 17:34:33 is 1794820781.069702912 s in the future
+tar: usb-wifi-kit/source/core/crypto/aes-omac1.c: time stamp 2026-11-19 17:34:33 is 1794820781.06958336 s in the future
+tar: usb-wifi-kit/source/core/crypto/sha256_i.h: time stamp 2026-11-19 17:34:33 is 1794820781.069491712 s in the future
+tar: usb-wifi-kit/source/core/crypto/aes-internal-enc.c: time stamp 2026-11-19 17:34:33 is 1794820781.069403456 s in the future
+tar: usb-wifi-kit/source/core/crypto/rtw_crypto_wrap.c: time stamp 2026-11-19 17:34:33 is 1794820781.0693144 s in the future
+tar: usb-wifi-kit/source/core/crypto/rtw_crypto_wrap.h: time stamp 2026-11-19 17:34:33 is 1794820781.06922512 s in the future
+tar: usb-wifi-kit/source/core/crypto/aes-siv.c: time stamp 2026-11-19 17:34:33 is 1794820781.06912096 s in the future
+tar: usb-wifi-kit/source/core/crypto/sha256.c: time stamp 2026-11-19 17:34:33 is 1794820781.069029408 s in the future
+tar: usb-wifi-kit/source/core/crypto: time stamp 2026-11-19 17:34:33 is 1794820781.069001536 s in the future
+tar: usb-wifi-kit/source/core/rtw_eeprom.c: time stamp 2026-11-19 17:34:33 is 1794820781.068898688 s in the future
+tar: usb-wifi-kit/source/core/rtw_sta_mgt.c: time stamp 2026-11-19 17:34:33 is 1794820781.068745024 s in the future
+tar: usb-wifi-kit/source/core/rtw_rm_fsm.c: time stamp 2026-11-19 17:34:33 is 1794820781.0686136 s in the future
+tar: usb-wifi-kit/source/core/rtw_chplan.h: time stamp 2026-11-19 17:34:33 is 1794820781.068501568 s in the future
+tar: usb-wifi-kit/source/core/rtw_p2p.c: time stamp 2026-11-19 17:34:33 is 1794820781.06753776 s in the future
+tar: usb-wifi-kit/source/core/rtw_sdio.c: time stamp 2026-11-19 17:34:33 is 1794820781.06727936 s in the future
+tar: usb-wifi-kit/source/core/rtw_xmit.c: time stamp 2026-11-19 17:34:33 is 1794820781.065848832 s in the future
+tar: usb-wifi-kit/source/core/rtw_mem.c: time stamp 2026-11-19 17:34:33 is 1794820781.06573232 s in the future
+tar: usb-wifi-kit/source/core/rtw_wnm.c: time stamp 2026-11-19 17:34:33 is 1794820781.065529952 s in the future
+tar: usb-wifi-kit/source/core/rtw_btcoex.c: time stamp 2026-11-19 17:34:33 is 1794820781.06498544 s in the future
+tar: usb-wifi-kit/source/core/rtw_mi.c: time stamp 2026-11-19 17:34:33 is 1794820781.06468688 s in the future
+tar: usb-wifi-kit/source/core/monitor/rtw_radiotap.c: time stamp 2026-11-19 17:34:33 is 1794820781.064414464 s in the future
+tar: usb-wifi-kit/source/core/monitor/rtw_radiotap.h: time stamp 2026-11-19 17:34:33 is 1794820781.064316928 s in the future
+tar: usb-wifi-kit/source/core/monitor: time stamp 2026-11-19 17:34:33 is 1794820781.064288224 s in the future
+tar: usb-wifi-kit/source/core/rtw_rm.c: time stamp 2026-11-19 17:34:33 is 1794820781.063791968 s in the future
+tar: usb-wifi-kit/source/core/rtw_iol.c: time stamp 2026-11-19 17:34:33 is 1794820781.06367632 s in the future
+tar: usb-wifi-kit/source/core/rtw_tdls.c: time stamp 2026-11-19 17:34:33 is 1794820781.06270832 s in the future
+tar: usb-wifi-kit/source/core/rtw_vht.c: time stamp 2026-11-19 17:34:33 is 1794820781.06237968 s in the future
+tar: usb-wifi-kit/source/core/rtw_bt_mp.c: time stamp 2026-11-19 17:34:33 is 1794820781.061928928 s in the future
+tar: usb-wifi-kit/source/core/efuse/rtw_efuse.c: time stamp 2026-11-19 17:34:33 is 1794820781.061083776 s in the future
+tar: usb-wifi-kit/source/core/efuse: time stamp 2026-11-19 17:34:33 is 1794820781.061051584 s in the future
+tar: usb-wifi-kit/source/core/rtw_roch.c: time stamp 2026-11-19 17:34:33 is 1794820781.060934688 s in the future
+tar: usb-wifi-kit/source/core/mesh/rtw_mesh.c: time stamp 2026-11-19 17:34:33 is 1794820781.059909504 s in the future
+tar: usb-wifi-kit/source/core/mesh/rtw_mesh.h: time stamp 2026-11-19 17:34:33 is 1794820781.059635744 s in the future
+tar: usb-wifi-kit/source/core/mesh/rtw_mesh_pathtbl.c: time stamp 2026-11-19 17:34:33 is 1794820781.05932336 s in the future
+tar: usb-wifi-kit/source/core/mesh/rtw_mesh_pathtbl.h: time stamp 2026-11-19 17:34:33 is 1794820781.05921216 s in the future
+tar: usb-wifi-kit/source/core/mesh/rtw_mesh_hwmp.h: time stamp 2026-11-19 17:34:33 is 1794820781.059120544 s in the future
+tar: usb-wifi-kit/source/core/mesh/rtw_mesh_hwmp.c: time stamp 2026-11-19 17:34:33 is 1794820781.058915296 s in the future
+tar: usb-wifi-kit/source/core/mesh: time stamp 2026-11-19 17:34:33 is 1794820781.058883328 s in the future
+tar: usb-wifi-kit/source/core/rtw_sreset.c: time stamp 2026-11-19 17:34:33 is 1794820781.058638112 s in the future
+tar: usb-wifi-kit/source/core/rtw_ieee80211.c: time stamp 2026-11-19 17:34:33 is 1794820781.05780032 s in the future
+tar: usb-wifi-kit/source/core/wds/rtw_wds.c: time stamp 2026-11-19 17:34:33 is 1794820781.057650624 s in the future
+tar: usb-wifi-kit/source/core/wds/rtw_wds.h: time stamp 2026-11-19 17:34:33 is 1794820781.057556064 s in the future
+tar: usb-wifi-kit/source/core/wds: time stamp 2026-11-19 17:34:33 is 1794820781.05752768 s in the future
+tar: usb-wifi-kit/source/core/rtw_mlme.c: time stamp 2026-11-19 17:34:33 is 1794820781.055885184 s in the future
+tar: usb-wifi-kit/source/core/rtw_ioctl_query.c: time stamp 2026-11-19 17:34:33 is 1794820781.055783072 s in the future
+tar: usb-wifi-kit/source/core/rtw_pwrctrl.c: time stamp 2026-11-19 17:34:33 is 1794820781.055293536 s in the future
+tar: usb-wifi-kit/source/core/rtw_rson.c: time stamp 2026-11-19 17:34:33 is 1794820781.054983232 s in the future
+tar: usb-wifi-kit/source/core/rtw_swcrypto.c: time stamp 2026-11-19 17:34:33 is 1794820781.054868864 s in the future
+tar: usb-wifi-kit/source/core/rtw_ap.c: time stamp 2026-11-19 17:34:33 is 1794820781.053249728 s in the future
+tar: usb-wifi-kit/source/core/rtw_odm.c: time stamp 2026-11-19 17:34:33 is 1794820781.05311472 s in the future
+tar: usb-wifi-kit/source/core/rtw_chplan.c: time stamp 2026-11-19 17:34:33 is 1794820781.052056128 s in the future
+tar: usb-wifi-kit/source/core/rtw_ft.c: time stamp 2026-11-19 17:34:33 is 1794820781.051796224 s in the future
+tar: usb-wifi-kit/source/core/rtw_io.c: time stamp 2026-11-19 17:34:33 is 1794820781.05165648 s in the future
+tar: usb-wifi-kit/source/core/rtw_beamforming.c: time stamp 2026-11-19 17:34:33 is 1794820781.05092064 s in the future
+tar: usb-wifi-kit/source/core/rtw_wapi_sms4.c: time stamp 2026-11-19 17:34:33 is 1794820781.050777152 s in the future
+tar: usb-wifi-kit/source/core/rtw_security.c: time stamp 2026-11-19 17:34:33 is 1794820781.0500416 s in the future
+tar: usb-wifi-kit/source/core/rtw_ioctl_set.c: time stamp 2026-11-19 17:34:33 is 1794820781.049704224 s in the future
+tar: usb-wifi-kit/source/core/rtw_btcoex_wifionly.c: time stamp 2026-11-19 17:34:33 is 1794820781.049603008 s in the future
+tar: usb-wifi-kit/source/core/rtw_mlme_ext.c: time stamp 2026-11-19 17:34:33 is 1794820781.045219136 s in the future
+tar: usb-wifi-kit/source/core/rtw_mp.c: time stamp 2026-11-19 17:34:33 is 1794820781.044337376 s in the future
+tar: usb-wifi-kit/source/core/rtw_mbo.c: time stamp 2026-11-19 17:34:33 is 1794820781.0440208 s in the future
+tar: usb-wifi-kit/source/core/rtw_rm_util.c: time stamp 2026-11-19 17:34:33 is 1794820781.043896704 s in the future
+tar: usb-wifi-kit/source/core/rtw_cmd.c: time stamp 2026-11-19 17:34:33 is 1794820781.042629472 s in the future
+tar: usb-wifi-kit/source/core/rtw_wapi.c: time stamp 2026-11-19 17:34:33 is 1794820781.042098944 s in the future
+tar: usb-wifi-kit/source/core/rtw_debug.c: time stamp 2026-11-19 17:34:33 is 1794820781.0402896 s in the future
+tar: usb-wifi-kit/source/core: time stamp 2026-11-19 17:34:33 is 1794820781.040255904 s in the future
+tar: usb-wifi-kit/source/rtl8822c.mk: time stamp 2026-11-19 17:34:33 is 1794820781.04014544 s in the future
+tar: usb-wifi-kit/source/dkms-make.sh: time stamp 2026-11-19 17:34:33 is 1794820781.040052768 s in the future
+tar: usb-wifi-kit/source: time stamp 2026-11-19 17:34:33 is 1794820781.039972448 s in the future
+tar: usb-wifi-kit: time stamp 2026-11-19 17:35:41 is 1794820849.039951712 s in the future
+Kernel headers: /usr/src/linux-headers-5.10.104-tegra-ubuntu20.04_aarch64/kernel-5.10
+gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0
+filename:       /lib/modules/5.10.104-tegra/kernel/drivers/usb/serial/option.ko
+Target USB device: /sys/bus/usb/devices/1-2
+Interface /sys/bus/usb/devices/1-2:1.0 driver: /sys/bus/usb/drivers/option
+usb:v0BDApC812d0000dc00dsc00dp00icFFiscFFipFFin00
+modprobe: FATAL: Module usb:v0BDApC812d0000dc00dsc00dp00icFFiscFFipFFin00 not found in directory /lib/modules/5.10.104-tegra
+make: Warning: File 'Makefile' has modification time 1794820781 s in the future
+make ARCH=arm64 CROSS_COMPILE= -C /lib/modules/5.10.104-tegra/build M=/home/unitree/go2-wifi-repair/usb-wifi-kit/source  modules
+make[1]: Entering directory '/usr/src/linux-headers-5.10.104-tegra-ubuntu20.04_aarch64/kernel-5.10'
+make[1]: Warning: File 'scripts/Makefile.extrawarn' has modification time 1678977529 s in the future
+make[2]: Warning: File 'scripts/Makefile.lib' has modification time 1678977528 s in the future
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_cmd.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_security.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_debug.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_io.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_ioctl_query.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_ioctl_set.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_ieee80211.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_mlme.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_mlme_ext.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_mi.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_wlan_util.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_vht.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_pwrctrl.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_rf.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_chplan.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/monitor/rtw_radiotap.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_recv.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_sta_mgt.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_ap.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/wds/rtw_wds.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/mesh/rtw_mesh.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/mesh/rtw_mesh_pathtbl.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/mesh/rtw_mesh_hwmp.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_xmit.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_p2p.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_rson.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_tdls.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_br_ext.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_iol.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_sreset.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_btcoex_wifionly.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_btcoex.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_beamforming.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_odm.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_rm.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_rm_fsm.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_ft.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_wnm.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_mbo.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_rm_util.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/efuse/rtw_efuse.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_roch.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/crypto/aes-internal.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/crypto/aes-internal-enc.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/crypto/aes-gcm.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/crypto/aes-ccm.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/crypto/aes-omac1.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/crypto/ccmp.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/crypto/gcmp.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/crypto/aes-siv.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/crypto/aes-ctr.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/crypto/sha256-internal.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/crypto/sha256.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/crypto/sha256-prf.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/crypto/rtw_crypto_wrap.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_swcrypto.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/os_dep/osdep_service.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/os_dep/linux/os_intfs.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/os_dep/linux/usb_intf.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/os_dep/linux/usb_ops_linux.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/os_dep/linux/ioctl_linux.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/os_dep/linux/xmit_linux.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/os_dep/linux/mlme_linux.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/os_dep/linux/recv_linux.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/os_dep/linux/ioctl_cfg80211.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/os_dep/linux/rtw_cfgvendor.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/os_dep/linux/wifi_regd.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/os_dep/linux/rtw_android.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/os_dep/linux/rtw_proc.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/os_dep/linux/nlrtw.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/os_dep/linux/rtw_rhashtable.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/os_dep/linux/ioctl_mp.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/hal_intf.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/hal_com.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/hal_com_phycfg.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/hal_phy.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/hal_dm.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/hal_dm_acs.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/hal_btcoex_wifionly.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/hal_btcoex.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/hal_mp.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/hal_mcc.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/hal_hci/hal_usb.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/led/hal_led.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/led/hal_usb_led.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/rtl8822c/rtl8822c_halinit.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/rtl8822c/rtl8822c_mac.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/rtl8822c/rtl8822c_cmd.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/rtl8822c/rtl8822c_phy.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/rtl8822c/rtl8822c_ops.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/rtl8822c/hal8822c_fw.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/rtl8822c/usb/rtl8822cu_halinit.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/rtl8822c/usb/rtl8822cu_halmac.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/rtl8822c/usb/rtl8822cu_io.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/rtl8822c/usb/rtl8822cu_xmit.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/rtl8822c/usb/rtl8822cu_recv.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/rtl8822c/usb/rtl8822cu_led.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/rtl8822c/usb/rtl8822cu_ops.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/efuse/rtl8822c/HalEfuseMask8822C_USB.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/hal_halmac.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/halmac/halmac_api.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/halmac/halmac_dbg.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_bb_rf_88xx.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_cfg_wmac_88xx.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_common_88xx.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_efuse_88xx.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_flash_88xx.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_fw_88xx.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_gpio_88xx.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_init_88xx.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_mimo_88xx.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_usb_88xx.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_8822c/halmac_cfg_wmac_8822c.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_8822c/halmac_common_8822c.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_8822c/halmac_gpio_8822c.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_8822c/halmac_init_8822c.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_8822c/halmac_phy_8822c.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_8822c/halmac_pwr_seq_8822c.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/halmac/halmac_88xx/halmac_8822c/halmac_usb_8822c.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_debug.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_antdiv.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_soml.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_smt_ant.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_antdect.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_interface.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_phystatus.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_hwconfig.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_dig.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_pathdiv.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_rainfo.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_dynamictxpower.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_adaptivity.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_cfotracking.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_noisemonitor.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_beamforming.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_direct_bf.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_dfs.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/txbf/halcomtxbf.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/txbf/haltxbfinterface.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/txbf/phydm_hal_txbf_api.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_adc_sampling.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_ccx.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_psd.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_primary_cca.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_cck_pd.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_rssi_monitor.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_auto_dbg.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_math_lib.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_api.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_pow_train.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_lna_sat.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_pmac_tx_setting.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_mp.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/phydm_cck_rx_pathdiv.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/halrf/halrf.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/halrf/halrf_debug.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/halrf/halphyrf_ce.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/halrf/halrf_powertracking_ce.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/halrf/halrf_powertracking.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/halrf/halrf_kfree.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/halrf/halrf_psd.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/rtl8822c/halhwimg8822c_bb.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/rtl8822c/phydm_hal_api8822c.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/rtl8822c/phydm_regconfig8822c.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/rtl8822c/phydm_rtl8822c.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/halrf/rtl8822c/halrf_8822c.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/halrf/rtl8822c/halrf_iqk_8822c.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/halrf/rtl8822c/halrf_tssi_8822c.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/halrf/rtl8822c/halrf_dpk_8822c.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/halrf/rtl8822c/halrf_txgapk_8822c.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/halrf/rtl8822c/halrf_rfk_init_8822c.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/phydm/halrf/rtl8822c/halhwimg8822c_rf.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/btc/halbtc8822cwifionly.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/btc/halbtccommon.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/hal/btc/halbtc8822c.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/platform/platform_ops.o
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/core/rtw_mp.o
+  LD [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/88x2cu.o
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File '/home/unitree/go2-wifi-repair/usb-wifi-kit/source/halmac.mk' has modification time 1794820612 s in the future
+  MODPOST /home/unitree/go2-wifi-repair/usb-wifi-kit/source/Module.symvers
+make[3]: Warning: File 'scripts/Makefile.lib' has modification time 1678977360 s in the future
+  CC [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/88x2cu.mod.o
+  LD [M]  /home/unitree/go2-wifi-repair/usb-wifi-kit/source/88x2cu.ko
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[1]: Leaving directory '/usr/src/linux-headers-5.10.104-tegra-ubuntu20.04_aarch64/kernel-5.10'
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+filename:       /home/unitree/go2-wifi-repair/usb-wifi-kit/source/./88x2cu.ko
+version:        v5.14.0.3-2-gba458274c.20220418_COEX20211210-2727
+alias:          usb:v13B1p0043d*dc*dsc*dp*icFFiscFFipFFin*
+alias:          usb:v0BDApD82Bd*dc*dsc*dp*icFFiscFFipFFin*
+alias:          usb:v0BDApD820d*dc*dsc*dp*icFFiscFFipFFin*
+alias:          usb:v0BDApC812d*dc*dsc*dp*icFFiscFFipFFin*
+alias:          usb:v0BDApC82Ed*dc*dsc*dp*icFFiscFFipFFin*
+alias:          usb:v0BDApC82Cd*dc*dsc*dp*icFFiscFFipFFin*
+vermagic:       5.10.104-tegra SMP preempt mod_unload modversions aarch64
+BUILD OK. Driver is NOT installed or loaded. Existing Ethernet is unchanged.

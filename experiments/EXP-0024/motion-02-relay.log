@@ -1,0 +1,10 @@
+{"pc_minus_dock_s": 0.020699932, "clock_probe_roundtrip_s": 0.002160466}
+1795590693.810057 [0]    python3: config: //CycloneDDS/Domain/General: 'NetworkInterfaceAddress': deprecated element (CYCLONEDDS_URI+0 line 1)
+{"clock_mode": "auto", "common_stamp_offset_s": 49.59920737, "dock_minus_sensor_s": 49.578507438}
+{"topic": "/go2/relay/imu", "first": {"frame_id": "utlidar_imu", "source_stamp_ns": 1795590644834018230, "published_stamp_ns": 1795590694433225600, "pc_age_ms": 0.99}}
+{"topic": "/go2/relay/cloud", "first": {"frame_id": "utlidar_lidar", "source_stamp_ns": 1795590644805467367, "published_stamp_ns": 1795590694404674737, "pc_age_ms": 76.3, "points": 4096, "fields": ["x", "y", "z", "intensity", "ring", "time"]}}
+Chassis IMU: native millisecond tick anchored to dock receive clock; not hardware synchronized
+{"topic": "/go2/relay/chassis_imu", "first": {"frame_id": "go2_chassis_imu", "source_stamp_ns": 1795590645233943345, "published_stamp_ns": 1795590694833150715, "pc_age_ms": 8.33}}
+{"topic": "/go2/relay/cloud", "samples": 1247, "hz": 15.42}
+{"topic": "/go2/relay/imu", "samples": 19415, "hz": 240.1}
+{"topic": "/go2/relay/chassis_imu", "samples": 30986, "hz": 385.14}

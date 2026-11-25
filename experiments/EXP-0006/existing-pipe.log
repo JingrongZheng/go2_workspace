@@ -1,0 +1,20 @@
+🕒 WebRTC connection        : 🟡 started       (16:38:44)
+🕒 Lidar Decoder            : 🧊 LibVoxelDecoder (16:38:44)
+🕒 Signaling State          : 🟡 have-local-offer (16:38:44)
+🕒 ICE Gathering State      : 🟡 gathering     (16:38:44)
+🕒 ICE Gathering State      : 🟢 complete      (16:38:44)
+🕒 LAN Signaling Method     : 🆕 con_notify (192.168.123.161:9991) (16:38:44)
+🕒 ICE Connection State     : 🔵 checking      (16:38:44)
+🕒 Peer Connection State    : 🔵 connecting    (16:38:44)
+🕒 Signaling State          : 🟢 stable        (16:38:44)
+🕒 ICE Connection State     : 🟢 completed     (16:38:44)
+🕒 Peer Connection State    : 🟢 connected     (16:38:44)
+🕒 Data Channel Verification: ✅ OK            (16:38:44)
+WebRTC local ICE address: 192.168.123.222
+READERS [{"node": "go2_existing_output_pipe_probe", "type": "std_msgs/msg/String"}, {"node": "_CREATED_BY_BARE_DDS_APP_", "type": "std_msgs/msg/String"}]
+🕒 Robot Connection Mode    : 📡 4G            (16:38:48)
+RESULT {"state": 141, "local_marker": 3, "rtc_marker": 0}
+🕒 Signaling State          : ⚫ closed        (16:38:52)
+🕒 ICE Connection State     : ⚫ closed        (16:38:52)
+🕒 Peer Connection State    : ⚫ closed        (16:38:52)
+🕒 WebRTC connection        : 🔴 disconnected  (16:38:52)

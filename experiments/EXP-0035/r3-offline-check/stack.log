@@ -1,0 +1,289 @@
+[INFO] [launch]: All log files can be found below /tmp/.ros/log/2026-11-25-13-33-09-500129-b01ed5b37461-26
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [pointlio_mapping-1]: process started with pid [52]
+[INFO] [python3-2]: process started with pid [54]
+[INFO] [static_transform_publisher-3]: process started with pid [56]
+[INFO] [static_transform_publisher-4]: process started with pid [58]
+[INFO] [static_transform_publisher-5]: process started with pid [60]
+[INFO] [static_transform_publisher-6]: process started with pid [62]
+[INFO] [python3-7]: process started with pid [64]
+[INFO] [static_transform_publisher-8]: process started with pid [66]
+[INFO] [mcl_feature-9]: process started with pid [68]
+[INFO] [dddmr_pg_map_server_node-10]: process started with pid [70]
+[INFO] [mcl_3dl-11]: process started with pid [72]
+[static_transform_publisher-6] [INFO] [1795613589.734294203] [published_cloud_alias]: Spinning until stopped - publishing transform
+[static_transform_publisher-6] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-6] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-6] from 'utlidar_lidar' to 'lidar_link'
+[static_transform_publisher-8] [INFO] [1795613589.737080944] [base_to_footprint]: Spinning until stopped - publishing transform
+[static_transform_publisher-8] translation: ('0.000000', '0.000000', '-0.316868')
+[static_transform_publisher-8] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-8] from 'base_link' to 'base_footprint'
+[static_transform_publisher-5] [INFO] [1795613589.738111737] [base_to_published_cloud]: Spinning until stopped - publishing transform
+[static_transform_publisher-5] translation: ('0.282160', '0.000000', '-0.000000')
+[static_transform_publisher-5] rotation: ('0.871312', '-0.473081', '0.114618', '-0.062233')
+[static_transform_publisher-5] from 'base_link' to 'utlidar_lidar'
+[static_transform_publisher-3] [INFO] [1795613589.741659051] [chassis_imu_to_base]: Spinning until stopped - publishing transform
+[static_transform_publisher-3] translation: ('0.025570', '-0.000000', '-0.042320')
+[static_transform_publisher-3] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-3] from 'go2_chassis_imu' to 'base_link'
+[static_transform_publisher-4] [INFO] [1795613589.746305367] [base_to_model_radar]: Spinning until stopped - publishing transform
+[static_transform_publisher-4] translation: ('0.289450', '0.000000', '-0.046825')
+[static_transform_publisher-4] rotation: ('0.000000', '0.991341', '0.000000', '0.131316')
+[static_transform_publisher-4] from 'base_link' to 'radar'
+[mcl_3dl-11] [INFO] [1795613589.792994449] [sub_maps]: pg_map_server_name: map1
+[mcl_3dl-11] [INFO] [1795613589.793132198] [sub_maps]: sub_map_search_radius: 30.0
+[mcl_3dl-11] [INFO] [1795613589.793155452] [sub_maps]: sub_map_warmup_trigger_distance: 15.0
+[mcl_3dl-11] [INFO] [1795613589.793168888] [sub_maps]: submap_resolution: 0.10
+[mcl_3dl-11] [INFO] [1795613589.798724958] [mcl_3dl]: map_frame: map
+[mcl_3dl-11] [INFO] [1795613589.798812743] [mcl_3dl]: ground_frame: base_footprint
+[mcl_3dl-11] [INFO] [1795613589.798832210] [mcl_3dl]: odom_frame: odom
+[mcl_3dl-11] [INFO] [1795613589.798855433] [mcl_3dl]: num_particles: 80
+[mcl_3dl-11] [INFO] [1795613589.798887203] [mcl_3dl]: draw_flat_feature_bin_size: 0.20
+[mcl_3dl-11] [INFO] [1795613589.798919544] [mcl_3dl]: draw_flat_feature_bin_size_x: 0.20
+[mcl_3dl-11] [INFO] [1795613589.798934202] [mcl_3dl]: draw_flat_feature_bin_size_y: 0.20
+[mcl_3dl-11] [INFO] [1795613589.798946475] [mcl_3dl]: draw_flat_feature_bin_size_z: 0.20
+[mcl_3dl-11] [INFO] [1795613589.798966543] [mcl_3dl]: resample_var_x: 0.15
+[mcl_3dl-11] [INFO] [1795613589.798978906] [mcl_3dl]: resample_var_y: 0.15
+[mcl_3dl-11] [INFO] [1795613589.798990708] [mcl_3dl]: resample_var_z: 0.10
+[mcl_3dl-11] [INFO] [1795613589.799003092] [mcl_3dl]: resample_var_roll: 0.10
+[mcl_3dl-11] [INFO] [1795613589.799014433] [mcl_3dl]: resample_var_pitch: 0.10
+[mcl_3dl-11] [INFO] [1795613589.799026105] [mcl_3dl]: resample_var_yaw: 0.10
+[mcl_3dl-11] [INFO] [1795613589.799045912] [mcl_3dl]: expansion_var_x: 0.30
+[mcl_3dl-11] [INFO] [1795613589.799059458] [mcl_3dl]: expansion_var_y: 0.30
+[mcl_3dl-11] [INFO] [1795613589.799071571] [mcl_3dl]: expansion_var_z: 0.20
+[mcl_3dl-11] [INFO] [1795613589.799084475] [mcl_3dl]: expansion_var_roll: 0.10
+[mcl_3dl-11] [INFO] [1795613589.799096758] [mcl_3dl]: expansion_var_pitch: 0.10
+[mcl_3dl-11] [INFO] [1795613589.799119591] [mcl_3dl]: expansion_var_yaw: 0.20
+[mcl_3dl-11] [INFO] [1795613589.799133407] [mcl_3dl]: match_ratio_thresh: 0.00
+[mcl_3dl-11] [INFO] [1795613589.799145280] [mcl_3dl]: euc_cluster_distance: 0.80
+[mcl_3dl-11] [INFO] [1795613589.799157132] [mcl_3dl]: euc_cluster_min_size: 3
+[mcl_3dl-11] [INFO] [1795613589.799172451] [mcl_3dl]: knn_num_of_ground_normals: 20
+[mcl_3dl-11] [INFO] [1795613589.799190735] [mcl_3dl]: update_min_d: 0.08
+[mcl_3dl-11] [INFO] [1795613589.799204361] [mcl_3dl]: update_min_a: 0.08
+[mcl_3dl-11] [INFO] [1795613589.799216284] [mcl_3dl]: odom_err_lin_lin: 0.30
+[mcl_3dl-11] [INFO] [1795613589.799229388] [mcl_3dl]: odom_err_lin_ang: 0.20
+[mcl_3dl-11] [INFO] [1795613589.799241852] [mcl_3dl]: odom_err_ang_lin: 0.20
+[mcl_3dl-11] [INFO] [1795613589.799255027] [mcl_3dl]: odom_err_ang_ang: 0.30
+[mcl_3dl-11] [INFO] [1795613589.799326461] [mcl_3dl]: odom_err_integ_lin_tc: 5.00
+[mcl_3dl-11] [INFO] [1795613589.799343804] [mcl_3dl]: odom_err_integ_ang_tc: 10.00
+[mcl_3dl-11] [INFO] [1795613589.799360315] [mcl_3dl]: lpf_step: 2.00
+[mcl_3dl-11] [INFO] [1795613589.799373880] [mcl_3dl]: acc_lpf_step: 128.00
+[mcl_3dl-11] [INFO] [1795613589.799385633] [mcl_3dl]: jump_dist: 1.00
+[mcl_3dl-11] [INFO] [1795613589.799403156] [mcl_3dl]: jump_ang: 1.57
+[mcl_3dl-11] [INFO] [1795613589.799414988] [mcl_3dl]: bias_var_dist: 2.00
+[mcl_3dl-11] [INFO] [1795613589.799426560] [mcl_3dl]: bias_var_ang: 1.57
+[mcl_3dl-11] [INFO] [1795613589.799460724] [mcl_3dl]: tf_tolerance: 0.15
+[mcl_3dl-11] [INFO] [1795613589.799477816] [mcl_3dl]: publish_tf: 1
+[mcl_3dl-11] [INFO] [1795613589.799491733] [mcl_3dl]: init_x: 0.00
+[mcl_3dl-11] [INFO] [1795613589.799509877] [mcl_3dl]: init_y: 0.00
+[mcl_3dl-11] [INFO] [1795613589.799521919] [mcl_3dl]: init_z: 0.00
+[mcl_3dl-11] [INFO] [1795613589.799535435] [mcl_3dl]: init_roll: 0.00
+[mcl_3dl-11] [INFO] [1795613589.799548399] [mcl_3dl]: init_pitch: 0.00
+[mcl_3dl-11] [INFO] [1795613589.799562045] [mcl_3dl]: init_yaw: 0.00
+[mcl_3dl-11] [INFO] [1795613589.799581973] [mcl_3dl]: init_var_x: 1.50
+[mcl_3dl-11] [INFO] [1795613589.799595268] [mcl_3dl]: init_var_y: 1.50
+[mcl_3dl-11] [INFO] [1795613589.799608192] [mcl_3dl]: init_var_z: 0.30
+[mcl_3dl-11] [INFO] [1795613589.799620445] [mcl_3dl]: init_var_roll: 0.10
+[mcl_3dl-11] [INFO] [1795613589.799632738] [mcl_3dl]: init_var_pitch: 0.10
+[mcl_3dl-11] [INFO] [1795613589.799644711] [mcl_3dl]: init_var_yaw: 0.40
+[mcl_3dl-11] [INFO] [1795613589.799665740] [mcl_3dl]: voxel_size_before_bin_sampling: 0.10
+[mcl_3dl-11] [INFO] [1795613589.799714392] [mcl_3dl]: likelihood.num_points_global: 8
+[mcl_3dl-11] [INFO] [1795613589.799732406] [mcl_3dl]: likelihood.threshold_for_trusted_ground: 6
+[mcl_3dl-11] [INFO] [1795613589.799749248] [mcl_3dl]: likelihood.radius_of_ground_search: 1.00
+[mcl_3dl-11] [INFO] [1795613589.799768444] [mcl_3dl]: likelihood.match_dist_min: 0.30
+[mcl_3dl-11] [INFO] [1795613589.799782110] [mcl_3dl]: likelihood.match_dist_flat: 0.05
+[dddmr_pg_map_server_node-10] [INFO] [1795613589.820946422] [dddmr_pg_map_server_manager]: Initializing map: map1
+[dddmr_pg_map_server_node-10] [INFO] [1795613589.828217684] [map1]: pose_graph_dir: /saved-map
+[dddmr_pg_map_server_node-10] [INFO] [1795613589.828305420] [map1]: complete_map_voxel_size: 0.15
+[dddmr_pg_map_server_node-10] [INFO] [1795613589.837807696] [map1]: Poses read: 318
+[mcl_feature-9] [INFO] [1795613589.845047419] [mcl_ip]: laser.num_vertical_scans: 96
+[mcl_feature-9] [INFO] [1795613589.845231155] [mcl_ip]: laser.num_horizontal_scans: 360
+[mcl_feature-9] [INFO] [1795613589.845269497] [mcl_ip]: laser.scan_period: 0.00
+[mcl_feature-9] [INFO] [1795613589.845323679] [mcl_ip]: laser.vertical_angle_bottom: -90.00
+[mcl_feature-9] [INFO] [1795613589.845360028] [mcl_ip]: laser.vertical_angle_top: 90.00
+[mcl_feature-9] [INFO] [1795613589.845389303] [mcl_ip]: imageProjection.segment_theta: 60.00
+[mcl_feature-9] [INFO] [1795613589.845416304] [mcl_ip]: imageProjection.segment_valid_point_num: 5
+[mcl_feature-9] [INFO] [1795613589.845444166] [mcl_ip]: imageProjection.segment_valid_line_num: 2
+[mcl_feature-9] [INFO] [1795613589.845478561] [mcl_ip]: laser.odom_type: wheel_odometry
+[mcl_feature-9] [INFO] [1795613589.845985817] [mcl_ip]: laser.base_ground_frame: base_footprint
+[mcl_feature-9] [INFO] [1795613589.846219998] [mcl_ip]: laser.odom_child_frame: base_link
+[mcl_feature-9] [INFO] [1795613589.846456113] [mcl_ip]: imageProjection.maximum_detection_range: 20.00
+[mcl_feature-9] [INFO] [1795613589.846659797] [mcl_ip]: imageProjection.minimum_detection_range: 0.10
+[mcl_feature-9] [INFO] [1795613589.846880803] [mcl_ip]: imageProjection.distance_for_patch_between_rings: 0.30
+[mcl_feature-9] [INFO] [1795613589.847040284] [mcl_ip]: imageProjection.to_fa: 1
+[mcl_feature-9] [INFO] [1795613589.847266039] [mcl_ip]: imageProjection.time_step_between_depth_image: 0.50
+[mcl_feature-9] [INFO] [1795613589.847520208] [mcl_ip]: imageProjection.stitcher_num: 1
+[mcl_feature-9] [INFO] [1795613589.847609617] [mcl_ip]: imageProjection.ground_fov_bottom: -1.570796
+[mcl_feature-9] [INFO] [1795613589.847664120] [mcl_ip]: imageProjection.ground_fov_top: -0.030000
+[mcl_feature-9] [INFO] [1795613589.847687674] [mcl_ip]: imageProjection.ground_positive_start: 0.000000
+[mcl_feature-9] [INFO] [1795613589.847709846] [mcl_ip]: imageProjection.ground_positive_stop: 3.141593
+[mcl_feature-9] [INFO] [1795613589.847731527] [mcl_ip]: imageProjection.ground_negative_start: 0.000000
+[mcl_feature-9] [INFO] [1795613589.847759700] [mcl_ip]: imageProjection.ground_negative_stop: -3.141593
+[mcl_feature-9] [INFO] [1795613589.847782473] [mcl_ip]: imageProjection.ignore_fov_bottom: 0.000000
+[mcl_feature-9] [INFO] [1795613589.847801569] [mcl_ip]: imageProjection.ignore_fov_top: 0.000000
+[mcl_feature-9] [INFO] [1795613589.847819582] [mcl_ip]: imageProjection.ignore_positive_start: 0.000000
+[mcl_feature-9] [INFO] [1795613589.847836023] [mcl_ip]: imageProjection.ignore_positive_stop: 0.000000
+[mcl_feature-9] [INFO] [1795613589.847860049] [mcl_ip]: imageProjection.ignore_negative_start: 0.000000
+[mcl_feature-9] [INFO] [1795613589.847882972] [mcl_ip]: imageProjection.ignore_negative_stop: 0.000000
+[mcl_feature-9] [INFO] [1795613589.847906767] [mcl_ip]: imageProjection.ground_slope_tolerance: 0.261799
+[mcl_feature-9] [INFO] [1795613589.847931223] [mcl_ip]: imageProjection.ground_dz_tolerance: 0.050000
+[mcl_feature-9] [INFO] [1795613589.847961059] [mcl_ip]: imageProjection.use_sensor_height_to_filter_out_ground: 0
+[mcl_feature-9] [INFO] [1795613589.847985736] [mcl_ip]: imageProjection.patch_first_ring_to_baselink: 0
+[mcl_feature-9] [INFO] [1795613589.848010632] [mcl_ip]: imageProjection.deep_learning.trt_model_path: 
+[mcl_feature-9] [INFO] [1795613589.848043534] [mcl_ip]: imageProjection.deep_learning.projected_image_stack_size: 0
+[pointlio_mapping-1] Multi thread started 
+[pointlio_mapping-1] lidar_type: 5
+[pointlio_mapping-1] ~~~~/lio-ws/src/point_lio/ file opened
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.861264418] [map1]: Read feature PCD file fail: /saved-map/pcd/22_feature.pcd
+[mcl_feature-9] [INFO] [1795613589.864918354] [mcl_fa]: featureAssociation.edge_threshold: 0.10
+[mcl_feature-9] [INFO] [1795613589.865009415] [mcl_fa]: featureAssociation.surf_threshold: 0.10
+[mcl_feature-9] [INFO] [1795613589.865072444] [mcl_fa]: featureAssociation.nearest_feature_search_distance: 3.00
+[mcl_feature-9] [INFO] [1795613589.865142436] [mcl_fa]: mapping.to_map_optimization: 0
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.870570144] [map1]: Read feature PCD file fail: /saved-map/pcd/33_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.883971338] [map1]: Read feature PCD file fail: /saved-map/pcd/53_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.886766144] [map1]: Read feature PCD file fail: /saved-map/pcd/57_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.889139086] [map1]: Read feature PCD file fail: /saved-map/pcd/60_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.908199073] [map1]: Read feature PCD file fail: /saved-map/pcd/87_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.910764407] [map1]: Read feature PCD file fail: /saved-map/pcd/90_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.911825767] [map1]: Read feature PCD file fail: /saved-map/pcd/91_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.913619828] [map1]: Read feature PCD file fail: /saved-map/pcd/93_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.914500096] [map1]: Read feature PCD file fail: /saved-map/pcd/94_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.915228229] [map1]: Read feature PCD file fail: /saved-map/pcd/95_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.916166978] [map1]: Read feature PCD file fail: /saved-map/pcd/96_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.916870744] [map1]: Read feature PCD file fail: /saved-map/pcd/97_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.917521300] [map1]: Read feature PCD file fail: /saved-map/pcd/98_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.921293338] [map1]: Read feature PCD file fail: /saved-map/pcd/103_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.924688396] [map1]: Read feature PCD file fail: /saved-map/pcd/107_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.936062780] [map1]: Read feature PCD file fail: /saved-map/pcd/120_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.936846697] [map1]: Read feature PCD file fail: /saved-map/pcd/121_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.937610636] [map1]: Read feature PCD file fail: /saved-map/pcd/122_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.938352394] [map1]: Read feature PCD file fail: /saved-map/pcd/123_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.948327682] [map1]: Read feature PCD file fail: /saved-map/pcd/139_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.950471011] [map1]: Read feature PCD file fail: /saved-map/pcd/143_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.952325025] [map1]: Read feature PCD file fail: /saved-map/pcd/146_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.953057575] [map1]: Read feature PCD file fail: /saved-map/pcd/147_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.953731154] [map1]: Read feature PCD file fail: /saved-map/pcd/148_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.955739769] [map1]: Read feature PCD file fail: /saved-map/pcd/151_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.956488721] [map1]: Read feature PCD file fail: /saved-map/pcd/152_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.967277692] [map1]: Read feature PCD file fail: /saved-map/pcd/167_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.968043184] [map1]: Read feature PCD file fail: /saved-map/pcd/168_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.968685254] [map1]: Read feature PCD file fail: /saved-map/pcd/169_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.969435979] [map1]: Read feature PCD file fail: /saved-map/pcd/170_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.970295388] [map1]: Read feature PCD file fail: /saved-map/pcd/171_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.977762820] [map1]: Read feature PCD file fail: /saved-map/pcd/184_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.998673845] [map1]: Read feature PCD file fail: /saved-map/pcd/217_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613589.999339209] [map1]: Read feature PCD file fail: /saved-map/pcd/218_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613590.001558681] [map1]: Read feature PCD file fail: /saved-map/pcd/221_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613590.003127578] [map1]: Read feature PCD file fail: /saved-map/pcd/223_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613590.005508635] [map1]: Read feature PCD file fail: /saved-map/pcd/226_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613590.008678508] [map1]: Read feature PCD file fail: /saved-map/pcd/229_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613590.027532317] [map1]: Read feature PCD file fail: /saved-map/pcd/250_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613590.028169267] [map1]: Read feature PCD file fail: /saved-map/pcd/251_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613590.028731647] [map1]: Read feature PCD file fail: /saved-map/pcd/252_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613590.029477212] [map1]: Read feature PCD file fail: /saved-map/pcd/253_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613590.030256370] [map1]: Read feature PCD file fail: /saved-map/pcd/254_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613590.030841873] [map1]: Read feature PCD file fail: /saved-map/pcd/255_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613590.036160496] [map1]: Read feature PCD file fail: /saved-map/pcd/264_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613590.040085532] [map1]: Read feature PCD file fail: /saved-map/pcd/268_feature.pcd
+[dddmr_pg_map_server_node-10] [pcl::PCDReader::readHeader] No points to read
+[dddmr_pg_map_server_node-10] [ERROR] [1795613590.047281703] [map1]: Read feature PCD file fail: /saved-map/pcd/277_feature.pcd
+[dddmr_pg_map_server_node-10] [INFO] [1795613590.091076190] [map1]: [1;32mPose graph is loaded.[0m 
+[dddmr_pg_map_server_node-10] [INFO] [1795613590.096055884] [map1]: Map pointcloud size: 2004
+[dddmr_pg_map_server_node-10] [INFO] [1795613590.096111289] [map1]: Map pointcloud size after down size: 884
+[dddmr_pg_map_server_node-10] [INFO] [1795613590.096612413] [map1]: Surface pointcloud size: 4797
+[dddmr_pg_map_server_node-10] [INFO] [1795613590.096632761] [map1]: Surf pointcloud size after down size: 2367
+[dddmr_pg_map_server_node-10] [INFO] [1795613590.106328552] [map1]: Ground pointcloud size: 186607
+[dddmr_pg_map_server_node-10] [INFO] [1795613590.106395538] [map1]: Ground pointcloud size after down size: 7357
+[dddmr_pg_map_server_node-10] [INFO] [1795613590.110359218] [map1]: Done 0/7357
+[dddmr_pg_map_server_node-10] [INFO] [1795613590.110660515] [map1]: Done 6000/7357
+[dddmr_pg_map_server_node-10] [INFO] [1795613590.111110994] [map1]: Done 1000/7357
+[dddmr_pg_map_server_node-10] [INFO] [1795613590.111506840] [map1]: Done 2000/7357
+[dddmr_pg_map_server_node-10] [INFO] [1795613590.113645661] [map1]: Done 4000/7357
+[dddmr_pg_map_server_node-10] [INFO] [1795613590.114759490] [map1]: Done 7000/7357
+[dddmr_pg_map_server_node-10] [INFO] [1795613590.117572801] [map1]: Done 3000/7357
+[dddmr_pg_map_server_node-10] [INFO] [1795613590.119642652] [map1]: Done 5000/7357
+[dddmr_pg_map_server_node-10] [INFO] [1795613590.122692869] [map1]: Surface detection done.
+[dddmr_pg_map_server_node-10] [INFO] [1795613590.122963329] [map1]: [1;32mMap and Ground published.[0m 
+[mcl_3dl-11] [INFO] [1795613590.124984829] [sub_maps]: Sync key frame number: 0 with total size: 318
+[mcl_3dl-11] [WARN] [1795613590.441499316] [sub_maps]: Exceed request key frame number, shutdown thread.
+[mcl_3dl-11] [INFO] [1795613590.441575860] [sub_maps]: Sync cloud key frame number: 318 with total size: 318
+[mcl_3dl-11] [INFO] [1795613590.441584086] [sub_maps]: Sync surface key frame number: 318 with total size: 318
+[mcl_3dl-11] [INFO] [1795613590.441588364] [sub_maps]: Sync ground key frame number: 318 with total size: 318
+[mcl_3dl-11] [INFO] [1795613590.617393665] [sub_maps]: Done 0/17064
+[mcl_3dl-11] [INFO] [1795613590.623059402] [sub_maps]: Done 10000/17064
+[mcl_3dl-11] [INFO] [1795613590.662817964] [sub_maps]: All essential KD-tree are generated.
+[pointlio_mapping-1] first lidar time1.79561e+09
+[pointlio_mapping-1] [INFO] [1795613593.594353807] [laserMapping]: IMU Initializing: 1.0 %
+[pointlio_mapping-1] [WARN] [1795613593.594527233] [laserMapping]: Reset ImuProcess
+[pointlio_mapping-1] [INFO] [1795613593.610133082] [laserMapping]: IMU Initializing: 24.0 %
+[pointlio_mapping-1] [INFO] [1795613593.675272062] [laserMapping]: IMU Initializing: 47.0 %
+[pointlio_mapping-1] [INFO] [1795613593.741471060] [laserMapping]: IMU Initializing: 71.0 %
+[pointlio_mapping-1] [INFO] [1795613593.804259350] [laserMapping]: IMU Initializing: 95.0 %
+[pointlio_mapping-1] [INFO] [1795613593.804322449] [laserMapping]: IMU Initializing: 100.0 %
+[python3-7] [INFO] [1795613595.219826740] [go2_dddmr_mapping_cloud]: {"input": 26, "output": 0, "before_lio": 0, "odom_overlap_skipped": 0, "pending": 26, "motion_compensated_frames": 3}
+[mcl_feature-9] [INFO] [1795613596.986861379] [mcl_fa]: Detect odom to base_link TF, MO will not broadcast from odom to base_link.
+[mcl_3dl-11] [WARN] [1795613597.051053115] [mcl_3dl]: Wait for child to ground and ground to sensor TF
+[mcl_feature-9] [WARN] [1795613597.310087873] [mcl_fa]: The first odom is record: 0.02, 0.00, -0.05
+[mcl_3dl-11] [INFO] [1795613598.219327922] [sub_maps]: Receive initial pose at: 0.20, -0.35, 0.00
+[mcl_3dl-11] [INFO] [1795613598.398568102] [sub_maps]: Prepare warm up at: 0.20, -0.35, 0.00
+[mcl_3dl-11] [INFO] [1795613598.419571522] [sub_maps]: Done 0/17064
+[mcl_3dl-11] [INFO] [1795613598.437081829] [sub_maps]: Done 10000/17064
+[mcl_3dl-11] [INFO] [1795613598.466631324] [sub_maps]: All essential Warmup KD-tree are generated.
+[mcl_3dl-11] [INFO] [1795613598.468854263] [sub_maps]: KD-tree swapped.
+[mcl_3dl-11] [INFO] [1795613598.468942880] [mcl_3dl]: Found ground at z: -0.27
+[mcl_3dl-11] [INFO] [1795613598.468966304] [mcl_3dl]: Set initial pose at: 0.20, -0.35, -0.27
+[python3-7] [INFO] [1795613600.190247324] [go2_dddmr_mapping_cloud]: {"input": 103, "output": 46, "before_lio": 54, "odom_overlap_skipped": 0, "pending": 1, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795613605.190603315] [go2_dddmr_mapping_cloud]: {"input": 180, "output": 124, "before_lio": 54, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795613610.190239383] [go2_dddmr_mapping_cloud]: {"input": 257, "output": 201, "before_lio": 54, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795613615.190408689] [go2_dddmr_mapping_cloud]: {"input": 334, "output": 278, "before_lio": 54, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795613620.190647550] [go2_dddmr_mapping_cloud]: {"input": 411, "output": 355, "before_lio": 54, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795613625.190869329] [go2_dddmr_mapping_cloud]: {"input": 488, "output": 432, "before_lio": 54, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795613630.190523990] [go2_dddmr_mapping_cloud]: {"input": 565, "output": 508, "before_lio": 54, "odom_overlap_skipped": 0, "pending": 1, "motion_compensated_frames": 3}

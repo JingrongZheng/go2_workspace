@@ -1,0 +1,289 @@
+[INFO] [launch]: All log files can be found below /tmp/.ros/log/2026-11-25-10-05-51-782587-f00c41a2ebcc-26
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [pointlio_mapping-1]: process started with pid [52]
+[INFO] [python3-2]: process started with pid [54]
+[INFO] [static_transform_publisher-3]: process started with pid [56]
+[INFO] [static_transform_publisher-4]: process started with pid [58]
+[INFO] [static_transform_publisher-5]: process started with pid [60]
+[INFO] [static_transform_publisher-6]: process started with pid [62]
+[INFO] [python3-7]: process started with pid [64]
+[INFO] [static_transform_publisher-8]: process started with pid [66]
+[INFO] [lego_loam-9]: process started with pid [68]
+[static_transform_publisher-3] [INFO] [1795601152.016595881] [chassis_imu_to_base]: Spinning until stopped - publishing transform
+[static_transform_publisher-3] translation: ('0.025570', '-0.000000', '-0.042320')
+[static_transform_publisher-3] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-3] from 'go2_chassis_imu' to 'base_link'
+[static_transform_publisher-6] [INFO] [1795601152.019213874] [published_cloud_alias]: Spinning until stopped - publishing transform
+[static_transform_publisher-6] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-6] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-6] from 'utlidar_lidar' to 'lidar_link'
+[static_transform_publisher-4] [INFO] [1795601152.021564174] [base_to_model_radar]: Spinning until stopped - publishing transform
+[static_transform_publisher-4] translation: ('0.289450', '0.000000', '-0.046825')
+[static_transform_publisher-4] rotation: ('0.000000', '0.991341', '0.000000', '0.131316')
+[static_transform_publisher-4] from 'base_link' to 'radar'
+[static_transform_publisher-8] [INFO] [1795601152.028873969] [static_transform_publisher_CIFn4Zw9YQKlZFf3]: Spinning until stopped - publishing transform
+[static_transform_publisher-8] translation: ('0.000000', '0.000000', '-0.316868')
+[static_transform_publisher-8] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-8] from 'base_link' to 'base_footprint'
+[static_transform_publisher-5] [INFO] [1795601152.029899331] [base_to_published_cloud]: Spinning until stopped - publishing transform
+[static_transform_publisher-5] translation: ('0.282160', '0.000000', '-0.000000')
+[static_transform_publisher-5] rotation: ('0.871312', '-0.473081', '0.114618', '-0.062233')
+[static_transform_publisher-5] from 'base_link' to 'utlidar_lidar'
+[pointlio_mapping-1] Multi thread started 
+[pointlio_mapping-1] lidar_type: 5
+[pointlio_mapping-1] ~~~~/lio-ws/src/point_lio/ file opened
+[lego_loam-9] [INFO] [1795601152.166667834] [lego_loam_ip]: laser.num_vertical_scans: 96
+[lego_loam-9] [INFO] [1795601152.166941089] [lego_loam_ip]: laser.num_horizontal_scans: 360
+[lego_loam-9] [INFO] [1795601152.167001903] [lego_loam_ip]: laser.scan_period: 0.00
+[lego_loam-9] [INFO] [1795601152.167060524] [lego_loam_ip]: laser.vertical_angle_bottom: -90.00
+[lego_loam-9] [INFO] [1795601152.167106230] [lego_loam_ip]: laser.vertical_angle_top: 90.00
+[lego_loam-9] [INFO] [1795601152.167164860] [lego_loam_ip]: imageProjection.segment_theta: 60.00
+[lego_loam-9] [INFO] [1795601152.167213241] [lego_loam_ip]: imageProjection.segment_valid_point_num: 5
+[lego_loam-9] [INFO] [1795601152.167256463] [lego_loam_ip]: imageProjection.segment_valid_line_num: 2
+[lego_loam-9] [INFO] [1795601152.167322928] [lego_loam_ip]: laser.odom_type: wheel_odometry
+[lego_loam-9] [INFO] [1795601152.167376359] [lego_loam_ip]: laser.base_ground_frame: base_footprint
+[lego_loam-9] [INFO] [1795601152.167433286] [lego_loam_ip]: laser.odom_child_frame: base_link
+[lego_loam-9] [INFO] [1795601152.167487929] [lego_loam_ip]: imageProjection.maximum_detection_range: 20.00
+[lego_loam-9] [INFO] [1795601152.167542642] [lego_loam_ip]: imageProjection.minimum_detection_range: 0.10
+[lego_loam-9] [INFO] [1795601152.167615179] [lego_loam_ip]: imageProjection.distance_for_patch_between_rings: 0.30
+[lego_loam-9] [INFO] [1795601152.167688457] [lego_loam_ip]: imageProjection.to_fa: 1
+[lego_loam-9] [INFO] [1795601152.167748560] [lego_loam_ip]: imageProjection.time_step_between_depth_image: 0.50
+[lego_loam-9] [INFO] [1795601152.167800989] [lego_loam_ip]: imageProjection.stitcher_num: 1
+[lego_loam-9] [INFO] [1795601152.167851985] [lego_loam_ip]: imageProjection.ground_fov_bottom: -1.570796
+[lego_loam-9] [INFO] [1795601152.167904123] [lego_loam_ip]: imageProjection.ground_fov_top: -0.030000
+[lego_loam-9] [INFO] [1795601152.167965188] [lego_loam_ip]: imageProjection.ground_positive_start: 0.000000
+[lego_loam-9] [INFO] [1795601152.168023068] [lego_loam_ip]: imageProjection.ground_positive_stop: 3.141593
+[lego_loam-9] [INFO] [1795601152.168077119] [lego_loam_ip]: imageProjection.ground_negative_start: 0.000000
+[lego_loam-9] [INFO] [1795601152.168137684] [lego_loam_ip]: imageProjection.ground_negative_stop: -3.141593
+[lego_loam-9] [INFO] [1795601152.168200472] [lego_loam_ip]: imageProjection.ignore_fov_bottom: 0.000000
+[lego_loam-9] [INFO] [1795601152.168260074] [lego_loam_ip]: imageProjection.ignore_fov_top: 0.000000
+[lego_loam-9] [INFO] [1795601152.168325167] [lego_loam_ip]: imageProjection.ignore_positive_start: 0.000000
+[lego_loam-9] [INFO] [1795601152.168391632] [lego_loam_ip]: imageProjection.ignore_positive_stop: 0.000000
+[lego_loam-9] [INFO] [1795601152.168453899] [lego_loam_ip]: imageProjection.ignore_negative_start: 0.000000
+[lego_loam-9] [INFO] [1795601152.168512310] [lego_loam_ip]: imageProjection.ignore_negative_stop: 0.000000
+[lego_loam-9] [INFO] [1795601152.168565229] [lego_loam_ip]: imageProjection.ground_slope_tolerance: 0.261799
+[lego_loam-9] [INFO] [1795601152.168633829] [lego_loam_ip]: imageProjection.ground_dz_tolerance: 0.050000
+[lego_loam-9] [INFO] [1795601152.168694743] [lego_loam_ip]: imageProjection.use_sensor_height_to_filter_out_ground: 0
+[lego_loam-9] [INFO] [1795601152.168754486] [lego_loam_ip]: imageProjection.patch_first_ring_to_baselink: 0
+[lego_loam-9] [INFO] [1795601152.168808578] [lego_loam_ip]: imageProjection.deep_learning.trt_model_path: 
+[lego_loam-9] [INFO] [1795601152.168861588] [lego_loam_ip]: imageProjection.deep_learning.projected_image_stack_size: 0
+[lego_loam-9] [INFO] [1795601152.179915108] [lego_loam_fa]: featureAssociation.edge_threshold: 0.10
+[lego_loam-9] [INFO] [1795601152.180000850] [lego_loam_fa]: featureAssociation.surf_threshold: 0.10
+[lego_loam-9] [INFO] [1795601152.180067806] [lego_loam_fa]: featureAssociation.nearest_feature_search_distance: 3.00
+[lego_loam-9] [INFO] [1795601152.180146484] [lego_loam_fa]: mapping.to_map_optimization: 1
+[lego_loam-9] [INFO] [1795601152.191974184] [lego_loam_mo]: mapping.enable_loop_closure: 0
+[lego_loam-9] [INFO] [1795601152.192079783] [lego_loam_mo]: mapping.history_keyframe_search_radius: 15.00
+[lego_loam-9] [INFO] [1795601152.192141018] [lego_loam_mo]: mapping.history_keyframe_search_num: 5
+[lego_loam-9] [INFO] [1795601152.192315748] [lego_loam_mo]: mapping.history_keyframe_fitness_score: 0.50
+[lego_loam-9] [INFO] [1795601152.192369349] [lego_loam_mo]: mapping.surrounding_keyframe_search_num: 10
+[lego_loam-9] [INFO] [1795601152.192418451] [lego_loam_mo]: mapping.angle_between_key_frame: 0.15
+[lego_loam-9] [INFO] [1795601152.192479897] [lego_loam_mo]: mapping.distance_between_key_frame: 0.15
+[lego_loam-9] [INFO] [1795601152.192525713] [lego_loam_mo]: mapping.ground_edge_threshold_num: 50
+[lego_loam-9] [INFO] [1795601152.192622275] [lego_loam_mo]: mapping.broadcast_external_odom_tf: 0
+[lego_loam-9] [INFO] [1795601152.192677640] [lego_loam_mo]: mapping.generate_testing_pg: 0
+[lego_loam-9] [INFO] [1795601152.192732102] [lego_loam_mo]: mapping.bin_sampling_less_flat_feature: 0
+[lego_loam-9] [INFO] [1795601152.192780363] [lego_loam_mo]: mapping.LM_optimization_iteration_number: 10
+[lego_loam-9] [INFO] [1795601152.192826881] [lego_loam_mo]: mapping.bin_sampling_x_size: 0.50
+[lego_loam-9] [INFO] [1795601152.192897674] [lego_loam_mo]: mapping.bin_sampling_y_size: 1.00
+[lego_loam-9] [INFO] [1795601152.192959030] [lego_loam_mo]: mapping.bin_sampling_z_size: 0.50
+[lego_loam-9] [INFO] [1795601152.206445365] [lego_loam_map_visualization]: visualization_detail_level: 0
+[lego_loam-9] [INFO] [1795601152.206561734] [lego_loam_map_visualization]: ground_voxel_size: 0.15
+[lego_loam-9] [INFO] [1795601152.206629783] [lego_loam_map_visualization]: map_voxel_size: 0.20
+[lego_loam-9] [INFO] [1795601152.206680729] [lego_loam_map_visualization]: ground_edge_threshold_num: 60
+[pointlio_mapping-1] first lidar time1.7956e+09
+[pointlio_mapping-1] [INFO] [1795601156.981833974] [laserMapping]: IMU Initializing: 1.0 %
+[pointlio_mapping-1] [WARN] [1795601156.981953198] [laserMapping]: Reset ImuProcess
+[pointlio_mapping-1] [INFO] [1795601156.986985552] [laserMapping]: IMU Initializing: 20.0 %
+[pointlio_mapping-1] [INFO] [1795601157.051363295] [laserMapping]: IMU Initializing: 47.0 %
+[pointlio_mapping-1] [INFO] [1795601157.116604035] [laserMapping]: IMU Initializing: 74.0 %
+[pointlio_mapping-1] [INFO] [1795601157.116644090] [laserMapping]: IMU Initializing: 100.0 %
+[python3-7] [INFO] [1795601157.482019690] [go2_dddmr_mapping_cloud]: {"input": 9, "output": 0, "before_lio": 0, "odom_overlap_skipped": 0, "pending": 9, "motion_compensated_frames": 3}
+[lego_loam-9] [INFO] [1795601159.391890247] [lego_loam_fa]: Detect odom to base_link TF, MO will not broadcast from odom to base_link.
+[lego_loam-9] [WARN] [1795601159.650340805] [lego_loam_fa]: The first odom is record: 0.02, 0.00, -0.05
+[lego_loam-9] [INFO] [1795601159.809946122] [lego_loam_map_visualization]: Sync key frame number: 0 with total size: 2
+[python3-7] [INFO] [1795601162.461946652] [go2_dddmr_mapping_cloud]: {"input": 86, "output": 45, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601167.459312998] [go2_dddmr_mapping_cloud]: {"input": 163, "output": 122, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [INFO] [1795601170.509723544] [lego_loam_map_visualization]: Sync key frame number: 10 with total size: 11
+[lego_loam-9] [INFO] [1795601172.210656731] [lego_loam_map_visualization]: Sync key frame number: 11 with total size: 12
+[python3-7] [INFO] [1795601172.457139568] [go2_dddmr_mapping_cloud]: {"input": 240, "output": 199, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [INFO] [1795601173.709788255] [lego_loam_map_visualization]: Sync key frame number: 12 with total size: 13
+[lego_loam-9] [INFO] [1795601174.833427834] [lego_loam_map_visualization]: Sync key frame number: 17 with total size: 18
+[lego_loam-9] [INFO] [1795601175.840206857] [lego_loam_map_visualization]: Sync key frame number: 19 with total size: 20
+[lego_loam-9] [INFO] [1795601177.409837375] [lego_loam_map_visualization]: Sync key frame number: 20 with total size: 21
+[python3-7] [INFO] [1795601177.455932500] [go2_dddmr_mapping_cloud]: {"input": 317, "output": 276, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [INFO] [1795601178.409949973] [lego_loam_map_visualization]: Sync key frame number: 22 with total size: 23
+[lego_loam-9] [INFO] [1795601179.509892860] [lego_loam_map_visualization]: Sync key frame number: 24 with total size: 25
+[lego_loam-9] [INFO] [1795601181.109804962] [lego_loam_map_visualization]: Sync key frame number: 27 with total size: 28
+[lego_loam-9] [INFO] [1795601182.212107007] [lego_loam_map_visualization]: Sync key frame number: 29 with total size: 30
+[python3-7] [INFO] [1795601182.453827137] [go2_dddmr_mapping_cloud]: {"input": 394, "output": 353, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [INFO] [1795601184.212862069] [lego_loam_map_visualization]: Sync key frame number: 31 with total size: 32
+[lego_loam-9] [INFO] [1795601185.273272724] [lego_loam_map_visualization]: Sync key frame number: 36 with total size: 37
+[python3-7] [INFO] [1795601187.450486756] [go2_dddmr_mapping_cloud]: {"input": 471, "output": 430, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601192.450500236] [go2_dddmr_mapping_cloud]: {"input": 548, "output": 507, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601197.450393658] [go2_dddmr_mapping_cloud]: {"input": 625, "output": 584, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601202.452951678] [go2_dddmr_mapping_cloud]: {"input": 702, "output": 661, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601207.466204532] [go2_dddmr_mapping_cloud]: {"input": 779, "output": 738, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601212.450456735] [go2_dddmr_mapping_cloud]: {"input": 856, "output": 815, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601217.451388899] [go2_dddmr_mapping_cloud]: {"input": 933, "output": 892, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601222.450972450] [go2_dddmr_mapping_cloud]: {"input": 1010, "output": 969, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601227.466244683] [go2_dddmr_mapping_cloud]: {"input": 1087, "output": 1046, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601232.450415254] [go2_dddmr_mapping_cloud]: {"input": 1164, "output": 1123, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601237.450435397] [go2_dddmr_mapping_cloud]: {"input": 1241, "output": 1199, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 1, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601242.450651652] [go2_dddmr_mapping_cloud]: {"input": 1318, "output": 1277, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601247.454281744] [go2_dddmr_mapping_cloud]: {"input": 1395, "output": 1354, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601252.462967888] [go2_dddmr_mapping_cloud]: {"input": 1472, "output": 1431, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601257.450603325] [go2_dddmr_mapping_cloud]: {"input": 1549, "output": 1508, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601262.450718966] [go2_dddmr_mapping_cloud]: {"input": 1626, "output": 1585, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601267.450602876] [go2_dddmr_mapping_cloud]: {"input": 1703, "output": 1662, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601272.450517648] [go2_dddmr_mapping_cloud]: {"input": 1780, "output": 1738, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 1, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601277.450868864] [go2_dddmr_mapping_cloud]: {"input": 1857, "output": 1815, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 1, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601282.452517918] [go2_dddmr_mapping_cloud]: {"input": 1934, "output": 1893, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601287.450465793] [go2_dddmr_mapping_cloud]: {"input": 2011, "output": 1970, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601292.451308914] [go2_dddmr_mapping_cloud]: {"input": 2088, "output": 2047, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601297.452331320] [go2_dddmr_mapping_cloud]: {"input": 2165, "output": 2123, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 1, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601302.451215469] [go2_dddmr_mapping_cloud]: {"input": 2242, "output": 2201, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601307.452295693] [go2_dddmr_mapping_cloud]: {"input": 2319, "output": 2278, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601312.468855305] [go2_dddmr_mapping_cloud]: {"input": 2396, "output": 2355, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601317.450514111] [go2_dddmr_mapping_cloud]: {"input": 2473, "output": 2431, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 1, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601322.452533847] [go2_dddmr_mapping_cloud]: {"input": 2550, "output": 2509, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601327.450448642] [go2_dddmr_mapping_cloud]: {"input": 2627, "output": 2586, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [ERROR] [1795601328.029207452] [lego_loam_ip]: Expecting: 34560 points, but you only got 3180, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601328.089602416] [lego_loam_ip]: Expecting: 34560 points, but you only got 3312, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601328.216025066] [lego_loam_ip]: Expecting: 34560 points, but you only got 2791, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601328.280208043] [lego_loam_ip]: Expecting: 34560 points, but you only got 2232, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601328.283062436] [lego_loam_ip]: Expecting: 34560 points, but you only got 1751, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601328.419057907] [lego_loam_ip]: Expecting: 34560 points, but you only got 1555, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601328.474390556] [lego_loam_ip]: Expecting: 34560 points, but you only got 1381, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601328.476712003] [lego_loam_ip]: Expecting: 34560 points, but you only got 1158, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601328.538957026] [lego_loam_ip]: Expecting: 34560 points, but you only got 1289, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601328.668617712] [lego_loam_ip]: Expecting: 34560 points, but you only got 1233, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601328.734328962] [lego_loam_ip]: Expecting: 34560 points, but you only got 1224, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601328.736687950] [lego_loam_ip]: Expecting: 34560 points, but you only got 1233, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601328.799345451] [lego_loam_ip]: Expecting: 34560 points, but you only got 1341, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601328.929406351] [lego_loam_ip]: Expecting: 34560 points, but you only got 1281, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601328.931588115] [lego_loam_ip]: Expecting: 34560 points, but you only got 1205, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601328.994395419] [lego_loam_ip]: Expecting: 34560 points, but you only got 1317, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601329.122453083] [lego_loam_ip]: Expecting: 34560 points, but you only got 1261, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601329.190001847] [lego_loam_ip]: Expecting: 34560 points, but you only got 1248, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601329.192301874] [lego_loam_ip]: Expecting: 34560 points, but you only got 1223, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601329.254294341] [lego_loam_ip]: Expecting: 34560 points, but you only got 1323, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601329.382313723] [lego_loam_ip]: Expecting: 34560 points, but you only got 1254, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601329.384428170] [lego_loam_ip]: Expecting: 34560 points, but you only got 1159, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601329.450627570] [lego_loam_ip]: Expecting: 34560 points, but you only got 1275, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601329.576761216] [lego_loam_ip]: Expecting: 34560 points, but you only got 1258, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601329.643386619] [lego_loam_ip]: Expecting: 34560 points, but you only got 1265, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601329.645740638] [lego_loam_ip]: Expecting: 34560 points, but you only got 1205, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601329.708190398] [lego_loam_ip]: Expecting: 34560 points, but you only got 1330, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601329.838323676] [lego_loam_ip]: Expecting: 34560 points, but you only got 1257, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601329.840452850] [lego_loam_ip]: Expecting: 34560 points, but you only got 1173, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601329.903245947] [lego_loam_ip]: Expecting: 34560 points, but you only got 1268, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601330.030904158] [lego_loam_ip]: Expecting: 34560 points, but you only got 1270, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601330.096505311] [lego_loam_ip]: Expecting: 34560 points, but you only got 1271, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601330.098516814] [lego_loam_ip]: Expecting: 34560 points, but you only got 1180, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601330.164200592] [lego_loam_ip]: Expecting: 34560 points, but you only got 1330, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601330.293791538] [lego_loam_ip]: Expecting: 34560 points, but you only got 1262, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601330.295849118] [lego_loam_ip]: Expecting: 34560 points, but you only got 1195, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601330.356556101] [lego_loam_ip]: Expecting: 34560 points, but you only got 1267, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601330.488430202] [lego_loam_ip]: Expecting: 34560 points, but you only got 1277, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601330.550272456] [lego_loam_ip]: Expecting: 34560 points, but you only got 1263, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601330.552259363] [lego_loam_ip]: Expecting: 34560 points, but you only got 1159, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601330.618593317] [lego_loam_ip]: Expecting: 34560 points, but you only got 1326, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601330.744528319] [lego_loam_ip]: Expecting: 34560 points, but you only got 1253, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601330.810856803] [lego_loam_ip]: Expecting: 34560 points, but you only got 1206, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601330.813278429] [lego_loam_ip]: Expecting: 34560 points, but you only got 1244, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601330.938918195] [lego_loam_ip]: Expecting: 34560 points, but you only got 1294, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601331.007928766] [lego_loam_ip]: Expecting: 34560 points, but you only got 1269, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601331.010620522] [lego_loam_ip]: Expecting: 34560 points, but you only got 1186, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601331.072556583] [lego_loam_ip]: Expecting: 34560 points, but you only got 1304, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601331.200634717] [lego_loam_ip]: Expecting: 34560 points, but you only got 1221, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601331.266921272] [lego_loam_ip]: Expecting: 34560 points, but you only got 1186, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601331.269204558] [lego_loam_ip]: Expecting: 34560 points, but you only got 1230, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601331.394072108] [lego_loam_ip]: Expecting: 34560 points, but you only got 1320, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601331.461905409] [lego_loam_ip]: Expecting: 34560 points, but you only got 1281, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601331.464136927] [lego_loam_ip]: Expecting: 34560 points, but you only got 1209, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601331.526784540] [lego_loam_ip]: Expecting: 34560 points, but you only got 1304, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601331.655035220] [lego_loam_ip]: Expecting: 34560 points, but you only got 1218, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601331.721054992] [lego_loam_ip]: Expecting: 34560 points, but you only got 1193, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601331.723381539] [lego_loam_ip]: Expecting: 34560 points, but you only got 1215, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601331.787711835] [lego_loam_ip]: Expecting: 34560 points, but you only got 1324, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601331.918686100] [lego_loam_ip]: Expecting: 34560 points, but you only got 1279, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601331.920725997] [lego_loam_ip]: Expecting: 34560 points, but you only got 1207, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601331.980405693] [lego_loam_ip]: Expecting: 34560 points, but you only got 1313, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601332.109822552] [lego_loam_ip]: Expecting: 34560 points, but you only got 1230, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601332.176109258] [lego_loam_ip]: Expecting: 34560 points, but you only got 1216, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601332.178169603] [lego_loam_ip]: Expecting: 34560 points, but you only got 1215, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601332.241198315] [lego_loam_ip]: Expecting: 34560 points, but you only got 1334, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601332.371735557] [lego_loam_ip]: Expecting: 34560 points, but you only got 1272, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601332.373650007] [lego_loam_ip]: Expecting: 34560 points, but you only got 1182, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601332.436825456] [lego_loam_ip]: Expecting: 34560 points, but you only got 1285, check your lidar scan.
+[python3-7] [INFO] [1795601332.450499421] [go2_dddmr_mapping_cloud]: {"input": 2704, "output": 2663, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [ERROR] [1795601332.564388640] [lego_loam_ip]: Expecting: 34560 points, but you only got 1254, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601332.631409299] [lego_loam_ip]: Expecting: 34560 points, but you only got 1229, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601332.633703666] [lego_loam_ip]: Expecting: 34560 points, but you only got 1215, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601332.695539158] [lego_loam_ip]: Expecting: 34560 points, but you only got 1323, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601332.825244561] [lego_loam_ip]: Expecting: 34560 points, but you only got 1256, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601332.827415384] [lego_loam_ip]: Expecting: 34560 points, but you only got 1156, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601332.892028244] [lego_loam_ip]: Expecting: 34560 points, but you only got 1251, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601333.019025190] [lego_loam_ip]: Expecting: 34560 points, but you only got 1263, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601333.085858577] [lego_loam_ip]: Expecting: 34560 points, but you only got 1254, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601333.088388437] [lego_loam_ip]: Expecting: 34560 points, but you only got 1209, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601333.151689594] [lego_loam_ip]: Expecting: 34560 points, but you only got 1329, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601333.279002165] [lego_loam_ip]: Expecting: 34560 points, but you only got 1247, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601333.281243852] [lego_loam_ip]: Expecting: 34560 points, but you only got 1147, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601333.345951110] [lego_loam_ip]: Expecting: 34560 points, but you only got 1235, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601333.474081063] [lego_loam_ip]: Expecting: 34560 points, but you only got 1275, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601333.540882460] [lego_loam_ip]: Expecting: 34560 points, but you only got 1288, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601333.543627927] [lego_loam_ip]: Expecting: 34560 points, but you only got 1214, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601333.605784745] [lego_loam_ip]: Expecting: 34560 points, but you only got 1348, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601333.735774816] [lego_loam_ip]: Expecting: 34560 points, but you only got 1249, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601333.798671479] [lego_loam_ip]: Expecting: 34560 points, but you only got 1178, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601333.801493952] [lego_loam_ip]: Expecting: 34560 points, but you only got 1243, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601333.928580267] [lego_loam_ip]: Expecting: 34560 points, but you only got 1292, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601333.993791134] [lego_loam_ip]: Expecting: 34560 points, but you only got 1275, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601333.996100118] [lego_loam_ip]: Expecting: 34560 points, but you only got 1173, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601334.059398489] [lego_loam_ip]: Expecting: 34560 points, but you only got 1319, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601334.187881469] [lego_loam_ip]: Expecting: 34560 points, but you only got 1234, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601334.252361268] [lego_loam_ip]: Expecting: 34560 points, but you only got 1216, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601334.254386307] [lego_loam_ip]: Expecting: 34560 points, but you only got 1246, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601334.382119262] [lego_loam_ip]: Expecting: 34560 points, but you only got 1312, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601334.448647584] [lego_loam_ip]: Expecting: 34560 points, but you only got 1273, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601334.451087605] [lego_loam_ip]: Expecting: 34560 points, but you only got 1213, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601334.512957032] [lego_loam_ip]: Expecting: 34560 points, but you only got 1332, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601334.641785873] [lego_loam_ip]: Expecting: 34560 points, but you only got 1246, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601334.708996001] [lego_loam_ip]: Expecting: 34560 points, but you only got 1217, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601334.711505874] [lego_loam_ip]: Expecting: 34560 points, but you only got 1240, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601334.834688459] [lego_loam_ip]: Expecting: 34560 points, but you only got 1329, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601334.903612077] [lego_loam_ip]: Expecting: 34560 points, but you only got 1292, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601334.905937362] [lego_loam_ip]: Expecting: 34560 points, but you only got 1224, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601334.969764100] [lego_loam_ip]: Expecting: 34560 points, but you only got 1337, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601335.098571932] [lego_loam_ip]: Expecting: 34560 points, but you only got 1241, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601335.163329496] [lego_loam_ip]: Expecting: 34560 points, but you only got 1235, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601335.165744810] [lego_loam_ip]: Expecting: 34560 points, but you only got 1245, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601335.227956332] [lego_loam_ip]: Expecting: 34560 points, but you only got 1352, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601335.357145003] [lego_loam_ip]: Expecting: 34560 points, but you only got 1292, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601335.360068005] [lego_loam_ip]: Expecting: 34560 points, but you only got 1198, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601335.424064603] [lego_loam_ip]: Expecting: 34560 points, but you only got 1310, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601335.551549261] [lego_loam_ip]: Expecting: 34560 points, but you only got 1264, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601335.617798257] [lego_loam_ip]: Expecting: 34560 points, but you only got 1261, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601335.620397698] [lego_loam_ip]: Expecting: 34560 points, but you only got 1248, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601335.686064696] [lego_loam_ip]: Expecting: 34560 points, but you only got 1344, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601335.810423730] [lego_loam_ip]: Expecting: 34560 points, but you only got 1276, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601335.812874041] [lego_loam_ip]: Expecting: 34560 points, but you only got 1176, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601335.878642751] [lego_loam_ip]: Expecting: 34560 points, but you only got 1287, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601336.006346782] [lego_loam_ip]: Expecting: 34560 points, but you only got 1271, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601336.070504194] [lego_loam_ip]: Expecting: 34560 points, but you only got 1265, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601336.072694023] [lego_loam_ip]: Expecting: 34560 points, but you only got 1213, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601336.137436158] [lego_loam_ip]: Expecting: 34560 points, but you only got 1329, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601336.265383899] [lego_loam_ip]: Expecting: 34560 points, but you only got 1262, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601336.267442551] [lego_loam_ip]: Expecting: 34560 points, but you only got 1184, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601336.332717380] [lego_loam_ip]: Expecting: 34560 points, but you only got 1284, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601336.459172357] [lego_loam_ip]: Expecting: 34560 points, but you only got 1290, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601336.527438266] [lego_loam_ip]: Expecting: 34560 points, but you only got 1284, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601336.529922481] [lego_loam_ip]: Expecting: 34560 points, but you only got 1211, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601336.590710188] [lego_loam_ip]: Expecting: 34560 points, but you only got 1335, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601336.722094330] [lego_loam_ip]: Expecting: 34560 points, but you only got 1255, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601336.724495758] [lego_loam_ip]: Expecting: 34560 points, but you only got 1180, check your lidar scan.
+[lego_loam-9] [ERROR] [1795601336.788211878] [lego_loam_ip]: Expecting: 34560 points, but you only got 1261, check your lidar scan.
+[python3-7] [INFO] [1795601337.450771512] [go2_dddmr_mapping_cloud]: {"input": 2772, "output": 2730, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 1, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795601342.450555427] [go2_dddmr_mapping_cloud]: {"input": 2772, "output": 2730, "before_lio": 39, "odom_overlap_skipped": 0, "pending": 1, "motion_compensated_frames": 3}
+[lego_loam-9] [INFO] [1795601343.969388510] [lego_loam_mo]: Create dir: /session/maps/2026_11_25_10_09_03

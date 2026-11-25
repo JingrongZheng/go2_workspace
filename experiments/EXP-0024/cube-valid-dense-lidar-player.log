@@ -1,0 +1,9 @@
+stdin is not a terminal device. Keyboard handling disabled.[INFO] [1795575824.990631258] [rosbag2_storage]: Opened database '/recorded-bag/standing-three-sensors_0.db3' for READ_ONLY.
+[INFO] [1795575824.990680671] [rosbag2_player]: Set rate to 1
+[INFO] [1795575824.995053144] [rosbag2_player]: Adding keyboard callbacks.
+[INFO] [1795575824.995089653] [rosbag2_player]: Press SPACE for Pause/Resume
+[INFO] [1795575824.995096687] [rosbag2_player]: Press CURSOR_RIGHT for Play Next Message
+[INFO] [1795575824.995102638] [rosbag2_player]: Press CURSOR_UP for Increase Rate 10%
+[INFO] [1795575824.995108158] [rosbag2_player]: Press CURSOR_DOWN for Decrease Rate 10%
+[INFO] [1795575824.995191847] [rosbag2_player]: Sleep 3000000000 ns
+[INFO] [1795575827.995661907] [rosbag2_storage]: Opened database '/recorded-bag/standing-three-sensors_0.db3' for READ_ONLY.

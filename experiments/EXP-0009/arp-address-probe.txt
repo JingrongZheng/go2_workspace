@@ -1,0 +1,6 @@
+[sudo] password for unitree: 
+ARP_PROBE_START: 192.168.123.0/24 and 192.168.1.201; no IP configuration changes
+ARP_REPLY 192.168.123.161 7e:1d:75:60:f5:89
+ARP_REPLY 192.168.123.222 f0:2f:74:a1:4c:9f
+ARP_PROBE_DONE 2 responding addresses
+Shared connection to 192.168.123.18 closed.

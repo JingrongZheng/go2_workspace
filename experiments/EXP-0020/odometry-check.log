@@ -1,0 +1,1 @@
+PASS: source odometry received and transformed at the body origin geometry_msgs.msg.Point(x=1.2749742668704092, y=0.014655, z=-0.12724064440740906) geometry_msgs.msg.Quaternion(x=0.0, y=-0.9913405653290648, z=0.0, w=0.13131596830945733)

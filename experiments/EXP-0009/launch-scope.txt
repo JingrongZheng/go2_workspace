@@ -1,0 +1,88 @@
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/change notes.md
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/launch/hesai_lidar.launch
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/launch/hesai_lidar_launch.py
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/launch/cloud_nodelet.launch
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/nodelets.xml
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/CMakeLists.txt
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/LICENSE
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/.ipynb_checkpoints/README-checkpoint.md
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/.ipynb_checkpoints/CMakeLists-checkpoint.txt
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main.cc
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/cloud_nodelet.cc
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/package.xml
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/msg/PandarPacket.msg
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/msg/PandarScan.msg
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/README.md
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/config/Pandar40P.csv
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/config/Pandar40.csv
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/config/PandarXT-32.csv
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/config/PandarQT.csv
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/config/Pandar64.csv
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/config/PandarXTM.csv
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/config/PandarXT-16.csv
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/cloud_nodelet.cc:15:#include <pcl/point_types.h>
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/cloud_nodelet.cc:23:namespace pandar_pointcloud
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/cloud_nodelet.cc:44:} // namespace pandar_pointcloud
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/cloud_nodelet.cc:50:PLUGINLIB_EXPORT_CLASS(pandar_pointcloud::CloudNodelet, nodelet::Nodelet);
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main.cc:6:#include <pcl/point_types.h>
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main.cc:37:    nh.getParam("server_ip", serverIp);
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main.cc:54:      hsdk = new PandarGeneralSDK(pcapFile, boost::bind(&HesaiLidarClient::lidarCallback, this, _1, _2, _3), \
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main.cc:83:      hsdk = new PandarGeneralSDK("", boost::bind(&HesaiLidarClient::lidarCallback, this, _1, _2, _3), \
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main.cc:91:      hsdk = new PandarGeneralSDK(serverIp, lidarRecvPort, gpsPort, \
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main.cc:98:        hsdk->Start();
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main.cc:105:  void lidarCallback(boost::shared_ptr<PPointCloud> cld, double timestamp, hesai_lidar::msg::PandarScan::SharedPtr scan) // the timestamp from first point cloud of cld
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main.cc:107:    if(m_sPublishType == "both" || m_sPublishType == "points"){
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main.cc:113:        printf("timestamp: %f, point size: %ld.\n",timestamp, cld->points.size());
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main.cc:132:    // printf("pandar_packets topic message received,\n");
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main.cc:139:  PandarGeneralSDK* hsdk;
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:7:#include <sensor_msgs/msg/point_cloud2.hpp>
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:26:    this->declare_parameter<std::string>("pcap_file", "");
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:27:    this->declare_parameter<std::string>("server_ip", "");
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:28:    this->declare_parameter<int>("lidar_recv_port", 2368);
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:29:    this->declare_parameter<int>("gps_port", 10110);
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:30:    this->declare_parameter<double>("start_angle", 0.0);
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:31:    this->declare_parameter<std::string>("lidar_correction_file", "");
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:32:    this->declare_parameter<std::string>("lidar_type", "");
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:33:    this->declare_parameter<std::string>("frame_id", "");
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:34:    this->declare_parameter<int>("pcldata_type", 0);
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:35:    this->declare_parameter<std::string>("publish_type", "");
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:36:    this->declare_parameter<std::string>("timestamp_type", "");
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:37:    this->declare_parameter<std::string>("data_type", "");
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:38:    this->declare_parameter<std::string>("multicast_ip", "");
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:39:    this->declare_parameter<bool>("coordinate_correction_flag", false);
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:40:    this->declare_parameter<std::string>("target_frame", "");
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:41:    this->declare_parameter<std::string>("fixed_frame", "");
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:43:    lidarPublisher = this->create_publisher<sensor_msgs::msg::PointCloud2>("rslidar_points",1000);
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:44:    packetPublisher = this->create_publisher<hesai_lidar::msg::PandarScan>("pandar_packets", qos);
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:45:    sub_node_control = this->create_subscription<std_msgs::msg::String>("/node_control",10,std::bind(&HesaiLidarClient::node_control_callback,this,std::placeholders::_1));//lz
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:61:  void lidarCallback(boost::shared_ptr<PPointCloud> cld, double timestamp, hesai_lidar::msg::PandarScan::SharedPtr scan) // the timestamp from first point cloud of cld
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:63:    if(m_sPublishType == "both" || m_sPublishType == "points"){
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:68:      //std::cout<<" point size ==================================== "<< static_cast<int>(cld->points.size()) <<std::endl;
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:75:      // std::cout<<" point size ==================================== "<< static_cast<int>(cld->points.size()) <<std::endl; 
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:78://       std::cout << "timestamp: " << std::setprecision(10) << timestamp << ", point size: " << cld->points.size() << std::endl;
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:79://       // std::cout << "cld->header.stamp: " << std::setprecision(10) << cld->header.stamp << ", point size: " << cld->points.size() << std::endl;
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:80:      //std::cout << "output.header.stamp.sec: " << std::setprecision(10) << output.header.stamp.sec << ", point size: " << cld->points.size() << std::endl;
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:81://  std::cout << "output.header.stamp.nanosec: " << std::setprecision(10) << output.header.stamp.nanosec << ", point size: " << cld->points.size() << std::endl;
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:84:        // std::cout << "timestamp: " << std::setprecision(10) << timestamp << ", point size: " << cld->points.size() << std::endl;
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:103:    // printf("pandar_packets topic message received,\n");
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:125:    this->get_parameter("server_ip", serverIp);
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:145:      hsdk = new PandarGeneralSDK(pcapFile, boost::bind(&HesaiLidarClient::lidarCallback, this, _1, _2, _3), \
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:174:      hsdk = new PandarGeneralSDK("", boost::bind(&HesaiLidarClient::lidarCallback, this, _1, _2, _3), \
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:178:        packetSubscriber = this->create_subscription<hesai_lidar::msg::PandarScan>("pandar_packets", 10, std::bind(&HesaiLidarClient::scanCallback, this, std::placeholders::_1));
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:182:      hsdk = new PandarGeneralSDK(serverIp, lidarRecvPort, gpsPort, \
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:189:        hsdk->Start();
+/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/src/main_ros2.cc:198:  PandarGeneralSDK* hsdk;
+for dir in `ls | grep *.service`
+do
+    printf "%-30s %s\n" [$dir]
+    cp $dir /etc/systemd/system/
+done
+systemctl daemon-reload
+for dir in `ls | grep *.service`
+do
+    systemctl restart $dir
+done
+printf "\033[0;32m\033[1m* Finish Update \033[0m\n"
+static
+inactive

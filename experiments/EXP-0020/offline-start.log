@@ -1,0 +1,30 @@
+[INFO] [launch]: All log files can be found below /tmp/.ros/log/2026-11-24-10-59-34-784748-813ae87bb188-7
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [pointlio_mapping-1]: process started with pid [18]
+[INFO] [python3-2]: process started with pid [20]
+[INFO] [static_transform_publisher-3]: process started with pid [22]
+[INFO] [static_transform_publisher-4]: process started with pid [24]
+[static_transform_publisher-4] [INFO] [1795517974.848480516] [l2_imu_to_lidar]: Spinning until stopped - publishing transform
+[static_transform_publisher-4] translation: ('0.007698', '0.014655', '-0.006670')
+[static_transform_publisher-4] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-4] from 'l2_imu' to 'lidar_link'
+[static_transform_publisher-3] [INFO] [1795517974.848755696] [l2_imu_to_base]: Spinning until stopped - publishing transform
+[static_transform_publisher-3] translation: ('0.274974', '0.014655', '-0.127241')
+[static_transform_publisher-3] rotation: ('0.000000', '-0.991341', '0.000000', '0.131316')
+[static_transform_publisher-3] from 'l2_imu' to 'base_link'
+[pointlio_mapping-1] Multi thread started 
+[pointlio_mapping-1] lidar_type: 5
+[pointlio_mapping-1] ~~~~/lio-ws/src/point_lio/ file opened
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [static_transform_publisher-4]: sending signal 'SIGINT' to process[static_transform_publisher-4]
+[INFO] [static_transform_publisher-3]: sending signal 'SIGINT' to process[static_transform_publisher-3]
+[INFO] [python3-2]: sending signal 'SIGINT' to process[python3-2]
+[INFO] [pointlio_mapping-1]: sending signal 'SIGINT' to process[pointlio_mapping-1]
+[static_transform_publisher-4] [INFO] [1795517979.245124005] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[static_transform_publisher-3] [INFO] [1795517979.245473472] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[pointlio_mapping-1] [WARN] [1795517979.246200850] [laserMapping]: catch sig 2
+[INFO] [static_transform_publisher-4]: process has finished cleanly [pid 24]
+[INFO] [static_transform_publisher-3]: process has finished cleanly [pid 22]
+[pointlio_mapping-1] Rebuild thread terminated normally
+[INFO] [pointlio_mapping-1]: process has finished cleanly [pid 18]
+[INFO] [python3-2]: process has finished cleanly [pid 20]

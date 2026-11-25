@@ -1,0 +1,27 @@
+name of display: :0
+display: :0  screen: 0
+direct rendering: Yes
+Memory info (GL_NVX_gpu_memory_info):
+    Dedicated video memory: 6144 MB
+    Total available memory: 6144 MB
+    Currently available dedicated video memory: 5783 MB
+OpenGL vendor string: NVIDIA Corporation
+OpenGL renderer string: NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2
+OpenGL core profile version string: 4.6.0 NVIDIA 595.71.05
+OpenGL core profile shading language version string: 4.60 NVIDIA
+OpenGL core profile context flags: (none)
+OpenGL core profile profile mask: core profile
+
+OpenGL version string: 4.6.0 NVIDIA 595.71.05
+OpenGL shading language version string: 4.60 NVIDIA
+OpenGL context flags: (none)
+OpenGL profile mask: (none)
+
+OpenGL ES profile version string: OpenGL ES 3.2 NVIDIA 595.71.05
+OpenGL ES profile shading language version string: OpenGL ES GLSL ES 3.20
+
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+[INFO] [1795484104.999360662] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1795484104.999442543] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1795484105.034821854] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1795484161.116237181] [rclcpp]: signal_handler(SIGINT/SIGTERM)

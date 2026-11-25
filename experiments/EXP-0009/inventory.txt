@@ -1,0 +1,46 @@
+=== Host and network ===
+Linux ubuntu 5.10.104-tegra #1 SMP PREEMPT Sun Mar 19 07:55:28 PDT 2023 aarch64 aarch64 aarch64 GNU/Linux
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+dummy0           DOWN           
+eth10            UP             192.168.123.18/24 fe80::4ebb:47ff:fe02:5a81/64 
+docker0          DOWN           172.17.0.1/16 
+default via 192.168.123.1 dev eth10 proto static metric 20100 
+169.254.0.0/16 dev docker0 scope link metric 1000 linkdown 
+172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown 
+192.168.123.0/24 dev eth10 proto kernel scope link src 192.168.123.18 metric 100 
+192.168.123.162 dev eth10  INCOMPLETE
+192.168.123.163 dev eth10  INCOMPLETE
+192.168.123.164 dev eth10  INCOMPLETE
+192.168.123.222 dev eth10 lladdr f0:2f:74:a1:4c:9f REACHABLE
+192.168.123.1 dev eth10  INCOMPLETE
+192.168.123.161 dev eth10 lladdr 7e:1d:75:60:f5:89 REACHABLE
+=== Installed packages ===
+=== Existing driver and configuration paths (bounded depth) ===
+/home/unitree/.ros/log/hesai_lidar_node_4375_1699347676775.log
+/home/unitree/.ros/log/hesai_lidar_node_13284_1699348407485.log
+/home/unitree/.ros/log/hesai_lidar_node_10332_1699347973171.log
+/home/unitree/.ros/log/hesai_lidar_node_19764_1699329002119.log
+/home/unitree/.ros/log/hesai_lidar_node_12972_1699348291622.log
+/home/unitree/.ros/log/hesai_lidar_node_10103_1699347967377.log
+=== Processes ===
+=== Services ===
+  session-4.scope                                                                                                                loaded    active   running   Session 4 of user unitree                                                                                       
+  unitree-upgrade.service                                                                                                        loaded    active   running   Unitree Upgrade                                                                                                 
+unitree-upgrade.service                    enabled         enabled      
+=== UDP listeners ===
+State   Recv-Q  Send-Q      Local Address:Port      Peer Address:Port  Process  
+UNCONN  8448    0              172.17.0.1:5353           0.0.0.0:*              
+UNCONN  8448    0          192.168.123.18:5353           0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:5353           0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:5353           0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:38207          0.0.0.0:*              
+UNCONN  0       0              127.0.0.53:53             0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:111            0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:4000           0.0.0.0:*              
+UNCONN  0       0                       *:5353                 *:*              
+UNCONN  0       0                       *:111                  *:*              
+UNCONN  0       0                       *:59748                *:*              
+UNCONN  0       0                       *:4000                 *:*              
+=== ROS packages in clean subshells (no nodes started) ===
+=== Matching boot logs (limited to current user permissions) ===
+DONE. Absence here does not exclude a custom workspace, container, or renamed vendor binary.

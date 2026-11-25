@@ -1,0 +1,30 @@
+Isolated domain=83 localhost=1
+[INFO] [launch]: All log files can be found below /home/unitree/.ros/log/2026-11-20-15-23-08-689132-ubuntu-16994
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [hesai_lidar_node-1]: process started with pid [17000]
+[hesai_lidar_node-1] [INFO] [1795159388.922860064] [hesai_node]: ip:192.168.123.20
+[hesai_lidar_node-1]        ///////////////////////////////////////////////////////////////
+[hesai_lidar_node-1]        //     PandarGeneralSDK version: PandarGeneralROS_1.1.10      //
+[hesai_lidar_node-1]        ///////////////////////////////////////////////////////////////
+[hesai_lidar_node-1] set environment TZ=UTC0
+[hesai_lidar_node-1] TcpCommandClientNew
+[hesai_lidar_node-1] TCP Command Client Init Success!!!
+[hesai_lidar_node-1] publishRawDataThread:set result [1]
+[hesai_lidar_node-1] publishRawDataThread:get thead 281473646098848, policy 0 and priority 0
+[hesai_lidar_node-1] Load correction file from lidar
+[hesai_lidar_node-1] buffer is: ,len is: -1464021508
+[hesai_lidar_node-1] tcpCommandClient_SendCmd
+[hesai_lidar_node-1] Open correction file /unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/config/PandarXT-16.csv succeed
+[hesai_lidar_node-1] Parse Lidar Correction...
+[hesai_lidar_node-1] Load correction file from /unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/config/PandarXT-16.csv succeed
+=== UDP sockets during probe ===
+UNCONN    0         0                   0.0.0.0:10110            0.0.0.0:*       users:(("hesai_lidar_nod",pid=17000,fd=16))                                    
+UNCONN    0         0                   0.0.0.0:2368             0.0.0.0:*       users:(("hesai_lidar_nod",pid=17000,fd=15))                                    
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[INFO] [hesai_lidar_node-1]: sending signal 'SIGINT' to process[hesai_lidar_node-1]
+[hesai_lidar_node-1] [INFO] [1795159398.113286976] [rclcpp]: signal_handler(signal_value=2)
+[hesai_lidar_node-1] [INFO] [1795159398.116537120] [rclcpp]: signal_handler(signal_value=2)
+[INFO] [hesai_lidar_node-1]: process has finished cleanly [pid 17000]
+Probe timeout status=124 (124 expected for bounded test)
+=== Remaining driver processes ===

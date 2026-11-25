@@ -1,0 +1,180 @@
+{
+  "status": "nominal_reference_not_launch_configuration",
+  "hardware_validated": false,
+  "source": {
+    "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_ros/master/robots/go2_description/urdf/go2_description.urdf",
+    "retrieved": "2026-11-24",
+    "sha256": "7d19fe48e2e689ee1a032ab99f2a4a8b671d87e73de48d3e65811682a5b48b9e",
+    "revision": "master snapshot; commit not resolved"
+  },
+  "convention": "p_parent = R_parent_child * p_child + t_parent_child; metres and radians",
+  "robot_variant": "Go2 EDU, user confirmed",
+  "lidar_model": "L1 or L2 not yet confirmed",
+  "transforms": [
+    {
+      "joint": "imu_joint",
+      "parent": "base",
+      "child": "imu",
+      "translation_m": [
+        -0.02557,
+        0.0,
+        0.04232
+      ],
+      "rpy_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "joint": "radar_joint",
+      "parent": "base",
+      "child": "radar",
+      "translation_m": [
+        0.28945,
+        0.0,
+        -0.046825
+      ],
+      "rpy_rad": [
+        0.0,
+        2.8782,
+        0.0
+      ],
+      "rotation_matrix": [
+        [
+          -0.9655122329338992,
+          0.0,
+          0.2603576925212619
+        ],
+        [
+          -0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.2603576925212619,
+          -0.0,
+          -0.9655122329338992
+        ]
+      ]
+    },
+    {
+      "joint": "front_camera_joint",
+      "parent": "base",
+      "child": "front_camera",
+      "translation_m": [
+        0.32715,
+        -3e-05,
+        0.04297
+      ],
+      "rpy_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "parent": "imu",
+      "child": "radar",
+      "translation_m": [
+        0.31502,
+        0.0,
+        -0.089145
+      ],
+      "rpy_rad": [
+        0.0,
+        2.8782,
+        0.0
+      ],
+      "rotation_matrix": [
+        [
+          -0.9655122329338992,
+          0.0,
+          0.2603576925212619
+        ],
+        [
+          -0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.2603576925212619,
+          -0.0,
+          -0.9655122329338992
+        ]
+      ],
+      "derivation": "inverse(T_base_imu) * T_base_radar"
+    }
+  ],
+  "manufacturer_dimensions_m": {
+    "standing_length_width_height": [
+      0.7,
+      0.31,
+      0.4
+    ],
+    "powered_off_lying_length_width_height": [
+      0.76,
+      0.31,
+      0.2
+    ],
+    "source": "user supplied EDU specification screenshot",
+    "cuboid_center_in_base": null,
+    "motion_margin_m": null
+  },
+  "unresolved": [
+    "Application base_link must coincide with URDF base or include a transform",
+    "Measured cloud frame may already be transformed; do not apply radar transform twice",
+    "URDF imu is not established as the lidar internal IMU",
+    "Generic Go2 model radar joint must match this EDU sensor installation before deployment"
+  ],
+  "l2_internal_imu_reference": {
+    "source": "https://github.com/unitreerobotics/unilidar_sdk2",
+    "convention": "p_lidar = p_internal_imu + t_lidar_imu",
+    "t_lidar_imu_m": [
+      -0.007698,
+      -0.014655,
+      0.00667
+    ],
+    "point_lio_official_config_extrinsic_T": [
+      0.007698,
+      0.014655,
+      -0.00667
+    ],
+    "source_config": "https://github.com/unitreerobotics/point_lio_unilidar/blob/main/config/unilidar_l2.yaml",
+    "warning": "Use only with matched L2 internal IMU and verified implementation convention; not the URDF imu"
+  }
+}

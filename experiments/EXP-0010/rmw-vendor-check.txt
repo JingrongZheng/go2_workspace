@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CycloneDDS xmlns="https://cdds.io/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cdds.io/config https://raw.githubusercontent.com/eclipse-cyclonedds/cyclonedds/master/etc/cyclonedds.xsd">
+    <Domain Id="any">
+        <General>
+            <Interfaces>
+                <NetworkInterface name="eth0" priority="default" multicast="default" />
+            </Interfaces>
+        <AllowMulticast>spdp</AllowMulticast>
+        </General>
+        
+        <Internal>
+        	<!--MinimumSocketReceiveBufferSize>50MB</MinimumSocketReceiveBufferSize-->
+        </Internal>
+    </Domain>
+</CycloneDDS>
+=== Effective libraries ===
+	libddsc.so.0 => /usr/local/lib/libddsc.so.0 (0x0000ffffa56f0000)
+1795168414.753413 [0]    python3: eth0: does not match an available interface.
+[ERROR] [1795168414.753517920] [rmw_cyclonedds_cpp]: rmw_create_node: failed to create domain, error Error
+
+>>> [rcutils|error_handling.c:108] rcutils_set_error_state()
+This error state is being overwritten:
+
+  'error not set, at /tmp/binarydeb/ros-foxy-rcl-1.1.14/src/rcl/node.c:276'
+
+with this new error message:
+
+  'rcl node's rmw handle is invalid, at /tmp/binarydeb/ros-foxy-rcl-1.1.14/src/rcl/node.c:428'
+
+rcutils_reset_error() should be called after error handling to avoid this.
+<<<
+[ERROR] [1795168414.753603232] [rcl]: Failed to fini publisher for node: 1
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/__init__.py", line 141, in create_node
+    return Node(
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/node.py", line 165, in __init__
+    self.__handle = Handle(_rclpy.rclpy_create_node(
+_rclpy.RCLError: Unknown error creating node: rcl node's rmw handle is invalid, at /tmp/binarydeb/ros-foxy-rcl-1.1.14/src/rcl/node.c:428
+STATUS=1

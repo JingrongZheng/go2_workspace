@@ -1,0 +1,9 @@
+{"pc_minus_dock_s": 0.069636824, "clock_probe_roundtrip_s": 0.001654885}
+1795576142.811755 [0]    python3: config: //CycloneDDS/Domain/General: 'NetworkInterfaceAddress': deprecated element (CYCLONEDDS_URI+0 line 1)
+{"clock_mode": "auto", "common_stamp_offset_s": 47.687601177, "dock_minus_sensor_s": 47.617964353}
+{"topic": "/go2/relay/cloud", "first": {"frame_id": "utlidar_lidar", "source_stamp_ns": 1795576095515968561, "published_stamp_ns": 1795576143203569738, "pc_age_ms": 78.91, "points": 4081, "fields": ["x", "y", "z", "intensity", "ring", "time"]}}
+{"topic": "/go2/relay/imu", "first": {"frame_id": "utlidar_imu", "source_stamp_ns": 1795576095581591606, "published_stamp_ns": 1795576143269192783, "pc_age_ms": 13.61}}
+{"topic": "/go2/relay/chassis_imu", "first": {"frame_id": "go2_chassis_imu", "source_stamp_ns": 1795576095880988184, "published_stamp_ns": 1795576143568589361, "pc_age_ms": 16.46}}
+{"topic": "/go2/relay/cloud", "samples": 461, "hz": 15.38}
+{"topic": "/go2/relay/imu", "samples": 6629, "hz": 221.66}
+{"topic": "/go2/relay/chassis_imu", "samples": 10110, "hz": 341.53}

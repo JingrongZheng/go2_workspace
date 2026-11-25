@@ -1,0 +1,78 @@
+[INFO] [launch]: All log files can be found below /tmp/.ros/log/2026-11-24-10-58-24-286135-cdac6312d431-7
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [static_transform_publisher-1]: process started with pid [23]
+[INFO] [lego_loam-2]: process started with pid [25]
+[static_transform_publisher-1] [INFO] [1795517904.346106130] [static_transform_publisher_iOxawY7jnlj91mJO]: Spinning until stopped - publishing transform
+[static_transform_publisher-1] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-1] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-1] from 'base_link' to 'base_footprint'
+[lego_loam-2] [INFO] [1795517904.450960344] [lego_loam_ip]: laser.num_vertical_scans: 16
+[lego_loam-2] [INFO] [1795517904.451068965] [lego_loam_ip]: laser.num_horizontal_scans: 440
+[lego_loam-2] [INFO] [1795517904.451087409] [lego_loam_ip]: laser.scan_period: 0.10
+[lego_loam-2] [INFO] [1795517904.451108819] [lego_loam_ip]: laser.vertical_angle_bottom: -15.00
+[lego_loam-2] [INFO] [1795517904.451119919] [lego_loam_ip]: laser.vertical_angle_top: 15.00
+[lego_loam-2] [INFO] [1795517904.451129828] [lego_loam_ip]: imageProjection.segment_theta: 60.00
+[lego_loam-2] [INFO] [1795517904.451143243] [lego_loam_ip]: imageProjection.segment_valid_point_num: 5
+[lego_loam-2] [INFO] [1795517904.451153461] [lego_loam_ip]: imageProjection.segment_valid_line_num: 2
+[lego_loam-2] [INFO] [1795517904.451164462] [lego_loam_ip]: laser.odom_type: wheel_odometry
+[lego_loam-2] [INFO] [1795517904.451173999] [lego_loam_ip]: laser.base_ground_frame: base_footprint
+[lego_loam-2] [INFO] [1795517904.451185791] [lego_loam_ip]: laser.odom_child_frame: base_link
+[lego_loam-2] [INFO] [1795517904.451195589] [lego_loam_ip]: imageProjection.maximum_detection_range: 100.00
+[lego_loam-2] [INFO] [1795517904.451205938] [lego_loam_ip]: imageProjection.minimum_detection_range: 0.50
+[lego_loam-2] [INFO] [1795517904.451216308] [lego_loam_ip]: imageProjection.distance_for_patch_between_rings: 1.00
+[lego_loam-2] [INFO] [1795517904.451227819] [lego_loam_ip]: imageProjection.to_fa: 1
+[lego_loam-2] [INFO] [1795517904.451240041] [lego_loam_ip]: imageProjection.time_step_between_depth_image: 0.50
+[lego_loam-2] [INFO] [1795517904.451250451] [lego_loam_ip]: imageProjection.stitcher_num: 0
+[lego_loam-2] [INFO] [1795517904.451259948] [lego_loam_ip]: imageProjection.ground_fov_bottom: -0.261799
+[lego_loam-2] [INFO] [1795517904.451269897] [lego_loam_ip]: imageProjection.ground_fov_top: -0.087266
+[lego_loam-2] [INFO] [1795517904.451279855] [lego_loam_ip]: imageProjection.ground_positive_start: 0.000000
+[lego_loam-2] [INFO] [1795517904.451293310] [lego_loam_ip]: imageProjection.ground_positive_stop: 3.141593
+[lego_loam-2] [INFO] [1795517904.451303078] [lego_loam_ip]: imageProjection.ground_negative_start: 0.000000
+[lego_loam-2] [INFO] [1795517904.451312646] [lego_loam_ip]: imageProjection.ground_negative_stop: -3.141593
+[lego_loam-2] [INFO] [1795517904.451322073] [lego_loam_ip]: imageProjection.ignore_fov_bottom: 0.000000
+[lego_loam-2] [INFO] [1795517904.451334767] [lego_loam_ip]: imageProjection.ignore_fov_top: 0.000000
+[lego_loam-2] [INFO] [1795517904.451345126] [lego_loam_ip]: imageProjection.ignore_positive_start: 0.000000
+[lego_loam-2] [INFO] [1795517904.451354723] [lego_loam_ip]: imageProjection.ignore_positive_stop: 0.000000
+[lego_loam-2] [INFO] [1795517904.451364411] [lego_loam_ip]: imageProjection.ignore_negative_start: 0.000000
+[lego_loam-2] [INFO] [1795517904.451376664] [lego_loam_ip]: imageProjection.ignore_negative_stop: 0.000000
+[lego_loam-2] [INFO] [1795517904.451386813] [lego_loam_ip]: imageProjection.ground_slope_tolerance: 0.174533
+[lego_loam-2] [INFO] [1795517904.451396681] [lego_loam_ip]: imageProjection.ground_dz_tolerance: 0.100000
+[lego_loam-2] [INFO] [1795517904.451406369] [lego_loam_ip]: imageProjection.use_sensor_height_to_filter_out_ground: 0
+[lego_loam-2] [INFO] [1795517904.451415846] [lego_loam_ip]: imageProjection.patch_first_ring_to_baselink: 1
+[lego_loam-2] [INFO] [1795517904.451427809] [lego_loam_ip]: imageProjection.deep_learning.trt_model_path: 
+[lego_loam-2] [INFO] [1795517904.451437236] [lego_loam_ip]: imageProjection.deep_learning.projected_image_stack_size: 0
+[lego_loam-2] [INFO] [1795517904.456028904] [lego_loam_fa]: featureAssociation.edge_threshold: 0.10
+[lego_loam-2] [INFO] [1795517904.456055103] [lego_loam_fa]: featureAssociation.surf_threshold: 0.10
+[lego_loam-2] [INFO] [1795517904.456067816] [lego_loam_fa]: featureAssociation.nearest_feature_search_distance: 3.00
+[lego_loam-2] [INFO] [1795517904.456081532] [lego_loam_fa]: mapping.to_map_optimization: 1
+[lego_loam-2] [INFO] [1795517904.461389113] [lego_loam_mo]: mapping.enable_loop_closure: 1
+[lego_loam-2] [INFO] [1795517904.461415221] [lego_loam_mo]: mapping.history_keyframe_search_radius: 15.00
+[lego_loam-2] [INFO] [1795517904.461432764] [lego_loam_mo]: mapping.history_keyframe_search_num: 5
+[lego_loam-2] [INFO] [1795517904.461444896] [lego_loam_mo]: mapping.history_keyframe_fitness_score: 0.50
+[lego_loam-2] [INFO] [1795517904.461457620] [lego_loam_mo]: mapping.surrounding_keyframe_search_num: 10
+[lego_loam-2] [INFO] [1795517904.461474541] [lego_loam_mo]: mapping.angle_between_key_frame: 1.00
+[lego_loam-2] [INFO] [1795517904.461487776] [lego_loam_mo]: mapping.distance_between_key_frame: 1.00
+[lego_loam-2] [INFO] [1795517904.461499537] [lego_loam_mo]: mapping.ground_edge_threshold_num: 50
+[lego_loam-2] [INFO] [1795517904.461534973] [lego_loam_mo]: mapping.broadcast_external_odom_tf: 0
+[lego_loam-2] [INFO] [1795517904.461548868] [lego_loam_mo]: mapping.generate_testing_pg: 0
+[lego_loam-2] [INFO] [1795517904.461563746] [lego_loam_mo]: mapping.bin_sampling_less_flat_feature: 0
+[lego_loam-2] [INFO] [1795517904.461574927] [lego_loam_mo]: mapping.LM_optimization_iteration_number: 10
+[lego_loam-2] [INFO] [1795517904.461586177] [lego_loam_mo]: mapping.bin_sampling_x_size: 0.50
+[lego_loam-2] [INFO] [1795517904.461598681] [lego_loam_mo]: mapping.bin_sampling_y_size: 1.00
+[lego_loam-2] [INFO] [1795517904.461613628] [lego_loam_mo]: mapping.bin_sampling_z_size: 0.50
+[lego_loam-2] [INFO] [1795517904.467891904] [lego_loam_map_visualization]: visualization_detail_level: 0
+[lego_loam-2] [INFO] [1795517904.467920928] [lego_loam_map_visualization]: ground_voxel_size: 0.40
+[lego_loam-2] [INFO] [1795517904.467937849] [lego_loam_map_visualization]: map_voxel_size: 0.20
+[lego_loam-2] [INFO] [1795517904.467952196] [lego_loam_map_visualization]: ground_edge_threshold_num: 60
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [lego_loam-2]: sending signal 'SIGINT' to process[lego_loam-2]
+[INFO] [static_transform_publisher-1]: sending signal 'SIGINT' to process[static_transform_publisher-1]
+[lego_loam-2] [INFO] [1795517908.621652058] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[static_transform_publisher-1] [INFO] [1795517908.621904394] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [static_transform_publisher-1]: process has finished cleanly [pid 23]
+[ERROR] [lego_loam-2]: process[lego_loam-2] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[INFO] [lego_loam-2]: sending signal 'SIGTERM' to process[lego_loam-2]
+[lego_loam-2] [INFO] [1795517913.623218745] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[ERROR] [lego_loam-2]: process[lego_loam-2] failed to terminate '10.0' seconds after receiving 'SIGTERM', escalating to 'SIGKILL'
+[INFO] [lego_loam-2]: sending signal 'SIGKILL' to process[lego_loam-2]
+[ERROR] [lego_loam-2]: process has died [pid 25, exit code -9, cmd '/outputs/install/lego_loam_bor/lib/lego_loam_bor/lego_loam --ros-args --params-file /mapping.yaml --params-file /tmp/launch_params_feokfg1x -r /lslidar_point_cloud:=/check/l2_cloud'].

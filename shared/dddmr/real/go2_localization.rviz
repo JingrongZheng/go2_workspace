@@ -1,0 +1,75 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+Visualization Manager:
+  Class: ""
+  Global Options:
+    Fixed Frame: map
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/FocusCamera
+    - Class: rviz_default_plugins/Measure
+    - Class: rviz_default_plugins/SetInitialPose
+      Topic:
+        Value: /initial_3d_pose
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Enabled: true
+    - Class: rviz_default_plugins/PointCloud2
+      Name: Saved Ground (/map1/mapground)
+      Enabled: true
+      Color Transformer: FlatColor
+      Color: 100; 195; 120
+      Size (Pixels): 2
+      Topic:
+        Value: /map1/mapground
+        Reliability Policy: Reliable
+        Durability Policy: Transient Local
+    - Class: rviz_default_plugins/PointCloud2
+      Name: Saved Surfaces (/map1/mapsurface)
+      Enabled: true
+      Color Transformer: FlatColor
+      Color: 130; 180; 210
+      Size (Pixels): 2
+      Topic:
+        Value: /map1/mapsurface
+        Reliability Policy: Reliable
+        Durability Policy: Transient Local
+    - Class: rviz_default_plugins/PointCloud2
+      Name: Saved Edge Map (/map1/mapcloud)
+      Enabled: true
+      Color Transformer: FlatColor
+      Color: 245; 170; 60
+      Size (Pixels): 3
+      Topic:
+        Value: /map1/mapcloud
+        Reliability Policy: Reliable
+        Durability Policy: Transient Local
+    - Class: rviz_default_plugins/PointCloud2
+      Name: Live Point-LIO Scan (/cloud_registered)
+      Enabled: true
+      Color Transformer: FlatColor
+      Color: 255; 80; 80
+      Size (Pixels): 3
+      Topic:
+        Value: /cloud_registered
+        Reliability Policy: Best Effort
+    - Class: rviz_default_plugins/PoseArray
+      Name: MCL Particles (/particles)
+      Enabled: true
+      Color: 255; 230; 50
+      Topic:
+        Value: /particles
+        Reliability Policy: Reliable
+    - Class: rviz_default_plugins/PoseWithCovariance
+      Name: MCL Pose (/mcl_pose)
+      Enabled: true
+      Topic:
+        Value: /mcl_pose
+        Reliability Policy: Reliable
+    - Class: rviz_default_plugins/TF
+      Name: TF (map -> odom -> base_link)
+      Enabled: true

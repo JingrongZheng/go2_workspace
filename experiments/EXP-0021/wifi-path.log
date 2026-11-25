@@ -1,0 +1,8 @@
+enp2s0           DOWN           
+192.168.110.87 dev wlp3s0 src 192.168.110.120 uid 1000 
+    cache 
+lo               UNKNOWN        127.0.0.1/8 
+eth10            UP             192.168.123.18/24 
+docker0          DOWN           172.17.0.1/16 
+wlan0            UP             192.168.110.87/24 
+ssh_connection=192.168.110.120 47052 192.168.110.87 22

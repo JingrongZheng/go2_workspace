@@ -1,0 +1,148 @@
+Nov 25 16:16:04 ubuntu kernel: RTW: OnAction_back
+Nov 25 16:16:04 ubuntu kernel: RTW: OnAction_back, action=2
+Nov 25 16:16:04 ubuntu kernel: RTW: OnAction_back(): DELBA: 0(0)
+Nov 25 16:16:04 ubuntu kernel: RTW: OnAction_back
+Nov 25 16:16:04 ubuntu kernel: RTW: OnAction_back, action=2
+Nov 25 16:16:04 ubuntu kernel: RTW: OnAction_back(): DELBA: 0(0)
+Nov 25 16:16:04 ubuntu kernel: RTW: wlan0 wakeup m0=0x00000003, ori reg_0x4d4=0x00000002
+Nov 25 16:16:04 ubuntu kernel: RTW: survey done event(77) band:0 for wlan0
+Nov 25 16:16:04 ubuntu kernel: RTW: rtw_set_rts_bw connect_to_8812=0,enable=1
+Nov 25 16:16:04 ubuntu kernel: RTW: HW_VAR_BASIC_RATE: 0x15f->0x15f->0x15f
+Nov 25 16:16:04 ubuntu kernel: RTW: WMM(0): 0, a42b
+Nov 25 16:16:04 ubuntu kernel: RTW: WMM(1): 0, a44f
+Nov 25 16:16:04 ubuntu kernel: RTW: WMM(2): 0, 5e4322
+Nov 25 16:16:04 ubuntu kernel: RTW: WMM(3): 0, 2f3222
+Nov 25 16:16:04 ubuntu kernel: RTW: wmm_para_seq(0): 0
+Nov 25 16:16:04 ubuntu kernel: RTW: wmm_para_seq(1): 1
+Nov 25 16:16:04 ubuntu kernel: RTW: wmm_para_seq(2): 2
+Nov 25 16:16:04 ubuntu kernel: RTW: wmm_para_seq(3): 3
+Nov 25 16:16:04 ubuntu kernel: RTW: HTOnAssocRsp
+Nov 25 16:16:04 ubuntu kernel: RTW: VHTOnAssocRsp
+Nov 25 16:16:04 ubuntu kernel: RTW: ============ STA [70:85:6c:eb:9f:0f]  ===================
+Nov 25 16:16:04 ubuntu kernel: RTW: mac_id : 0
+Nov 25 16:16:04 ubuntu kernel: RTW: wireless_mode : 0x43
+Nov 25 16:16:04 ubuntu kernel: RTW: mimo_type : 2
+Nov 25 16:16:04 ubuntu kernel: RTW: static smps : N
+Nov 25 16:16:04 ubuntu kernel: RTW: bw_mode : 20MHz, ra_bw_mode : 20MHz
+Nov 25 16:16:04 ubuntu kernel: RTW: rate_id : 16
+Nov 25 16:16:04 ubuntu kernel: RTW: rssi : 55 (%), rssi_level : 0
+Nov 25 16:16:04 ubuntu kernel: RTW: is_support_sgi : Y, is_vht_enable : Y
+Nov 25 16:16:04 ubuntu kernel: RTW: disable_ra : N, disable_pt : N
+Nov 25 16:16:04 ubuntu kernel: RTW: is_noisy : N
+Nov 25 16:16:04 ubuntu kernel: RTW: txrx_state : 0
+Nov 25 16:16:04 ubuntu kernel: RTW: curr_tx_rate : CCK_1M (L)
+Nov 25 16:16:04 ubuntu kernel: RTW: curr_tx_bw : 20MHz
+Nov 25 16:16:04 ubuntu kernel: RTW: curr_retry_ratio : 0
+Nov 25 16:16:04 ubuntu kernel: RTW: ra_mask : 0x00000000ffffffff
+Nov 25 16:16:04 ubuntu kernel: RTW: wlan0 wakeup macid=0, ori reg_0x4d4=0x00000000
+Nov 25 16:16:04 ubuntu kernel: RTW: rtw_xmit_queue_clear(wlan0): disable queue TX for macid=0
+Nov 25 16:16:04 ubuntu kernel: RTW: xmit_dequeue(wlan0): de-queue tx frame of macid=0
+Nov 25 16:16:04 ubuntu kernel: RTW: hw_var_set_dl_rsvd_page(wlan0):+ hw_port=0 mstatus(1)
+Nov 25 16:16:04 ubuntu kernel: RTW: recv eapol packet 3/4
+Nov 25 16:16:04 ubuntu kernel: RTW: Receive unencrypted eapol key
+Nov 25 16:16:04 ubuntu kernel: RTW: send eapol packet 4/4
+Nov 25 16:16:04 ubuntu kernel: RTW: Respond unencrypted eapol key
+Nov 25 16:16:04 ubuntu kernel: RTW: cfg80211_rtw_add_key(wlan0) adding key for 70:85:6c:eb:9f:0f
+Nov 25 16:16:04 ubuntu kernel: RTW: cfg80211_rtw_add_key(wlan0) cipher=0xfac04
+Nov 25 16:16:04 ubuntu kernel: RTW: cfg80211_rtw_add_key(wlan0) key_len=16, key_index=0
+Nov 25 16:16:04 ubuntu kernel: RTW: cfg80211_rtw_add_key(wlan0) pairwise=1
+Nov 25 16:16:04 ubuntu kernel: RTW: cfg80211_rtw_add_key(wlan0) seq_len:6, seq:0x0
+Nov 25 16:16:04 ubuntu kernel: RTW: rtw_cfg80211_set_encryption
+Nov 25 16:16:04 ubuntu kernel: RTW: rtw_cfg80211_set_encryption(wlan0) set CCMP PTK idx:0, len:16
+Nov 25 16:16:04 ubuntu kernel: RTW: rtw_cfg80211_set_encryption, ret=0
+Nov 25 16:16:04 ubuntu kernel: RTW: cfg80211_rtw_set_default_key(wlan0) key_index=0, unicast=1, multicast=0
+Nov 25 16:16:04 ubuntu kernel: RTW: cfg80211_rtw_add_key(wlan0) cipher=0xfac04
+Nov 25 16:16:04 ubuntu kernel: RTW: cfg80211_rtw_add_key(wlan0) key_len=16, key_index=1
+Nov 25 16:16:04 ubuntu kernel: RTW: cfg80211_rtw_add_key(wlan0) pairwise=0
+Nov 25 16:16:04 ubuntu kernel: RTW: cfg80211_rtw_add_key(wlan0) seq_len:6, seq:0x6f91c6
+Nov 25 16:16:04 ubuntu kernel: RTW: rtw_cfg80211_set_encryption
+Nov 25 16:16:04 ubuntu kernel: RTW: rtw_cfg80211_set_encryption(wlan0) set CCMP GTK idx:1, len:16
+Nov 25 16:16:04 ubuntu kernel: RTW: ==> rtw_set_key algorithm(4),keyid(1),key_mask(0)
+Nov 25 16:16:04 ubuntu kernel: RTW: rtw_cfg80211_set_encryption, ret=0
+Nov 25 16:16:04 ubuntu kernel: RTW: _rtw_hal_set_fw_rsvd_page(wlan0) PageSize: 128, [ NOR ]-RsvdPageNUm: 8
+Nov 25 16:16:04 ubuntu kernel: RTW: LocPsPoll: 4
+Nov 25 16:16:04 ubuntu kernel: RTW: LocNullData: 5
+Nov 25 16:16:04 ubuntu kernel: RTW: LocQosNull: 6
+Nov 25 16:16:04 ubuntu kernel: RTW: _rtw_hal_set_fw_rsvd_page PageNum(7), pktlen(896)
+Nov 25 16:16:04 ubuntu kernel: RTW: _rtw_hal_set_fw_rsvd_page: Set RSVD page location to Fw ,TotalPacketLen(896), TotalPageNum(7)
+Nov 25 16:16:04 ubuntu kernel: RTW: RsvdPageLoc: ProbeRsp=0 PsPoll=4 Null=5 QoSNull=6 BTNull=0
+Nov 25 16:16:04 ubuntu kernel: IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+Nov 25 16:16:04 ubuntu kernel: RTW: rtw_ndev_notifier_call(wlan0) state:4
+Nov 25 16:16:04 ubuntu kernel: RTW: wlan0: DL RSVD page success! DLBcnCount:1, poll:1
+Nov 25 16:16:04 ubuntu kernel: RTW: rtw_phydm_update_ap_vendor_ie ODM_CMNINFO_HUAWEI_HWID:0 ATHEROS_HWID:0
+Nov 25 16:16:04 ubuntu kernel: RTW: rtw_dfs_rd_en_decision(wlan0) needed:0, mlme_act:7, excl_ifbmp:0x00
+Nov 25 16:16:04 ubuntu kernel: RTW: rtw_dfs_rd_en_decision(wlan0) ld_sta_num:1, lg_sta_num:0, ap_num:0, mesh_num:0, 11,0,0
+Nov 25 16:16:04 ubuntu kernel: RTW: rtw_join_done_chk_ch(wlan0) union:11,0,0
+Nov 25 16:16:04 ubuntu kernel: RTW: =>mlmeext_joinbss_event_callback - End to Connection without 4-way
+Nov 25 16:16:04 ubuntu kernel: RTW: rtw_surveydone_event_callback(wlan0) fw_state:0x9
+Nov 25 16:16:04 ubuntu kernel: RTW: rtw_indicate_scan_done(wlan0)
+Nov 25 16:16:04 ubuntu kernel: RTW: set pairwise key camid:0, addr:70:85:6c:eb:9f:0f, kid:0, type:AES
+Nov 25 16:16:04 ubuntu kernel: RTW: set group key camid:1, addr:70:85:6c:eb:9f:0f, kid:1, type:AES
+Nov 25 16:16:04 ubuntu kernel: RTW: cfg80211_rtw_get_txpower(wlan0) total max: 2501 mbm
+Nov 25 16:16:04 ubuntu kernel: RTW: cfg80211_rtw_change_station(wlan0) mac:70:85:6c:eb:9f:0f
+Nov 25 16:16:04 ubuntu kernel: RTW: cfg80211_rtw_get_txpower(wlan0) total max: 2501 mbm
+Nov 25 16:16:04 ubuntu kernel: RTW: rtw_ndev_notifier_call(wlan0) state:4
+Nov 25 16:16:04 ubuntu kernel: RTW: OnAction_back
+Nov 25 16:16:04 ubuntu kernel: RTW: OnAction_back, action=0
+Nov 25 16:16:04 ubuntu kernel: RTW: issue_addba_rsp_wait_ack(wlan0) ra=70:85:6c:eb:9f:0f status:=0 tid=0 size:64, acked, 1/3 in 0 ms
+Nov 25 16:16:05 ubuntu kernel: RTW: OnAction_back
+Nov 25 16:16:05 ubuntu kernel: RTW: OnAction_back, action=0
+Nov 25 16:16:05 ubuntu kernel: RTW: issue_addba_rsp_wait_ack(wlan0) ra=70:85:6c:eb:9f:0f status:=0 tid=2 size:64, acked, 1/3 in 4 ms
+Nov 25 16:16:05 ubuntu kernel: RTW: Turbo EDCA =0x5ea42b
+Nov 25 16:16:08 ubuntu kernel: RTW: OnAction_back
+Nov 25 16:16:08 ubuntu kernel: RTW: OnAction_back, action=0
+Nov 25 16:16:08 ubuntu kernel: RTW: issue_addba_rsp_wait_ack(wlan0) ra=70:85:6c:eb:9f:0f status:=0 tid=7 size:64, acked, 1/3 in 4 ms
+Nov 25 16:16:08 ubuntu kernel: RTW: rtw_issue_addbareq_cmd, p=0
+Nov 25 16:16:08 ubuntu kernel: RTW: BA_starting_seqctrl = 151 for TID=0
+Nov 25 16:16:08 ubuntu kernel: RTW: issue_addba_req(wlan0) ra=70:85:6c:eb:9f:0f tid=0
+Nov 25 16:16:08 ubuntu kernel: RTW: OnAction_back
+Nov 25 16:16:08 ubuntu kernel: RTW: OnAction_back, action=1
+Nov 25 16:16:08 ubuntu kernel: RTW: agg_enable for TID=0
+Nov 25 16:16:02 ubuntu NetworkManager[607]: <info>  [1795594562.1493] device (wlan0): supplicant interface state: ready -> associating
+Nov 25 16:16:02 ubuntu NetworkManager[607]: <info>  [1795594562.1494] device (p2p-dev-wlan0): supplicant management interface state: ready -> associating
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.6024] device (wlan0): supplicant interface state: associating -> associated
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.6025] device (p2p-dev-wlan0): supplicant management interface state: associating -> associated
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.6136] device (wlan0): supplicant interface state: associated -> 4-way handshake
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.6137] device (p2p-dev-wlan0): supplicant management interface state: associated -> 4-way handshake
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7361] device (wlan0): supplicant interface state: 4-way handshake -> completed
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7363] device (wlan0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "spin220"
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7363] device (p2p-dev-wlan0): supplicant management interface state: 4-way handshake -> completed
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7366] device (wlan0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7374] dhcp4 (wlan0): activation: beginning transaction (timeout in 45 seconds)
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7543] dhcp4 (wlan0): option dhcp_lease_time      => '7200'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7544] dhcp4 (wlan0): option domain_name          => 'lan'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7544] dhcp4 (wlan0): option domain_name_servers  => '192.168.110.1'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7545] dhcp4 (wlan0): option expiry               => '1795601764'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7545] dhcp4 (wlan0): option host_name            => 'ubuntu'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7545] dhcp4 (wlan0): option ip_address           => '192.168.110.87'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7545] dhcp4 (wlan0): option next_server          => '192.168.110.1'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7545] dhcp4 (wlan0): option requested_broadcast_address => '1'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7545] dhcp4 (wlan0): option requested_domain_name => '1'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7546] dhcp4 (wlan0): option requested_domain_name_servers => '1'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7546] dhcp4 (wlan0): option requested_domain_search => '1'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7546] dhcp4 (wlan0): option requested_host_name  => '1'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7546] dhcp4 (wlan0): option requested_interface_mtu => '1'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7546] dhcp4 (wlan0): option requested_ms_classless_static_routes => '1'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7546] dhcp4 (wlan0): option requested_nis_domain => '1'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7549] dhcp4 (wlan0): option requested_nis_servers => '1'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7549] dhcp4 (wlan0): option requested_ntp_servers => '1'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7550] dhcp4 (wlan0): option requested_rfc3442_classless_static_routes => '1'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7550] dhcp4 (wlan0): option requested_root_path  => '1'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7550] dhcp4 (wlan0): option requested_routers    => '1'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7550] dhcp4 (wlan0): option requested_static_routes => '1'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7551] dhcp4 (wlan0): option requested_subnet_mask => '1'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7551] dhcp4 (wlan0): option requested_time_offset => '1'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7551] dhcp4 (wlan0): option requested_wpad       => '1'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7551] dhcp4 (wlan0): option routers              => '192.168.110.1'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7551] dhcp4 (wlan0): option subnet_mask          => '255.255.255.0'
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7551] dhcp4 (wlan0): state changed unknown -> bound
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7616] device (wlan0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7897] device (wlan0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7901] device (wlan0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.8067] device (wlan0): Activation: successful, device activated.
+Nov 25 16:16:06 ubuntu NetworkManager[607]: <info>  [1795594566.3705] manager: NetworkManager state is now CONNECTED_LOCAL
+Nov 25 16:16:06 ubuntu NetworkManager[607]: <info>  [1795594566.3710] manager: NetworkManager state is now CONNECTED_SITE
+Nov 25 16:16:06 ubuntu NetworkManager[607]: <info>  [1795594566.3712] policy: set 'spin220' (wlan0) as default for IPv4 routing and DNS
+0
+0
+Power save: on

@@ -1,0 +1,45 @@
+[INFO] [launch]: All log files can be found below /tmp/.ros/log/2026-11-25-03-02-52-639255-6f9eb0f8229f-18
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [pointlio_mapping-1]: process started with pid [41]
+[pointlio_mapping-1] Multi thread started 
+[pointlio_mapping-1] lidar_type: 5
+[pointlio_mapping-1] ~~~~/lio-ws/src/point_lio/ file opened
+[pointlio_mapping-1] first lidar time1.79557e+09
+[pointlio_mapping-1] [INFO] [1795575775.789372507] [laserMapping]: IMU Initializing: 1.0 %
+[pointlio_mapping-1] [WARN] [1795575775.789473428] [laserMapping]: Reset ImuProcess
+[pointlio_mapping-1] [INFO] [1795575775.792319501] [laserMapping]: IMU Initializing: 7.0 %
+[pointlio_mapping-1] [INFO] [1795575775.853056289] [laserMapping]: IMU Initializing: 29.0 %
+[pointlio_mapping-1] [INFO] [1795575775.907278844] [laserMapping]: IMU Initializing: 67.0 %
+[pointlio_mapping-1] [INFO] [1795575775.907324751] [laserMapping]: IMU Initializing: 100.0 %
+[pointlio_mapping-1] LIO_DIAG points=634 matched=623 groups=632 imu_queue=0 time=1795573325.930857
+[pointlio_mapping-1] LIO_STATE pos=-0.002153,0.072231,0.034239 vel=0.025678,0.279158,0.216711 acc=3.821779,-0.164241,9.981110 grav=0.011369,-0.005451,-9.832004
+[pointlio_mapping-1] LIO_DIAG points=529 matched=500 groups=528 imu_queue=0 time=1795573327.227978
+[pointlio_mapping-1] LIO_STATE pos=0.472070,1.012952,0.094441 vel=0.699581,1.713362,0.067871 acc=4.066060,0.011935,9.888034 grav=0.015477,-0.032521,-9.857761
+[pointlio_mapping-1] LIO_DIAG points=556 matched=437 groups=556 imu_queue=0 time=1795573328.525932
+[pointlio_mapping-1] LIO_STATE pos=1.844752,4.414234,0.086165 vel=1.514564,3.821840,-0.074987 acc=4.075832,-0.308649,9.765620 grav=0.017720,-0.051971,-9.853664
+[pointlio_mapping-1] LIO_DIAG points=638 matched=582 groups=633 imu_queue=0 time=1795573329.822914
+[pointlio_mapping-1] LIO_STATE pos=4.353762,11.210715,-0.230353 vel=2.445134,6.926550,-0.444934 acc=4.072722,0.135009,9.872946 grav=0.015408,-0.053481,-9.854011
+[pointlio_mapping-1] LIO_DIAG points=542 matched=413 groups=540 imu_queue=0 time=1795573331.120914
+[pointlio_mapping-1] LIO_STATE pos=8.254802,22.632622,-1.217147 vel=3.586321,10.889128,-1.126584 acc=4.047246,-0.005339,9.841002 grav=0.016777,-0.058001,-9.852595
+[pointlio_mapping-1] LIO_DIAG points=510 matched=381 groups=510 imu_queue=0 time=1795573332.417938
+[pointlio_mapping-1] LIO_STATE pos=13.547218,39.886420,-3.482199 vel=4.617874,15.969594,-2.299869 acc=3.882881,0.352612,9.800446 grav=0.015068,-0.064356,-9.853757
+[pointlio_mapping-1] LIO_DIAG points=639 matched=433 groups=636 imu_queue=1 time=1795573333.715411
+[pointlio_mapping-1] LIO_STATE pos=20.267308,64.360398,-7.672751 vel=5.712470,22.093568,-4.098495 acc=4.154807,0.053003,9.963831 grav=0.017111,-0.075230,-9.855723
+[pointlio_mapping-1] LIO_DIAG points=528 matched=243 groups=528 imu_queue=0 time=1795573335.012409
+[pointlio_mapping-1] LIO_STATE pos=28.479951,97.474570,-14.870786 vel=6.834405,29.276289,-6.947160 acc=3.938185,0.025713,9.791112 grav=0.018812,-0.086578,-9.856597
+[pointlio_mapping-1] LIO_DIAG points=499 matched=256 groups=498 imu_queue=0 time=1795573336.309929
+[pointlio_mapping-1] LIO_STATE pos=37.856972,140.573044,-26.322800 vel=7.557915,37.453483,-10.636327 acc=3.730769,-0.199780,9.599344 grav=0.018248,-0.102036,-9.853009
+[pointlio_mapping-1] LIO_DIAG points=610 matched=105 groups=609 imu_queue=0 time=1795573337.608413
+[pointlio_mapping-1] LIO_STATE pos=47.863146,194.876168,-43.031570 vel=7.776156,46.470257,-15.058158 acc=4.405137,0.177606,9.660213 grav=0.018372,-0.115351,-9.848392
+[pointlio_mapping-1] LIO_DIAG points=562 matched=147 groups=561 imu_queue=1 time=1795573338.903684
+[pointlio_mapping-1] LIO_STATE pos=57.593928,261.155863,-65.856053 vel=7.211137,56.165212,-20.194107 acc=4.035341,0.095050,9.831869 grav=0.019594,-0.127985,-9.842569
+[pointlio_mapping-1] LIO_DIAG points=469 matched=107 groups=468 imu_queue=0 time=1795573340.202906
+[pointlio_mapping-1] LIO_STATE pos=66.207115,340.777843,-96.115028 vel=5.981091,66.603589,-26.276362 acc=3.937581,0.115731,10.106462 grav=0.018946,-0.142163,-9.837965
+[pointlio_mapping-1] LIO_DIAG points=636 matched=11 groups=634 imu_queue=0 time=1795573341.500923
+[pointlio_mapping-1] LIO_STATE pos=73.044073,434.037220,-134.866296 vel=4.397069,77.226792,-33.224400 acc=4.017632,-0.008918,9.633299 grav=0.013743,-0.156427,-9.835917
+[pointlio_mapping-1] LIO_DIAG points=595 matched=121 groups=594 imu_queue=0 time=1795573342.798909
+[pointlio_mapping-1] LIO_STATE pos=77.532768,541.028119,-183.047614 vel=2.251681,87.811689,-40.746997 acc=3.977830,0.047570,9.671537 grav=0.007993,-0.169925,-9.833458
+[pointlio_mapping-1] LIO_DIAG points=474 matched=25 groups=473 imu_queue=0 time=1795573344.095663
+[pointlio_mapping-1] LIO_STATE pos=79.037580,661.687554,-241.177168 vel=-0.167534,98.500322,-48.631997 acc=3.876668,0.048133,9.967975 grav=-0.000601,-0.186424,-9.829360
+[pointlio_mapping-1] LIO_DIAG points=593 matched=6 groups=592 imu_queue=0 time=1795573345.392953
+[pointlio_mapping-1] LIO_STATE pos=76.852100,796.317665,-309.656044 vel=-3.428839,109.271399,-56.870943 acc=4.208541,0.040733,9.703238 grav=-0.003100,-0.195387,-9.825400

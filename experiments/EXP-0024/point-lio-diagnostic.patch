@@ -1,0 +1,36 @@
+diff --git a/src/laserMapping.cpp b/src/laserMapping.cpp
+index b6d5f4a..535489f 100644
+--- a/src/laserMapping.cpp
++++ b/src/laserMapping.cpp
+@@ -933,8 +933,8 @@ int main(int argc, char **argv) {
+             t2 = omp_get_wtime();
+ 
+             /*** iterated state estimation ***/
+-            crossmat_list.reserve(feats_down_size);
+-            pbody_list.reserve(feats_down_size);
++            crossmat_list.resize(feats_down_size);
++            pbody_list.resize(feats_down_size);
+             // pbody_ext_list.reserve(feats_down_size);
+ 
+             for (size_t i = 0; i < feats_down_body->size(); i++) {
+@@ -1173,6 +1173,7 @@ int main(int argc, char **argv) {
+                     }
+ 
+                     double dt = time_current - t_last;
++                    if (dt < -0.00001 || dt > 0.1) fprintf(stderr,"LIO_DT dt=%.9f point=%.9f last=%.9f\n",dt,time_current,t_last);
+                     t_last = time_current;
+                     double propag_start = omp_get_wtime();
+ 
+@@ -1247,6 +1248,12 @@ int main(int argc, char **argv) {
+                 }
+             }
+ 
++            if (scan_count % 20 == 0) {
++                fprintf(stderr, "LIO_DIAG points=%d matched=%d groups=%zu imu_queue=%zu time=%.6f\n",
++                        feats_down_size, effct_feat_num, time_seq.size(), imu_deque.size(), time_current);
++                fprintf(stderr,"LIO_STATE pos=%.6f,%.6f,%.6f vel=%.6f,%.6f,%.6f acc=%.6f,%.6f,%.6f grav=%.6f,%.6f,%.6f\n", kf_input.x_.pos[0],kf_input.x_.pos[1],kf_input.x_.pos[2],kf_input.x_.vel[0],kf_input.x_.vel[1],kf_input.x_.vel[2],input_in.acc[0],input_in.acc[1],input_in.acc[2],kf_input.x_.gravity[0],kf_input.x_.gravity[1],kf_input.x_.gravity[2]);
++            }
++
+             /******* Publish odometry downsample *******/
+             if (!publish_odometry_without_downsample) {
+                 publish_odometry(pubOdomAftMapped, tf_broadcaster);

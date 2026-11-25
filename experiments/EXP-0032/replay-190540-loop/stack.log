@@ -1,0 +1,276 @@
+[INFO] [launch]: All log files can be found below /tmp/.ros/log/2026-11-25-11-49-11-218295-6ee7fc609f15-26
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [pointlio_mapping-1]: process started with pid [52]
+[INFO] [python3-2]: process started with pid [54]
+[INFO] [static_transform_publisher-3]: process started with pid [56]
+[INFO] [static_transform_publisher-4]: process started with pid [58]
+[INFO] [static_transform_publisher-5]: process started with pid [60]
+[INFO] [static_transform_publisher-6]: process started with pid [62]
+[INFO] [python3-7]: process started with pid [64]
+[INFO] [static_transform_publisher-8]: process started with pid [66]
+[INFO] [lego_loam-9]: process started with pid [68]
+[static_transform_publisher-6] [INFO] [1795607351.426697797] [published_cloud_alias]: Spinning until stopped - publishing transform
+[static_transform_publisher-6] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-6] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-6] from 'utlidar_lidar' to 'lidar_link'
+[static_transform_publisher-5] [INFO] [1795607351.431817378] [base_to_published_cloud]: Spinning until stopped - publishing transform
+[static_transform_publisher-5] translation: ('0.282160', '0.000000', '-0.000000')
+[static_transform_publisher-5] rotation: ('0.871312', '-0.473081', '0.114618', '-0.062233')
+[static_transform_publisher-5] from 'base_link' to 'utlidar_lidar'
+[static_transform_publisher-3] [INFO] [1795607351.433721273] [chassis_imu_to_base]: Spinning until stopped - publishing transform
+[static_transform_publisher-3] translation: ('0.025570', '-0.000000', '-0.042320')
+[static_transform_publisher-3] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-3] from 'go2_chassis_imu' to 'base_link'
+[static_transform_publisher-4] [INFO] [1795607351.434233884] [base_to_model_radar]: Spinning until stopped - publishing transform
+[static_transform_publisher-4] translation: ('0.289450', '0.000000', '-0.046825')
+[static_transform_publisher-4] rotation: ('0.000000', '0.991341', '0.000000', '0.131316')
+[static_transform_publisher-4] from 'base_link' to 'radar'
+[static_transform_publisher-8] [INFO] [1795607351.442721347] [static_transform_publisher_DgFgg1m2eHmNEMLR]: Spinning until stopped - publishing transform
+[static_transform_publisher-8] translation: ('0.000000', '0.000000', '-0.316868')
+[static_transform_publisher-8] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-8] from 'base_link' to 'base_footprint'
+[pointlio_mapping-1] Multi thread started 
+[pointlio_mapping-1] lidar_type: 5
+[pointlio_mapping-1] ~~~~/lio-ws/src/point_lio/ file opened
+[lego_loam-9] [INFO] [1795607351.576325710] [lego_loam_ip]: laser.num_vertical_scans: 96
+[lego_loam-9] [INFO] [1795607351.576517925] [lego_loam_ip]: laser.num_horizontal_scans: 360
+[lego_loam-9] [INFO] [1795607351.576589976] [lego_loam_ip]: laser.scan_period: 0.00
+[lego_loam-9] [INFO] [1795607351.576662187] [lego_loam_ip]: laser.vertical_angle_bottom: -90.00
+[lego_loam-9] [INFO] [1795607351.576709279] [lego_loam_ip]: laser.vertical_angle_top: 90.00
+[lego_loam-9] [INFO] [1795607351.576760288] [lego_loam_ip]: imageProjection.segment_theta: 60.00
+[lego_loam-9] [INFO] [1795607351.576931593] [lego_loam_ip]: imageProjection.segment_valid_point_num: 5
+[lego_loam-9] [INFO] [1795607351.576976721] [lego_loam_ip]: imageProjection.segment_valid_line_num: 2
+[lego_loam-9] [INFO] [1795607351.577026979] [lego_loam_ip]: laser.odom_type: wheel_odometry
+[lego_loam-9] [INFO] [1795607351.577071656] [lego_loam_ip]: laser.base_ground_frame: base_footprint
+[lego_loam-9] [INFO] [1795607351.577122806] [lego_loam_ip]: laser.odom_child_frame: base_link
+[lego_loam-9] [INFO] [1795607351.577174837] [lego_loam_ip]: imageProjection.maximum_detection_range: 20.00
+[lego_loam-9] [INFO] [1795607351.577231077] [lego_loam_ip]: imageProjection.minimum_detection_range: 0.10
+[lego_loam-9] [INFO] [1795607351.577292657] [lego_loam_ip]: imageProjection.distance_for_patch_between_rings: 0.30
+[lego_loam-9] [INFO] [1795607351.577346713] [lego_loam_ip]: imageProjection.to_fa: 1
+[lego_loam-9] [INFO] [1795607351.577392713] [lego_loam_ip]: imageProjection.time_step_between_depth_image: 0.50
+[lego_loam-9] [INFO] [1795607351.577439253] [lego_loam_ip]: imageProjection.stitcher_num: 1
+[lego_loam-9] [INFO] [1795607351.577494942] [lego_loam_ip]: imageProjection.ground_fov_bottom: -1.570796
+[lego_loam-9] [INFO] [1795607351.577542284] [lego_loam_ip]: imageProjection.ground_fov_top: -0.030000
+[lego_loam-9] [INFO] [1795607351.577591090] [lego_loam_ip]: imageProjection.ground_positive_start: 0.000000
+[lego_loam-9] [INFO] [1795607351.577651027] [lego_loam_ip]: imageProjection.ground_positive_stop: 3.141593
+[lego_loam-9] [INFO] [1795607351.577698068] [lego_loam_ip]: imageProjection.ground_negative_start: 0.000000
+[lego_loam-9] [INFO] [1795607351.577747345] [lego_loam_ip]: imageProjection.ground_negative_stop: -3.141593
+[lego_loam-9] [INFO] [1795607351.577805478] [lego_loam_ip]: imageProjection.ignore_fov_bottom: 0.000000
+[lego_loam-9] [INFO] [1795607351.577869643] [lego_loam_ip]: imageProjection.ignore_fov_top: 0.000000
+[lego_loam-9] [INFO] [1795607351.577933418] [lego_loam_ip]: imageProjection.ignore_positive_start: 0.000000
+[lego_loam-9] [INFO] [1795607351.577989407] [lego_loam_ip]: imageProjection.ignore_positive_stop: 0.000000
+[lego_loam-9] [INFO] [1795607351.578042461] [lego_loam_ip]: imageProjection.ignore_negative_start: 0.000000
+[lego_loam-9] [INFO] [1795607351.578096356] [lego_loam_ip]: imageProjection.ignore_negative_stop: 0.000000
+[lego_loam-9] [INFO] [1795607351.578141684] [lego_loam_ip]: imageProjection.ground_slope_tolerance: 0.261799
+[lego_loam-9] [INFO] [1795607351.578184898] [lego_loam_ip]: imageProjection.ground_dz_tolerance: 0.050000
+[lego_loam-9] [INFO] [1795607351.578245016] [lego_loam_ip]: imageProjection.use_sensor_height_to_filter_out_ground: 0
+[lego_loam-9] [INFO] [1795607351.578298801] [lego_loam_ip]: imageProjection.patch_first_ring_to_baselink: 0
+[lego_loam-9] [INFO] [1795607351.578354179] [lego_loam_ip]: imageProjection.deep_learning.trt_model_path: 
+[lego_loam-9] [INFO] [1795607351.578393596] [lego_loam_ip]: imageProjection.deep_learning.projected_image_stack_size: 0
+[lego_loam-9] [INFO] [1795607351.588850592] [lego_loam_fa]: featureAssociation.edge_threshold: 0.10
+[lego_loam-9] [INFO] [1795607351.588937622] [lego_loam_fa]: featureAssociation.surf_threshold: 0.10
+[lego_loam-9] [INFO] [1795607351.588989263] [lego_loam_fa]: featureAssociation.nearest_feature_search_distance: 3.00
+[lego_loam-9] [INFO] [1795607351.589038619] [lego_loam_fa]: mapping.to_map_optimization: 1
+[lego_loam-9] [INFO] [1795607351.601189130] [lego_loam_mo]: mapping.enable_loop_closure: 1
+[lego_loam-9] [INFO] [1795607351.601268345] [lego_loam_mo]: mapping.history_keyframe_search_radius: 15.00
+[lego_loam-9] [INFO] [1795607351.601341187] [lego_loam_mo]: mapping.history_keyframe_search_num: 5
+[lego_loam-9] [INFO] [1795607351.601398339] [lego_loam_mo]: mapping.history_keyframe_fitness_score: 0.50
+[lego_loam-9] [INFO] [1795607351.601460420] [lego_loam_mo]: mapping.surrounding_keyframe_search_num: 50
+[lego_loam-9] [INFO] [1795607351.601516189] [lego_loam_mo]: mapping.angle_between_key_frame: 0.25
+[lego_loam-9] [INFO] [1795607351.601562669] [lego_loam_mo]: mapping.distance_between_key_frame: 0.25
+[lego_loam-9] [INFO] [1795607351.601619670] [lego_loam_mo]: mapping.ground_edge_threshold_num: 50
+[lego_loam-9] [INFO] [1795607351.601707943] [lego_loam_mo]: mapping.broadcast_external_odom_tf: 0
+[lego_loam-9] [INFO] [1795607351.601767489] [lego_loam_mo]: mapping.generate_testing_pg: 0
+[lego_loam-9] [INFO] [1795607351.601818088] [lego_loam_mo]: mapping.bin_sampling_less_flat_feature: 0
+[lego_loam-9] [INFO] [1795607351.601878305] [lego_loam_mo]: mapping.LM_optimization_iteration_number: 10
+[lego_loam-9] [INFO] [1795607351.601930467] [lego_loam_mo]: mapping.bin_sampling_x_size: 0.50
+[lego_loam-9] [INFO] [1795607351.601995554] [lego_loam_mo]: mapping.bin_sampling_y_size: 1.00
+[lego_loam-9] [INFO] [1795607351.602051423] [lego_loam_mo]: mapping.bin_sampling_z_size: 0.50
+[lego_loam-9] [INFO] [1795607351.615193309] [lego_loam_map_visualization]: visualization_detail_level: 0
+[lego_loam-9] [INFO] [1795607351.615276151] [lego_loam_map_visualization]: ground_voxel_size: 0.15
+[lego_loam-9] [INFO] [1795607351.615355095] [lego_loam_map_visualization]: map_voxel_size: 0.20
+[lego_loam-9] [INFO] [1795607351.615419771] [lego_loam_map_visualization]: ground_edge_threshold_num: 60
+[pointlio_mapping-1] first lidar time1.7956e+09
+[pointlio_mapping-1] [INFO] [1795607356.403402677] [laserMapping]: IMU Initializing: 1.0 %
+[pointlio_mapping-1] [WARN] [1795607356.403529906] [laserMapping]: Reset ImuProcess
+[pointlio_mapping-1] [INFO] [1795607356.427205004] [laserMapping]: IMU Initializing: 25.0 %
+[pointlio_mapping-1] [INFO] [1795607356.494548745] [laserMapping]: IMU Initializing: 49.0 %
+[pointlio_mapping-1] [INFO] [1795607356.559105349] [laserMapping]: IMU Initializing: 74.0 %
+[pointlio_mapping-1] [INFO] [1795607356.623922332] [laserMapping]: IMU Initializing: 98.0 %
+[pointlio_mapping-1] [INFO] [1795607356.623975115] [laserMapping]: IMU Initializing: 100.0 %
+[python3-7] [INFO] [1795607356.865679719] [go2_dddmr_mapping_cloud]: {"input": 8, "output": 0, "before_lio": 0, "odom_overlap_skipped": 0, "pending": 8, "motion_compensated_frames": 3}
+[lego_loam-9] [INFO] [1795607359.677916504] [lego_loam_fa]: Detect odom to base_link TF, MO will not broadcast from odom to base_link.
+[lego_loam-9] [WARN] [1795607359.937816651] [lego_loam_fa]: The first odom is record: 0.03, -0.01, -0.05
+[lego_loam-9] [INFO] [1795607360.119561657] [lego_loam_map_visualization]: Sync key frame number: 0 with total size: 2
+[python3-7] [INFO] [1795607361.840031320] [go2_dddmr_mapping_cloud]: {"input": 85, "output": 31, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607366.838375579] [go2_dddmr_mapping_cloud]: {"input": 162, "output": 108, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [INFO] [1795607368.019732472] [lego_loam_map_visualization]: Sync key frame number: 10 with total size: 11
+[lego_loam-9] [INFO] [1795607369.620476611] [lego_loam_map_visualization]: Sync key frame number: 12 with total size: 13
+[python3-7] [INFO] [1795607371.837253652] [go2_dddmr_mapping_cloud]: {"input": 239, "output": 185, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607376.851012674] [go2_dddmr_mapping_cloud]: {"input": 316, "output": 262, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607381.832667259] [go2_dddmr_mapping_cloud]: {"input": 393, "output": 339, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [INFO] [1795607386.120748202] [lego_loam_map_visualization]: Sync key frame number: 14 with total size: 15
+[python3-7] [INFO] [1795607386.833206276] [go2_dddmr_mapping_cloud]: {"input": 470, "output": 416, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [INFO] [1795607387.920885654] [lego_loam_map_visualization]: Sync key frame number: 16 with total size: 17
+[python3-7] [INFO] [1795607391.832118990] [go2_dddmr_mapping_cloud]: {"input": 547, "output": 493, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607396.831545948] [go2_dddmr_mapping_cloud]: {"input": 624, "output": 570, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607401.831634197] [go2_dddmr_mapping_cloud]: {"input": 701, "output": 647, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607406.831358197] [go2_dddmr_mapping_cloud]: {"input": 778, "output": 724, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607411.831313893] [go2_dddmr_mapping_cloud]: {"input": 855, "output": 801, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607416.832667937] [go2_dddmr_mapping_cloud]: {"input": 932, "output": 878, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607421.831354275] [go2_dddmr_mapping_cloud]: {"input": 1009, "output": 955, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607426.831616422] [go2_dddmr_mapping_cloud]: {"input": 1086, "output": 1032, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607431.831557014] [go2_dddmr_mapping_cloud]: {"input": 1163, "output": 1109, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607436.831530432] [go2_dddmr_mapping_cloud]: {"input": 1240, "output": 1186, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607441.832791988] [go2_dddmr_mapping_cloud]: {"input": 1317, "output": 1263, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607446.831340491] [go2_dddmr_mapping_cloud]: {"input": 1394, "output": 1340, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607451.831426802] [go2_dddmr_mapping_cloud]: {"input": 1471, "output": 1417, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607456.831296564] [go2_dddmr_mapping_cloud]: {"input": 1548, "output": 1494, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607461.831378624] [go2_dddmr_mapping_cloud]: {"input": 1625, "output": 1571, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607466.831306921] [go2_dddmr_mapping_cloud]: {"input": 1702, "output": 1648, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607471.831208997] [go2_dddmr_mapping_cloud]: {"input": 1779, "output": 1725, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607476.831559380] [go2_dddmr_mapping_cloud]: {"input": 1856, "output": 1802, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607481.831458079] [go2_dddmr_mapping_cloud]: {"input": 1933, "output": 1879, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607486.831337563] [go2_dddmr_mapping_cloud]: {"input": 2010, "output": 1956, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607491.831466863] [go2_dddmr_mapping_cloud]: {"input": 2087, "output": 2032, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 1, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607496.831321594] [go2_dddmr_mapping_cloud]: {"input": 2164, "output": 2110, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607501.831279559] [go2_dddmr_mapping_cloud]: {"input": 2241, "output": 2187, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607506.831841147] [go2_dddmr_mapping_cloud]: {"input": 2318, "output": 2264, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607511.832315068] [go2_dddmr_mapping_cloud]: {"input": 2395, "output": 2341, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607516.831196250] [go2_dddmr_mapping_cloud]: {"input": 2472, "output": 2418, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607521.831233833] [go2_dddmr_mapping_cloud]: {"input": 2549, "output": 2495, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607526.837042377] [go2_dddmr_mapping_cloud]: {"input": 2626, "output": 2572, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607531.861810088] [go2_dddmr_mapping_cloud]: {"input": 2703, "output": 2649, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607536.831318001] [go2_dddmr_mapping_cloud]: {"input": 2780, "output": 2725, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 1, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607541.831319700] [go2_dddmr_mapping_cloud]: {"input": 2857, "output": 2802, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 1, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795607546.831327078] [go2_dddmr_mapping_cloud]: {"input": 2934, "output": 2879, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 1, "motion_compensated_frames": 3}
+[lego_loam-9] [WARN] [1795607551.617872420] [lego_loam_mo]: Too clustered! In range: 52 points, overall: 52 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[python3-7] [INFO] [1795607551.831371315] [go2_dddmr_mapping_cloud]: {"input": 3011, "output": 2956, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 1, "motion_compensated_frames": 3}
+[lego_loam-9] [WARN] [1795607552.617149000] [lego_loam_mo]: Too clustered! In range: 32 points, overall: 32 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607553.616984495] [lego_loam_mo]: Too clustered! In range: 35 points, overall: 35 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607554.617105608] [lego_loam_mo]: Too clustered! In range: 40 points, overall: 40 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607555.617158024] [lego_loam_mo]: Too clustered! In range: 40 points, overall: 40 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607556.617168305] [lego_loam_mo]: Too clustered! In range: 45 points, overall: 45 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[python3-7] [INFO] [1795607556.847337571] [go2_dddmr_mapping_cloud]: {"input": 3088, "output": 3034, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [WARN] [1795607557.617204572] [lego_loam_mo]: Too clustered! In range: 61 points, overall: 61 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607558.617215757] [lego_loam_mo]: Too clustered! In range: 61 points, overall: 61 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607559.617275752] [lego_loam_mo]: Too clustered! In range: 43 points, overall: 45 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607560.617689658] [lego_loam_mo]: Too clustered! In range: 60 points, overall: 60 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607561.617402556] [lego_loam_mo]: Too clustered! In range: 43 points, overall: 43 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[python3-7] [INFO] [1795607561.847125275] [go2_dddmr_mapping_cloud]: {"input": 3165, "output": 3111, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [WARN] [1795607562.617445408] [lego_loam_mo]: Too clustered! In range: 47 points, overall: 47 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607563.617432961] [lego_loam_mo]: Too clustered! In range: 33 points, overall: 33 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607564.617545723] [lego_loam_mo]: Too clustered! In range: 31 points, overall: 31 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607565.617527518] [lego_loam_mo]: Too clustered! In range: 27 points, overall: 27 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607566.617666365] [lego_loam_mo]: Too clustered! In range: 9 points, overall: 9 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[python3-7] [INFO] [1795607566.845038639] [go2_dddmr_mapping_cloud]: {"input": 3242, "output": 3188, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [WARN] [1795607567.617710827] [lego_loam_mo]: Too clustered! In range: 16 points, overall: 24 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607568.617704027] [lego_loam_mo]: Too clustered! In range: 6 points, overall: 6 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607569.617796026] [lego_loam_mo]: Too clustered! In range: 14 points, overall: 20 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607570.617736721] [lego_loam_mo]: Too clustered! In range: 16 points, overall: 24 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607571.617921124] [lego_loam_mo]: Too clustered! In range: 17 points, overall: 20 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[python3-7] [INFO] [1795607571.847375969] [go2_dddmr_mapping_cloud]: {"input": 3319, "output": 3265, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [WARN] [1795607572.618080077] [lego_loam_mo]: Too clustered! In range: 11 points, overall: 11 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607573.617989907] [lego_loam_mo]: Too clustered! In range: 6 points, overall: 6 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607574.618165408] [lego_loam_mo]: Too clustered! In range: 12 points, overall: 14 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607575.618384392] [lego_loam_mo]: Too clustered! In range: 17 points, overall: 19 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607576.618201268] [lego_loam_mo]: Too clustered! In range: 23 points, overall: 23 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[python3-7] [INFO] [1795607576.831436415] [go2_dddmr_mapping_cloud]: {"input": 3396, "output": 3341, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 1, "motion_compensated_frames": 3}
+[lego_loam-9] [WARN] [1795607577.618344835] [lego_loam_mo]: Too clustered! In range: 27 points, overall: 27 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607578.618282111] [lego_loam_mo]: Too clustered! In range: 13 points, overall: 13 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607579.618344980] [lego_loam_mo]: Too clustered! In range: 16 points, overall: 16 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607580.618308857] [lego_loam_mo]: Too clustered! In range: 29 points, overall: 29 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607581.618541833] [lego_loam_mo]: Too clustered! In range: 24 points, overall: 24 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[python3-7] [INFO] [1795607581.848034858] [go2_dddmr_mapping_cloud]: {"input": 3473, "output": 3419, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [WARN] [1795607582.618545285] [lego_loam_mo]: Too clustered! In range: 18 points, overall: 18 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607583.618464374] [lego_loam_mo]: Too clustered! In range: 33 points, overall: 33 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607584.618606123] [lego_loam_mo]: Too clustered! In range: 9 points, overall: 9 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607585.618716422] [lego_loam_mo]: Too clustered! In range: 7 points, overall: 7 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607586.618687110] [lego_loam_mo]: Too clustered! In range: 29 points, overall: 29 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[python3-7] [INFO] [1795607586.831126380] [go2_dddmr_mapping_cloud]: {"input": 3550, "output": 3495, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 1, "motion_compensated_frames": 3}
+[lego_loam-9] [WARN] [1795607587.618703989] [lego_loam_mo]: Too clustered! In range: 34 points, overall: 34 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607588.618874374] [lego_loam_mo]: Too clustered! In range: 38 points, overall: 38 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607589.618945679] [lego_loam_mo]: Too clustered! In range: 29 points, overall: 29 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607590.618811818] [lego_loam_mo]: Too clustered! In range: 14 points, overall: 14 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607591.619064644] [lego_loam_mo]: Too clustered! In range: 32 points, overall: 32 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[python3-7] [INFO] [1795607591.831259589] [go2_dddmr_mapping_cloud]: {"input": 3627, "output": 3572, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 1, "motion_compensated_frames": 3}
+[lego_loam-9] [WARN] [1795607592.619042030] [lego_loam_mo]: Too clustered! In range: 41 points, overall: 41 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607593.619067790] [lego_loam_mo]: Too clustered! In range: 26 points, overall: 26 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607594.619222340] [lego_loam_mo]: Too clustered! In range: 26 points, overall: 26 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607595.619176755] [lego_loam_mo]: Too clustered! In range: 30 points, overall: 30 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607596.619265812] [lego_loam_mo]: Too clustered! In range: 33 points, overall: 33 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[python3-7] [INFO] [1795607596.831337466] [go2_dddmr_mapping_cloud]: {"input": 3704, "output": 3648, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 2, "motion_compensated_frames": 3}
+[lego_loam-9] [WARN] [1795607597.619609802] [lego_loam_mo]: Too clustered! In range: 44 points, overall: 44 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607598.619474730] [lego_loam_mo]: Too clustered! In range: 38 points, overall: 39 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607599.619401509] [lego_loam_mo]: Too clustered! In range: 42 points, overall: 42 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607600.619433022] [lego_loam_mo]: Too clustered! In range: 29 points, overall: 29 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607601.619679151] [lego_loam_mo]: Too clustered! In range: 29 points, overall: 29 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[python3-7] [INFO] [1795607601.831829665] [go2_dddmr_mapping_cloud]: {"input": 3780, "output": 3726, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [WARN] [1795607602.619587711] [lego_loam_mo]: Too clustered! In range: 30 points, overall: 30 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607603.619591478] [lego_loam_mo]: Too clustered! In range: 18 points, overall: 19 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607604.619709387] [lego_loam_mo]: Too clustered! In range: 11 points, overall: 11 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607605.619752204] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607606.619734878] [lego_loam_mo]: Too clustered! In range: 11 points, overall: 11 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[python3-7] [INFO] [1795607606.831774105] [go2_dddmr_mapping_cloud]: {"input": 3857, "output": 3803, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [WARN] [1795607607.619722354] [lego_loam_mo]: Too clustered! In range: 12 points, overall: 14 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607608.619893778] [lego_loam_mo]: Too clustered! In range: 15 points, overall: 16 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607609.619882683] [lego_loam_mo]: Too clustered! In range: 6 points, overall: 6 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607610.620009197] [lego_loam_mo]: Too clustered! In range: 6 points, overall: 6 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607611.619930980] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[python3-7] [INFO] [1795607611.831656822] [go2_dddmr_mapping_cloud]: {"input": 3934, "output": 3880, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [WARN] [1795607612.620154979] [lego_loam_mo]: Too clustered! In range: 23 points, overall: 31 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607613.620022935] [lego_loam_mo]: Too clustered! In range: 10 points, overall: 10 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607614.620200071] [lego_loam_mo]: Too clustered! In range: 12 points, overall: 12 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607615.620183949] [lego_loam_mo]: Too clustered! In range: 7 points, overall: 7 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607616.620282212] [lego_loam_mo]: Too clustered! In range: 9 points, overall: 9 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[python3-7] [INFO] [1795607616.831559209] [go2_dddmr_mapping_cloud]: {"input": 4011, "output": 3957, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [WARN] [1795607617.620258112] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607618.620279516] [lego_loam_mo]: Too clustered! In range: 8 points, overall: 8 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607619.620432577] [lego_loam_mo]: Too clustered! In range: 10 points, overall: 10 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607620.620436676] [lego_loam_mo]: Too clustered! In range: 16 points, overall: 16 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607621.620391765] [lego_loam_mo]: Too clustered! In range: 15 points, overall: 15 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[python3-7] [INFO] [1795607621.831531317] [go2_dddmr_mapping_cloud]: {"input": 4088, "output": 4033, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 1, "motion_compensated_frames": 3}
+[lego_loam-9] [WARN] [1795607622.620545702] [lego_loam_mo]: Too clustered! In range: 18 points, overall: 18 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607623.620605633] [lego_loam_mo]: Too clustered! In range: 17 points, overall: 17 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607624.620571869] [lego_loam_mo]: Too clustered! In range: 20 points, overall: 20 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607625.620629106] [lego_loam_mo]: Too clustered! In range: 14 points, overall: 14 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607626.620745111] [lego_loam_mo]: Too clustered! In range: 14 points, overall: 14 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[python3-7] [INFO] [1795607626.831662517] [go2_dddmr_mapping_cloud]: {"input": 4165, "output": 4111, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [WARN] [1795607627.620778913] [lego_loam_mo]: Too clustered! In range: 14 points, overall: 14 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607628.620839192] [lego_loam_mo]: Too clustered! In range: 14 points, overall: 14 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607629.620952389] [lego_loam_mo]: Too clustered! In range: 14 points, overall: 14 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607630.620933717] [lego_loam_mo]: Too clustered! In range: 14 points, overall: 14 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607631.620975729] [lego_loam_mo]: Too clustered! In range: 7 points, overall: 7 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[python3-7] [INFO] [1795607631.831427891] [go2_dddmr_mapping_cloud]: {"input": 4242, "output": 4188, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [WARN] [1795607632.621005834] [lego_loam_mo]: Too clustered! In range: 15 points, overall: 15 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607633.621101531] [lego_loam_mo]: Too clustered! In range: 6 points, overall: 6 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607634.621102613] [lego_loam_mo]: Too clustered! In range: 12 points, overall: 12 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607635.621221628] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607636.621144782] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[python3-7] [INFO] [1795607636.831316086] [go2_dddmr_mapping_cloud]: {"input": 4319, "output": 4265, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [WARN] [1795607637.621162186] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607638.621280129] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607639.621375847] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607640.621370027] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607641.621487591] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[python3-7] [INFO] [1795607641.831417022] [go2_dddmr_mapping_cloud]: {"input": 4396, "output": 4342, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [WARN] [1795607642.621459252] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607643.621553567] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607644.621722142] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607645.621605646] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607646.621657692] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[python3-7] [INFO] [1795607646.831395269] [go2_dddmr_mapping_cloud]: {"input": 4473, "output": 4419, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [WARN] [1795607647.621664500] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607648.621759425] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607649.621953470] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607650.621841743] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607651.622020646] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[python3-7] [INFO] [1795607651.831390258] [go2_dddmr_mapping_cloud]: {"input": 4534, "output": 4480, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [WARN] [1795607652.622036292] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607653.622045655] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607654.622271624] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607655.622083925] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [WARN] [1795607656.622101070] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[python3-7] [INFO] [1795607656.831387498] [go2_dddmr_mapping_cloud]: {"input": 4534, "output": 4480, "before_lio": 52, "odom_overlap_skipped": 0, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [WARN] [1795607657.622270597] [lego_loam_mo]: Too clustered! In range: 5 points, overall: 5 points. Distance between two frame is higher than 1.0 m, ignore loop closure.
+[lego_loam-9] [INFO] [1795607657.883278321] [lego_loam_mo]: Create dir: /session/maps/2026_11_25_11_54_17

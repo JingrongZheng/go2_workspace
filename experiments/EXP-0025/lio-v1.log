@@ -1,0 +1,42 @@
+[INFO] [launch]: All log files can be found below /tmp/.ros/log/2026-11-25-07-31-10-752649-7a59bcae0517-26
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [pointlio_mapping-1]: process started with pid [67]
+[INFO] [python3-2]: process started with pid [69]
+[INFO] [static_transform_publisher-3]: process started with pid [71]
+[INFO] [static_transform_publisher-4]: process started with pid [73]
+[INFO] [static_transform_publisher-5]: process started with pid [75]
+[INFO] [static_transform_publisher-6]: process started with pid [77]
+[static_transform_publisher-3] [INFO] [1795591870.930093166] [chassis_imu_to_base]: Spinning until stopped - publishing transform
+[static_transform_publisher-3] translation: ('0.025570', '-0.000000', '-0.042320')
+[static_transform_publisher-3] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-3] from 'go2_chassis_imu' to 'base_link'
+[static_transform_publisher-4] [INFO] [1795591870.930912965] [base_to_model_radar]: Spinning until stopped - publishing transform
+[static_transform_publisher-4] translation: ('0.289450', '0.000000', '-0.046825')
+[static_transform_publisher-4] rotation: ('0.000000', '0.991341', '0.000000', '0.131316')
+[static_transform_publisher-4] from 'base_link' to 'radar'
+[static_transform_publisher-5] [INFO] [1795591870.931433980] [base_to_published_cloud]: Spinning until stopped - publishing transform
+[static_transform_publisher-5] translation: ('0.282160', '0.000000', '-0.000000')
+[static_transform_publisher-5] rotation: ('0.871312', '-0.473081', '0.114618', '-0.062233')
+[static_transform_publisher-5] from 'base_link' to 'utlidar_lidar'
+[static_transform_publisher-6] [INFO] [1795591870.931707366] [published_cloud_alias]: Spinning until stopped - publishing transform
+[static_transform_publisher-6] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-6] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-6] from 'utlidar_lidar' to 'lidar_link'
+[pointlio_mapping-1] Multi thread started 
+[pointlio_mapping-1] lidar_type: 5
+[pointlio_mapping-1] ~~~~/lio-ws/src/point_lio/ file opened
+[pointlio_mapping-1] first lidar time1.79559e+09
+[pointlio_mapping-1] [INFO] [1795591876.243218854] [laserMapping]: IMU Initializing: 1.0 %
+[pointlio_mapping-1] [WARN] [1795591876.243376752] [laserMapping]: Reset ImuProcess
+[pointlio_mapping-1] [INFO] [1795591876.315610665] [laserMapping]: IMU Initializing: 4.0 %
+[pointlio_mapping-1] [INFO] [1795591876.398420922] [laserMapping]: IMU Initializing: 12.0 %
+[pointlio_mapping-1] [INFO] [1795591876.478184923] [laserMapping]: IMU Initializing: 22.0 %
+[pointlio_mapping-1] [INFO] [1795591876.528427200] [laserMapping]: IMU Initializing: 31.0 %
+[pointlio_mapping-1] [INFO] [1795591876.581339503] [laserMapping]: IMU Initializing: 40.0 %
+[pointlio_mapping-1] [INFO] [1795591876.718451148] [laserMapping]: IMU Initializing: 48.0 %
+[pointlio_mapping-1] [INFO] [1795591876.802620744] [laserMapping]: IMU Initializing: 57.0 %
+[pointlio_mapping-1] [INFO] [1795591876.804673172] [laserMapping]: IMU Initializing: 66.0 %
+[pointlio_mapping-1] [INFO] [1795591876.828019196] [laserMapping]: IMU Initializing: 75.0 %
+[pointlio_mapping-1] [INFO] [1795591876.888555956] [laserMapping]: IMU Initializing: 85.0 %
+[pointlio_mapping-1] [INFO] [1795591876.961203801] [laserMapping]: IMU Initializing: 95.0 %
+[pointlio_mapping-1] [INFO] [1795591876.961259596] [laserMapping]: IMU Initializing: 100.0 %

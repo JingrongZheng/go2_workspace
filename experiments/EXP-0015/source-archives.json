@@ -1,0 +1,42 @@
+[
+  {
+    "file": "small_gicp-v1.0.1.tar.gz",
+    "bytes": 2587791,
+    "sha256": "5aa0bc4f1a1d8c749f520315bbfbf57b6d4184d3c5452aa2567920876f65cb50",
+    "git_commit": "57c1106daf83c2c79ee0c58a9c7ed0032298ff4e",
+    "entries": 175,
+    "source_root": "small_gicp-1.0.1"
+  },
+  {
+    "file": "apriltag-3806edf.tar.gz",
+    "bytes": 1851446,
+    "sha256": "f10a915d161a5d127deddb345611f049d1dc5483dfd6128d83997543f2aa37f3",
+    "git_commit": "3806edf38ac4400153677e510c9f9dcb81f472c8",
+    "entries": 111,
+    "source_root": "apriltag-3806edf38ac4400153677e510c9f9dcb81f472c8"
+  },
+  {
+    "file": "gtsam-4.2a9.tar.gz",
+    "bytes": 29675691,
+    "sha256": "a9790e5132bfb2705a5985a1505c3cf9cdf95b711be8352ffa9a9299b279f2f8",
+    "git_commit": "c57988fe554e7213c77fe379c1d7c483de26ad33",
+    "entries": 5036,
+    "source_root": "gtsam-4.2a9"
+  },
+  {
+    "file": "go2-fdac259.tar.gz",
+    "bytes": 26842988,
+    "sha256": "cffe69e2df7cc1fbd04088104ae6250d14829d5cd0fe7cf10801598381af16f3",
+    "git_commit": "fdac259518930c8f03e79189c4d0fdd00fc47483",
+    "entries": 329,
+    "source_root": "unitree-go2-ros2-fdac259518930c8f03e79189c4d0fdd00fc47483"
+  },
+  {
+    "file": "pcl-1.15.0.tar.gz",
+    "bytes": 68843561,
+    "sha256": "fb79d085b08b8335f43ee4cacf4daa2624bb2c411e9243efa6a92c077273840a",
+    "git_commit": null,
+    "entries": 4037,
+    "source_root": "pcl"
+  }
+]

@@ -1,0 +1,120 @@
+{
+  "commit": "adcf178a5e118717f38ce56578d525d34360bfcf",
+  "truncated": false,
+  "files": 641,
+  "bytes": 90579325,
+  "MB": 90.579325,
+  "MiB": 86.38317584991455,
+  "big": [
+    {
+      "path": "src/dddmr_global_planner/data/ground.pcd",
+      "bytes": 26546068,
+      "MiB": "25.32"
+    },
+    {
+      "path": "src/dddmr_semantic_segmentation/model/ddrnet_23_slim_dualresnet_citys_best_model_424x848.onnx",
+      "bytes": 22832389,
+      "MiB": "21.77"
+    },
+    {
+      "path": "src/dddmr_lego_loam/lego_loam_bor/engine/yolo11n_dddmr.onnx",
+      "bytes": 11627563,
+      "MiB": "11.09"
+    },
+    {
+      "path": "src/dddmr_mcl_3dl/map/ground.pcd",
+      "bytes": 6147176,
+      "MiB": "5.86"
+    },
+    {
+      "path": "src/dddmr_global_planner/data/map_2d/map.pgm",
+      "bytes": 5806783,
+      "MiB": "5.54"
+    },
+    {
+      "path": "src/dddmr_global_planner/data/map.pcd",
+      "bytes": 4478851,
+      "MiB": "4.27"
+    },
+    {
+      "path": "src/dddmr_perception_3d/map/map.pcd",
+      "bytes": 2190159,
+      "MiB": "2.09"
+    },
+    {
+      "path": "src/dddmr_semantic_segmentation/data/people.png",
+      "bytes": 2083963,
+      "MiB": "1.99"
+    },
+    {
+      "path": "src/dddmr_mcl_3dl/map/map.pcd",
+      "bytes": 1506874,
+      "MiB": "1.44"
+    },
+    {
+      "path": "src/dddmr_odom_3d/bag_files/rosbag2_odom2d_imu/rosbag2_2025_06_28-22_48_31_0.db3",
+      "bytes": 1175552,
+      "MiB": "1.12"
+    },
+    {
+      "path": "src/dddmr_perception_3d/map/ground.pcd",
+      "bytes": 1146267,
+      "MiB": "1.09"
+    },
+    {
+      "path": "src/dddmr_trt/src/yolo/yolo_trt/tensorrt-cpp-api/inputs/team.jpg",
+      "bytes": 421398,
+      "MiB": "0.40"
+    }
+  ],
+  "categories": [
+    [
+      "pcd",
+      42316947
+    ],
+    [
+      "onnx",
+      34459952
+    ],
+    [
+      "pgm",
+      5920648
+    ],
+    [
+      "png",
+      2110355
+    ],
+    [
+      "cpp",
+      1457062
+    ],
+    [
+      "db3",
+      1175552
+    ],
+    [
+      "zip",
+      624408
+    ],
+    [
+      "rviz",
+      472703
+    ],
+    [
+      "h",
+      453069
+    ],
+    [
+      "jpg",
+      421398
+    ],
+    [
+      "yaml",
+      282651
+    ],
+    [
+      "md",
+      239409
+    ]
+  ]
+}

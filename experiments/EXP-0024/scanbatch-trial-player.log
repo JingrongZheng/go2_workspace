@@ -1,0 +1,9 @@
+stdin is not a terminal device. Keyboard handling disabled.[INFO] [1795575343.001686722] [rosbag2_storage]: Opened database '/recorded-bag/scanbatch-trial_0.db3' for READ_ONLY.
+[INFO] [1795575343.001739712] [rosbag2_player]: Set rate to 1
+[INFO] [1795575343.005699774] [rosbag2_player]: Adding keyboard callbacks.
+[INFO] [1795575343.005740070] [rosbag2_player]: Press SPACE for Pause/Resume
+[INFO] [1795575343.005747754] [rosbag2_player]: Press CURSOR_RIGHT for Play Next Message
+[INFO] [1795575343.005753936] [rosbag2_player]: Press CURSOR_UP for Increase Rate 10%
+[INFO] [1795575343.005759396] [rosbag2_player]: Press CURSOR_DOWN for Decrease Rate 10%
+[INFO] [1795575343.005823607] [rosbag2_player]: Sleep 3000000000 ns
+[INFO] [1795575346.006341189] [rosbag2_storage]: Opened database '/recorded-bag/scanbatch-trial_0.db3' for READ_ONLY.

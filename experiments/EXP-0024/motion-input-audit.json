@@ -1,0 +1,62 @@
+{
+  "/go2/relay/imu": {
+    "samples": 19794,
+    "header_duration_s": 81.618502855,
+    "nonincreasing": 0,
+    "dt_ms_quantiles": [
+      0.106096,
+      4.472256,
+      5.516481399999999,
+      9.13085931999998,
+      36.488771
+    ],
+    "record_minus_header_ms_quantiles": [
+      -13.32081942,
+      -6.12899,
+      36.621528699999836,
+      141.08055732999992
+    ]
+  },
+  "/go2/relay/cloud": {
+    "samples": 1259,
+    "header_duration_s": 81.526980877,
+    "nonincreasing": 0,
+    "dt_ms_quantiles": [
+      53.094387,
+      64.85664799999999,
+      65.60343495000001,
+      69.26183267000002,
+      76.432228
+    ],
+    "record_minus_header_ms_quantiles": [
+      65.352441,
+      76.22389799999999,
+      118.9003082,
+      231.03312420000034
+    ]
+  },
+  "/go2/relay/chassis_imu": {
+    "samples": 31742,
+    "header_duration_s": 81.241,
+    "nonincreasing": 0,
+    "dt_ms_quantiles": [
+      1.0,
+      2.0,
+      6.0,
+      8.0,
+      28.0
+    ],
+    "record_minus_header_ms_quantiles": [
+      -5.383946389999999,
+      -0.0122095,
+      38.49710714999997,
+      141.52891973000004
+    ]
+  },
+  "chassis_gyro_norm_max_rad_s": 1.4467544143698776,
+  "chassis_acceleration_range_m_s2": [
+    13.46020221710205,
+    15.946580410003662,
+    16.29733180999756
+  ]
+}

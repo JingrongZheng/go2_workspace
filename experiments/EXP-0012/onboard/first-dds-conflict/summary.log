@@ -1,0 +1,122 @@
+Snapshot before testing
+2026-11-21T14:30:14+08:00
+UDP_BASELINE_12S []
+BEGIN old
+/unitree/module/graph_pid_ws/install/hesai_lidar
+State   Recv-Q  Send-Q      Local Address:Port      Peer Address:Port  Process  
+UNCONN  0       0              127.0.0.53:53             0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:111            0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:4000           0.0.0.0:*              
+UNCONN  8448    0              172.17.0.1:5353           0.0.0.0:*              
+UNCONN  8448    0          192.168.123.18:5353           0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:5353           0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:5353           0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:38443          0.0.0.0:*              
+UNCONN  0       0                       *:111                  *:*              
+UNCONN  0       0                       *:4000                 *:*              
+UNCONN  0       0                       *:54118                *:*              
+UNCONN  0       0                       *:5353                 *:*              
+variant=old driver_exit=0 subscriber_exit=1
+1795242628.911866 [83]    python3: config: //CycloneDDS/Domain/General: 'NetworkInterfaceAddress': deprecated element (CYCLONEDDS_URI+0 line 1)
+1795242628.912768 [83]    python3: config: General/Interfaces: do not pass deprecated configuration General/{NetworkAddressString,MulticastRecvNetworkInterfaceAddresses,AssumeMulticastCapable}
+[ERROR] [1795242628.912875040] [rmw_cyclonedds_cpp]: rmw_create_node: failed to create domain, error Error
+
+>>> [rcutils|error_handling.c:108] rcutils_set_error_state()
+This error state is being overwritten:
+
+  'error not set, at /tmp/binarydeb/ros-foxy-rcl-1.1.14/src/rcl/node.c:276'
+
+with this new error message:
+
+  'rcl node's rmw handle is invalid, at /tmp/binarydeb/ros-foxy-rcl-1.1.14/src/rcl/node.c:428'
+
+rcutils_reset_error() should be called after error handling to avoid this.
+<<<
+[ERROR] [1795242628.912979744] [rcl]: Failed to fini publisher for node: 1
+Traceback (most recent call last):
+  File "/home/unitree/go2-lidar-diagnostic/retest-20261121/probe_wired_lidar.py", line 71, in <module>
+    raise SystemExit(main())
+  File "/home/unitree/go2-lidar-diagnostic/retest-20261121/probe_wired_lidar.py", line 19, in main
+    node = rclpy.create_node('wired_lidar_readonly_probe')
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/__init__.py", line 141, in create_node
+    return Node(
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/node.py", line 165, in __init__
+    self.__handle = Handle(_rclpy.rclpy_create_node(
+_rclpy.RCLError: Unknown error creating node: rcl node's rmw handle is invalid, at /tmp/binarydeb/ros-foxy-rcl-1.1.14/src/rcl/node.c:428
+[hesai_lidar_node-1] 
+[hesai_lidar_node-1] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
+[hesai_lidar_node-1] This error state is being overwritten:
+[hesai_lidar_node-1] 
+[hesai_lidar_node-1]   'error not set, at /tmp/binarydeb/ros-foxy-rcl-1.1.14/src/rcl/node.c:276'
+[hesai_lidar_node-1] 
+[hesai_lidar_node-1] with this new error message:
+[hesai_lidar_node-1] 
+[hesai_lidar_node-1]   'rcl node's rmw handle is invalid, at /tmp/binarydeb/ros-foxy-rcl-1.1.14/src/rcl/node.c:428'
+[hesai_lidar_node-1] 
+[hesai_lidar_node-1] rcutils_reset_error() should be called after error handling to avoid this.
+[hesai_lidar_node-1] <<<
+[hesai_lidar_node-1] [ERROR] [1795242629.421520096] [rcl]: Failed to fini publisher for node: 1
+[hesai_lidar_node-1] terminate called after throwing an instance of 'rclcpp::exceptions::RCLError'
+[hesai_lidar_node-1]   what():  failed to initialize rcl node: rcl node's rmw handle is invalid, at /tmp/binarydeb/ros-foxy-rcl-1.1.14/src/rcl/node.c:428
+[ERROR] [hesai_lidar_node-1]: process has died [pid 4910, exit code -6, cmd '/unitree/module/graph_pid_ws/install/hesai_lidar/lib/hesai_lidar/hesai_lidar_node --ros-args -r __node:=hesai_node -r __ns:=/ --params-file /tmp/launch_params_8zr0lkgk --params-file /tmp/launch_params_en498w_j --params-file /tmp/launch_params_5mf8yfet --params-file /tmp/launch_params_y2c4cuv7 --params-file /tmp/launch_params_q1ok_pei --params-file /tmp/launch_params_g40wol_9 --params-file /tmp/launch_params_wkl1gp3o --params-file /tmp/launch_params_nmk_vuts --params-file /tmp/launch_params__3fq7o6s --params-file /tmp/launch_params_ej4rans1 --params-file /tmp/launch_params_r31iqahu --params-file /tmp/launch_params_rsaubxfs --params-file /tmp/launch_params_7w4zyjpc --params-file /tmp/launch_params_l50afm23 --params-file /tmp/launch_params_4k89j1_4 --params-file /tmp/launch_params_laqu3h3m'].
+END old
+BEGIN new
+/home/unitree/go2-lidar-diagnostic/hesai_v2_ws/install/hesai_ros_driver
+State   Recv-Q  Send-Q      Local Address:Port      Peer Address:Port  Process  
+UNCONN  0       0              127.0.0.53:53             0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:111            0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:4000           0.0.0.0:*              
+UNCONN  8448    0              172.17.0.1:5353           0.0.0.0:*              
+UNCONN  8448    0          192.168.123.18:5353           0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:5353           0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:5353           0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:38443          0.0.0.0:*              
+UNCONN  0       0                       *:111                  *:*              
+UNCONN  0       0                       *:4000                 *:*              
+UNCONN  0       0                       *:54118                *:*              
+UNCONN  0       0                       *:5353                 *:*              
+variant=new driver_exit=250 subscriber_exit=1
+1795242633.029136 [83]    python3: config: //CycloneDDS/Domain/General: 'NetworkInterfaceAddress': deprecated element (CYCLONEDDS_URI+0 line 1)
+1795242633.029474 [83]    python3: config: General/Interfaces: do not pass deprecated configuration General/{NetworkAddressString,MulticastRecvNetworkInterfaceAddresses,AssumeMulticastCapable}
+[ERROR] [1795242633.029572992] [rmw_cyclonedds_cpp]: rmw_create_node: failed to create domain, error Error
+
+>>> [rcutils|error_handling.c:108] rcutils_set_error_state()
+This error state is being overwritten:
+
+  'error not set, at /tmp/binarydeb/ros-foxy-rcl-1.1.14/src/rcl/node.c:276'
+
+with this new error message:
+
+  'rcl node's rmw handle is invalid, at /tmp/binarydeb/ros-foxy-rcl-1.1.14/src/rcl/node.c:428'
+
+rcutils_reset_error() should be called after error handling to avoid this.
+<<<
+[ERROR] [1795242633.029683520] [rcl]: Failed to fini publisher for node: 1
+Traceback (most recent call last):
+  File "/home/unitree/go2-lidar-diagnostic/retest-20261121/probe_wired_lidar.py", line 71, in <module>
+    raise SystemExit(main())
+  File "/home/unitree/go2-lidar-diagnostic/retest-20261121/probe_wired_lidar.py", line 19, in main
+    node = rclpy.create_node('wired_lidar_readonly_probe')
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/__init__.py", line 141, in create_node
+    return Node(
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/node.py", line 165, in __init__
+    self.__handle = Handle(_rclpy.rclpy_create_node(
+_rclpy.RCLError: Unknown error creating node: rcl node's rmw handle is invalid, at /tmp/binarydeb/ros-foxy-rcl-1.1.14/src/rcl/node.c:428
+[ERROR] [1795242632.972105024] [rmw_cyclonedds_cpp]: rmw_create_node: failed to create domain, error Error
+
+>>> [rcutils|error_handling.c:108] rcutils_set_error_state()
+This error state is being overwritten:
+
+  'error not set, at /tmp/binarydeb/ros-foxy-rcl-1.1.14/src/rcl/node.c:276'
+
+with this new error message:
+
+  'rcl node's rmw handle is invalid, at /tmp/binarydeb/ros-foxy-rcl-1.1.14/src/rcl/node.c:428'
+
+rcutils_reset_error() should be called after error handling to avoid this.
+<<<
+[ERROR] [1795242632.972261600] [rcl]: Failed to fini publisher for node: 1
+terminate called after throwing an instance of 'rclcpp::exceptions::RCLError'
+  what():  failed to initialize rcl node: rcl node's rmw handle is invalid, at /tmp/binarydeb/ros-foxy-rcl-1.1.14/src/rcl/node.c:428
+END new
+Snapshot after testing

@@ -1,0 +1,22 @@
+[INFO] [launch]: All log files can be found below /home/unitree/.ros/log/2026-11-21-14-30-28-989925-ubuntu-4895
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [hesai_lidar_node-1]: process started with pid [4910]
+[hesai_lidar_node-1] 1795242629.421087 [83] hesai_lida: config: //CycloneDDS/Domain/General: 'NetworkInterfaceAddress': deprecated element (CYCLONEDDS_URI+0 line 1)
+[hesai_lidar_node-1] 1795242629.421330 [83] hesai_lida: config: General/Interfaces: do not pass deprecated configuration General/{NetworkAddressString,MulticastRecvNetworkInterfaceAddresses,AssumeMulticastCapable}
+[hesai_lidar_node-1] [ERROR] [1795242629.421374144] [rmw_cyclonedds_cpp]: rmw_create_node: failed to create domain, error Error
+[hesai_lidar_node-1] 
+[hesai_lidar_node-1] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
+[hesai_lidar_node-1] This error state is being overwritten:
+[hesai_lidar_node-1] 
+[hesai_lidar_node-1]   'error not set, at /tmp/binarydeb/ros-foxy-rcl-1.1.14/src/rcl/node.c:276'
+[hesai_lidar_node-1] 
+[hesai_lidar_node-1] with this new error message:
+[hesai_lidar_node-1] 
+[hesai_lidar_node-1]   'rcl node's rmw handle is invalid, at /tmp/binarydeb/ros-foxy-rcl-1.1.14/src/rcl/node.c:428'
+[hesai_lidar_node-1] 
+[hesai_lidar_node-1] rcutils_reset_error() should be called after error handling to avoid this.
+[hesai_lidar_node-1] <<<
+[hesai_lidar_node-1] [ERROR] [1795242629.421520096] [rcl]: Failed to fini publisher for node: 1
+[hesai_lidar_node-1] terminate called after throwing an instance of 'rclcpp::exceptions::RCLError'
+[hesai_lidar_node-1]   what():  failed to initialize rcl node: rcl node's rmw handle is invalid, at /tmp/binarydeb/ros-foxy-rcl-1.1.14/src/rcl/node.c:428
+[ERROR] [hesai_lidar_node-1]: process has died [pid 4910, exit code -6, cmd '/unitree/module/graph_pid_ws/install/hesai_lidar/lib/hesai_lidar/hesai_lidar_node --ros-args -r __node:=hesai_node -r __ns:=/ --params-file /tmp/launch_params_8zr0lkgk --params-file /tmp/launch_params_en498w_j --params-file /tmp/launch_params_5mf8yfet --params-file /tmp/launch_params_y2c4cuv7 --params-file /tmp/launch_params_q1ok_pei --params-file /tmp/launch_params_g40wol_9 --params-file /tmp/launch_params_wkl1gp3o --params-file /tmp/launch_params_nmk_vuts --params-file /tmp/launch_params__3fq7o6s --params-file /tmp/launch_params_ej4rans1 --params-file /tmp/launch_params_r31iqahu --params-file /tmp/launch_params_rsaubxfs --params-file /tmp/launch_params_7w4zyjpc --params-file /tmp/launch_params_l50afm23 --params-file /tmp/launch_params_4k89j1_4 --params-file /tmp/launch_params_laqu3h3m'].

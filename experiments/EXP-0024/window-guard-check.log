@@ -1,0 +1,5 @@
+[FATAL] [1795591080.705482302] [laserMapping]: cube_side_length must exceed 3 * mapping.det_range
+Multi thread started 
+Rebuild thread terminated normally
+[ros2run]: Process exited with failure 2
+Guard exit code: 2

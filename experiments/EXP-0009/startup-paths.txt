@@ -1,0 +1,134 @@
+/home/unitree/.unitree_files/librealsense/.claude/read-project-instructions.py
+/home/unitree/.unitree_files/librealsense/examples/pointcloud/rs-pointcloud.cpp
+/home/unitree/.unitree_files/librealsense/examples/pointcloud/CMakeLists.txt
+/home/unitree/.unitree_files/librealsense/examples/pointcloud/readme.md
+/home/unitree/.unitree_files/librealsense/examples/measure/CMakeLists.txt
+/home/unitree/.unitree_files/librealsense/examples/measure/readme.md
+/home/unitree/.unitree_files/librealsense/examples/measure/rs-measure.cpp
+/home/unitree/.unitree_files/librealsense/examples/sensor-control/api_how_to.h
+/home/unitree/.unitree_files/librealsense/examples/sensor-control/CMakeLists.txt
+/home/unitree/.unitree_files/librealsense/examples/sensor-control/readme.md
+/home/unitree/.unitree_files/librealsense/examples/sensor-control/rs-sensor-control.cpp
+/home/unitree/.unitree_files/librealsense/examples/sensor-control/helper.h
+/home/unitree/.unitree_files/librealsense/examples/callback/CMakeLists.txt
+/home/unitree/.unitree_files/librealsense/examples/callback/readme.md
+/home/unitree/.unitree_files/librealsense/examples/callback/rs-callback.cpp
+/home/unitree/.unitree_files/librealsense/examples/example-utils.hpp
+/home/unitree/.unitree_files/librealsense/examples/depth.md
+/home/unitree/.unitree_files/librealsense/examples/motion/rs-motion.cpp
+/home/unitree/.unitree_files/librealsense/examples/motion/CMakeLists.txt
+/home/unitree/.unitree_files/librealsense/examples/motion/readme.md
+/home/unitree/.unitree_files/librealsense/examples/software-device/CMakeLists.txt
+/home/unitree/.unitree_files/librealsense/examples/software-device/readme.md
+/home/unitree/.unitree_files/librealsense/examples/software-device/rs-software-device.cpp
+/home/unitree/.unitree_files/librealsense/examples/multicam/CMakeLists.txt
+/home/unitree/.unitree_files/librealsense/examples/multicam/readme.md
+/home/unitree/.unitree_files/librealsense/examples/multicam/rs-multicam.cpp
+/home/unitree/.unitree_files/librealsense/examples/post-processing/CMakeLists.txt
+/home/unitree/.unitree_files/librealsense/examples/post-processing/readme.md
+/home/unitree/.unitree_files/librealsense/examples/post-processing/rs-post-processing.cpp
+/home/unitree/.unitree_files/librealsense/examples/labeledpointcloud/CMakeLists.txt
+/home/unitree/.unitree_files/librealsense/examples/labeledpointcloud/rs-labeled-pointcloud.cpp
+/home/unitree/.unitree_files/librealsense/examples/labeledpointcloud/readme.md
+/home/unitree/.unitree_files/librealsense/examples/labeledpointcloud/labeled-pointcloud-drawing.hpp
+/home/unitree/.unitree_files/librealsense/examples/hello-realsense/rs-hello-realsense.cpp
+/home/unitree/.unitree_files/librealsense/examples/hello-realsense/CMakeLists.txt
+/home/unitree/.unitree_files/librealsense/examples/hello-realsense/readme.md
+/home/unitree/.unitree_files/librealsense/examples/align/CMakeLists.txt
+/home/unitree/.unitree_files/librealsense/examples/align/readme.md
+/home/unitree/.unitree_files/librealsense/examples/align/rs-align.cpp
+/home/unitree/.unitree_files/librealsense/examples/gl/output.PNG
+/home/unitree/.unitree_files/librealsense/examples/gl/CMakeLists.txt
+/home/unitree/.unitree_files/librealsense/examples/gl/readme.md
+/home/unitree/.unitree_files/librealsense/examples/gl/rs-gl.cpp
+/home/unitree/.unitree_files/librealsense/examples/align-gl/rs-align-gl.cpp
+/home/unitree/.unitree_files/librealsense/examples/align-gl/CMakeLists.txt
+/home/unitree/.unitree_files/librealsense/examples/align-gl/readme.md
+/home/unitree/.unitree_files/librealsense/examples/hdr/rs-hdr.cpp
+/home/unitree/.unitree_files/librealsense/examples/hdr/hdr_demo.gif
+/home/unitree/.unitree_files/librealsense/examples/hdr/CMakeLists.txt
+/home/unitree/.unitree_files/librealsense/examples/hdr/readme.md
+/home/unitree/.unitree_files/librealsense/examples/C/readme.md
+/home/unitree/.unitree_files/librealsense/examples/C/example.h
+/home/unitree/.unitree_files/librealsense/examples/eth-config/rs-eth-config.cpp
+/home/unitree/.unitree_files/librealsense/examples/eth-config/CMakeLists.txt
+/home/unitree/.unitree_files/librealsense/examples/eth-config/README.md
+/home/unitree/.unitree_files/librealsense/examples/example.hpp
+/home/unitree/.unitree_files/librealsense/examples/example-imgui.hpp
+/home/unitree/.unitree_files/librealsense/examples/CMakeLists.txt
+/home/unitree/.unitree_files/librealsense/examples/record-playback/rs-record-playback.cpp
+/home/unitree/.unitree_files/librealsense/examples/record-playback/CMakeLists.txt
+/home/unitree/.unitree_files/librealsense/examples/record-playback/readme.md
+/home/unitree/.unitree_files/librealsense/examples/align-advanced/rs-align-advanced.cpp
+/home/unitree/.unitree_files/librealsense/examples/align-advanced/CMakeLists.txt
+/home/unitree/.unitree_files/librealsense/examples/align-advanced/readme.md
+/home/unitree/.unitree_files/librealsense/examples/on-chip-calib/rs-on-chip-calib.cpp
+/home/unitree/.unitree_files/librealsense/examples/on-chip-calib/CMakeLists.txt
+/home/unitree/.unitree_files/librealsense/examples/on-chip-calib/readme.md
+/home/unitree/.unitree_files/librealsense/examples/object-detection/rs-object-detection.cpp
+/home/unitree/.unitree_files/librealsense/examples/object-detection/CMakeLists.txt
+/home/unitree/.unitree_files/librealsense/examples/readme.md
+/home/unitree/.unitree_files/librealsense/examples/embedded-filters/rs-embedded-filters.cpp
+/home/unitree/.unitree_files/librealsense/examples/embedded-filters/CMakeLists.txt
+/home/unitree/.unitree_files/librealsense/examples/embedded-filters/README.md
+/home/unitree/.unitree_files/librealsense/examples/capture/rs-capture.cpp
+/home/unitree/.unitree_files/librealsense/examples/capture/CMakeLists.txt
+/home/unitree/.unitree_files/librealsense/examples/capture/readme.md
+/home/unitree/.unitree_files/librealsense/examples/save-to-disk/rs-save-to-disk.cpp
+/home/unitree/.unitree_files/librealsense/examples/save-to-disk/CMakeLists.txt
+/home/unitree/.unitree_files/librealsense/examples/save-to-disk/readme.md
+/home/unitree/.unitree_files/librealsense/examples/cmake/hello_librealsense2.cpp
+/home/unitree/unitree/Odometer_service
+/home/unitree/unitree/Odometer_service/logs
+/home/unitree/unitree/Odometer_service/devel
+/home/unitree/unitree/Odometer_service/build
+/home/unitree/unitree/Odometer_service/.catkin_tools
+/home/unitree/unitree/Odometer_service/src
+/home/unitree/unitree/system_journal_normal_pc
+/home/unitree/unitree/system_journal_normal_pc/.git
+[Unit]
+Description=Test Service
+
+[Service]
+Restart=always
+RestartSec=5s
+Environment=CYCLONEDDS_HOME=/unitree/lib/cyclonedds
+ExecStart=/usr/bin/python3 /unitree/module/test/test.py [Unit]
+Description=Unitree Upgrade
+
+[Service]
+Restart=always
+RestartSec=5s
+ExecStart=/usr/bin/python3 /upgradePythonServer/server.py
+
+[Install]
+WantedBy=multi-user.target
+#!/bin/sh
+ 
+`hwclock -f /dev/rtc1 -s`
+
+`busybox devmem 0x02430030 w 0x004`
+`echo 446 > /sys/class/gpio/export`
+`echo out > /sys/class/gpio/PP.06/direction`
+`echo 1 > /sys/class/gpio/PP.06/value`
+
+
+exit 0
+/home/unitree/.ros/log/2023-11-07-17-13-28-214656-ubuntu-13321/launch.log
+/home/unitree/.ros/log/2023-11-07-17-09-55-115451-ubuntu-10755/launch.log
+/home/unitree/.ros/log/2023-11-07-17-07-38-062019-ubuntu-10507/launch.log
+/home/unitree/.ros/log/2023-11-07-17-13-49-861526-ubuntu-16658/launch.log
+/home/unitree/.ros/log/2023-11-07-11-49-03-539306-ubuntu-19710/launch.log
+/home/unitree/.ros/log/2023-11-07-17-06-07-648530-ubuntu-10101/launch.log
+/home/unitree/.ros/log/2023-11-07-17-11-31-370124-ubuntu-12954/launch.log
+/home/unitree/.ros/log/2023-11-07-17-01-16-517513-ubuntu-4357/launch.log
+/home/unitree/.ros/log/2023-11-07-17-06-12-951845-ubuntu-10314/launch.log
+/home/unitree/.ros/log/2023-11-07-11-50-01-925670-ubuntu-19762/launch.log
+/home/unitree/.ros/log/2023-11-07-17-15-23-633901-ubuntu-21773/launch.log
+/home/unitree/.ros/log/2023-11-07-17-06-13-555293-ubuntu-10330/launch.log
+total 16
+drwxr-xr-x  4 unitree unitree 4096 Aug 10  2023 .
+drwxrwxr-x  6 unitree unitree 4096 Nov  7  2023 ..
+drwxr-xr-x 14 unitree unitree 4096 Aug 24 15:42 cyclonedds-0.10.2
+drwxr-xr-x  3 unitree unitree 4096 May 26  2023 ros2
+ls: cannot access '/home/unitree/.config/autostart': No such file or directory

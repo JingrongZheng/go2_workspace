@@ -1,0 +1,21 @@
+🕒 WebRTC connection        : 🟡 started       (16:19:26)
+🕒 Lidar Decoder            : 🧊 LibVoxelDecoder (16:19:26)
+🕒 Signaling State          : 🟡 have-local-offer (16:19:26)
+🕒 ICE Gathering State      : 🟡 gathering     (16:19:26)
+🕒 ICE Gathering State      : 🟢 complete      (16:19:26)
+🕒 LAN Signaling Method     : 🆕 con_notify (192.168.123.161:9991) (16:19:26)
+🕒 ICE Connection State     : 🔵 checking      (16:19:26)
+🕒 Peer Connection State    : 🔵 connecting    (16:19:26)
+🕒 Signaling State          : 🟢 stable        (16:19:26)
+🕒 ICE Connection State     : 🟢 completed     (16:19:26)
+🕒 Peer Connection State    : 🟢 connected     (16:19:26)
+🕒 Data Channel Verification: ✅ OK            (16:19:26)
+WebRTC local ICE address: 192.168.123.222
+TEST_TOPICS {"string": "/go2_probe/string_ba97259dd5a34f3691adb389fb7eaf5c", "request": "/go2_probe/request_ba97259dd5a34f3691adb389fb7eaf5c"}
+🕒 Robot Connection Mode    : 📡 4G            (16:19:32)
+DDS_SUBSCRIBERS {"string": [{"node": "go2_isolated_forwarding_probe", "namespace": "/", "type": "std_msgs/msg/String", "gid": [1, 16, 48, 122, 236, 67, 238, 46, 96, 159, 147, 244, 0, 0, 22, 4, 0, 0, 0, 0, 0, 0, 0, 0]}], "request": [{"node": "go2_isolated_forwarding_probe", "namespace": "/", "type": "unitree_api/msg/Request", "gid": [1, 16, 48, 122, 236, 67, 238, 46, 96, 159, 147, 244, 0, 0, 23, 4, 0, 0, 0, 0, 0, 0, 0, 0]}]}
+COUNTS {"state": 300, "dds_string": 140, "dds_request": 140, "webrtc_marker": 0}
+🕒 Signaling State          : ⚫ closed        (16:19:41)
+🕒 ICE Connection State     : ⚫ closed        (16:19:41)
+🕒 Peer Connection State    : ⚫ closed        (16:19:41)
+🕒 WebRTC connection        : 🔴 disconnected  (16:19:41)

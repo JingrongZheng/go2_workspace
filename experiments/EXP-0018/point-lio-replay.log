@@ -1,0 +1,48 @@
+[INFO] [launch]: All log files can be found below /tmp/.ros/log/2026-11-24-11-31-57-516696-daff425b3d1f-7
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [pointlio_mapping-1]: process started with pid [18]
+[INFO] [python3-2]: process started with pid [20]
+[INFO] [static_transform_publisher-3]: process started with pid [22]
+[INFO] [static_transform_publisher-4]: process started with pid [24]
+[INFO] [ros2-5]: process started with pid [26]
+[static_transform_publisher-3] [INFO] [1795519917.583433779] [l2_imu_to_base]: Spinning until stopped - publishing transform
+[static_transform_publisher-3] translation: ('0.274974', '0.014655', '-0.127241')
+[static_transform_publisher-3] rotation: ('0.000000', '-0.991341', '0.000000', '0.131316')
+[static_transform_publisher-3] from 'l2_imu' to 'base_link'
+[static_transform_publisher-4] [INFO] [1795519917.583434681] [l2_imu_to_lidar]: Spinning until stopped - publishing transform
+[static_transform_publisher-4] translation: ('0.007698', '0.014655', '-0.006670')
+[static_transform_publisher-4] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-4] from 'l2_imu' to 'lidar_link'
+[pointlio_mapping-1] Multi thread started 
+[pointlio_mapping-1] lidar_type: 5
+[pointlio_mapping-1] ~~~~/lio-ws/src/point_lio/ file opened
+[ros2-5] stdin is not a terminal device. Keyboard handling disabled.[INFO] [1795519917.873344922] [rosbag2_storage]: Opened database '/recorded-bag/wired-lidar-imu_0.db3' for READ_ONLY.
+[ros2-5] [INFO] [1795519917.873397532] [rosbag2_player]: Set rate to 1
+[ros2-5] [INFO] [1795519917.879792438] [rosbag2_player]: Adding keyboard callbacks.
+[ros2-5] [INFO] [1795519917.879859686] [rosbag2_player]: Press SPACE for Pause/Resume
+[ros2-5] [INFO] [1795519917.879874034] [rosbag2_player]: Press CURSOR_RIGHT for Play Next Message
+[ros2-5] [INFO] [1795519917.879879684] [rosbag2_player]: Press CURSOR_UP for Increase Rate 10%
+[ros2-5] [INFO] [1795519917.879885546] [rosbag2_player]: Press CURSOR_DOWN for Decrease Rate 10%
+[ros2-5] [INFO] [1795519917.880028058] [rosbag2_player]: Sleep 3000000000 ns
+[ros2-5] [INFO] [1795519920.880678202] [rosbag2_storage]: Opened database '/recorded-bag/wired-lidar-imu_0.db3' for READ_ONLY.
+[pointlio_mapping-1] first lidar time1.79552e+09
+[pointlio_mapping-1] [INFO] [1795519920.983468456] [laserMapping]: IMU Initializing: 1.0 %
+[pointlio_mapping-1] [WARN] [1795519920.983593715] [laserMapping]: Reset ImuProcess
+[pointlio_mapping-1] [INFO] [1795519920.991567435] [laserMapping]: IMU Initializing: 12.0 %
+[pointlio_mapping-1] [INFO] [1795519921.057058844] [laserMapping]: IMU Initializing: 39.0 %
+[pointlio_mapping-1] [INFO] [1795519921.121639913] [laserMapping]: IMU Initializing: 84.0 %
+[pointlio_mapping-1] [INFO] [1795519921.121678527] [laserMapping]: IMU Initializing: 100.0 %
+[INFO] [ros2-5]: process has finished cleanly [pid 26]
+[INFO] [launch]: process[ros2-5] was required: shutting down launched system
+[INFO] [static_transform_publisher-4]: sending signal 'SIGINT' to process[static_transform_publisher-4]
+[INFO] [static_transform_publisher-3]: sending signal 'SIGINT' to process[static_transform_publisher-3]
+[INFO] [python3-2]: sending signal 'SIGINT' to process[python3-2]
+[INFO] [pointlio_mapping-1]: sending signal 'SIGINT' to process[pointlio_mapping-1]
+[static_transform_publisher-4] [INFO] [1795519932.642273473] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[static_transform_publisher-3] [INFO] [1795519932.642846056] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[pointlio_mapping-1] [WARN] [1795519932.643515064] [laserMapping]: catch sig 2
+[INFO] [static_transform_publisher-3]: process has finished cleanly [pid 22]
+[INFO] [static_transform_publisher-4]: process has finished cleanly [pid 24]
+[pointlio_mapping-1] Rebuild thread terminated normally
+[INFO] [pointlio_mapping-1]: process has finished cleanly [pid 18]
+[INFO] [python3-2]: process has finished cleanly [pid 20]

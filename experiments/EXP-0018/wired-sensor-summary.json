@@ -1,0 +1,97 @@
+{
+  "topics": {
+    "/utlidar/imu": {
+      "frames": [
+        "utlidar_imu"
+      ],
+      "messages": 2906,
+      "rate_hz": 250.02866932566016,
+      "median_period_s": 0.004481792449951172,
+      "nonincreasing_stamps": 0,
+      "first_stamp": 1795519777.1483505,
+      "last_stamp": 1795519788.767018
+    },
+    "/utlidar/cloud": {
+      "frames": [
+        "utlidar_lidar"
+      ],
+      "messages": 179,
+      "rate_hz": 15.411948061470747,
+      "median_period_s": 0.06495952606201172,
+      "nonincreasing_stamps": 0,
+      "first_stamp": 1795519777.128448,
+      "last_stamp": 1795519788.677929
+    }
+  },
+  "cloud": {
+    "fields_offset_type_count": {
+      "x": [
+        0,
+        7,
+        1
+      ],
+      "y": [
+        4,
+        7,
+        1
+      ],
+      "z": [
+        8,
+        7,
+        1
+      ],
+      "intensity": [
+        16,
+        7,
+        1
+      ],
+      "ring": [
+        20,
+        4,
+        1
+      ],
+      "time": [
+        24,
+        7,
+        1
+      ]
+    },
+    "rings": [
+      1
+    ],
+    "points_min_median_max": [
+      713,
+      1351.0,
+      1618
+    ],
+    "point_time_min_s": 0.0,
+    "point_time_max_s": 0.06412959843873978,
+    "median_point_time_max_s": 0.06237855181097984,
+    "last_point_is_latest_frames": 179
+  },
+  "imu": {
+    "median_accel": [
+      4.230594873428345,
+      -0.001562437042593956,
+      9.804873943328857
+    ],
+    "median_gyro": [
+      0.01423161756247282,
+      0.00020923319971188903,
+      0.00017234450206160545
+    ],
+    "median_acceleration_norm": 10.680112853525891,
+    "cloud_headers_within_imu_time_range": 178
+  },
+  "lidar_state": {
+    "firmware_version": "",
+    "software_version": "1.0.0.38",
+    "sdk_version": "",
+    "cloud_scan_num": 210,
+    "cloud_frequency": 15.409337997436523,
+    "imu_frequency": 250.9576873779297,
+    "error_state": 0,
+    "cloud_packet_loss_rate": 0.0,
+    "imu_packet_loss_rate": 0.0
+  }
+}

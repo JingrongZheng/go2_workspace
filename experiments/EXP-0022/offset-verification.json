@@ -1,0 +1,26 @@
+{
+  "experiments/EXP-0021/wifi-received": {
+    "/go2/relay/cloud": {
+      "count": 202,
+      "median_receive_minus_header_s": 43.081925432,
+      "first_to_last_header_rate_hz": 15.38974658291639
+    },
+    "/go2/relay/imu": {
+      "count": 3245,
+      "median_receive_minus_header_s": 43.007010131,
+      "first_to_last_header_rate_hz": 249.54166972294954
+    }
+  },
+  "experiments/EXP-0022/adjusted-stamps": {
+    "/go2/relay/cloud": {
+      "count": 109,
+      "median_receive_minus_header_s": 0.087860079,
+      "first_to_last_header_rate_hz": 15.384529737491928
+    },
+    "/go2/relay/imu": {
+      "count": 1747,
+      "median_receive_minus_header_s": 0.010236583,
+      "first_to_last_header_rate_hz": 249.55404488505206
+    }
+  }
+}

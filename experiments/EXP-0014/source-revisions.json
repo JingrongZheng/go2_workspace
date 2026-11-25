@@ -1,0 +1,40 @@
+{
+  "navigation": {
+    "repository": "https://github.com/dfl-rlab/dddmr_navigation.git",
+    "commit": "adcf178a5e118717f38ce56578d525d34360bfcf",
+    "path": "/home/suiliang/go2_workspace/.work/dddmr-sources/dddmr_navigation",
+    "source_files_verified": 621,
+    "deferred_assets": [
+      "src/dddmr_global_planner/data/ground.pcd",
+      "src/dddmr_global_planner/data/map.pcd",
+      "src/dddmr_global_planner/data/map_2d/map.pgm",
+      "src/dddmr_global_planner/data/warehouse.pgm",
+      "src/dddmr_lego_loam/lego_loam_bor/engine/yolo11n_dddmr.onnx",
+      "src/dddmr_lego_loam/lego_loam_bor/pcd/feature.pcd",
+      "src/dddmr_lego_loam/lego_loam_bor/test/test/testing_purpose",
+      "src/dddmr_mcl_3dl/map/edges.pcd",
+      "src/dddmr_mcl_3dl/map/ground.pcd",
+      "src/dddmr_mcl_3dl/map/map.pcd",
+      "src/dddmr_mcl_3dl/map/pcd/0_feature.pcd",
+      "src/dddmr_mcl_3dl/map/pcd/0_ground.pcd",
+      "src/dddmr_mcl_3dl/map/poses.pcd",
+      "src/dddmr_odom_3d/bag_files/rosbag2_odom2d_imu/rosbag2_2025_06_28-22_48_31_0.db3",
+      "src/dddmr_perception_3d/map/ground.pcd",
+      "src/dddmr_perception_3d/map/map.pcd",
+      "src/dddmr_perception_3d/map/no_entry1.pcd",
+      "src/dddmr_perception_3d/map/zone1.pcd",
+      "src/dddmr_perception_3d/map/zone2.pcd",
+      "src/dddmr_semantic_segmentation/model/ddrnet_23_slim_dualresnet_citys_best_model_424x848.onnx"
+    ],
+    "checkout": "partial clone and sparse checkout; source complete, listed assets not downloaded"
+  },
+  "simulation": {
+    "repository": "https://github.com/dfl-rlab/dfl_mobilerobot_simulator.git",
+    "branch": "go2",
+    "commit": "b9e035230a5f7048bee7341de17ff4016d4ed8b8",
+    "path": "/home/suiliang/go2_workspace/.work/dddmr-sources/dfl_mobilerobot_simulator"
+  },
+  "installed": false,
+  "built": false,
+  "runtime_tested": false
+}

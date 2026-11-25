@@ -1,0 +1,12 @@
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+dummy0           DOWN           
+eth10            UP             192.168.123.18/24 fe80::4ebb:47ff:fe02:5a81/64 
+docker0          DOWN           172.17.0.1/16 
+192.168.123.20 dev eth10 src 192.168.123.18 uid 1000 
+    cache 
+PING 192.168.123.20 (192.168.123.20) from 192.168.123.18 eth10: 56(84) bytes of data.
+
+--- 192.168.123.20 ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2031ms
+
+192.168.123.20 dev eth10  INCOMPLETE

@@ -1,0 +1,4 @@
+go2-dddmr-navigation dddmr:go2-local Up About a minute
+go2-dddmr-simulation dddmr-sim:go2-local Up About a minute
+sha256:4b95184c14a2f393b67707069573cf53d7b156fb1d2b4e40a310aeed4710c3a4 6983287266 dddmr:go2-local
+sha256:4b444e23df73ab2308743369e5a6efc77a6f7d287699514e4975fe099caa13df 5242628509 dddmr-sim:go2-local

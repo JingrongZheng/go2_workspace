@@ -1,0 +1,158 @@
+{
+  "input_map": "/home/suiliang/go2_workspace/.work/sessions/live-20261125-201812/maps/2026_11_25_12_25_11",
+  "output_map": "/home/suiliang/go2_workspace/experiments/EXP-0034/optimized-map-201812-leveled",
+  "keyframes": 318,
+  "edges_before": 318,
+  "edges_after": 323,
+  "loop_edges_added": 5,
+  "level_ground_applied": true,
+  "level_tilt_corrected_deg": 3.81,
+  "loop_candidates": [
+    {
+      "from": 210,
+      "to": 99,
+      "init_dist_m": 1.016,
+      "icp_rmse_m": 0.2166,
+      "inlier_ratio": 0.991,
+      "accepted": true,
+      "rel_xyz_m": [
+        0.1694,
+        0.6609,
+        0.0078
+      ]
+    },
+    {
+      "from": 225,
+      "to": 106,
+      "init_dist_m": 1.345,
+      "icp_rmse_m": 0.278,
+      "inlier_ratio": 0.99,
+      "accepted": false,
+      "rel_xyz_m": [
+        0.8091,
+        -0.7054,
+        0.0607
+      ]
+    },
+    {
+      "from": 270,
+      "to": 161,
+      "init_dist_m": 0.926,
+      "icp_rmse_m": 0.1885,
+      "inlier_ratio": 0.997,
+      "accepted": true,
+      "rel_xyz_m": [
+        0.4406,
+        0.7439,
+        0.0391
+      ]
+    },
+    {
+      "from": 285,
+      "to": 28,
+      "init_dist_m": 0.666,
+      "icp_rmse_m": 0.2462,
+      "inlier_ratio": 0.992,
+      "accepted": false,
+      "rel_xyz_m": [
+        0.2586,
+        0.2552,
+        -0.0233
+      ]
+    },
+    {
+      "from": 300,
+      "to": 12,
+      "init_dist_m": 0.74,
+      "icp_rmse_m": 0.1199,
+      "inlier_ratio": 0.998,
+      "accepted": true,
+      "rel_xyz_m": [
+        0.2019,
+        -0.5901,
+        -0.0524
+      ]
+    },
+    {
+      "from": 315,
+      "to": 1,
+      "init_dist_m": 0.762,
+      "icp_rmse_m": 0.1355,
+      "inlier_ratio": 1.0,
+      "accepted": true,
+      "rel_xyz_m": [
+        0.1008,
+        -0.4531,
+        -0.0208
+      ]
+    },
+    {
+      "from": 317,
+      "to": 1,
+      "init_dist_m": 0.766,
+      "icp_rmse_m": 0.1247,
+      "inlier_ratio": 0.998,
+      "accepted": true,
+      "rel_xyz_m": [
+        0.0102,
+        -0.3629,
+        -0.0246
+      ]
+    }
+  ],
+  "optimizer_success": false,
+  "optimizer_nfev": 40,
+  "optimizer_cost": 0.01655,
+  "before": {
+    "path_length_m": 55.552,
+    "start_xyz_m": [
+      -0.2814,
+      -0.0009,
+      -0.0007
+    ],
+    "end_xyz_m": [
+      -0.4,
+      -0.1534,
+      0.7413
+    ],
+    "closure_xy_m": 0.1933,
+    "closure_z_m": 0.742,
+    "closure_3d_m": 0.7667
+  },
+  "after": {
+    "path_length_m": 55.708,
+    "start_xyz_m": [
+      -0.2814,
+      -0.0009,
+      -0.0007
+    ],
+    "end_xyz_m": [
+      -0.2733,
+      -0.3628,
+      -0.0326
+    ],
+    "closure_xy_m": 0.362,
+    "closure_z_m": -0.0319,
+    "closure_3d_m": 0.3634
+  },
+  "output_points": {
+    "map": 1487,
+    "ground": 14514
+  },
+  "ground_plane_before": {
+    "points": 17024,
+    "slope_x_deg": -0.74,
+    "slope_y_deg": -3.74,
+    "resid_median_cm": 11.82,
+    "resid_p95_cm": 42.58,
+    "z_span_m": 1.547
+  },
+  "ground_plane_after": {
+    "points": 14514,
+    "slope_x_deg": -0.06,
+    "slope_y_deg": -0.07,
+    "resid_median_cm": 5.06,
+    "resid_p95_cm": 20.85,
+    "z_span_m": 0.585
+  }
+}

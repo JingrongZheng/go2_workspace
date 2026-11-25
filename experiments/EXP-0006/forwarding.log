@@ -1,0 +1,29 @@
+ERROR:root:Local request failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+🕒 WebRTC connection        : 🟡 started       (16:18:11)
+🕒 Lidar Decoder            : 🧊 LibVoxelDecoder (16:18:11)
+🕒 Signaling State          : 🟡 have-local-offer (16:18:11)
+🕒 ICE Gathering State      : 🟡 gathering     (16:18:11)
+🕒 ICE Gathering State      : 🟢 complete      (16:18:11)
+🕒 LAN Signaling Method     : 🆕 con_notify (192.168.123.161:9991) (16:18:11)
+🕒 Signaling State          : ⚫ closed        (16:18:14)
+🕒 ICE Connection State     : ⚫ closed        (16:18:14)
+🕒 Peer Connection State    : ⚫ closed        (16:18:14)
+🕒 WebRTC connection        : 🔴 disconnected  (16:18:14)
+Traceback (most recent call last):
+  File "/home/suiliang/go2_workspace/experiments/EXP-0006/probe_forwarding.py", line 75, in <module>
+    asyncio.run(main())
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/home/suiliang/go2_workspace/experiments/EXP-0006/probe_forwarding.py", line 40, in main
+    await connect_peer(conn, SimpleNamespace(remote=False, ip='192.168.123.161', local_ip=None))
+  File "/home/suiliang/go2_workspace/shared/go2_webrtc_state.py", line 65, in connect_peer
+    await asyncio.wait_for(connection.connect(), timeout=30)
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/home/suiliang/go2_workspace/.work/webrtc-venv/lib/python3.10/site-packages/unitree_webrtc_connect/webrtc_driver.py", line 86, in connect
+    await self.init_webrtc(ip=self.ip)
+  File "/home/suiliang/go2_workspace/.work/webrtc-venv/lib/python3.10/site-packages/unitree_webrtc_connect/webrtc_driver.py", line 228, in init_webrtc
+    raise NoSdpAnswerError()
+unitree_webrtc_connect.unitree_auth.NoSdpAnswerError: Robot signaling returned no SDP answer. Check that the robot is powered on, the Wi-Fi link is stable, and no other WebRTC client is mid-handshake.

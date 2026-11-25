@@ -1,0 +1,17 @@
+go2-dddmr-navigation
+go2-dddmr-simulation
+eecc9782f7dfc4ea06ce402aeefe0f0779a2480a31a8a1fa1a6535ddde3615d9
+344693fb29b31b5ba9e4ab9edadfe363f4f7c186d4c599653be196af7620007d
+{
+  "source": "Gazebo model-derived /odom; one-time demo initialization",
+  "seed_position": [
+    0.00021864994510460006,
+    -2.6918913455590607e-06,
+    0.276193310740968
+  ],
+  "estimate_position": [
+    0.17785215377807617,
+    -0.0021037564147263765,
+    0.12932461500167847
+  ]
+}

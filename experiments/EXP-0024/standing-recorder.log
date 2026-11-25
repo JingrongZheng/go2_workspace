@@ -1,0 +1,12 @@
+stdin is not a terminal device. Keyboard handling disabled.[INFO] [1795573322.570161597] [rosbag2_recorder]: Press SPACE for pausing/resuming
+[INFO] [1795573322.571744356] [rosbag2_storage]: Opened database 'experiments/EXP-0024/standing-three-sensors/standing-three-sensors_0.db3' for READ_WRITE.
+[INFO] [1795573322.572353020] [rosbag2_recorder]: Listening for topics...
+[INFO] [1795573322.572476694] [rosbag2_recorder]: Recording...
+[INFO] [1795573322.573301086] [rosbag2_recorder]: Event publisher thread: Starting
+[INFO] [1795573323.475650804] [rosbag2_recorder]: Subscribed to topic '/go2/bodytrial/cloud'
+[INFO] [1795573323.476379635] [rosbag2_recorder]: Subscribed to topic '/go2/bodytrial/lidar_imu'
+[INFO] [1795573323.476779363] [rosbag2_recorder]: Subscribed to topic '/go2/bodytrial/imu'
+[INFO] [1795573323.476792748] [rosbag2_recorder]: All requested topics are subscribed. Stopping discovery...
+[INFO] [1795573381.862281303] [rosbag2_cpp]: Writing remaining messages from cache to the bag. It may take a while
+[INFO] [1795573381.863271220] [rosbag2_recorder]: Event publisher thread: Exiting
+[INFO] [1795573381.863339940] [rosbag2_recorder]: Recording stopped

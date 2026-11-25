@@ -1,0 +1,247 @@
+#!/usr/bin/env bash
+# Portable single entry point for Go2 EDU real-robot mapping, replay, and tools.
+# Resolves all paths relative to this script so go2_workspace can be moved anywhere.
+set -euo pipefail
+
+ROOT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+REAL_DIR="$ROOT/shared/dddmr/real"
+
+GO2_USER="${GO2_USER:-unitree}"
+GO2_WIRED_HOST="${GO2_WIRED_HOST:-192.168.123.18}"
+GO2_WIFI_HOST="${GO2_WIFI_HOST:-192.168.110.87}"
+GO2_ROS_DOMAIN="${GO2_ROS_DOMAIN:-84}"
+GO2_GROUND_Z="${GO2_GROUND_Z:--0.3168676504844956}"
+GO2_MAPPING_YAML="${GO2_MAPPING_YAML:-$REAL_DIR/config/l2_mapping_lab.yaml}"
+
+usage() {
+  cat <<EOF
+Go2 Workspace CLI (root: $ROOT)
+
+Usage:
+  ./go2 <command> [args...]
+
+Daily real-robot mapping workflow:
+  ./go2 ssh [wired|wifi] [--host IP] [--close]
+      Establish, check, or close the reusable SSH control socket (no ~/.ssh/config needed).
+  ./go2 relay [wired|wifi] [--host IP] [extra relay args...]
+      Start read-only sensor relay (L2 cloud + L2 IMU + chassis IMU) on ROS domain $GO2_ROS_DOMAIN.
+  ./go2 map [SESSION_DIR] [GROUND_Z]
+      Start unified Point-LIO + DDDMR mapping Docker (no controller).
+      Default SESSION_DIR: .work/sessions/live-YYYYMMDD-HHMMSS
+  ./go2 rviz [mapping|l2|localize]
+      Launch RViz2 with matching ROS domain and layout (default: mapping).
+  ./go2 localize <SAVED_MAP_DIR> [SESSION_DIR] [GROUND_Z]
+      Start R3 3D MCL relocalization on a saved map (no planner or controller).
+  ./go2 record [BAG_DIR]
+      Record raw 3-topic sensor bag (/go2/relay/cloud, /go2/relay/imu, /go2/relay/chassis_imu).
+      Default BAG_DIR: .work/sessions/bag-YYYYMMDD-HHMMSS
+  ./go2 save-map
+      Call /save_mapped_point_cloud on ROS domain $GO2_ROS_DOMAIN before stopping mapping.
+  ./go2 keyboard [wired|wifi] [--host IP] [--check|--robot] [extra args...]
+      Run PC keyboard control over SSH (preview-only unless --robot is passed).
+  ./go2 estop [wired|wifi] [--host IP] [--check|--robot]
+      Dedicated emergency stop & BalanceStand terminal (Space/Enter latches 5 Hz StopMove+BalanceStand).
+
+Offline & utilities:
+  ./go2 replay <BAG_DIR> [OUTPUT_DIR] [GROUND_Z] [YAML]
+      Run isolated offline replay -> Point-LIO -> DDDMR -> map save verification.
+  ./go2 view-map <SAVED_MAP_DIR> [--server-only]
+      Load a saved DDDMR map (ground + surfaces + features + keyframes) and open in 3D RViz2.
+  ./go2 help
+      Show this help message.
+
+Environment overrides:
+  GO2_WIRED_HOST (default: $GO2_WIRED_HOST)
+  GO2_WIFI_HOST  (default: $GO2_WIFI_HOST)
+  GO2_USER       (default: $GO2_USER)
+  GO2_ROS_DOMAIN (default: $GO2_ROS_DOMAIN)
+  GO2_GROUND_Z   (default: $GO2_GROUND_Z)
+EOF
+}
+
+resolve_link() {
+  local mode="$1"
+  local host_override="${2:-}"
+  if [[ "$mode" == "wifi" ]]; then
+    LINK_HOST="${host_override:-$GO2_WIFI_HOST}"
+    LINK_SOCKET="${GO2_SSH_SOCKET:-$ROOT/.work/ssh-control/go2-wifi.sock}"
+  elif [[ "$mode" == "wired" ]]; then
+    LINK_HOST="${host_override:-$GO2_WIRED_HOST}"
+    LINK_SOCKET="${GO2_SSH_SOCKET:-$ROOT/.work/ssh-control/go2.sock}"
+  else
+    echo "Expected link mode 'wired' or 'wifi', got: $mode" >&2
+    exit 2
+  fi
+}
+
+parse_link_args() {
+  LINK_MODE="wired"
+  LINK_HOST_OVERRIDE=""
+  EXTRA_ARGS=()
+  if [[ $# -gt 0 && ( "$1" == "wired" || "$1" == "wifi" ) ]]; then
+    LINK_MODE="$1"
+    shift
+  fi
+  while [[ $# -gt 0 ]]; do
+    case "$1" in
+      --host)
+        LINK_HOST_OVERRIDE="${2:?missing value for --host}"
+        shift 2
+        ;;
+      *)
+        EXTRA_ARGS+=("$1")
+        shift
+        ;;
+    esac
+  done
+  resolve_link "$LINK_MODE" "$LINK_HOST_OVERRIDE"
+}
+
+cmd_ssh() {
+  exec bash "$ROOT/shared/connect_go2_ssh.sh" "$@"
+}
+
+cmd_relay() {
+  parse_link_args "$@"
+  export PYTHONNOUSERSITE=1
+  export ROS_DOMAIN_ID="$GO2_ROS_DOMAIN"
+  export ROS_LOCALHOST_ONLY=1
+  exec bash "$REAL_DIR/run_sensor_relay.sh" \
+    --host "$LINK_HOST" \
+    --socket "$LINK_SOCKET" \
+    --include-chassis-imu \
+    "${EXTRA_ARGS[@]}"
+}
+
+cmd_map() {
+  local session="${1:-$ROOT/.work/sessions/live-$(date +%Y%m%d-%H%M%S)}"
+  local ground="${2:-$GO2_GROUND_Z}"
+  export ROS_DOMAIN_ID="$GO2_ROS_DOMAIN"
+  exec bash "$REAL_DIR/run_live_mapping.sh" "$session" "$ground"
+}
+
+cmd_rviz() {
+  local profile="${1:-mapping}"
+  local rviz_cfg=""
+  case "$profile" in
+    mapping)  rviz_cfg="$REAL_DIR/go2_mapping.rviz" ;;
+    l2)       rviz_cfg="$REAL_DIR/go2_l2.rviz" ;;
+    localize) rviz_cfg="$REAL_DIR/go2_localization.rviz" ;;
+    *)
+      echo "Unknown rviz profile '$profile' (use 'mapping', 'l2', or 'localize')." >&2
+      exit 2
+      ;;
+  esac
+  # shellcheck disable=SC1091
+  set +u
+  source /opt/ros/humble/setup.bash
+  set -u
+  export ROS_DOMAIN_ID="$GO2_ROS_DOMAIN"
+  export ROS_LOCALHOST_ONLY=1
+  export PYTHONNOUSERSITE=1
+  unset CYCLONEDDS_URI
+  exec rviz2 -d "$rviz_cfg"
+}
+
+cmd_record() {
+  local bag_dir="${1:-$ROOT/.work/sessions/bag-$(date +%Y%m%d-%H%M%S)}"
+  if [[ -e "$bag_dir" ]]; then
+    echo "Bag path already exists; choose a new directory: $bag_dir" >&2
+    exit 2
+  fi
+  mkdir -p "$(dirname -- "$bag_dir")"
+  # shellcheck disable=SC1091
+  set +u
+  source /opt/ros/humble/setup.bash
+  set -u
+  export ROS_DOMAIN_ID="$GO2_ROS_DOMAIN"
+  export ROS_LOCALHOST_ONLY=1
+  export PYTHONNOUSERSITE=1
+  unset CYCLONEDDS_URI
+  echo "Recording 3 sensor topics to: $bag_dir"
+  exec ros2 bag record -o "$bag_dir" \
+    /go2/relay/cloud /go2/relay/imu /go2/relay/chassis_imu
+}
+
+cmd_save_map() {
+  # shellcheck disable=SC1091
+  set +u
+  source /opt/ros/humble/setup.bash
+  set -u
+  export ROS_DOMAIN_ID="$GO2_ROS_DOMAIN"
+  export ROS_LOCALHOST_ONLY=1
+  export PYTHONNOUSERSITE=1
+  unset CYCLONEDDS_URI
+  exec ros2 service call /save_mapped_point_cloud std_srvs/srv/Empty '{}'
+}
+
+cmd_keyboard() {
+  parse_link_args "$@"
+  exec bash "$ROOT/shared/run_wifi_keyboard.sh" \
+    --host "$LINK_HOST" \
+    --socket "$LINK_SOCKET" \
+    "${EXTRA_ARGS[@]}"
+}
+
+cmd_estop() {
+  parse_link_args "$@"
+  exec bash "$ROOT/shared/run_estop.sh" \
+    --host "$LINK_HOST" \
+    --socket "$LINK_SOCKET" \
+    "${EXTRA_ARGS[@]}"
+}
+
+cmd_replay() {
+  if [[ $# -lt 1 || $# -gt 4 ]]; then
+    echo "Usage: ./go2 replay <BAG_DIR> [OUTPUT_DIR] [GROUND_Z] [YAML]" >&2
+    exit 2
+  fi
+  local bag="$1"
+  local out="${2:-$ROOT/.work/sessions/replay-$(date +%Y%m%d-%H%M%S)}"
+  local ground="${3:-$GO2_GROUND_Z}"
+  local yaml="${4:-$GO2_MAPPING_YAML}"
+  exec bash "$REAL_DIR/run_mapping_replay.sh" "$bag" "$yaml" "$ground" "$out"
+}
+
+cmd_view_map() {
+  if [[ $# -lt 1 || $# -gt 2 ]]; then
+    echo "Usage: ./go2 view-map <SAVED_MAP_DIR> [--server-only]" >&2
+    exit 2
+  fi
+  export ROS_DOMAIN_ID="$GO2_ROS_DOMAIN"
+  exec bash "$REAL_DIR/run_view_map.sh" "$@"
+}
+
+cmd_localize() {
+  if [[ $# -lt 1 || $# -gt 3 ]]; then
+    echo "Usage: ./go2 localize <SAVED_MAP_DIR> [SESSION_DIR] [GROUND_Z]" >&2
+    exit 2
+  fi
+  export ROS_DOMAIN_ID="$GO2_ROS_DOMAIN"
+  exec bash "$REAL_DIR/run_live_localization.sh" "$@"
+}
+
+cmd="${1:-help}"
+if [[ $# -gt 0 ]]; then
+  shift
+fi
+
+case "$cmd" in
+  ssh)        cmd_ssh "$@" ;;
+  relay)      cmd_relay "$@" ;;
+  map)        cmd_map "$@" ;;
+  rviz)       cmd_rviz "$@" ;;
+  record)     cmd_record "$@" ;;
+  save-map)   cmd_save_map "$@" ;;
+  keyboard)   cmd_keyboard "$@" ;;
+  estop)      cmd_estop "$@" ;;
+  replay)     cmd_replay "$@" ;;
+  view-map)   cmd_view_map "$@" ;;
+  localize)   cmd_localize "$@" ;;
+  help|-h|--help) usage ;;
+  *)
+    echo "Unknown command: $cmd" >&2
+    echo "Run './go2 help' for usage." >&2
+    exit 2
+    ;;
+esac

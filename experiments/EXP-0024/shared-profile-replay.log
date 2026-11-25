@@ -1,0 +1,82 @@
+[INFO] [launch]: All log files can be found below /tmp/.ros/log/2026-11-25-03-10-25-176355-c0d9bf06e68d-18
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [pointlio_mapping-1]: process started with pid [30]
+[INFO] [python3-2]: process started with pid [32]
+[INFO] [static_transform_publisher-3]: process started with pid [34]
+[INFO] [static_transform_publisher-4]: process started with pid [36]
+[INFO] [static_transform_publisher-5]: process started with pid [38]
+[INFO] [static_transform_publisher-6]: process started with pid [40]
+[INFO] [ros2-7]: process started with pid [42]
+[static_transform_publisher-4] [INFO] [1795576225.366857968] [base_to_model_radar]: Spinning until stopped - publishing transform
+[static_transform_publisher-4] translation: ('0.289450', '0.000000', '-0.046825')
+[static_transform_publisher-4] rotation: ('0.000000', '0.991341', '0.000000', '0.131316')
+[static_transform_publisher-4] from 'base_link' to 'radar'
+[static_transform_publisher-3] [INFO] [1795576225.367061954] [chassis_imu_to_base]: Spinning until stopped - publishing transform
+[static_transform_publisher-3] translation: ('0.025570', '-0.000000', '-0.042320')
+[static_transform_publisher-3] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-3] from 'go2_chassis_imu' to 'base_link'
+[static_transform_publisher-5] [INFO] [1795576225.367532356] [base_to_published_cloud]: Spinning until stopped - publishing transform
+[static_transform_publisher-5] translation: ('0.282160', '0.000000', '-0.000000')
+[static_transform_publisher-5] rotation: ('0.871312', '-0.473081', '0.114618', '-0.062233')
+[static_transform_publisher-5] from 'base_link' to 'utlidar_lidar'
+[static_transform_publisher-6] [INFO] [1795576225.370852597] [published_cloud_alias]: Spinning until stopped - publishing transform
+[static_transform_publisher-6] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-6] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-6] from 'utlidar_lidar' to 'lidar_link'
+[pointlio_mapping-1] Multi thread started 
+[pointlio_mapping-1] lidar_type: 5
+[pointlio_mapping-1] ~~~~/lio-ws/src/point_lio/ file opened
+[ros2-7] stdin is not a terminal device. Keyboard handling disabled.[INFO] [1795576225.647049995] [rosbag2_storage]: Opened database '/recorded-bag/live-fixed-sensors_0.db3' for READ_ONLY.
+[ros2-7] [INFO] [1795576225.647095111] [rosbag2_player]: Set rate to 1
+[ros2-7] [INFO] [1795576225.652562390] [rosbag2_player]: Adding keyboard callbacks.
+[ros2-7] [INFO] [1795576225.652592337] [rosbag2_player]: Press SPACE for Pause/Resume
+[ros2-7] [INFO] [1795576225.652598729] [rosbag2_player]: Press CURSOR_RIGHT for Play Next Message
+[ros2-7] [INFO] [1795576225.652605662] [rosbag2_player]: Press CURSOR_UP for Increase Rate 10%
+[ros2-7] [INFO] [1795576225.652611053] [rosbag2_player]: Press CURSOR_DOWN for Decrease Rate 10%
+[ros2-7] [INFO] [1795576225.652686506] [rosbag2_player]: Sleep 3000000000 ns
+[ros2-7] [INFO] [1795576228.653264748] [rosbag2_storage]: Opened database '/recorded-bag/live-fixed-sensors_0.db3' for READ_ONLY.
+[pointlio_mapping-1] first lidar time1.79558e+09
+[pointlio_mapping-1] [INFO] [1795576228.983857150] [laserMapping]: IMU Initializing: 1.0 %
+[pointlio_mapping-1] [WARN] [1795576228.983994470] [laserMapping]: Reset ImuProcess
+[pointlio_mapping-1] [INFO] [1795576229.051361791] [laserMapping]: IMU Initializing: 11.0 %
+[pointlio_mapping-1] [INFO] [1795576229.158534528] [laserMapping]: IMU Initializing: 36.0 %
+[pointlio_mapping-1] [INFO] [1795576229.180767576] [laserMapping]: IMU Initializing: 63.0 %
+[pointlio_mapping-1] [INFO] [1795576229.261953111] [laserMapping]: IMU Initializing: 81.0 %
+[pointlio_mapping-1] [INFO] [1795576229.312297196] [laserMapping]: IMU Initializing: 91.0 %
+[pointlio_mapping-1] [INFO] [1795576229.312397516] [laserMapping]: IMU Initializing: 100.0 %
+[INFO] [ros2-7]: process has finished cleanly [pid 42]
+[INFO] [launch]: process[ros2-7] was required: shutting down launched system
+[INFO] [static_transform_publisher-6]: sending signal 'SIGINT' to process[static_transform_publisher-6]
+[INFO] [static_transform_publisher-5]: sending signal 'SIGINT' to process[static_transform_publisher-5]
+[INFO] [static_transform_publisher-4]: sending signal 'SIGINT' to process[static_transform_publisher-4]
+[INFO] [static_transform_publisher-3]: sending signal 'SIGINT' to process[static_transform_publisher-3]
+[INFO] [python3-2]: sending signal 'SIGINT' to process[python3-2]
+[INFO] [pointlio_mapping-1]: sending signal 'SIGINT' to process[pointlio_mapping-1]
+[static_transform_publisher-6] [INFO] [1795576254.746049051] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[static_transform_publisher-5] [INFO] [1795576254.746680758] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[static_transform_publisher-4] [INFO] [1795576254.747273461] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[static_transform_publisher-3] [INFO] [1795576254.747954582] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[pointlio_mapping-1] [WARN] [1795576254.749474662] [laserMapping]: catch sig 2
+[python3-2] Traceback (most recent call last):
+[python3-2]   File "/go2-real/body_odometry.py", line 68, in <module>
+[python3-2]     main()
+[python3-2]   File "/go2-real/body_odometry.py", line 59, in main
+[python3-2]     rclpy.spin(node)
+[python3-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[python3-2]     executor.spin_once()
+[python3-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 812, in spin_once
+[python3-2]     self._spin_once_impl(timeout_sec)
+[python3-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 801, in _spin_once_impl
+[python3-2]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[python3-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 784, in wait_for_ready_callbacks
+[python3-2]     return next(self._cb_iter)
+[python3-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 685, in _wait_for_ready_callbacks
+[python3-2]     raise ExternalShutdownException()
+[python3-2] rclpy.executors.ExternalShutdownException
+[INFO] [static_transform_publisher-6]: process has finished cleanly [pid 40]
+[INFO] [static_transform_publisher-5]: process has finished cleanly [pid 38]
+[INFO] [static_transform_publisher-4]: process has finished cleanly [pid 36]
+[INFO] [static_transform_publisher-3]: process has finished cleanly [pid 34]
+[pointlio_mapping-1] Rebuild thread terminated normally
+[INFO] [pointlio_mapping-1]: process has finished cleanly [pid 30]
+[ERROR] [python3-2]: process has died [pid 32, exit code 1, cmd '/usr/bin/python3 /go2-real/body_odometry.py 0.02557 -0.0 -0.04232 0 --source-child go2_chassis_imu'].

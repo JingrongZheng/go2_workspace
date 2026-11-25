@@ -1,0 +1,11 @@
+{
+  "ground_z_in_base_m": -0.3168676504844956,
+  "normal_in_base": [
+    -0.01820966172989054,
+    -0.032409118553872046,
+    0.9993087897413112
+  ],
+  "inliers": 7340,
+  "median_residual_m": 0.006160780471173494,
+  "source": "EXP-0024 motion-trial-02 first 25 clouds; no assumed ground height"
+}

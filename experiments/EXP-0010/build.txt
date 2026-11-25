@@ -1,0 +1,19 @@
+Starting >>> hesai_ros_driver
+--- stderr: hesai_ros_driver
+=============================================================
+-- ROS_VERSION is 2
+=============================================================
+=============================================================
+-- ROS2 Found. ROS2 Support is turned On.
+=============================================================
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    Python3_EXECUTABLE
+
+
+---
+Finished <<< hesai_ros_driver [1min 34s]
+
+Summary: 1 package finished [1min 38s]
+  1 package had stderr output: hesai_ros_driver

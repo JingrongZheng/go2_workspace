@@ -1,0 +1,14 @@
+-------- Hesai Lidar ROS V2.0.12 --------
+-------- Hesai Lidar SDK V2.0.12 --------
+[INFO] [1795242709.965789152] [rclcpp]: signal_handler(signal_value=2)
+[2026-11-21 14:31:35][INFO]logger start to run
+[2026-11-21 14:31:35][INFO]OS current udp socket recv buff size is: 425984
+[2026-11-21 14:31:35][INFO]SocketSource::Open succeed, sock:10
+[2026-11-21 14:31:35][INFO]Use thread num 2 to parse packet
+[2026-11-21 14:31:35][INFO]Lidar::ParserThread start to run
+[2026-11-21 14:31:35][INFO]Lidar::Receive Udp Thread start to run
+[2026-11-21 14:31:35][WARNING]Packet with invaild delimiter, len 1180, 0x00 0x00 0x00 0x00
+[2026-11-21 14:31:43][FATAL]get cloud point fail, init exit
+[2026-11-21 14:31:49][INFO]Hesai Lidar SDK is stopping...
+[2026-11-21 14:31:50][INFO]SocketSource::Close()
+[2026-11-21 14:31:50][INFO]Source::Close()

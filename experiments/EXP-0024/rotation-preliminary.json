@@ -1,0 +1,26 @@
+{
+  "convention": "omega_chassis_imu = R @ omega_radar_imu",
+  "rotation_matrix": [
+    [
+      0.5604462164010495,
+      -0.7873907556872036,
+      0.2567407960961455
+    ],
+    [
+      -0.8142893422962025,
+      -0.5804531776695044,
+      -0.0026411278259409893
+    ],
+    [
+      0.15110561056614025,
+      -0.20758108389665358,
+      -0.9664766878014828
+    ]
+  ],
+  "candidate_alignment_lag_s": 0.0,
+  "moving_pairs": 113,
+  "second_to_first_axis_strength": 0.26124972763366244,
+  "held_out_gyro_error_rms_rad_s": 0.11846829113927744,
+  "held_out_error_to_signal": 0.08248820169918107,
+  "status": "candidate rotation only; confirm error, playback and geometry before use"
+}

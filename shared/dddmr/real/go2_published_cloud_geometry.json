@@ -1,0 +1,32 @@
+{
+  "source_frame": "utlidar_lidar",
+  "target_frame": "base_link",
+  "convention": "p_base = R_base_from_published_cloud * p_cloud + t_base_from_published_cloud",
+  "rotation_matrix": [
+    [
+      0.5261139320680797,
+      -0.8101357959786011,
+      0.25861964843758883
+    ],
+    [
+      -0.8386681536966942,
+      -0.5446427526117121,
+      1.585844622301047e-06
+    ],
+    [
+      0.1408540324550263,
+      -0.21689689739979073,
+      -0.9659792324059058
+    ]
+  ],
+  "translation_m": [
+    0.28215999599618025,
+    1.6813417769157013e-08,
+    -2.2347018249768702e-08
+  ],
+  "scope": "Go2 EDU observed 2026-11-24 and repeated after reconnect 2026-11-25; published cloud coordinates, not physical radar mounting calibration",
+  "evidence": [
+    "experiments/EXP-0022/imu-axis-check.json",
+    "experiments/EXP-0024/reconnected-cloud-transform.json"
+  ]
+}

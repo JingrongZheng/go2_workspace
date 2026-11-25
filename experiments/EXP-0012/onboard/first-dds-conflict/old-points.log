@@ -1,0 +1,26 @@
+1795242628.911866 [83]    python3: config: //CycloneDDS/Domain/General: 'NetworkInterfaceAddress': deprecated element (CYCLONEDDS_URI+0 line 1)
+1795242628.912768 [83]    python3: config: General/Interfaces: do not pass deprecated configuration General/{NetworkAddressString,MulticastRecvNetworkInterfaceAddresses,AssumeMulticastCapable}
+[ERROR] [1795242628.912875040] [rmw_cyclonedds_cpp]: rmw_create_node: failed to create domain, error Error
+
+>>> [rcutils|error_handling.c:108] rcutils_set_error_state()
+This error state is being overwritten:
+
+  'error not set, at /tmp/binarydeb/ros-foxy-rcl-1.1.14/src/rcl/node.c:276'
+
+with this new error message:
+
+  'rcl node's rmw handle is invalid, at /tmp/binarydeb/ros-foxy-rcl-1.1.14/src/rcl/node.c:428'
+
+rcutils_reset_error() should be called after error handling to avoid this.
+<<<
+[ERROR] [1795242628.912979744] [rcl]: Failed to fini publisher for node: 1
+Traceback (most recent call last):
+  File "/home/unitree/go2-lidar-diagnostic/retest-20261121/probe_wired_lidar.py", line 71, in <module>
+    raise SystemExit(main())
+  File "/home/unitree/go2-lidar-diagnostic/retest-20261121/probe_wired_lidar.py", line 19, in main
+    node = rclpy.create_node('wired_lidar_readonly_probe')
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/__init__.py", line 141, in create_node
+    return Node(
+  File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/node.py", line 165, in __init__
+    self.__handle = Handle(_rclpy.rclpy_create_node(
+_rclpy.RCLError: Unknown error creating node: rcl node's rmw handle is invalid, at /tmp/binarydeb/ros-foxy-rcl-1.1.14/src/rcl/node.c:428

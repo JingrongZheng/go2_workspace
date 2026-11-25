@@ -1,0 +1,28 @@
+[INFO] [launch]: All log files can be found below /tmp/.ros/log/2026-11-25-02-39-57-234650-32c45d5ab4f6-18
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [pointlio_mapping-1]: process started with pid [41]
+[pointlio_mapping-1] Multi thread started 
+[pointlio_mapping-1] lidar_type: 5
+[pointlio_mapping-1] ~~~~/lio-ws/src/point_lio/ file opened
+[pointlio_mapping-1] first lidar time1.79557e+09
+[pointlio_mapping-1] [INFO] [1795574400.389976994] [laserMapping]: IMU Initializing: 1.0 %
+[pointlio_mapping-1] [WARN] [1795574400.390092234] [laserMapping]: Reset ImuProcess
+[pointlio_mapping-1] [INFO] [1795574400.394771655] [laserMapping]: IMU Initializing: 12.0 %
+[pointlio_mapping-1] [INFO] [1795574400.452641550] [laserMapping]: IMU Initializing: 48.0 %
+[pointlio_mapping-1] [INFO] [1795574400.452678771] [laserMapping]: IMU Initializing: 100.0 %
+[pointlio_mapping-1] LIO_DIAG points=634 matched=332 groups=632 imu_queue=0 time=1795573325.930857
+[pointlio_mapping-1] LIO_DIAG points=529 matched=382 groups=528 imu_queue=0 time=1795573327.227978
+[pointlio_mapping-1] LIO_DIAG points=556 matched=307 groups=556 imu_queue=0 time=1795573328.525932
+[pointlio_mapping-1] LIO_DIAG points=638 matched=380 groups=633 imu_queue=1 time=1795573329.822914
+[pointlio_mapping-1] LIO_DIAG points=542 matched=271 groups=540 imu_queue=0 time=1795573331.120914
+[pointlio_mapping-1] LIO_DIAG points=510 matched=324 groups=510 imu_queue=1 time=1795573332.417938
+[pointlio_mapping-1] LIO_DIAG points=639 matched=566 groups=636 imu_queue=2 time=1795573333.715411
+[pointlio_mapping-1] LIO_DIAG points=528 matched=489 groups=528 imu_queue=1 time=1795573335.012409
+[pointlio_mapping-1] LIO_DIAG points=499 matched=479 groups=498 imu_queue=3 time=1795573336.309929
+[pointlio_mapping-1] LIO_DIAG points=610 matched=601 groups=609 imu_queue=2 time=1795573337.608413
+[pointlio_mapping-1] LIO_DIAG points=562 matched=554 groups=561 imu_queue=2 time=1795573338.903684
+[pointlio_mapping-1] LIO_DIAG points=469 matched=436 groups=468 imu_queue=2 time=1795573340.202906
+[pointlio_mapping-1] LIO_DIAG points=636 matched=605 groups=634 imu_queue=1 time=1795573341.500923
+[pointlio_mapping-1] LIO_DIAG points=595 matched=562 groups=594 imu_queue=2 time=1795573342.798909
+[pointlio_mapping-1] LIO_DIAG points=474 matched=418 groups=473 imu_queue=2 time=1795573344.095663
+[pointlio_mapping-1] LIO_DIAG points=593 matched=536 groups=592 imu_queue=1 time=1795573345.392953

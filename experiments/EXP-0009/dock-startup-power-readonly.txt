@@ -1,0 +1,28 @@
+● rc-local.service - /etc/rc.local Compatibility
+     Loaded: loaded (/etc/systemd/system/rc-local.service; enabled-runtime; vendor preset: enabled)
+    Drop-In: /usr/lib/systemd/system/rc-local.service.d
+             └─debian.conf
+     Active: active (exited) since Fri 2026-11-20 15:27:56 CST; 9min ago
+       Docs: man:systemd-rc-local-generator(8)
+    Process: 938 ExecStart=/etc/rc.local start (code=exited, status=0/SUCCESS)
+
+Nov 20 15:27:55 ubuntu systemd[1]: Starting /etc/rc.local Compatibility...
+Nov 20 15:27:56 ubuntu systemd[1]: Started /etc/rc.local Compatibility.
+lrwxrwxrwx 1 root root 0 Nov 20 15:27 /sys/class/gpio/PP.06 -> ../../devices/platform/2200000.gpio/gpiochip0/gpio/PP.06
+/sys/class/gpio/PP.06
+out
+1
+	                                     1000baseT/Full 
+	Link partner advertised pause frame use: Symmetric
+	Link partner advertised auto-negotiation: Yes
+	Link partner advertised FEC modes: Not reported
+	Speed: 1000Mb/s
+	Duplex: Full
+	Port: Twisted Pair
+	PHYAD: 0
+	Transceiver: internal
+	Auto-negotiation: on
+	MDI-X: Unknown
+	Link detected: yes
+/etc/rc.local:7:`echo out > /sys/class/gpio/PP.06/direction`
+/etc/rc.local:8:`echo 1 > /sys/class/gpio/PP.06/value`

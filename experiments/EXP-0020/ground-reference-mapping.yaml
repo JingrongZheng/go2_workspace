@@ -1,0 +1,393 @@
+lego_loam_ip:
+  ros__parameters:
+    laser:
+      odom_type: wheel_odometry
+      base_ground_frame: base_footprint
+      num_vertical_scans: 16
+      num_horizontal_scans: 440
+      vertical_angle_bottom: -15.0
+      vertical_angle_top: 15.0
+      scan_period: 0.1
+    imageProjection:
+      segment_valid_point_num: 5
+      segment_valid_line_num: 2
+      segment_theta: 60.0
+      minimum_detection_range: 0.5
+      maximum_detection_range: 100.0
+      distance_for_patch_between_rings: 1.0
+      stitcher_num: 0
+      trt_model_path: ''
+      projected_image_stack_size: 1
+      ground_fov_bottom: -0.2617994
+      ground_fov_top: -0.087266
+      ground_positive_start: 0.0
+      ground_positive_stop: 3.1415926
+      ground_negative_start: 0.0
+      ground_negative_stop: -3.1415926
+    use_sim_time: false
+lego_loam_fa:
+  ros__parameters:
+    featureAssociation:
+      edge_threshold: 0.1
+      surf_threshold: 0.1
+      nearest_feature_search_distance: 3.0
+    mapping:
+      to_map_optimization: true
+    use_sim_time: false
+lego_loam_mo:
+  ros__parameters:
+    mapping:
+      distance_between_key_frame: 1.0
+      angle_between_key_frame: 1.0
+      enable_loop_closure: true
+      surrounding_keyframe_search_num: 10
+      history_keyframe_search_radius: 15.0
+      history_keyframe_search_num: 5
+      history_keyframe_fitness_score: 0.5
+      ground_voxel_size: 0.4
+      broadcast_external_odom_tf: false
+      generate_testing_pg: false
+    use_sim_time: false
+lego_loam_map_visualization:
+  ros__parameters:
+    use_sim_time: false
+    ground_voxel_size: 0.4
+    ground_edge_threshold_num: 60
+p2p_move_base:
+  ros__parameters:
+    controller_frequency: 10.0
+    planner_patience: 10.0
+    oscillation_distance: 5.0
+    oscillation_angle: 1.0
+    oscillation_patience: 15.0
+    controller_patience: 10.0
+    no_plan_retry_num: 10
+    waiting_patience: 10.0
+    use_sim_time: false
+global_plan_manager:
+  ros__parameters:
+    global_planner_action_name: get_plan
+    global_plan_query_frequency: -1.0
+    use_sim_time: false
+local_planner:
+  ros__parameters:
+    odom_topic: odom
+    forward_prune: 3.0
+    backward_prune: 1.0
+    heading_tracking_distance: 0.5
+    heading_align_angle: 0.5
+    prune_plane_timeout: 3.0
+    xy_goal_tolerance: 0.6
+    yaw_goal_tolerance: 6.28
+    controller_frequency: 10.0
+    cuboid:
+      flb:
+      - 0.385
+      - 0.1705
+      - 0.0
+      frb:
+      - 0.385
+      - -0.1705
+      - 0.0
+      flt:
+      - 0.385
+      - 0.1705
+      - 0.44
+      frt:
+      - 0.385
+      - -0.1705
+      - 0.44
+      blb:
+      - -0.385
+      - 0.1705
+      - 0.0
+      brb:
+      - -0.385
+      - -0.1705
+      - 0.0
+      blt:
+      - -0.385
+      - 0.1705
+      - 0.44
+      brt:
+      - -0.385
+      - -0.1705
+      - 0.44
+    use_sim_time: false
+recovery_behaviors:
+  ros__parameters:
+    plugins:
+    - rotate_inplace
+    rotate_inplace:
+      plugin: recovery_behaviors::RotateInPlaceBehavior
+      frequency: 10.0
+      tolerance: 0.3
+      trajectory_generator_name: differential_drive_rotate_inplace
+    use_sim_time: false
+trajectory_generators:
+  ros__parameters:
+    plugins:
+    - differential_drive_simple
+    - differential_drive_rotate_inplace
+    - differential_drive_rotate_shortest_angle
+    differential_drive_rotate_shortest_angle:
+      plugin: trajectory_generators::DDRotateInplaceTheory
+      controller_frequency: 10.0
+      rotation_speed: 0.5
+      cuboid:
+        flb:
+        - 0.385
+        - 0.1705
+        - 0.0
+        frb:
+        - 0.385
+        - -0.1705
+        - 0.0
+        flt:
+        - 0.385
+        - 0.1705
+        - 0.44
+        frt:
+        - 0.385
+        - -0.1705
+        - 0.44
+        blb:
+        - -0.385
+        - 0.1705
+        - 0.0
+        brb:
+        - -0.385
+        - -0.1705
+        - 0.0
+        blt:
+        - -0.385
+        - 0.1705
+        - 0.44
+        brt:
+        - -0.385
+        - -0.1705
+        - 0.44
+    differential_drive_rotate_inplace:
+      plugin: trajectory_generators::DDRotateInplaceTheory
+      controller_frequency: 10.0
+      rotation_speed: 0.5
+      cuboid:
+        flb:
+        - 0.385
+        - 0.1705
+        - 0.0
+        frb:
+        - 0.385
+        - -0.1705
+        - 0.0
+        flt:
+        - 0.385
+        - 0.1705
+        - 0.44
+        frt:
+        - 0.385
+        - -0.1705
+        - 0.44
+        blb:
+        - -0.385
+        - 0.1705
+        - 0.0
+        brb:
+        - -0.385
+        - -0.1705
+        - 0.0
+        blt:
+        - -0.385
+        - 0.1705
+        - 0.44
+        brt:
+        - -0.385
+        - -0.1705
+        - 0.44
+    differential_drive_simple:
+      plugin: trajectory_generators::DDSimpleTrajectoryGeneratorTheory
+      max_vel_x: 1.0
+      min_vel_x: 0.1
+      max_vel_theta: 0.6
+      min_vel_theta: 0.15
+      acc_lim_x: 2.5
+      acc_lim_theta: 3.0
+      deceleration_ratio: 2.0
+      max_motor_shaft_rpm: 3000.0
+      wheel_diameter: 0.16
+      gear_ratio: 1.0
+      robot_radius: 0.25
+      controller_frequency: 10.0
+      sim_time: 2.0
+      linear_x_sample: 5.0
+      angular_z_sample: 10.0
+      sim_granularity: 0.05
+      angular_sim_granularity: 0.025
+      cuboid:
+        flb:
+        - 0.385
+        - 0.1705
+        - 0.0
+        frb:
+        - 0.385
+        - -0.1705
+        - 0.0
+        flt:
+        - 0.385
+        - 0.1705
+        - 0.44
+        frt:
+        - 0.385
+        - -0.1705
+        - 0.44
+        blb:
+        - -0.385
+        - 0.1705
+        - 0.0
+        brb:
+        - -0.385
+        - -0.1705
+        - 0.0
+        blt:
+        - -0.385
+        - 0.1705
+        - 0.44
+        brt:
+        - -0.385
+        - -0.1705
+        - 0.44
+    use_sim_time: false
+mpc_critics:
+  ros__parameters:
+    plugins:
+    - collision
+    - stick_path
+    - pure_pursuit
+    - toward_global_plan
+    - collision_rotate
+    - collision_rotate_shortest
+    - prefer_rotate_shortest
+    collision:
+      plugin: mpc_critics::CollisionModel
+      trajectory_generator: differential_drive_simple
+      weight: 1.0
+    stick_path:
+      plugin: mpc_critics::StickPathModel
+      trajectory_generator: differential_drive_simple
+      weight: 0.1
+    pure_pursuit:
+      plugin: mpc_critics::PurePursuitModel
+      trajectory_generator: differential_drive_simple
+      translation_weight: 1.0
+      orientation_weight: 0.01
+    toward_global_plan:
+      plugin: mpc_critics::TowardGlobalPlanModel
+      trajectory_generator: differential_drive_simple
+      weight: 1.0
+    collision_rotate:
+      plugin: mpc_critics::CollisionModel
+      trajectory_generator: differential_drive_rotate_inplace
+      weight: 1.0
+    collision_rotate_shortest:
+      plugin: mpc_critics::CollisionModel
+      trajectory_generator: differential_drive_rotate_shortest_angle
+      weight: 1.0
+    prefer_rotate_shortest:
+      plugin: mpc_critics::ShortestAngleModel
+      trajectory_generator: differential_drive_rotate_shortest_angle
+      weight: 1.0
+    use_sim_time: false
+perception_3d_local:
+  ros__parameters:
+    global_frame: map
+    robot_base_frame: base_link
+    max_obstacle_distance: 9999.0
+    inscribed_radius: 0.5
+    inflation_descending_rate: 2.0
+    inflation_radius: 1.5
+    sensors_collected_frequency: 10.0
+    plugins:
+    - map
+    - path_blocked_strategy
+    - lidar
+    map:
+      plugin: perception_3d::StaticLayer
+      is_local_planner: true
+      mapping_mode: true
+      map_topic: lego_loam_map
+      ground_topic: lego_loam_ground
+    path_blocked_strategy:
+      plugin: perception_3d::PathBlockedStrategy
+      check_radius: 0.3
+    lidar:
+      plugin: perception_3d::MultiLayerSpinningLidar
+      is_local_planner: true
+      topic: segmented_cloud_pure
+      pub_gbl_marking_for_visualization: false
+      vertical_FOV_top: 15.0
+      vertical_FOV_bottom: -15.0
+      scan_effective_positive_start: 30.0
+      scan_effective_positive_end: 180.0
+      scan_effective_negative_start: -30.0
+      scan_effective_negative_end: -180.0
+      resolution: 0.05
+      height_resolution: 0.05
+      marking_height: 2.0
+      perception_window_size: 3.0
+      segmentation_ignore_ratio: 0.5
+      expected_sensor_time: 0.2
+    use_sim_time: false
+perception_3d_global:
+  ros__parameters:
+    global_frame: map
+    robot_base_frame: base_link
+    max_obstacle_distance: 9999.0
+    inscribed_radius: 0.5
+    inflation_descending_rate: 2.0
+    inflation_radius: 1.5
+    sensors_collected_frequency: 10.0
+    plugins:
+    - map
+    - lidar
+    dgraph_publish_frequency: 1.0
+    map:
+      plugin: perception_3d::StaticLayer
+      is_local_planner: false
+      use_adaptive_connection: false
+      adaptive_connection_number: 20
+      radius_of_ground_connection: 1.0
+      hollow_hole_tolerance: 10
+      intensity_search_radius: 1.0
+      intensity_search_punish_weight: 0.1
+      static_imposing_radius: 2.0
+      map_topic: lego_loam_map
+      ground_topic: lego_loam_ground
+      support:
+        mapping_mode: true
+        enable_edge_detection: false
+        generate_static_graph: false
+    lidar:
+      plugin: perception_3d::MultiLayerSpinningLidar
+      is_local_planner: false
+      topic: segmented_cloud_pure
+      pub_gbl_marking_for_visualization: false
+      vertical_FOV_top: 15.0
+      vertical_FOV_bottom: -15.0
+      scan_effective_positive_start: 30.0
+      scan_effective_positive_end: 180.0
+      scan_effective_negative_start: -30.0
+      scan_effective_negative_end: -180.0
+      euclidean_cluster_extraction_tolerance: 0.1
+      euclidean_cluster_extraction_min_cluster_size: 1
+      xy_resolution: 0.05
+      height_resolution: 0.05
+      marking_height: 2.0
+      perception_window_size: 5.0
+      segmentation_ignore_ratio: 1.1
+      expected_sensor_time: 0.1
+    use_sim_time: false
+global_planner:
+  ros__parameters:
+    turning_weight: 0.1
+    enable_detail_log: false
+    use_sim_time: false

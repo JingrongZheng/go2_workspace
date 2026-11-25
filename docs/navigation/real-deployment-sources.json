@@ -1,0 +1,12 @@
+{
+  "checked_date": "2026-11-24",
+  "implementation_status": "planning_only_no_robot_connection_no_lio_install",
+  "sources": [
+    {"url":"https://github.com/dfl-rlab/dddmr_navigation/blob/main/src/dddmr_beginner_guide/translations/README.zh-hans.md","role":"DDDMR输入合同、TF、建图与定位","checked":"本地完整源码及远端raw文档"},
+    {"url":"https://github.com/dfl-rlab/dddmr_navigation/tree/main/src/dddmr_odom_3d","role":"粗3D里程计与LIO区别","checked":"本地README和核心概念"},
+    {"url":"https://github.com/unitreerobotics/unilidar_sdk","role":"L1原始点云/内置IMU和坐标","checked":"官方README与ROS2接口文档"},
+    {"url":"https://github.com/unitreerobotics/point_lio_unilidar","role":"L1专用Point-LIO基准","checked":"官方README/配置，ROS1 Noetic"},
+    {"url":"https://github.com/dfloreaa/point_lio_ros2","role":"首选待验证的Humble/L1移植候选","checked":"维护者README/UNILIDAR预处理源码/配置","deployment":"未安装、未锁commit"},
+    {"url":"https://github.com/hku-mars/FAST_LIO","role":"可选FAST-LIO2前端，尚未锁定ROS2实现","checked":"此前FAST-LIO2调研，非当前已部署"}
+  ]
+}

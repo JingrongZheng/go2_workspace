@@ -1,0 +1,224 @@
+{
+  "seconds": 8.0,
+  "topics": {
+    "/clock": [
+      "rosgraph_msgs/msg/Clock"
+    ],
+    "/dynamic_joint_states": [
+      "control_msgs/msg/DynamicJointState"
+    ],
+    "/imu/data": [
+      "sensor_msgs/msg/Imu"
+    ],
+    "/joint_group_effort_controller/controller_state": [
+      "control_msgs/msg/JointTrajectoryControllerState"
+    ],
+    "/joint_group_effort_controller/follow_joint_trajectory/_action/feedback": [
+      "control_msgs/action/FollowJointTrajectory_FeedbackMessage"
+    ],
+    "/joint_group_effort_controller/follow_joint_trajectory/_action/status": [
+      "action_msgs/msg/GoalStatusArray"
+    ],
+    "/joint_group_effort_controller/joint_trajectory": [
+      "trajectory_msgs/msg/JointTrajectory"
+    ],
+    "/joint_group_effort_controller/state": [
+      "control_msgs/msg/JointTrajectoryControllerState"
+    ],
+    "/joint_group_effort_controller/transition_event": [
+      "lifecycle_msgs/msg/TransitionEvent"
+    ],
+    "/joint_states": [
+      "sensor_msgs/msg/JointState"
+    ],
+    "/joint_states_controller/transition_event": [
+      "lifecycle_msgs/msg/TransitionEvent"
+    ],
+    "/parameter_events": [
+      "rcl_interfaces/msg/ParameterEvent"
+    ],
+    "/performance_metrics": [
+      "gazebo_msgs/msg/PerformanceMetrics"
+    ],
+    "/rosout": [
+      "rcl_interfaces/msg/Log"
+    ],
+    "/velodyne_points": [
+      "sensor_msgs/msg/PointCloud2"
+    ],
+    "/base_to_footprint_pose": [
+      "geometry_msgs/msg/PoseWithCovarianceStamped"
+    ],
+    "/body_pose": [
+      "geometry_msgs/msg/Pose"
+    ],
+    "/cmd_vel": [
+      "geometry_msgs/msg/Twist"
+    ],
+    "/foot": [
+      "visualization_msgs/msg/MarkerArray"
+    ],
+    "/foot_contacts": [
+      "champ_msgs/msg/ContactsStamped"
+    ],
+    "/odom": [
+      "nav_msgs/msg/Odometry"
+    ],
+    "/odom/raw": [
+      "nav_msgs/msg/Odometry"
+    ],
+    "/robot_description": [
+      "std_msgs/msg/String"
+    ],
+    "/tf": [
+      "tf2_msgs/msg/TFMessage"
+    ],
+    "/tf_static": [
+      "tf2_msgs/msg/TFMessage"
+    ]
+  },
+  "observations": {
+    "/clock": {
+      "messages": 1517,
+      "last_clock": 1312.445,
+      "first_clock": 1304.865
+    },
+    "/velodyne_points": {
+      "messages": 75,
+      "nonempty_frames": 75,
+      "last_points": 6345,
+      "frame_id": "velodyne"
+    },
+    "/cmd_vel": {
+      "messages": 0
+    },
+    "/odom": {
+      "messages": 6597,
+      "first_position": [
+        -0.016799599849660823,
+        -0.00023346361283573832,
+        0.22019364553331164
+      ],
+      "last_position": [
+        -0.01684088472209916,
+        -0.00023397651129233887,
+        0.22017073628111067
+      ],
+      "finite_pose": true,
+      "frames": [
+        "odom",
+        "base_link"
+      ]
+    },
+    "/odom/raw": {
+      "messages": 347,
+      "first_position": [
+        -2202241930887168.0,
+        -4.483633612901581e+16,
+        0.0
+      ],
+      "last_position": [
+        -2202241930887168.0,
+        -4.483633612901581e+16,
+        0.0
+      ],
+      "finite_pose": true,
+      "frames": [
+        "odom",
+        "base_footprint"
+      ]
+    },
+    "/tf": {
+      "messages": 8240
+    },
+    "/tf_static": {
+      "messages": 1
+    }
+  },
+  "tf_edges": [
+    [
+      "base_link",
+      "trunk"
+    ],
+    [
+      "base_link",
+      "velodyne_base_link"
+    ],
+    [
+      "lf_hip_link",
+      "lf_upper_leg_link"
+    ],
+    [
+      "lf_lower_leg_link",
+      "lf_foot_link"
+    ],
+    [
+      "lf_upper_leg_link",
+      "lf_lower_leg_link"
+    ],
+    [
+      "lh_hip_link",
+      "lh_upper_leg_link"
+    ],
+    [
+      "lh_lower_leg_link",
+      "lh_foot_link"
+    ],
+    [
+      "lh_upper_leg_link",
+      "lh_lower_leg_link"
+    ],
+    [
+      "odom",
+      "base_link"
+    ],
+    [
+      "rf_hip_link",
+      "rf_upper_leg_link"
+    ],
+    [
+      "rf_lower_leg_link",
+      "rf_foot_link"
+    ],
+    [
+      "rf_upper_leg_link",
+      "rf_lower_leg_link"
+    ],
+    [
+      "rh_hip_link",
+      "rh_upper_leg_link"
+    ],
+    [
+      "rh_lower_leg_link",
+      "rh_foot_link"
+    ],
+    [
+      "rh_upper_leg_link",
+      "rh_lower_leg_link"
+    ],
+    [
+      "trunk",
+      "imu_link"
+    ],
+    [
+      "trunk",
+      "lf_hip_link"
+    ],
+    [
+      "trunk",
+      "lh_hip_link"
+    ],
+    [
+      "trunk",
+      "rf_hip_link"
+    ],
+    [
+      "trunk",
+      "rh_hip_link"
+    ],
+    [
+      "velodyne_base_link",
+      "velodyne"
+    ]
+  ]
+}

@@ -1,0 +1,2 @@
+["dddmr-point-lio:go2-local"] sha256:3e3703c078573cbf4413f0b4cc45b66741e7a09aaeaa45837b58ecbb10a9f689
+["dddmr:go2-local"] sha256:4b95184c14a2f393b67707069573cf53d7b156fb1d2b4e40a310aeed4710c3a4

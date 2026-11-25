@@ -1,0 +1,63 @@
+{
+  "checked_date": "2026-11-23",
+  "kind": "candidate_catalog_not_dependency_lock",
+  "sources": [
+    {
+      "id": "pct",
+      "repository": "https://github.com/byangw/PCT_planner",
+      "role": "global_planner",
+      "compatibility_note": "Noetic; CUDA/CuPy tomography",
+      "commit": null,
+      "selection": "candidate",
+      "runtime_verified": false
+    },
+    {
+      "id": "scan",
+      "repository": "https://github.com/wuyi2121/SCAN-Planner",
+      "role": "local_3d_planner",
+      "compatibility_note": "Noetic main; community ROS2 branch",
+      "commit": null,
+      "selection": "candidate",
+      "runtime_verified": false
+    },
+    {
+      "id": "neupan",
+      "repository": "https://github.com/hanruihua/NeuPAN",
+      "role": "local_planar_mpc",
+      "compatibility_note": "Python >=3.10 main; 2D obstacle points",
+      "commit": null,
+      "selection": "candidate",
+      "runtime_verified": false
+    },
+    {
+      "id": "neupan_ros",
+      "repository": "https://github.com/hanruihua/neupan_ros",
+      "role": "ros_wrapper",
+      "compatibility_note": "Noetic; ROS2 wrapper externally maintained",
+      "commit": null,
+      "selection": "candidate",
+      "runtime_verified": false
+    },
+    {
+      "id": "dddmr",
+      "repository": "https://github.com/dfl-rlab/dddmr_navigation",
+      "role": "alternative_integrated_stack",
+      "compatibility_note": "ROS2 Humble reference",
+      "selection": "selected_navigation_baseline",
+      "runtime_verified": false,
+      "download_status": "user_extracted_641_files_key_assets_present_not_built",
+      "local_path": "dddmr_navigation-main(1)/dddmr_navigation-main",
+      "previous_reference_commit": "adcf178a5e118717f38ce56578d525d34360bfcf",
+      "commit": null
+    },
+    {
+      "id": "point_lio_l1",
+      "repository": "https://github.com/unitreerobotics/point_lio_unilidar",
+      "role": "state_estimation",
+      "compatibility_note": "Noetic main; integrated Go2 sensor adaptation pending",
+      "commit": null,
+      "selection": "candidate",
+      "runtime_verified": false
+    }
+  ]
+}

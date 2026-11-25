@@ -1,0 +1,2 @@
+1795593682.424967 [0]    python3: config: //CycloneDDS/Domain/General: 'NetworkInterfaceAddress': deprecated element (CYCLONEDDS_URI+0 line 1)
+{"control_subscribers": 1, "topic": "/api/sport/request", "types": [["unitree_api/msg/Request"]], "serialized_request_bytes": 48, "commands_sent": 0}

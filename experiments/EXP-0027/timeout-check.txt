@@ -1,0 +1,1 @@
+Timed out waiting for the dock sensor stream (0.02s; received 0/13 bytes). Check dock USB/WiFi and SSH. Mapping data continuity is no longer assured; save the current map before stopping its builder, then restart acquisition and the LIO/mapping session. Do not resume across missing IMU samples.

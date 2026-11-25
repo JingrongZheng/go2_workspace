@@ -1,0 +1,23 @@
+ENDPOINTS {"topic": "/webrtcreq", "publishers": [{"node": "_CREATED_BY_BARE_DDS_APP_", "type": "std_msgs/msg/String"}], "subscribers": [{"node": "go2_bridge_envelope_observer", "type": "std_msgs/msg/String"}, {"node": "_CREATED_BY_BARE_DDS_APP_", "type": "std_msgs/msg/String"}]}
+ENDPOINTS {"topic": "/webrtcres", "publishers": [{"node": "_CREATED_BY_BARE_DDS_APP_", "type": "std_msgs/msg/String"}], "subscribers": [{"node": "go2_bridge_envelope_observer", "type": "std_msgs/msg/String"}, {"node": "_CREATED_BY_BARE_DDS_APP_", "type": "std_msgs/msg/String"}]}
+ENDPOINTS {"topic": "/xfk_webrtcreq", "publishers": [{"node": "_CREATED_BY_BARE_DDS_APP_", "type": "std_msgs/msg/String"}], "subscribers": [{"node": "go2_bridge_envelope_observer", "type": "std_msgs/msg/String"}, {"node": "_CREATED_BY_BARE_DDS_APP_", "type": "std_msgs/msg/String"}]}
+ENDPOINTS {"topic": "/xfk_webrtcres", "publishers": [{"node": "_CREATED_BY_BARE_DDS_APP_", "type": "std_msgs/msg/String"}], "subscribers": [{"node": "_CREATED_BY_BARE_DDS_APP_", "type": "std_msgs/msg/String"}, {"node": "go2_bridge_envelope_observer", "type": "std_msgs/msg/String"}]}
+🕒 WebRTC connection        : 🟡 started       (16:34:41)
+🕒 Lidar Decoder            : 🧊 LibVoxelDecoder (16:34:41)
+🕒 Signaling State          : 🟡 have-local-offer (16:34:41)
+🕒 ICE Gathering State      : 🟡 gathering     (16:34:41)
+🕒 ICE Gathering State      : 🟢 complete      (16:34:41)
+🕒 LAN Signaling Method     : 🆕 con_notify (192.168.123.161:9991) (16:34:41)
+🕒 ICE Connection State     : 🔵 checking      (16:34:41)
+🕒 Peer Connection State    : 🔵 connecting    (16:34:41)
+🕒 Signaling State          : 🟢 stable        (16:34:41)
+🕒 ICE Connection State     : 🟢 completed     (16:34:41)
+🕒 Peer Connection State    : 🟢 connected     (16:34:41)
+🕒 Data Channel Verification: ✅ OK            (16:34:41)
+WebRTC local ICE address: 192.168.123.222
+🕒 Robot Connection Mode    : 📡 4G            (16:34:45)
+RESULT {"state": 160, "counts": {"/webrtcreq": 0, "/webrtcres": 0, "/xfk_webrtcreq": 1, "/xfk_webrtcres": 1}, "samples": {"/webrtcreq": [], "/webrtcres": [], "/xfk_webrtcreq": [{"length": 4009, "shape": {"data1": "str", "data2": "str", "data3": "str", "data4": "str"}, "type": null, "topic": null}], "/xfk_webrtcres": [{"length": 3544, "format": "not JSON"}]}}
+🕒 Signaling State          : ⚫ closed        (16:34:49)
+🕒 ICE Connection State     : ⚫ closed        (16:34:49)
+🕒 Peer Connection State    : ⚫ closed        (16:34:49)
+🕒 WebRTC connection        : 🔴 disconnected  (16:34:49)

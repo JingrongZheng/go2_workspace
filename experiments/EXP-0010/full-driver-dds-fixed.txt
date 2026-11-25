@@ -1,0 +1,8 @@
+Driver: HesaiTechnology/HesaiLidar_ROS_2.0
+Workspace: /home/unitree/go2-lidar-diagnostic/hesai_v2_ws
+Config: /home/unitree/go2-lidar-diagnostic/hesai_v2_ws/config_xt16_official.yaml
+DDS: rmw_cyclonedds_cpp; XML: /home/unitree/go2-lidar-diagnostic/hesai_v2_ws/cyclonedds_xt16.xml
+PointCloud2: /lidar_points; Ctrl+C stops.
+-------- Hesai Lidar ROS V2.0.12 --------
+-------- Hesai Lidar SDK V2.0.12 --------
+BOUNDED_STATUS=124

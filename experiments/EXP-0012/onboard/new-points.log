@@ -1,0 +1,4 @@
+Subscribing PointCloud2: /xt16_compare/points
+Discovered topics: {"/lidar_imu": ["sensor_msgs/msg/Imu"], "/lidar_packets_loss": ["hesai_ros_driver/msg/LossPacket"], "/parameter_events": ["rcl_interfaces/msg/ParameterEvent"], "/rosout": ["rcl_interfaces/msg/Log"], "/xt16_compare/points": ["sensor_msgs/msg/PointCloud2"]}
+{"topic": "/xt16_compare/points", "frames": 0, "nonempty_frames": 0, "invalid_layout_frames": 0, "observed_hz": null}
+Hardware source is unconfirmed until driver/endpoint/wiring is checked.

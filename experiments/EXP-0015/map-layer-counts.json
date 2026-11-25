@@ -1,0 +1,14 @@
+{
+  "/map1/mapcloud": {
+    "points": 12899,
+    "frame_id": "map"
+  },
+  "/map1/mapsurface": {
+    "points": 267110,
+    "frame_id": "map"
+  },
+  "/sub_mapcloud": {
+    "points": 483584,
+    "frame_id": "map"
+  }
+}

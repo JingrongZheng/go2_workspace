@@ -1,0 +1,22 @@
+target=192.168.123.161 local_ice=192.168.123.222
+🕒 WebRTC connection        : 🟡 started       (19:48:48)
+🕒 Lidar Decoder            : 🧊 LibVoxelDecoder (19:48:48)
+🕒 Signaling State          : 🟡 have-local-offer (19:48:48)
+🕒 ICE Gathering State      : 🟡 gathering     (19:48:48)
+🕒 ICE Gathering State      : 🟢 complete      (19:48:48)
+🕒 LAN Signaling Method     : 🆕 con_notify (192.168.123.161:9991) (19:48:48)
+🕒 ICE Connection State     : 🔵 checking      (19:48:48)
+🕒 Peer Connection State    : 🔵 connecting    (19:48:48)
+🕒 Signaling State          : 🟢 stable        (19:48:48)
+🕒 ICE Connection State     : 🟢 completed     (19:48:48)
+🕒 Peer Connection State    : 🟢 connected     (19:48:48)
+🕒 Data Channel Verification: ✅ OK            (19:48:48)
+🕒 Lidar Decoder            : 🧊 NativeDecoder (19:48:48)
+DisableTrafficSavings: on
+session_full_stream_ack=True
+🕒 Robot Connection Mode    : 📡 4G            (19:48:52)
+{"seconds": 15, "topics": {"rt/lf/sportmodestate": {"count": 300, "sample": {"envelope_keys": ["data", "topic", "type"], "data_type": "dict", "data_keys": ["body_height", "error_code", "foot_force", "foot_position_body", "foot_raise_height", "foot_speed_body", "gait_type", "imu_state", "mode", "position", "progress", "range_obstacle", "stamp", "velocity", "yaw_speed"]}, "hz": 20.0}, "rt/utlidar/lidar_state": {"count": 75, "sample": {"envelope_keys": ["data", "topic", "type"], "data_type": "dict", "data_keys": ["cloud_frequency", "cloud_packet_loss_rate", "cloud_scan_num", "cloud_size", "com_rotation_speed", "dirty_percentage", "error_state", "firmware_version", "imu_frequency", "imu_packet_loss_rate", "imu_rpy", "sdk_version", "serial_buffer_read", "serial_buffer_size", "serial_recv_stamp", "software_version", "stamp", "sys_rotation_speed"], "stamp": 1795521000.0}, "hz": 5.0}, "rt/utlidar/voxel_map_compressed": {"count": 0}, "rt/utlidar/cloud": {"count": 0}, "rt/utlidar/imu": {"count": 0}}, "wire_packets": {"rt/lf/sportmodestate": {"count": 300, "envelope_keys": ["data", "topic", "type"], "data_type": "dict", "data_keys": ["body_height", "error_code", "foot_force", "foot_position_body", "foot_raise_height", "foot_speed_body", "gait_type", "imu_state", "mode", "position", "progress", "range_obstacle", "stamp", "velocity", "yaw_speed"], "kind": "msg", "binary_length": 0}, "rt/utlidar/lidar_state": {"count": 75, "envelope_keys": ["data", "topic", "type"], "data_type": "dict", "data_keys": ["cloud_frequency", "cloud_packet_loss_rate", "cloud_scan_num", "cloud_size", "com_rotation_speed", "dirty_percentage", "error_state", "firmware_version", "imu_frequency", "imu_packet_loss_rate", "imu_rpy", "sdk_version", "serial_buffer_read", "serial_buffer_size", "serial_recv_stamp", "software_version", "stamp", "sys_rotation_speed"], "stamp": 1795521000.0, "kind": "msg", "binary_length": 0}, "rt/utlidar/voxel_map_compressed": {"count": 0}, "rt/utlidar/cloud": {"count": 0}, "rt/utlidar/imu": {"count": 0}}}
+🕒 Signaling State          : ⚫ closed        (19:49:03)
+🕒 ICE Connection State     : ⚫ closed        (19:49:03)
+🕒 Peer Connection State    : ⚫ closed        (19:49:03)
+🕒 WebRTC connection        : 🔴 disconnected  (19:49:03)

@@ -1,0 +1,35 @@
+{"pc_minus_dock_s": -0.045160354, "clock_probe_roundtrip_s": 0.002381005}
+{
+  "dry_run": true,
+  "real_commands_sent": 0,
+  "expired_request_discarded": true,
+  "watchdog_stop_preview": true,
+  "disconnect_stop_preview": true,
+  "events": [
+    {
+      "preview_api": 1008,
+      "parameter": "{\"x\": 0.35, \"y\": 0.0, \"z\": 0.0}",
+      "reason": "key"
+    },
+    {
+      "preview_api": 1003,
+      "parameter": "",
+      "reason": "watchdog"
+    },
+    {
+      "preview_api": 1002,
+      "parameter": "",
+      "reason": "key"
+    },
+    {
+      "preview_api": 1008,
+      "parameter": "{\"x\": 0.35, \"y\": 0.0, \"z\": 0.0}",
+      "reason": "key"
+    },
+    {
+      "preview_api": 1003,
+      "parameter": "",
+      "reason": "disconnect"
+    }
+  ]
+}

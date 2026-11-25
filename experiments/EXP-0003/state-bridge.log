@@ -1,0 +1,20 @@
+1794972435.336036 [81]     python: selected interface "lo" is not multicast-capable: disabling multicast
+🕒 WebRTC connection        : 🟡 started       (11:27:15)
+🕒 Lidar Decoder            : 🧊 LibVoxelDecoder (11:27:15)
+🕒 Signaling State          : 🟡 have-local-offer (11:27:15)
+🕒 ICE Gathering State      : 🟡 gathering     (11:27:15)
+🕒 ICE Gathering State      : 🟢 complete      (11:27:15)
+🕒 LAN Signaling Method     : 🆕 con_notify (10.186.248.47:9991) (11:27:15)
+🕒 ICE Connection State     : 🔵 checking      (11:27:15)
+🕒 Peer Connection State    : 🔵 connecting    (11:27:15)
+🕒 Signaling State          : 🟢 stable        (11:27:15)
+🕒 ICE Connection State     : 🟢 completed     (11:27:15)
+🕒 Peer Connection State    : 🟢 connected     (11:27:15)
+🕒 Data Channel Verification: ✅ OK            (11:27:15)
+Publishing rt/lf/sportmodestate to /go2/webrtc/sportmodestate
+🕒 Robot Connection Mode    : 📡 STA-L         (11:27:16)
+Published 100 frames in 5.0s
+🕒 Signaling State          : ⚫ closed        (11:27:20)
+🕒 ICE Connection State     : ⚫ closed        (11:27:20)
+🕒 Peer Connection State    : ⚫ closed        (11:27:20)
+🕒 WebRTC connection        : 🔴 disconnected  (11:27:20)

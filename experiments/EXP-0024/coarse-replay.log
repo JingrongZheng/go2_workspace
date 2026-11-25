@@ -1,0 +1,13 @@
+[INFO] [launch]: All log files can be found below /tmp/.ros/log/2026-11-25-02-30-03-448926-afcfa4409a18-18
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [pointlio_mapping-1]: process started with pid [42]
+[pointlio_mapping-1] Multi thread started 
+[pointlio_mapping-1] lidar_type: 5
+[pointlio_mapping-1] ~~~~/lio-ws/src/point_lio/ file opened
+[pointlio_mapping-1] first lidar time1.79552e+09
+[pointlio_mapping-1] [INFO] [1795573806.601225065] [laserMapping]: IMU Initializing: 1.0 %
+[pointlio_mapping-1] [WARN] [1795573806.601381522] [laserMapping]: Reset ImuProcess
+[pointlio_mapping-1] [INFO] [1795573806.621207901] [laserMapping]: IMU Initializing: 14.0 %
+[pointlio_mapping-1] [INFO] [1795573806.691302373] [laserMapping]: IMU Initializing: 43.0 %
+[pointlio_mapping-1] [INFO] [1795573806.759433953] [laserMapping]: IMU Initializing: 88.0 %
+[pointlio_mapping-1] [INFO] [1795573806.759482606] [laserMapping]: IMU Initializing: 100.0 %

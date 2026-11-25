@@ -1,0 +1,135 @@
+[INFO] [launch]: All log files can be found below /tmp/.ros/log/2026-11-25-08-37-27-854658-b73a1fca0535-26
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [pointlio_mapping-1]: process started with pid [52]
+[INFO] [python3-2]: process started with pid [54]
+[INFO] [static_transform_publisher-3]: process started with pid [56]
+[INFO] [static_transform_publisher-4]: process started with pid [58]
+[INFO] [static_transform_publisher-5]: process started with pid [60]
+[INFO] [static_transform_publisher-6]: process started with pid [62]
+[INFO] [python3-7]: process started with pid [64]
+[INFO] [static_transform_publisher-8]: process started with pid [66]
+[INFO] [lego_loam-9]: process started with pid [68]
+[static_transform_publisher-6] [INFO] [1795595848.045398243] [published_cloud_alias]: Spinning until stopped - publishing transform
+[static_transform_publisher-6] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-6] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-6] from 'utlidar_lidar' to 'lidar_link'
+[static_transform_publisher-3] [INFO] [1795595848.046240474] [chassis_imu_to_base]: Spinning until stopped - publishing transform
+[static_transform_publisher-3] translation: ('0.025570', '-0.000000', '-0.042320')
+[static_transform_publisher-3] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-3] from 'go2_chassis_imu' to 'base_link'
+[static_transform_publisher-5] [INFO] [1795595848.046519517] [base_to_published_cloud]: Spinning until stopped - publishing transform
+[static_transform_publisher-5] translation: ('0.282160', '0.000000', '-0.000000')
+[static_transform_publisher-5] rotation: ('0.871312', '-0.473081', '0.114618', '-0.062233')
+[static_transform_publisher-5] from 'base_link' to 'utlidar_lidar'
+[static_transform_publisher-4] [INFO] [1795595848.047315708] [base_to_model_radar]: Spinning until stopped - publishing transform
+[static_transform_publisher-4] translation: ('0.289450', '0.000000', '-0.046825')
+[static_transform_publisher-4] rotation: ('0.000000', '0.991341', '0.000000', '0.131316')
+[static_transform_publisher-4] from 'base_link' to 'radar'
+[static_transform_publisher-8] [INFO] [1795595848.051332283] [static_transform_publisher_LnRf8rliVsgcxj63]: Spinning until stopped - publishing transform
+[static_transform_publisher-8] translation: ('0.000000', '0.000000', '-0.316868')
+[static_transform_publisher-8] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-8] from 'base_link' to 'base_footprint'
+[pointlio_mapping-1] Multi thread started 
+[pointlio_mapping-1] lidar_type: 5
+[pointlio_mapping-1] ~~~~/lio-ws/src/point_lio/ file opened
+[lego_loam-9] [INFO] [1795595848.184413207] [lego_loam_ip]: laser.num_vertical_scans: 96
+[lego_loam-9] [INFO] [1795595848.184624148] [lego_loam_ip]: laser.num_horizontal_scans: 360
+[lego_loam-9] [INFO] [1795595848.184678233] [lego_loam_ip]: laser.scan_period: 0.00
+[lego_loam-9] [INFO] [1795595848.184736326] [lego_loam_ip]: laser.vertical_angle_bottom: -90.00
+[lego_loam-9] [INFO] [1795595848.184779851] [lego_loam_ip]: laser.vertical_angle_top: 90.00
+[lego_loam-9] [INFO] [1795595848.184818376] [lego_loam_ip]: imageProjection.segment_theta: 60.00
+[lego_loam-9] [INFO] [1795595848.184859496] [lego_loam_ip]: imageProjection.segment_valid_point_num: 5
+[lego_loam-9] [INFO] [1795595848.184898102] [lego_loam_ip]: imageProjection.segment_valid_line_num: 2
+[lego_loam-9] [INFO] [1795595848.184936486] [lego_loam_ip]: laser.odom_type: wheel_odometry
+[lego_loam-9] [INFO] [1795595848.184968940] [lego_loam_ip]: laser.base_ground_frame: base_footprint
+[lego_loam-9] [INFO] [1795595848.185006523] [lego_loam_ip]: laser.odom_child_frame: base_link
+[lego_loam-9] [INFO] [1795595848.185046701] [lego_loam_ip]: imageProjection.maximum_detection_range: 20.00
+[lego_loam-9] [INFO] [1795595848.185081860] [lego_loam_ip]: imageProjection.minimum_detection_range: 0.10
+[lego_loam-9] [INFO] [1795595848.185117850] [lego_loam_ip]: imageProjection.distance_for_patch_between_rings: 0.30
+[lego_loam-9] [INFO] [1795595848.185153229] [lego_loam_ip]: imageProjection.to_fa: 1
+[lego_loam-9] [INFO] [1795595848.185189880] [lego_loam_ip]: imageProjection.time_step_between_depth_image: 0.50
+[lego_loam-9] [INFO] [1795595848.185235940] [lego_loam_ip]: imageProjection.stitcher_num: 1
+[lego_loam-9] [INFO] [1795595848.185274795] [lego_loam_ip]: imageProjection.ground_fov_bottom: -1.570796
+[lego_loam-9] [INFO] [1795595848.185316978] [lego_loam_ip]: imageProjection.ground_fov_top: -0.030000
+[lego_loam-9] [INFO] [1795595848.185360773] [lego_loam_ip]: imageProjection.ground_positive_start: 0.000000
+[lego_loam-9] [INFO] [1795595848.185401342] [lego_loam_ip]: imageProjection.ground_positive_stop: 3.141593
+[lego_loam-9] [INFO] [1795595848.185444436] [lego_loam_ip]: imageProjection.ground_negative_start: 0.000000
+[lego_loam-9] [INFO] [1795595848.185486047] [lego_loam_ip]: imageProjection.ground_negative_stop: -3.141593
+[lego_loam-9] [INFO] [1795595848.185521145] [lego_loam_ip]: imageProjection.ignore_fov_bottom: 0.000000
+[lego_loam-9] [INFO] [1795595848.185562686] [lego_loam_ip]: imageProjection.ignore_fov_top: 0.000000
+[lego_loam-9] [INFO] [1795595848.185603416] [lego_loam_ip]: imageProjection.ignore_positive_start: 0.000000
+[lego_loam-9] [INFO] [1795595848.185642392] [lego_loam_ip]: imageProjection.ignore_positive_stop: 0.000000
+[lego_loam-9] [INFO] [1795595848.185679233] [lego_loam_ip]: imageProjection.ignore_negative_start: 0.000000
+[lego_loam-9] [INFO] [1795595848.185712939] [lego_loam_ip]: imageProjection.ignore_negative_stop: 0.000000
+[lego_loam-9] [INFO] [1795595848.185755382] [lego_loam_ip]: imageProjection.ground_slope_tolerance: 0.261799
+[lego_loam-9] [INFO] [1795595848.185788105] [lego_loam_ip]: imageProjection.ground_dz_tolerance: 0.050000
+[lego_loam-9] [INFO] [1795595848.185823404] [lego_loam_ip]: imageProjection.use_sensor_height_to_filter_out_ground: 0
+[lego_loam-9] [INFO] [1795595848.185858653] [lego_loam_ip]: imageProjection.patch_first_ring_to_baselink: 0
+[lego_loam-9] [INFO] [1795595848.185890485] [lego_loam_ip]: imageProjection.deep_learning.trt_model_path: 
+[lego_loam-9] [INFO] [1795595848.185923068] [lego_loam_ip]: imageProjection.deep_learning.projected_image_stack_size: 0
+[lego_loam-9] [INFO] [1795595848.195719945] [lego_loam_fa]: featureAssociation.edge_threshold: 0.10
+[lego_loam-9] [INFO] [1795595848.195797216] [lego_loam_fa]: featureAssociation.surf_threshold: 0.10
+[lego_loam-9] [INFO] [1795595848.195845630] [lego_loam_fa]: featureAssociation.nearest_feature_search_distance: 3.00
+[lego_loam-9] [INFO] [1795595848.195899625] [lego_loam_fa]: mapping.to_map_optimization: 1
+[lego_loam-9] [INFO] [1795595848.207072913] [lego_loam_mo]: mapping.enable_loop_closure: 0
+[lego_loam-9] [INFO] [1795595848.207143371] [lego_loam_mo]: mapping.history_keyframe_search_radius: 15.00
+[lego_loam-9] [INFO] [1795595848.207192767] [lego_loam_mo]: mapping.history_keyframe_search_num: 5
+[lego_loam-9] [INFO] [1795595848.207234348] [lego_loam_mo]: mapping.history_keyframe_fitness_score: 0.50
+[lego_loam-9] [INFO] [1795595848.207280838] [lego_loam_mo]: mapping.surrounding_keyframe_search_num: 10
+[lego_loam-9] [INFO] [1795595848.207336427] [lego_loam_mo]: mapping.angle_between_key_frame: 0.15
+[lego_loam-9] [INFO] [1795595848.207385703] [lego_loam_mo]: mapping.distance_between_key_frame: 0.15
+[lego_loam-9] [INFO] [1795595848.207431061] [lego_loam_mo]: mapping.ground_edge_threshold_num: 50
+[lego_loam-9] [INFO] [1795595848.207507871] [lego_loam_mo]: mapping.broadcast_external_odom_tf: 0
+[lego_loam-9] [INFO] [1795595848.207556275] [lego_loam_mo]: mapping.generate_testing_pg: 0
+[lego_loam-9] [INFO] [1795595848.207597616] [lego_loam_mo]: mapping.bin_sampling_less_flat_feature: 0
+[lego_loam-9] [INFO] [1795595848.207647493] [lego_loam_mo]: mapping.LM_optimization_iteration_number: 10
+[lego_loam-9] [INFO] [1795595848.207690917] [lego_loam_mo]: mapping.bin_sampling_x_size: 0.50
+[lego_loam-9] [INFO] [1795595848.207735895] [lego_loam_mo]: mapping.bin_sampling_y_size: 1.00
+[lego_loam-9] [INFO] [1795595848.207777847] [lego_loam_mo]: mapping.bin_sampling_z_size: 0.50
+[lego_loam-9] [INFO] [1795595848.219903931] [lego_loam_map_visualization]: visualization_detail_level: 0
+[lego_loam-9] [INFO] [1795595848.219970311] [lego_loam_map_visualization]: ground_voxel_size: 0.15
+[lego_loam-9] [INFO] [1795595848.220024847] [lego_loam_map_visualization]: map_voxel_size: 0.20
+[lego_loam-9] [INFO] [1795595848.220076908] [lego_loam_map_visualization]: ground_edge_threshold_num: 60
+[pointlio_mapping-1] first lidar time1.79559e+09
+[pointlio_mapping-1] [INFO] [1795595853.348224802] [laserMapping]: IMU Initializing: 1.0 %
+[pointlio_mapping-1] [WARN] [1795595853.348383892] [laserMapping]: Reset ImuProcess
+[pointlio_mapping-1] [INFO] [1795595853.420616036] [laserMapping]: IMU Initializing: 4.0 %
+[python3-7] [INFO] [1795595853.466598675] [go2_dddmr_mapping_cloud]: {"input": 8, "output": 0, "before_lio": 0, "pending": 8, "motion_compensated_frames": 3}
+[pointlio_mapping-1] [INFO] [1795595853.503431683] [laserMapping]: IMU Initializing: 12.0 %
+[pointlio_mapping-1] [INFO] [1795595853.582951832] [laserMapping]: IMU Initializing: 22.0 %
+[pointlio_mapping-1] [INFO] [1795595853.633530422] [laserMapping]: IMU Initializing: 31.0 %
+[pointlio_mapping-1] [INFO] [1795595853.686399273] [laserMapping]: IMU Initializing: 40.0 %
+[pointlio_mapping-1] [INFO] [1795595853.823457056] [laserMapping]: IMU Initializing: 48.0 %
+[pointlio_mapping-1] [INFO] [1795595853.907568727] [laserMapping]: IMU Initializing: 57.0 %
+[pointlio_mapping-1] [INFO] [1795595853.909655171] [laserMapping]: IMU Initializing: 66.0 %
+[pointlio_mapping-1] [INFO] [1795595853.932961864] [laserMapping]: IMU Initializing: 75.0 %
+[pointlio_mapping-1] [INFO] [1795595853.993473721] [laserMapping]: IMU Initializing: 85.0 %
+[pointlio_mapping-1] [INFO] [1795595854.066254276] [laserMapping]: IMU Initializing: 95.0 %
+[pointlio_mapping-1] [INFO] [1795595854.066315255] [laserMapping]: IMU Initializing: 100.0 %
+[lego_loam-9] [INFO] [1795595856.344509748] [lego_loam_fa]: Detect odom to base_link TF, MO will not broadcast from odom to base_link.
+[lego_loam-9] [WARN] [1795595856.602105362] [lego_loam_fa]: The first odom is record: 0.03, -0.00, -0.05
+[lego_loam-9] [INFO] [1795595856.823293397] [lego_loam_map_visualization]: Sync key frame number: 0 with total size: 3
+[python3-7] [INFO] [1795595858.436521482] [go2_dddmr_mapping_cloud]: {"input": 85, "output": 30, "before_lio": 53, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795595863.434060673] [go2_dddmr_mapping_cloud]: {"input": 162, "output": 107, "before_lio": 53, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [INFO] [1795595866.023713411] [lego_loam_map_visualization]: Sync key frame number: 10 with total size: 11
+[lego_loam-9] [INFO] [1795595867.123746335] [lego_loam_map_visualization]: Sync key frame number: 13 with total size: 14
+[lego_loam-9] [INFO] [1795595868.423905459] [lego_loam_map_visualization]: Sync key frame number: 16 with total size: 17
+[python3-7] [INFO] [1795595868.437552406] [go2_dddmr_mapping_cloud]: {"input": 239, "output": 184, "before_lio": 53, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [INFO] [1795595871.323992390] [lego_loam_map_visualization]: Sync key frame number: 18 with total size: 19
+[lego_loam-9] [INFO] [1795595872.324136665] [lego_loam_map_visualization]: Sync key frame number: 20 with total size: 21
+[python3-7] [INFO] [1795595873.434354470] [go2_dddmr_mapping_cloud]: {"input": 316, "output": 261, "before_lio": 53, "pending": 0, "motion_compensated_frames": 3}
+[lego_loam-9] [INFO] [1795595874.226386434] [lego_loam_map_visualization]: Sync key frame number: 22 with total size: 23
+[python3-7] [INFO] [1795595878.434209556] [go2_dddmr_mapping_cloud]: {"input": 393, "output": 337, "before_lio": 53, "pending": 1, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795595883.434116785] [go2_dddmr_mapping_cloud]: {"input": 470, "output": 415, "before_lio": 53, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795595888.448667531] [go2_dddmr_mapping_cloud]: {"input": 548, "output": 493, "before_lio": 53, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795595893.451416608] [go2_dddmr_mapping_cloud]: {"input": 625, "output": 570, "before_lio": 53, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795595898.441114902] [go2_dddmr_mapping_cloud]: {"input": 702, "output": 647, "before_lio": 53, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795595903.441138617] [go2_dddmr_mapping_cloud]: {"input": 779, "output": 724, "before_lio": 53, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795595908.433961439] [go2_dddmr_mapping_cloud]: {"input": 856, "output": 801, "before_lio": 53, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795595913.434018480] [go2_dddmr_mapping_cloud]: {"input": 933, "output": 878, "before_lio": 53, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795595918.441826036] [go2_dddmr_mapping_cloud]: {"input": 1010, "output": 955, "before_lio": 53, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795595923.433884574] [go2_dddmr_mapping_cloud]: {"input": 1087, "output": 1031, "before_lio": 53, "pending": 1, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795595928.448613392] [go2_dddmr_mapping_cloud]: {"input": 1164, "output": 1109, "before_lio": 53, "pending": 0, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795595933.433982432] [go2_dddmr_mapping_cloud]: {"input": 1241, "output": 1185, "before_lio": 53, "pending": 1, "motion_compensated_frames": 3}
+[python3-7] [INFO] [1795595938.434008239] [go2_dddmr_mapping_cloud]: {"input": 1247, "output": 1191, "before_lio": 53, "pending": 1, "motion_compensated_frames": 3}
+[lego_loam-9] [INFO] [1795595940.864672682] [lego_loam_mo]: Create dir: /session/maps/2026_11_25_08_39_00

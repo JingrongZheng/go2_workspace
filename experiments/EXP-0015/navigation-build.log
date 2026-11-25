@@ -1,0 +1,526 @@
+Starting >>> dddmr_sys_core
+Starting >>> perception_3d
+--- stderr: dddmr_sys_core
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    TEST_ENABLED
+    TRT_ENABLED
+
+
+---
+Finished <<< dddmr_sys_core [22.0s]
+Starting >>> base_trajectory
+--- stderr: base_trajectory
+CMake Warning (dev) at CMakeLists.txt:23 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    TEST_ENABLED
+    TRT_ENABLED
+
+
+---
+Finished <<< base_trajectory [19.3s]
+Starting >>> mpc_critics
+--- stderr: mpc_critics
+CMake Warning (dev) at CMakeLists.txt:32 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    TEST_ENABLED
+    TRT_ENABLED
+
+
+---
+[Processing: mpc_critics, perception_3d]
+[Processing: mpc_critics, perception_3d]
+[Processing: mpc_critics, perception_3d]
+[Processing: mpc_critics, perception_3d]
+[Processing: mpc_critics, perception_3d]
+Finished <<< mpc_critics [2min 51s]
+Starting >>> trajectory_generators
+--- stderr: perception_3d
+CMake Warning (dev) at CMakeLists.txt:33 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    TRT_ENABLED
+
+
+---
+Finished <<< perception_3d [3min 45s]
+Starting >>> cloud_msgs
+Finished <<< cloud_msgs [8.28s]
+--- stderr: cloud_msgs
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    TEST_ENABLED
+    TRT_ENABLED
+
+
+---
+Starting >>> dddmr_trt
+--- stderr: dddmr_trt
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    TEST_ENABLED
+
+
+---
+Finished <<< dddmr_trt [1.72s]
+Starting >>> dddmr_beginner_guide
+Finished <<< dddmr_beginner_guide [1.92s]
+--- stderr: dddmr_beginner_guide
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    TEST_ENABLED
+    TRT_ENABLED
+
+
+---
+Starting >>> dddmr_odom_3d
+--- stderr: dddmr_odom_3d
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    TEST_ENABLED
+    TRT_ENABLED
+
+
+---
+Finished <<< dddmr_odom_3d [16.7s]
+Starting >>> dddmr_rviz_default_plugins
+--- stderr: trajectory_generators
+CMake Warning (dev) at CMakeLists.txt:32 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    TEST_ENABLED
+    TRT_ENABLED
+
+
+---
+[Processing: dddmr_rviz_default_plugins, trajectory_generators]
+[Processing: dddmr_rviz_default_plugins, trajectory_generators]
+Finished <<< trajectory_generators [1min 46s]
+Starting >>> local_planner
+--- stderr: dddmr_rviz_default_plugins
+CMake Warning (dev) at CMakeLists.txt:65 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    TEST_ENABLED
+    TRT_ENABLED
+
+
+/ws/src/dddmr_navigation/src/dddmr_rviz_tools/dddmr_rviz_default_plugins/src/dddmr_rviz_default_plugins/tools/point_cloud_selection/point_cloud_selection_tool.cpp: In member function ‘void dddmr_rviz_default_plugins::tools::PointCloudSelectionTool::publishSelected(rviz_common::ViewportMouseEvent&)’:
+/ws/src/dddmr_navigation/src/dddmr_rviz_tools/dddmr_rviz_default_plugins/src/dddmr_rviz_default_plugins/tools/point_cloud_selection/point_cloud_selection_tool.cpp:203:81: warning: unused parameter ‘event’ [-Wunused-parameter]
+  203 | void PointCloudSelectionTool::publishSelected(rviz_common::ViewportMouseEvent & event){
+      |                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+/ws/src/dddmr_navigation/src/dddmr_rviz_tools/dddmr_rviz_default_plugins/src/dddmr_rviz_default_plugins/tools/point_cloud_delete/point_cloud_delete_tool.cpp: In member function ‘void dddmr_rviz_default_plugins::tools::PointCloudDeleteTool::publishSelected(rviz_common::ViewportMouseEvent&)’:
+/ws/src/dddmr_navigation/src/dddmr_rviz_tools/dddmr_rviz_default_plugins/src/dddmr_rviz_default_plugins/tools/point_cloud_delete/point_cloud_delete_tool.cpp:203:78: warning: unused parameter ‘event’ [-Wunused-parameter]
+  203 | void PointCloudDeleteTool::publishSelected(rviz_common::ViewportMouseEvent & event){
+      |                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+---
+Finished <<< dddmr_rviz_default_plugins [1min 8s]
+Starting >>> recovery_behaviors
+--- stderr: local_planner
+CMake Warning (dev) at CMakeLists.txt:31 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    TEST_ENABLED
+    TRT_ENABLED
+
+
+---
+[Processing: local_planner, recovery_behaviors]
+[Processing: local_planner, recovery_behaviors]
+Finished <<< local_planner [1min 7s]
+Starting >>> dddmr_semantic_segmentation
+--- stderr: dddmr_semantic_segmentation
+CMake Warning (dev) at CMakeLists.txt:26 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    TEST_ENABLED
+    TRT_ENABLED
+
+
+---
+Finished <<< dddmr_semantic_segmentation [25.9s]
+Starting >>> map_delete_panel
+--- stderr: map_delete_panel
+CMake Warning (dev) at CMakeLists.txt:31 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    TEST_ENABLED
+    TRT_ENABLED
+
+
+---
+Finished <<< map_delete_panel [25.2s]
+Starting >>> map_editor_panel
+--- stderr: map_editor_panel
+CMake Warning (dev) at CMakeLists.txt:31 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    TEST_ENABLED
+    TRT_ENABLED
+
+
+---
+Finished <<< map_editor_panel [24.3s]
+Starting >>> mapping_panel
+--- stderr: mapping_panel
+CMake Warning (dev) at CMakeLists.txt:31 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    TEST_ENABLED
+    TRT_ENABLED
+
+
+---
+Finished <<< mapping_panel [20.9s]
+Starting >>> pc2depthimg_panel
+--- stderr: pc2depthimg_panel
+CMake Warning (dev) at CMakeLists.txt:31 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    TEST_ENABLED
+    TRT_ENABLED
+
+
+---
+Finished <<< pc2depthimg_panel [20.7s]
+Starting >>> pose_graph_editor_panel
+--- stderr: recovery_behaviors
+CMake Warning (dev) at CMakeLists.txt:30 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    TEST_ENABLED
+    TRT_ENABLED
+
+
+---
+Finished <<< recovery_behaviors [3min 3s]
+Starting >>> pose_graph_merge_editor_panel
+--- stderr: pose_graph_merge_editor_panel
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    TEST_ENABLED
+    TRT_ENABLED
+
+
+---
+Finished <<< pose_graph_merge_editor_panel [12.6s]
+Starting >>> dddmr_explore_and_search
+Finished <<< pose_graph_editor_panel [18.0s]
+--- stderr: pose_graph_editor_panel
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    TEST_ENABLED
+    TRT_ENABLED
+
+
+---
+Starting >>> dddmr_pg_map_server
+--- stderr: dddmr_pg_map_server
+CMake Warning (dev) at CMakeLists.txt:28 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    TEST_ENABLED
+    TRT_ENABLED
+
+
+/usr/bin/ld: warning: libpcl_io_ply.so.1.12, needed by /usr/lib/x86_64-linux-gnu/libpcl_io.so, may conflict with libpcl_io_ply.so.1.15
+---
+[Processing: dddmr_explore_and_search, dddmr_pg_map_server]
+Finished <<< dddmr_pg_map_server [31.7s]
+Starting >>> global_planner
+Finished <<< dddmr_explore_and_search [53.4s]
+--- stderr: dddmr_explore_and_search
+** WARNING ** io features related to pcap will be disabled
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    TEST_ENABLED
+    TRT_ENABLED
+
+
+---
+Starting >>> lego_loam_bor
+--- stderr: global_planner
+CMake Warning (dev) at CMakeLists.txt:29 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    TEST_ENABLED
+    TRT_ENABLED
+
+
+/ws/src/dddmr_navigation/src/dddmr_global_planner/src/a_star_on_pc.cpp: In member function ‘void A_Star_on_Graph::getPath(unsigned int, unsigned int, std::vector<unsigned int>&)’:
+/ws/src/dddmr_navigation/src/dddmr_global_planner/src/a_star_on_pc.cpp:287:39: warning: narrowing conversion of ‘current_expanding_index’ from ‘int’ to ‘unsigned int’ [-Wnarrowing]
+  287 |       Node_t new_node = {.self_index=(current_expanding_index), .g=new_g, .h=new_h, .f=new_f, .parent_index=current_node.self_index, .is_closed=false, .is_opened=true};
+      |                                      ~^~~~~~~~~~~~~~~~~~~~~~~~
+---
+[Processing: global_planner, lego_loam_bor]
+Finished <<< global_planner [1min 6s]
+Starting >>> mcl_3dl
+--- stderr: mcl_3dl
+CMake Warning (dev) at CMakeLists.txt:30 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    TRT_ENABLED
+
+
+---
+[Processing: lego_loam_bor, mcl_3dl]
+[Processing: lego_loam_bor, mcl_3dl]
+Finished <<< mcl_3dl [1min 22s]
+Starting >>> p2p_move_base
+--- stderr: p2p_move_base
+CMake Warning (dev) at CMakeLists.txt:28 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    TEST_ENABLED
+    TRT_ENABLED
+
+
+---
+[Processing: lego_loam_bor, p2p_move_base]
+Finished <<< p2p_move_base [42.0s]
+[Processing: lego_loam_bor]
+[Processing: lego_loam_bor]
+Finished <<< lego_loam_bor [3min 56s]
+--- stderr: lego_loam_bor
+CMake Warning (dev) at CMakeLists.txt:33 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+/ws/src/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp: In destructor ‘virtual FeatureAssociation::~FeatureAssociation()’:
+/ws/src/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:117:22: warning: converting to ‘geometry_msgs::msg::TransformStamped’ {aka ‘geometry_msgs::msg::TransformStamped_<std::allocator<void> >’} from initializer list would use explicit constructor ‘geometry_msgs::msg::TransformStamped_<ContainerAllocator>::TransformStamped_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]’
+  117 |   _input_channel.send({});
+      |   ~~~~~~~~~~~~~~~~~~~^~~~
+/ws/src/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:117:22: note: in C++11 and above a default constructor can be explicit
+/ws/src/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:117:22: warning: converting to ‘geometry_msgs::msg::TransformStamped’ {aka ‘geometry_msgs::msg::TransformStamped_<std::allocator<void> >’} from initializer list would use explicit constructor ‘geometry_msgs::msg::TransformStamped_<ContainerAllocator>::TransformStamped_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]’
+/ws/src/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:117:22: note: in C++11 and above a default constructor can be explicit
+/ws/src/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:117:22: warning: converting to ‘geometry_msgs::msg::TransformStamped’ {aka ‘geometry_msgs::msg::TransformStamped_<std::allocator<void> >’} from initializer list would use explicit constructor ‘geometry_msgs::msg::TransformStamped_<ContainerAllocator>::TransformStamped_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]’
+/ws/src/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:117:22: note: in C++11 and above a default constructor can be explicit
+/ws/src/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:117:22: warning: converting to ‘cloud_msgs::msg::CloudInfo’ {aka ‘cloud_msgs::msg::CloudInfo_<std::allocator<void> >’} from initializer list would use explicit constructor ‘cloud_msgs::msg::CloudInfo_<ContainerAllocator>::CloudInfo_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]’
+/ws/src/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/featureAssociation.cpp:117:22: note: in C++11 and above a default constructor can be explicit
+/ws/src/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/mapOptimization.cpp: In destructor ‘virtual MapOptimization::~MapOptimization()’:
+/ws/src/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/mapOptimization.cpp:389:22: warning: converting to ‘geometry_msgs::msg::TransformStamped’ {aka ‘geometry_msgs::msg::TransformStamped_<std::allocator<void> >’} from initializer list would use explicit constructor ‘geometry_msgs::msg::TransformStamped_<ContainerAllocator>::TransformStamped_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]’
+  389 |   _input_channel.send({});
+      |   ~~~~~~~~~~~~~~~~~~~^~~~
+/ws/src/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/mapOptimization.cpp:389:22: note: in C++11 and above a default constructor can be explicit
+/ws/src/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/mapOptimization.cpp:389:22: warning: converting to ‘geometry_msgs::msg::TransformStamped’ {aka ‘geometry_msgs::msg::TransformStamped_<std::allocator<void> >’} from initializer list would use explicit constructor ‘geometry_msgs::msg::TransformStamped_<ContainerAllocator>::TransformStamped_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]’
+/ws/src/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/mapOptimization.cpp:389:22: note: in C++11 and above a default constructor can be explicit
+/ws/src/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/mapOptimization.cpp:389:22: warning: converting to ‘geometry_msgs::msg::TransformStamped’ {aka ‘geometry_msgs::msg::TransformStamped_<std::allocator<void> >’} from initializer list would use explicit constructor ‘geometry_msgs::msg::TransformStamped_<ContainerAllocator>::TransformStamped_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]’
+/ws/src/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/mapOptimization.cpp:389:22: note: in C++11 and above a default constructor can be explicit
+/ws/src/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/mapOptimization.cpp:389:22: warning: converting to ‘nav_msgs::msg::Odometry’ {aka ‘nav_msgs::msg::Odometry_<std::allocator<void> >’} from initializer list would use explicit constructor ‘nav_msgs::msg::Odometry_<ContainerAllocator>::Odometry_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]’
+/ws/src/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/mapOptimization.cpp:389:22: note: in C++11 and above a default constructor can be explicit
+/ws/src/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/mapOptimization.cpp:389:22: warning: converting to ‘nav_msgs::msg::Odometry’ {aka ‘nav_msgs::msg::Odometry_<std::allocator<void> >’} from initializer list would use explicit constructor ‘nav_msgs::msg::Odometry_<ContainerAllocator>::Odometry_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]’
+/ws/src/dddmr_navigation/src/dddmr_lego_loam/lego_loam_bor/src/mapOptimization.cpp:389:22: note: in C++11 and above a default constructor can be explicit
+---
+
+Summary: 25 packages finished [13min 26s]
+  25 packages had stderr output: base_trajectory cloud_msgs dddmr_beginner_guide dddmr_explore_and_search dddmr_odom_3d dddmr_pg_map_server dddmr_rviz_default_plugins dddmr_semantic_segmentation dddmr_sys_core dddmr_trt global_planner lego_loam_bor local_planner map_delete_panel map_editor_panel mapping_panel mcl_3dl mpc_critics p2p_move_base pc2depthimg_panel perception_3d pose_graph_editor_panel pose_graph_merge_editor_panel recovery_behaviors trajectory_generators

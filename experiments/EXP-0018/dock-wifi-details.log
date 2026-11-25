@@ -1,0 +1,24 @@
+foxy
+noetic
+/home/unitree/cyclonedds_ws
+/unitree/module/graph_pid_ws
+up
+driver: rtl88x2cu
+version: v5.14.0.3-2-gba458274c.20220418
+firmware-version: 9.13
+expansion-rom-version: 
+bus-info: 1-2:1.0
+supports-statistics: yes
+supports-test: no
+supports-eeprom-access: no
+supports-register-dump: no
+supports-priv-flags: no
+90:de:80:1c:97:27
+Connected to 70:85:6c:eb:9f:0f (on wlan0)
+	SSID: spin220
+	freq: 2462
+	RX: 3533280 bytes (2609 packets)
+	TX: 154751 bytes (1364 packets)
+	signal: -37 dBm
+	rx bitrate: 2.0 MBit/s
+	tx bitrate: 78.0 MBit/s VHT-MCS 4 VHT-NSS 2

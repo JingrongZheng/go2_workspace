@@ -1,0 +1,51 @@
+{
+  "received_messages": {
+    "/dddmr/lidar_points": 5989,
+    "/ground_cloud": 4986,
+    "/laser_cloud_sharp": 4985,
+    "/laser_cloud_less_flat": 4985,
+    "/key_poses": 4983
+  },
+  "last_messages": {
+    "/dddmr/lidar_points": {
+      "points": 11869,
+      "frame": "dddmr_lidar"
+    },
+    "/ground_cloud": {
+      "points": 531,
+      "frame": "dddmr_lidar"
+    },
+    "/laser_cloud_sharp": {
+      "points": 1,
+      "frame": "dddmr_lidar"
+    },
+    "/laser_cloud_less_flat": {
+      "points": 48,
+      "frame": "dddmr_lidar"
+    },
+    "/key_poses": {
+      "poses": 259,
+      "frame": "map"
+    }
+  },
+  "maximum_key_poses": 259,
+  "save": {
+    "service_available": false
+  },
+  "tf": {
+    "base_link": {
+      "error": "Lookup would require extrapolation into the past.  Requested time 1795609441.632071 but the earliest data is at time 1795609496.747651, when looking up transform from frame [base_link] to frame [map]"
+    },
+    "dddmr_lidar": {
+      "error": "Lookup would require extrapolation into the past.  Requested time 1795609441.632071 but the earliest data is at time 1795609496.747651, when looking up transform from frame [dddmr_lidar] to frame [map]"
+    },
+    "odom": {
+      "xyz": [
+        0.6735999391037092,
+        -0.2255597236400586,
+        -0.0046071221688080005
+      ]
+    }
+  },
+  "maps": []
+}

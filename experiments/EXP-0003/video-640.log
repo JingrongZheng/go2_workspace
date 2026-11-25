@@ -1,0 +1,51 @@
+1794974030.724809 [0]     python: selected interface "lo" is not multicast-capable: disabling multicast
+🕒 WebRTC connection        : 🟡 started       (11:53:50)
+🕒 Lidar Decoder            : 🧊 LibVoxelDecoder (11:53:50)
+🕒 Signaling State          : 🟡 have-local-offer (11:53:50)
+🕒 ICE Gathering State      : 🟡 gathering     (11:53:50)
+🕒 ICE Gathering State      : 🟢 complete      (11:53:50)
+🕒 LAN Signaling Method     : 🆕 con_notify (10.186.248.47:9991) (11:53:50)
+🕒 ICE Connection State     : 🔵 checking      (11:53:51)
+🕒 Peer Connection State    : 🔵 connecting    (11:53:51)
+🕒 Signaling State          : 🟢 stable        (11:53:51)
+🕒 ICE Connection State     : 🟢 completed     (11:53:51)
+🕒 Peer Connection State    : 🟢 connected     (11:53:51)
+🕒 Data Channel Verification: ✅ OK            (11:53:51)
+WebRTC local ICE address: 10.186.248.173
+Video channel: on
+Publishing state to /go2/webrtc/sportmodestate
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+1794974031.974584 [0]     python: selected interface "lo" is not multicast-capable: disabling multicast
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+Publishing image: 640x360
+🕒 Robot Connection Mode    : 📡 STA-L         (11:53:52)
+Streams {'state': 39, 'image': 20, 'cloud': 0, 'command': 0}; state age=0.06s
+Streams {'state': 80, 'image': 49, 'cloud': 0, 'command': 0}; state age=0.05s
+Streams {'state': 120, 'image': 78, 'cloud': 0, 'command': 0}; state age=0.07s
+Streams {'state': 161, 'image': 107, 'cloud': 0, 'command': 0}; state age=0.07s
+Streams {'state': 201, 'image': 136, 'cloud': 0, 'command': 0}; state age=0.06s
+Published counts: {'state': 239, 'image': 163, 'cloud': 0, 'command': 0}
+Traceback (most recent call last):
+  File "/home/suiliang/go2_workspace/shared/go2_camera_viewer.py", line 51, in <module>
+    main()
+  File "/home/suiliang/go2_workspace/shared/go2_camera_viewer.py", line 26, in main
+    rclpy.spin_once(node, timeout_sec=0.01)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 208, in spin_once
+    executor.spin_once(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 812, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 801, in _spin_once_impl
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 784, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 685, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException
+🕒 Signaling State          : ⚫ closed        (11:54:03)
+🕒 ICE Connection State     : ⚫ closed        (11:54:03)
+🕒 Peer Connection State    : ⚫ closed        (11:54:03)
+🕒 WebRTC connection        : 🔴 disconnected  (11:54:03)

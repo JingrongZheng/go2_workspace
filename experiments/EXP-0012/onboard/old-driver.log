@@ -1,0 +1,23 @@
+[INFO] [launch]: All log files can be found below /home/unitree/.ros/log/2026-11-21-14-31-16-666396-ubuntu-5404
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [hesai_lidar_node-1]: process started with pid [5426]
+[hesai_lidar_node-1] [INFO] [1795242677.071796640] [hesai_node]: ip:192.168.123.20
+[hesai_lidar_node-1]        ///////////////////////////////////////////////////////////////
+[hesai_lidar_node-1]        //     PandarGeneralSDK version: PandarGeneralROS_1.1.10      //
+[hesai_lidar_node-1]        ///////////////////////////////////////////////////////////////
+[hesai_lidar_node-1] set environment TZ=UTC0
+[hesai_lidar_node-1] TcpCommandClientNew
+[hesai_lidar_node-1] TCP Command Client Init Success!!!
+[hesai_lidar_node-1] publishRawDataThread:set result [1]
+[hesai_lidar_node-1] publishRawDataThread:get thead 281472718674336, policy 0 and priority 0
+[hesai_lidar_node-1] Load correction file from lidar
+[hesai_lidar_node-1] buffer is: ,len is: 2028535292
+[hesai_lidar_node-1] tcpCommandClient_SendCmd
+[hesai_lidar_node-1] Open correction file /unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/config/PandarXT-16.csv succeed
+[hesai_lidar_node-1] Parse Lidar Correction...
+[hesai_lidar_node-1] Load correction file from /unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/config/PandarXT-16.csv succeed
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [hesai_lidar_node-1]: sending signal 'SIGINT' to process[hesai_lidar_node-1]
+[hesai_lidar_node-1] [INFO] [1795242690.741543232] [rclcpp]: signal_handler(signal_value=2)
+[hesai_lidar_node-1] [INFO] [1795242690.745473856] [rclcpp]: signal_handler(signal_value=2)
+[INFO] [hesai_lidar_node-1]: process has finished cleanly [pid 5426]

@@ -1,0 +1,21 @@
+[INFO] [1795590926.880921527] [rosbag2_storage]: Opened database 'experiments/EXP-0024/motion-trial-02/motion-trial-02_0.db3' for READ_ONLY.
+{
+  "method": "fixed-map robust point-to-plane registration, no IMU, no Point-LIO initialization",
+  "map_frames": 25,
+  "registered_frames": 306,
+  "max_lidar_displacement_m": 1.4938387823492087,
+  "last_lidar_displacement_m": 0.29303308426265995,
+  "median_residual_m": 0.006112188845635834,
+  "max_residual_m": 0.008229755733153217,
+  "minimum_matched_points": 1097,
+  "point_lio_difference_m_quantiles": [
+    0.019483286358500485,
+    0.053063793548772234,
+    0.13197168726458688
+  ],
+  "point_lio_angle_difference_deg_quantiles": [
+    0.40717310963231984,
+    1.0730427612425544,
+    2.1973831570952327
+  ]
+}

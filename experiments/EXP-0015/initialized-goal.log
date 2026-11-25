@@ -1,0 +1,27 @@
+Waiting for an action server to become available...
+Sending goal:
+     target_pose:
+  header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: map
+  pose:
+    position:
+      x: 3.0
+      y: 0.0
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+target_value: 0.0
+
+Goal accepted with ID: b23a6cbd01a54e0e934afddd0e1dc9ca
+
+Result:
+    status: 0
+result: ''
+
+Goal finished with status: SUCCEEDED

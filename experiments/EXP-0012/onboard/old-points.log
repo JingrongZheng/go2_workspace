@@ -1,0 +1,4 @@
+Subscribing PointCloud2: /rslidar_points
+Discovered topics: {"/node_control": ["std_msgs/msg/String"], "/pandar_packets": ["hesai_lidar/msg/PandarScan"], "/parameter_events": ["rcl_interfaces/msg/ParameterEvent"], "/rosout": ["rcl_interfaces/msg/Log"], "/rslidar_points": ["sensor_msgs/msg/PointCloud2"]}
+{"topic": "/rslidar_points", "frames": 0, "nonempty_frames": 0, "invalid_layout_frames": 0, "observed_hz": null}
+Hardware source is unconfirmed until driver/endpoint/wiring is checked.

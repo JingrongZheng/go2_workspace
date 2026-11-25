@@ -1,0 +1,10 @@
+{"pc_minus_dock_s": 0.031252678, "clock_probe_roundtrip_s": 0.002336878}
+1795573323.518673 [0]    python3: config: //CycloneDDS/Domain/General: 'NetworkInterfaceAddress': deprecated element (CYCLONEDDS_URI+0 line 1)
+{"clock_mode": "auto", "common_stamp_offset_s": 47.65312068, "dock_minus_sensor_s": 47.621868002}
+{"topic": "/go2/bodytrial/lidar_imu", "first": {"frame_id": "utlidar_imu", "source_stamp_ns": 1795573277025086879, "published_stamp_ns": 1795573324678207559, "pc_age_ms": 9.61}}
+{"topic": "/go2/bodytrial/imu", "first": {"frame_id": "go2_chassis_imu", "source_stamp_ns": 1795573277016116589, "published_stamp_ns": 1795573324669237269, "pc_age_ms": 18.86}}
+{"topic": "/go2/bodytrial/cloud", "first": {"frame_id": "utlidar_lidar", "source_stamp_ns": 1795573276982542514, "published_stamp_ns": 1795573324635663194, "pc_age_ms": 112.52, "points": 4081, "fields": ["x", "y", "z", "intensity", "ring", "time"]}}
+{"topic": "/go2/bodytrial/cloud", "samples": 320, "hz": 15.41}
+{"topic": "/go2/bodytrial/imu", "samples": 8091, "hz": 389.54}
+{"topic": "/go2/bodytrial/lidar_imu", "samples": 4852, "hz": 231.9}
+[ERROR] [1795573347.857236264] [go2_ssh_sensor_relay]: Corrected sensor timestamp outside the live window; restart the relay

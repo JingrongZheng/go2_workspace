@@ -1,0 +1,11 @@
+stdin is not a terminal device. Keyboard handling disabled.[INFO] [1795521527.623132313] [rosbag2_recorder]: Press SPACE for pausing/resuming
+[INFO] [1795521527.624766147] [rosbag2_storage]: Opened database 'experiments/EXP-0021/wifi-received/wifi-received_0.db3' for READ_WRITE.
+[INFO] [1795521527.625989516] [rosbag2_recorder]: Listening for topics...
+[INFO] [1795521527.626132877] [rosbag2_recorder]: Event publisher thread: Starting
+[INFO] [1795521527.626161771] [rosbag2_recorder]: Recording...
+[INFO] [1795521527.831262837] [rosbag2_recorder]: Subscribed to topic '/go2/relay/cloud'
+[INFO] [1795521527.831925257] [rosbag2_recorder]: Subscribed to topic '/go2/relay/imu'
+[INFO] [1795521527.831939344] [rosbag2_recorder]: All requested topics are subscribed. Stopping discovery...
+[INFO] [1795521542.150992436] [rosbag2_cpp]: Writing remaining messages from cache to the bag. It may take a while
+[INFO] [1795521542.151972556] [rosbag2_recorder]: Event publisher thread: Exiting
+[INFO] [1795521542.152032489] [rosbag2_recorder]: Recording stopped

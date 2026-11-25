@@ -1,0 +1,10 @@
+{
+  "gzserver": {
+    "pgrep_exit": 1,
+    "processes": []
+  },
+  "gzclient": {
+    "pgrep_exit": 1,
+    "processes": []
+  }
+}

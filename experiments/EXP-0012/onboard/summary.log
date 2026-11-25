@@ -1,0 +1,99 @@
+Snapshot before testing
+2026-11-21T14:31:02+08:00
+UDP_BASELINE_12S []
+BEGIN old
+/unitree/module/graph_pid_ws/install/hesai_lidar
+   5426    5404 /unitree/module/graph_pid_ws/install/hesai_lidar/lib/hesai_lidar/hesai_lidar_node --ros-args -r __node:=hesai_node -r __ns:=/ --params-file /tmp/launch_params_v7ezoksj --params-file /tmp/launch_params_p7zm1n0e --params-file /tmp/launch_params_b1mxdjna --params-file /tmp/launch_params_87l5d8wq --params-file /tmp/launch_params_s9ge0_z2 --params-file /tmp/launch_params_4enh6_ze --params-file /tmp/launch_params_ub1xcvex --params-file /tmp/launch_params_9lf345yc --params-file /tmp/launch_params_43xx1_b4 --params-file /tmp/launch_params_kxqxzb30 --params-file /tmp/launch_params_5qlx0mzc --params-file /tmp/launch_params_qtdoe133 --params-file /tmp/launch_params_xj0mtxk_ --params-file /tmp/launch_params_eoz0c9vk --params-file /tmp/launch_params_en6zzzn0 --params-file /tmp/launch_params_dr8xcy1n
+State   Recv-Q  Send-Q      Local Address:Port      Peer Address:Port  Process  
+UNCONN  0       0              127.0.0.53:53             0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:111            0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:49518          0.0.0.0:*              
+UNCONN  0       0          192.168.123.18:50472          0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:34554          0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:10110          0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:2368           0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:28150          0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:28150          0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:28151          0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:28151          0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:4000           0.0.0.0:*              
+UNCONN  0       0          192.168.123.18:45328          0.0.0.0:*              
+UNCONN  8448    0              172.17.0.1:5353           0.0.0.0:*              
+UNCONN  8448    0          192.168.123.18:5353           0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:5353           0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:5353           0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:38443          0.0.0.0:*              
+UNCONN  0       0                       *:111                  *:*              
+UNCONN  0       0                       *:4000                 *:*              
+UNCONN  0       0                       *:54118                *:*              
+UNCONN  0       0                       *:5353                 *:*              
+variant=old driver_exit=124 subscriber_exit=2
+Subscribing PointCloud2: /rslidar_points
+Discovered topics: {"/node_control": ["std_msgs/msg/String"], "/pandar_packets": ["hesai_lidar/msg/PandarScan"], "/parameter_events": ["rcl_interfaces/msg/ParameterEvent"], "/rosout": ["rcl_interfaces/msg/Log"], "/rslidar_points": ["sensor_msgs/msg/PointCloud2"]}
+{"topic": "/rslidar_points", "frames": 0, "nonempty_frames": 0, "invalid_layout_frames": 0, "observed_hz": null}
+Hardware source is unconfirmed until driver/endpoint/wiring is checked.
+[hesai_lidar_node-1] set environment TZ=UTC0
+[hesai_lidar_node-1] TcpCommandClientNew
+[hesai_lidar_node-1] TCP Command Client Init Success!!!
+[hesai_lidar_node-1] publishRawDataThread:set result [1]
+[hesai_lidar_node-1] publishRawDataThread:get thead 281472718674336, policy 0 and priority 0
+[hesai_lidar_node-1] Load correction file from lidar
+[hesai_lidar_node-1] buffer is: ,len is: 2028535292
+[hesai_lidar_node-1] tcpCommandClient_SendCmd
+[hesai_lidar_node-1] Open correction file /unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/config/PandarXT-16.csv succeed
+[hesai_lidar_node-1] Parse Lidar Correction...
+[hesai_lidar_node-1] Load correction file from /unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/config/PandarXT-16.csv succeed
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [hesai_lidar_node-1]: sending signal 'SIGINT' to process[hesai_lidar_node-1]
+[hesai_lidar_node-1] [INFO] [1795242690.741543232] [rclcpp]: signal_handler(signal_value=2)
+[hesai_lidar_node-1] [INFO] [1795242690.745473856] [rclcpp]: signal_handler(signal_value=2)
+[INFO] [hesai_lidar_node-1]: process has finished cleanly [pid 5426]
+END old
+BEGIN new
+/home/unitree/go2-lidar-diagnostic/hesai_v2_ws/install/hesai_ros_driver
+   5639    5578 timeout --signal=INT --kill-after=3 15 ros2 run hesai_ros_driver hesai_ros_driver_node --ros-args -p config_path:=/home/unitree/go2-lidar-diagnostic/hesai_v2_ws/config_xt16_compare.yaml
+   5641    5639 /usr/bin/python3 /opt/ros/foxy/bin/ros2 run hesai_ros_driver hesai_ros_driver_node --ros-args -p config_path:=/home/unitree/go2-lidar-diagnostic/hesai_v2_ws/config_xt16_compare.yaml
+   5652    5641 /home/unitree/go2-lidar-diagnostic/hesai_v2_ws/install/hesai_ros_driver/lib/hesai_ros_driver/hesai_ros_driver_node --ros-args -p config_path:=/home/unitree/go2-lidar-diagnostic/hesai_v2_ws/config_xt16_compare.yaml
+State   Recv-Q  Send-Q      Local Address:Port      Peer Address:Port  Process  
+UNCONN  0       0              127.0.0.53:53             0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:111            0.0.0.0:*              
+UNCONN  0       0          192.168.123.18:57802          0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:58931          0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:2368           0.0.0.0:*              
+UNCONN  0       0          192.168.123.18:44226          0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:28150          0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:28150          0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:28151          0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:28151          0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:4000           0.0.0.0:*              
+UNCONN  8448    0              172.17.0.1:5353           0.0.0.0:*              
+UNCONN  8448    0          192.168.123.18:5353           0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:5353           0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:5353           0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:38443          0.0.0.0:*              
+UNCONN  0       0                 0.0.0.0:38484          0.0.0.0:*              
+UNCONN  0       0                       *:111                  *:*              
+UNCONN  0       0                       *:4000                 *:*              
+UNCONN  0       0                       *:54118                *:*              
+UNCONN  0       0                       *:5353                 *:*              
+variant=new driver_exit=124 subscriber_exit=2
+Subscribing PointCloud2: /xt16_compare/points
+Discovered topics: {"/lidar_imu": ["sensor_msgs/msg/Imu"], "/lidar_packets_loss": ["hesai_ros_driver/msg/LossPacket"], "/parameter_events": ["rcl_interfaces/msg/ParameterEvent"], "/rosout": ["rcl_interfaces/msg/Log"], "/xt16_compare/points": ["sensor_msgs/msg/PointCloud2"]}
+{"topic": "/xt16_compare/points", "frames": 0, "nonempty_frames": 0, "invalid_layout_frames": 0, "observed_hz": null}
+Hardware source is unconfirmed until driver/endpoint/wiring is checked.
+-------- Hesai Lidar ROS V2.0.12 --------
+-------- Hesai Lidar SDK V2.0.12 --------
+[INFO] [1795242709.965789152] [rclcpp]: signal_handler(signal_value=2)
+[2026-11-21 14:31:35][INFO]logger start to run
+[2026-11-21 14:31:35][INFO]OS current udp socket recv buff size is: 425984
+[2026-11-21 14:31:35][INFO]SocketSource::Open succeed, sock:10
+[2026-11-21 14:31:35][INFO]Use thread num 2 to parse packet
+[2026-11-21 14:31:35][INFO]Lidar::ParserThread start to run
+[2026-11-21 14:31:35][INFO]Lidar::Receive Udp Thread start to run
+[2026-11-21 14:31:35][WARNING]Packet with invaild delimiter, len 1180, 0x00 0x00 0x00 0x00
+[2026-11-21 14:31:43][FATAL]get cloud point fail, init exit
+[2026-11-21 14:31:49][INFO]Hesai Lidar SDK is stopping...
+[2026-11-21 14:31:50][INFO]SocketSource::Close()
+[2026-11-21 14:31:50][INFO]Source::Close()
+END new
+Snapshot after testing

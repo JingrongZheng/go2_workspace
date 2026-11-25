@@ -1,0 +1,67 @@
+1794973926.560826 [0]     python: selected interface "lo" is not multicast-capable: disabling multicast
+🕒 WebRTC connection        : 🟡 started       (11:52:06)
+🕒 Lidar Decoder            : 🧊 LibVoxelDecoder (11:52:06)
+🕒 Signaling State          : 🟡 have-local-offer (11:52:06)
+🕒 ICE Gathering State      : 🟡 gathering     (11:52:06)
+🕒 ICE Gathering State      : 🟢 complete      (11:52:06)
+🕒 LAN Signaling Method     : 🆕 con_notify (10.186.248.47:9991) (11:52:06)
+🕒 ICE Connection State     : 🔵 checking      (11:52:07)
+🕒 Peer Connection State    : 🔵 connecting    (11:52:07)
+🕒 Signaling State          : 🟢 stable        (11:52:07)
+🕒 ICE Connection State     : 🟢 completed     (11:52:07)
+🕒 Peer Connection State    : 🟢 connected     (11:52:07)
+🕒 Data Channel Verification: ✅ OK            (11:52:07)
+WebRTC local ICE address: 10.186.248.173
+Video channel: on
+Publishing state to /go2/webrtc/sportmodestate
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+1794973927.814219 [0]     python: selected interface "lo" is not multicast-capable: disabling multicast
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+🕒 Robot Connection Mode    : 📡 STA-L         (11:52:08)
+Publishing image: 1280x720
+Streams {'state': 37, 'image': 1, 'cloud': 0, 'command': 0}; state age=0.21s
+Streams {'state': 56, 'image': 13, 'cloud': 0, 'command': 0}; state age=0.38s
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+Streams {'state': 111, 'image': 20, 'cloud': 0, 'command': 0}; state age=0.97s
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+Streams {'state': 155, 'image': 31, 'cloud': 0, 'command': 0}; state age=0.22s
+Streams {'state': 168, 'image': 42, 'cloud': 0, 'command': 0}; state age=0.56s
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+Streams {'state': 245, 'image': 47, 'cloud': 0, 'command': 0}; state age=0.00s
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+Streams {'state': 261, 'image': 58, 'cloud': 0, 'command': 0}; state age=0.79s
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+Streams {'state': 274, 'image': 69, 'cloud': 0, 'command': 0}; state age=1.00s
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+Streams {'state': 289, 'image': 83, 'cloud': 0, 'command': 0}; state age=1.54s
+Published counts: {'state': 289, 'image': 84, 'cloud': 0, 'command': 0}
+WARNING:aiortc.codecs.h264:H264Decoder() failed to decode, skipping package: [Errno 1094995529] Invalid data found when processing input: 'avcodec_send_packet()'
+🕒 Signaling State          : ⚫ closed        (11:52:27)
+🕒 ICE Connection State     : ⚫ closed        (11:52:27)
+🕒 Peer Connection State    : ⚫ closed        (11:52:27)
+🕒 WebRTC connection        : 🔴 disconnected  (11:52:27)

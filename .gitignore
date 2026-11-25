@@ -1,0 +1,12 @@
+.work/
+__pycache__/
+*.pyc
+.project/.write.lock
+.project/transaction.json
+*.infra-tmp
+
+# Large ROS 2 bag databases (exceed GitHub 100 MB single-file limit)
+*.db3
+
+# Upstream nested git repo (clone https://github.com/unitreerobotics/unitree_ros2 @ 668d1ec5)
+unitree_ros2/

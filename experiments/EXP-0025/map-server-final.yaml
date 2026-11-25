@@ -1,0 +1,7 @@
+dddmr_pg_map_server_manager:
+  ros__parameters:
+    maps: [map1]
+map1:
+  ros__parameters:
+    pose_graph_dir: /saved-map
+    complete_map_voxel_size: 0.1

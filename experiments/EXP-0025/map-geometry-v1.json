@@ -1,0 +1,12 @@
+{
+  "keyframes": 24,
+  "edge_map_points": 162,
+  "ground_map_points": 2241,
+  "per_keyframe_surface_points_aggregate": 559,
+  "ground_plane_tilt_in_map_deg": 2.1075701088604837,
+  "ground_plane_residual_m_quantiles": [
+    0.010658139562584797,
+    0.05548503886509368
+  ],
+  "scope": "Partial view from short manual path, not a complete navigable room map"
+}

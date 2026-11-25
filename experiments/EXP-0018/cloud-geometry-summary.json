@@ -1,0 +1,34 @@
+{
+  "exact_header_pairs": 71,
+  "frame_count_raw_and_base": [
+    71,
+    71
+  ],
+  "median_match_error_m_urdf_then_identity": [
+    0.7359729064938773,
+    0.6069592535092867
+  ],
+  "median_fraction_within_2cm_urdf": 0.008333333333333333,
+  "dominant_negative_z_bin_base_cloud_m": [
+    -0.10999999999999943,
+    -0.08999999999999941
+  ],
+  "points_in_dominant_bin": 2010,
+  "local_negative_z_points": 9197,
+  "same_point_fit": {
+    "matched_points": 21257,
+    "matched_stamps": 71,
+    "translation_m": [
+      0.28215999599618025,
+      1.6813417769157013e-08,
+      -2.2347018249768702e-08
+    ],
+    "rpy_xyz_rad": [
+      -2.9207201093926205,
+      -0.14132399446753396,
+      -1.0105299005815136
+    ],
+    "median_pair_error_m": 1.4917789406270122e-07,
+    "fraction_within_2cm": 1.0
+  }
+}

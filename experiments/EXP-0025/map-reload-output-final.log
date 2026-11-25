@@ -1,0 +1,33 @@
+{
+  "/map1/mapcloud": {
+    "frame": "map",
+    "points": 102
+  },
+  "/map1/mapsurface": {
+    "frame": "map",
+    "points": 354
+  },
+  "/map1/mapground": {
+    "frame": "map",
+    "points": 2256
+  },
+  "/map1/key_poses": {
+    "frame": "map",
+    "poses": 24
+  },
+  "keyframe_service": {
+    "available": true,
+    "0": {
+      "key_frame_corner": 8,
+      "key_frame_surface": 25,
+      "key_frame_ground": 679,
+      "key_frame_cloud_base_link": 8
+    },
+    "23": {
+      "key_frame_corner": 12,
+      "key_frame_surface": 25,
+      "key_frame_ground": 700,
+      "key_frame_cloud_base_link": 12
+    }
+  }
+}

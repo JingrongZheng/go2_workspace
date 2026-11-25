@@ -1,0 +1,590 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-11-24-03-05-19-036470-suiliang-device-1
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [mcl_feature-1]: process started with pid [96]
+[INFO] [dddmr_pg_map_server_node-2]: process started with pid [98]
+[INFO] [mcl_3dl-3]: process started with pid [100]
+[INFO] [global_planner_node-4]: process started with pid [102]
+[INFO] [p2p_move_base_node-5]: process started with pid [104]
+[INFO] [clicked2goal.py-6]: process started with pid [106]
+[INFO] [rviz2-7]: process started with pid [108]
+[rviz2-7] QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'
+[mcl_3dl-3] [INFO] [1795489519.269183495] [sub_maps]: pg_map_server_name: map1
+[mcl_3dl-3] [INFO] [1795489519.270514967] [sub_maps]: sub_map_search_radius: 50.0
+[mcl_3dl-3] [INFO] [1795489519.270588515] [sub_maps]: sub_map_warmup_trigger_distance: 20.0
+[mcl_3dl-3] [INFO] [1795489519.270653758] [sub_maps]: submap_resolution: 0.10
+[mcl_3dl-3] [INFO] [1795489519.280598076] [mcl_3dl]: map_frame: map
+[mcl_3dl-3] [INFO] [1795489519.280679318] [mcl_3dl]: ground_frame: base_link
+[mcl_3dl-3] [INFO] [1795489519.280706419] [mcl_3dl]: odom_frame: odom
+[mcl_3dl-3] [INFO] [1795489519.280738800] [mcl_3dl]: num_particles: 60
+[mcl_3dl-3] [INFO] [1795489519.280773676] [mcl_3dl]: draw_flat_feature_bin_size: 0.20
+[mcl_3dl-3] [INFO] [1795489519.280812268] [mcl_3dl]: draw_flat_feature_bin_size_x: 0.20
+[mcl_3dl-3] [INFO] [1795489519.280842706] [mcl_3dl]: draw_flat_feature_bin_size_y: 0.20
+[mcl_3dl-3] [INFO] [1795489519.280879875] [mcl_3dl]: draw_flat_feature_bin_size_z: 0.20
+[mcl_3dl-3] [INFO] [1795489519.280914460] [mcl_3dl]: resample_var_x: 0.20
+[mcl_3dl-3] [INFO] [1795489519.280944597] [mcl_3dl]: resample_var_y: 0.20
+[mcl_3dl-3] [INFO] [1795489519.280983310] [mcl_3dl]: resample_var_z: 0.20
+[mcl_3dl-3] [INFO] [1795489519.281026842] [mcl_3dl]: resample_var_roll: 0.20
+[mcl_3dl-3] [INFO] [1795489519.281075293] [mcl_3dl]: resample_var_pitch: 0.20
+[mcl_3dl-3] [INFO] [1795489519.281113434] [mcl_3dl]: resample_var_yaw: 0.10
+[mcl_3dl-3] [INFO] [1795489519.281152638] [mcl_3dl]: expansion_var_x: 0.50
+[mcl_3dl-3] [INFO] [1795489519.281189517] [mcl_3dl]: expansion_var_y: 0.50
+[mcl_3dl-3] [INFO] [1795489519.281227990] [mcl_3dl]: expansion_var_z: 0.50
+[mcl_3dl-3] [INFO] [1795489519.281268185] [mcl_3dl]: expansion_var_roll: 0.20
+[mcl_3dl-3] [INFO] [1795489519.281317828] [mcl_3dl]: expansion_var_pitch: 0.20
+[mcl_3dl-3] [INFO] [1795489519.281361170] [mcl_3dl]: expansion_var_yaw: 0.20
+[mcl_3dl-3] [INFO] [1795489519.281403690] [mcl_3dl]: match_ratio_thresh: 0.00
+[mcl_3dl-3] [INFO] [1795489519.281447893] [mcl_3dl]: euc_cluster_distance: 0.80
+[mcl_3dl-3] [INFO] [1795489519.281498358] [mcl_3dl]: euc_cluster_min_size: 3
+[mcl_3dl-3] [INFO] [1795489519.281542731] [mcl_3dl]: knn_num_of_ground_normals: 20
+[mcl_3dl-3] [INFO] [1795489519.281580432] [mcl_3dl]: update_min_d: 0.10
+[mcl_3dl-3] [INFO] [1795489519.281615097] [mcl_3dl]: update_min_a: 0.10
+[mcl_3dl-3] [INFO] [1795489519.281649752] [mcl_3dl]: odom_err_lin_lin: 0.60
+[mcl_3dl-3] [INFO] [1795489519.281689407] [mcl_3dl]: odom_err_lin_ang: 0.30
+[mcl_3dl-3] [INFO] [1795489519.281722729] [mcl_3dl]: odom_err_ang_lin: 0.30
+[mcl_3dl-3] [INFO] [1795489519.281757705] [mcl_3dl]: odom_err_ang_ang: 0.60
+[mcl_3dl-3] [INFO] [1795489519.281793793] [mcl_3dl]: odom_err_integ_lin_tc: 5.00
+[mcl_3dl-3] [INFO] [1795489519.281834129] [mcl_3dl]: odom_err_integ_ang_tc: 10.00
+[mcl_3dl-3] [INFO] [1795489519.281888611] [mcl_3dl]: lpf_step: 2.00
+[mcl_3dl-3] [INFO] [1795489519.281932474] [mcl_3dl]: acc_lpf_step: 128.00
+[mcl_3dl-3] [INFO] [1795489519.281976055] [mcl_3dl]: jump_dist: 1.00
+[mcl_3dl-3] [INFO] [1795489519.282620757] [mcl_3dl]: jump_ang: 1.57
+[mcl_3dl-3] [INFO] [1795489519.282778323] [mcl_3dl]: bias_var_dist: 2.00
+[mcl_3dl-3] [INFO] [1795489519.282891436] [mcl_3dl]: bias_var_ang: 1.57
+[mcl_3dl-3] [INFO] [1795489519.283063018] [mcl_3dl]: tf_tolerance: 0.10
+[mcl_3dl-3] [INFO] [1795489519.283262132] [mcl_3dl]: publish_tf: 1
+[mcl_3dl-3] [INFO] [1795489519.283341101] [mcl_3dl]: init_x: 0.00
+[mcl_3dl-3] [INFO] [1795489519.283476525] [mcl_3dl]: init_y: 0.00
+[mcl_3dl-3] [INFO] [1795489519.283596561] [mcl_3dl]: init_z: 0.00
+[mcl_3dl-3] [INFO] [1795489519.283745190] [mcl_3dl]: init_roll: 0.00
+[mcl_3dl-3] [INFO] [1795489519.283888800] [mcl_3dl]: init_pitch: 0.00
+[mcl_3dl-3] [INFO] [1795489519.284035315] [mcl_3dl]: init_yaw: 0.00
+[mcl_3dl-3] [INFO] [1795489519.284186740] [mcl_3dl]: init_var_x: 2.00
+[mcl_3dl-3] [INFO] [1795489519.284323777] [mcl_3dl]: init_var_y: 2.00
+[mcl_3dl-3] [INFO] [1795489519.284486664] [mcl_3dl]: init_var_z: 0.50
+[mcl_3dl-3] [INFO] [1795489519.284574048] [mcl_3dl]: init_var_roll: 0.10
+[mcl_3dl-3] [INFO] [1795489519.284682672] [mcl_3dl]: init_var_pitch: 0.10
+[mcl_3dl-3] [INFO] [1795489519.284803780] [mcl_3dl]: init_var_yaw: 0.50
+[mcl_3dl-3] [INFO] [1795489519.284969190] [mcl_3dl]: voxel_size_before_bin_sampling: 0.10
+[mcl_3dl-3] [INFO] [1795489519.285139791] [mcl_3dl]: likelihood.num_points_global: 8
+[mcl_3dl-3] [INFO] [1795489519.285288981] [mcl_3dl]: likelihood.threshold_for_trusted_ground: 6
+[mcl_3dl-3] [INFO] [1795489519.285413706] [mcl_3dl]: likelihood.radius_of_ground_search: 1.00
+[mcl_3dl-3] [INFO] [1795489519.285711796] [mcl_3dl]: likelihood.match_dist_min: 0.30
+[mcl_3dl-3] [INFO] [1795489519.285766248] [mcl_3dl]: likelihood.match_dist_flat: 0.05
+[dddmr_pg_map_server_node-2] [INFO] [1795489519.288842590] [dddmr_pg_map_server_manager]: Initializing map: map1
+[dddmr_pg_map_server_node-2] [INFO] [1795489519.309599808] [map1]: pose_graph_dir: /root/dddmr_bags/gz_go2_demo_world
+[dddmr_pg_map_server_node-2] [INFO] [1795489519.309680019] [map1]: complete_map_voxel_size: 0.20
+[dddmr_pg_map_server_node-2] [INFO] [1795489519.354242383] [map1]: Poses read: 320
+[mcl_feature-1] [INFO] [1795489519.425478084] [mcl_ip]: laser.num_vertical_scans: 16
+[mcl_feature-1] [INFO] [1795489519.425786534] [mcl_ip]: laser.num_horizontal_scans: 440
+[mcl_feature-1] [INFO] [1795489519.425844402] [mcl_ip]: laser.scan_period: 0.10
+[mcl_feature-1] [INFO] [1795489519.425903994] [mcl_ip]: laser.vertical_angle_bottom: -15.00
+[mcl_feature-1] [INFO] [1795489519.425948117] [mcl_ip]: laser.vertical_angle_top: 15.00
+[mcl_feature-1] [INFO] [1795489519.425991669] [mcl_ip]: imageProjection.segment_theta: 60.00
+[mcl_feature-1] [INFO] [1795489519.427531353] [mcl_ip]: imageProjection.segment_valid_point_num: 5
+[mcl_feature-1] [INFO] [1795489519.428258369] [mcl_ip]: imageProjection.segment_valid_line_num: 2
+[mcl_feature-1] [INFO] [1795489519.429132161] [mcl_ip]: laser.odom_type: wheel_odometry
+[mcl_feature-1] [INFO] [1795489519.429572398] [mcl_ip]: laser.base_ground_frame: base_link
+[mcl_feature-1] [INFO] [1795489519.429643041] [mcl_ip]: laser.odom_child_frame: base_link
+[mcl_feature-1] [INFO] [1795489519.429684519] [mcl_ip]: imageProjection.maximum_detection_range: 100.00
+[mcl_feature-1] [INFO] [1795489519.429725506] [mcl_ip]: imageProjection.minimum_detection_range: 0.50
+[mcl_feature-1] [INFO] [1795489519.429755823] [mcl_ip]: imageProjection.distance_for_patch_between_rings: 1.00
+[mcl_feature-1] [INFO] [1795489519.429805256] [mcl_ip]: imageProjection.to_fa: 1
+[mcl_feature-1] [INFO] [1795489519.429831085] [mcl_ip]: imageProjection.time_step_between_depth_image: 0.50
+[mcl_feature-1] [INFO] [1795489519.429857484] [mcl_ip]: imageProjection.stitcher_num: 0
+[mcl_feature-1] [INFO] [1795489519.429880467] [mcl_ip]: imageProjection.ground_fov_bottom: -0.261799
+[mcl_feature-1] [INFO] [1795489519.429908851] [mcl_ip]: imageProjection.ground_fov_top: -0.087266
+[mcl_feature-1] [INFO] [1795489519.429947183] [mcl_ip]: imageProjection.ground_positive_start: 0.000000
+[mcl_feature-1] [INFO] [1795489519.429978792] [mcl_ip]: imageProjection.ground_positive_stop: 3.141593
+[mcl_feature-1] [INFO] [1795489519.430017645] [mcl_ip]: imageProjection.ground_negative_start: 0.000000
+[mcl_feature-1] [INFO] [1795489519.430052411] [mcl_ip]: imageProjection.ground_negative_stop: -3.141593
+[mcl_feature-1] [INFO] [1795489519.430812689] [mcl_ip]: imageProjection.ignore_fov_bottom: 0.000000
+[mcl_feature-1] [INFO] [1795489519.431292311] [mcl_ip]: imageProjection.ignore_fov_top: 0.000000
+[mcl_feature-1] [INFO] [1795489519.431618223] [mcl_ip]: imageProjection.ignore_positive_start: 0.000000
+[mcl_feature-1] [INFO] [1795489519.431824972] [mcl_ip]: imageProjection.ignore_positive_stop: 0.000000
+[mcl_feature-1] [INFO] [1795489519.432202852] [mcl_ip]: imageProjection.ignore_negative_start: 0.000000
+[mcl_feature-1] [INFO] [1795489519.432447381] [mcl_ip]: imageProjection.ignore_negative_stop: 0.000000
+[mcl_feature-1] [INFO] [1795489519.432786479] [mcl_ip]: imageProjection.ground_slope_tolerance: 0.174533
+[mcl_feature-1] [INFO] [1795489519.433039043] [mcl_ip]: imageProjection.ground_dz_tolerance: 0.100000
+[mcl_feature-1] [INFO] [1795489519.433384532] [mcl_ip]: imageProjection.use_sensor_height_to_filter_out_ground: 0
+[mcl_feature-1] [INFO] [1795489519.433747885] [mcl_ip]: imageProjection.patch_first_ring_to_baselink: 1
+[mcl_feature-1] [INFO] [1795489519.433997254] [mcl_ip]: imageProjection.deep_learning.trt_model_path: 
+[mcl_feature-1] [INFO] [1795489519.434442691] [mcl_ip]: imageProjection.deep_learning.projected_image_stack_size: 0
+[global_planner_node-4] [INFO] [1795489519.466971201] [perception_3d_global]: global_frame: map
+[global_planner_node-4] [INFO] [1795489519.468250315] [perception_3d_global]: robot_base_frame: base_link
+[global_planner_node-4] [INFO] [1795489519.468503380] [perception_3d_global]: max_obstacle_distance: 9999.0
+[global_planner_node-4] [INFO] [1795489519.468606243] [perception_3d_global]: inscribed_radius: 0.50
+[global_planner_node-4] [INFO] [1795489519.468675253] [perception_3d_global]: inflation_descending_rate: 2.00
+[global_planner_node-4] [INFO] [1795489519.468881130] [perception_3d_global]: inflation_radius: 1.50
+[global_planner_node-4] [INFO] [1795489519.469170654] [perception_3d_global]: sensors_collected_frequency: 10.00
+[global_planner_node-4] [INFO] [1795489519.469397360] [perception_3d_global]: dgraph_publish_frequency: 1.00
+[global_planner_node-4] [INFO] [1795489519.490843413] [perception_3d_global]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[mcl_feature-1] [INFO] [1795489519.510567740] [mcl_fa]: featureAssociation.edge_threshold: 0.10
+[mcl_feature-1] [INFO] [1795489519.511281722] [mcl_fa]: featureAssociation.surf_threshold: 0.10
+[mcl_feature-1] [INFO] [1795489519.511359719] [mcl_fa]: featureAssociation.nearest_feature_search_distance: 3.00
+[mcl_feature-1] [INFO] [1795489519.511420553] [mcl_fa]: mapping.to_map_optimization: 0
+[p2p_move_base_node-5] [INFO] [1795489519.588965140] [trajectory_generators]: Use theory name: differential_drive_simple ---> trajectory_generators::DDSimpleTrajectoryGeneratorTheory
+[p2p_move_base_node-5] [INFO] [1795489519.591728182] [trajectory_generators.differential_drive_simple]: min_vel_x: 0.25
+[p2p_move_base_node-5] [INFO] [1795489519.592269961] [trajectory_generators.differential_drive_simple]: max_vel_x: 1.20
+[p2p_move_base_node-5] [INFO] [1795489519.592950209] [trajectory_generators.differential_drive_simple]: min_vel_theta: 0.25
+[p2p_move_base_node-5] [INFO] [1795489519.594410563] [trajectory_generators.differential_drive_simple]: max_vel_theta: 0.60
+[p2p_move_base_node-5] [INFO] [1795489519.595420622] [trajectory_generators.differential_drive_simple]: acc_lim_x: 3.00
+[p2p_move_base_node-5] [INFO] [1795489519.596603725] [trajectory_generators.differential_drive_simple]: acc_lim_theta: 3.00
+[p2p_move_base_node-5] [INFO] [1795489519.596797599] [trajectory_generators.differential_drive_simple]: prune_forward: 3.00
+[p2p_move_base_node-5] [INFO] [1795489519.596933064] [trajectory_generators.differential_drive_simple]: prune_backward: 1.00
+[p2p_move_base_node-5] [INFO] [1795489519.597044323] [trajectory_generators.differential_drive_simple]: deceleration_ratio: 2.00
+[p2p_move_base_node-5] [INFO] [1795489519.597207039] [trajectory_generators.differential_drive_simple]: use_motor_constraint: 0
+[p2p_move_base_node-5] [INFO] [1795489519.597302588] [trajectory_generators.differential_drive_simple]: max_motor_shaft_rpm: 3000.00
+[p2p_move_base_node-5] [INFO] [1795489519.597401975] [trajectory_generators.differential_drive_simple]: wheel_diameter: 0.16
+[p2p_move_base_node-5] [INFO] [1795489519.597484310] [trajectory_generators.differential_drive_simple]: gear_ratio: 1.00
+[p2p_move_base_node-5] [INFO] [1795489519.597570953] [trajectory_generators.differential_drive_simple]: robot_radius: 0.25
+[p2p_move_base_node-5] [INFO] [1795489519.597657095] [trajectory_generators.differential_drive_simple]: controller_frequency: 10.00
+[p2p_move_base_node-5] [INFO] [1795489519.597732446] [trajectory_generators.differential_drive_simple]: sim_time: 1.00
+[p2p_move_base_node-5] [INFO] [1795489519.597808218] [trajectory_generators.differential_drive_simple]: linear_x_sample: 5.00
+[p2p_move_base_node-5] [INFO] [1795489519.597878350] [trajectory_generators.differential_drive_simple]: angular_z_sample: 8.00
+[p2p_move_base_node-5] [INFO] [1795489519.597932702] [trajectory_generators.differential_drive_simple]: sim_granularity: 0.05
+[p2p_move_base_node-5] [INFO] [1795489519.597979721] [trajectory_generators.differential_drive_simple]: angular_sim_granularity: 0.03
+[p2p_move_base_node-5] [INFO] [1795489519.597988287] [trajectory_generators.differential_drive_simple]: Start to parse cuboid.
+[p2p_move_base_node-5] [INFO] [1795489519.599782539] [trajectory_generators.differential_drive_simple]: Cuboid flb: 0.42, 0.36, 0.00
+[p2p_move_base_node-5] [INFO] [1795489519.600132426] [trajectory_generators.differential_drive_simple]: Cuboid frb: 0.42, -0.36, 0.00
+[p2p_move_base_node-5] [INFO] [1795489519.600288099] [trajectory_generators.differential_drive_simple]: Cuboid flt: 0.42, 0.36, 0.60
+[p2p_move_base_node-5] [INFO] [1795489519.601546393] [trajectory_generators.differential_drive_simple]: Cuboid frt: 0.42, -0.36, 0.60
+[p2p_move_base_node-5] [INFO] [1795489519.602915757] [trajectory_generators.differential_drive_simple]: Cuboid blb: -0.35, 0.36, 0.00
+[p2p_move_base_node-5] [INFO] [1795489519.603322922] [trajectory_generators.differential_drive_simple]: Cuboid brb: -0.35, -0.36, 0.00
+[p2p_move_base_node-5] [INFO] [1795489519.603518850] [trajectory_generators.differential_drive_simple]: Cuboid blt: -0.35, 0.36, 0.60
+[p2p_move_base_node-5] [INFO] [1795489519.604050750] [trajectory_generators.differential_drive_simple]: Cuboid brt: -0.35, -0.36, 0.60
+[p2p_move_base_node-5] [INFO] [1795489519.604424302] [trajectory_generators]: Use theory name: differential_drive_rotate_inplace ---> trajectory_generators::DDRotateInplaceTheory
+[p2p_move_base_node-5] [INFO] [1795489519.605644325] [trajectory_generators.differential_drive_rotate_inplace]: min_vel_x: 0.01
+[p2p_move_base_node-5] [INFO] [1795489519.606950810] [trajectory_generators.differential_drive_rotate_inplace]: max_vel_x: 0.10
+[p2p_move_base_node-5] [INFO] [1795489519.608414050] [trajectory_generators.differential_drive_rotate_inplace]: min_vel_theta: 0.10
+[p2p_move_base_node-5] [INFO] [1795489519.609178667] [trajectory_generators.differential_drive_rotate_inplace]: max_vel_theta: 0.10
+[p2p_move_base_node-5] [INFO] [1795489519.609625146] [trajectory_generators.differential_drive_rotate_inplace]: acc_lim_x: 0.30
+[p2p_move_base_node-5] [INFO] [1795489519.609946680] [trajectory_generators.differential_drive_rotate_inplace]: acc_lim_theta: 0.50
+[p2p_move_base_node-5] [INFO] [1795489519.610501983] [trajectory_generators.differential_drive_rotate_inplace]: prune_forward: 3.00
+[p2p_move_base_node-5] [INFO] [1795489519.611514857] [trajectory_generators.differential_drive_rotate_inplace]: prune_backward: 1.00
+[p2p_move_base_node-5] [INFO] [1795489519.611621327] [trajectory_generators.differential_drive_rotate_inplace]: max_motor_shaft_rpm: 3000.00
+[p2p_move_base_node-5] [INFO] [1795489519.611686620] [trajectory_generators.differential_drive_rotate_inplace]: wheel_diameter: 0.15
+[p2p_move_base_node-5] [INFO] [1795489519.611746352] [trajectory_generators.differential_drive_rotate_inplace]: gear_ratio: 30.00
+[p2p_move_base_node-5] [INFO] [1795489519.611794092] [trajectory_generators.differential_drive_rotate_inplace]: robot_radius: 0.25
+[p2p_move_base_node-5] [INFO] [1795489519.611835129] [trajectory_generators.differential_drive_rotate_inplace]: controller_frequency: 10.00
+[p2p_move_base_node-5] [INFO] [1795489519.611878771] [trajectory_generators.differential_drive_rotate_inplace]: sim_time: 2.00
+[p2p_move_base_node-5] [INFO] [1795489519.612032560] [trajectory_generators.differential_drive_rotate_inplace]: linear_x_sample: 10.00
+[p2p_move_base_node-5] [INFO] [1795489519.612339958] [trajectory_generators.differential_drive_rotate_inplace]: angular_z_sample: 10.00
+[p2p_move_base_node-5] [INFO] [1795489519.612450906] [trajectory_generators.differential_drive_rotate_inplace]: sim_granularity: 0.10
+[p2p_move_base_node-5] [INFO] [1795489519.612872288] [trajectory_generators.differential_drive_rotate_inplace]: angular_sim_granularity: 0.05
+[p2p_move_base_node-5] [INFO] [1795489519.613411732] [trajectory_generators.differential_drive_rotate_inplace]: rotation_speed: 0.50
+[p2p_move_base_node-5] [INFO] [1795489519.613426419] [trajectory_generators.differential_drive_rotate_inplace]: Start to parse cuboid.
+[p2p_move_base_node-5] [INFO] [1795489519.613536857] [trajectory_generators.differential_drive_rotate_inplace]: Cuboid flb: 0.42, 0.36, 0.00
+[p2p_move_base_node-5] [INFO] [1795489519.613613831] [trajectory_generators.differential_drive_rotate_inplace]: Cuboid frb: 0.42, -0.36, 0.00
+[p2p_move_base_node-5] [INFO] [1795489519.613680627] [trajectory_generators.differential_drive_rotate_inplace]: Cuboid flt: 0.42, 0.36, 0.60
+[p2p_move_base_node-5] [INFO] [1795489519.613748474] [trajectory_generators.differential_drive_rotate_inplace]: Cuboid frt: 0.42, -0.36, 0.60
+[p2p_move_base_node-5] [INFO] [1795489519.614746660] [trajectory_generators.differential_drive_rotate_inplace]: Cuboid blb: -0.35, 0.36, 0.00
+[p2p_move_base_node-5] [INFO] [1795489519.616174724] [trajectory_generators.differential_drive_rotate_inplace]: Cuboid brb: -0.35, -0.36, 0.00
+[p2p_move_base_node-5] [INFO] [1795489519.616866474] [trajectory_generators.differential_drive_rotate_inplace]: Cuboid blt: -0.35, 0.36, 0.60
+[p2p_move_base_node-5] [INFO] [1795489519.617667099] [trajectory_generators.differential_drive_rotate_inplace]: Cuboid brt: -0.35, -0.36, 0.60
+[p2p_move_base_node-5] [INFO] [1795489519.618554126] [trajectory_generators]: Use theory name: differential_drive_rotate_shortest_angle ---> trajectory_generators::DDRotateInplaceTheory
+[p2p_move_base_node-5] [INFO] [1795489519.619381440] [trajectory_generators.differential_drive_rotate_shortest_angle]: min_vel_x: 0.01
+[p2p_move_base_node-5] [INFO] [1795489519.620355481] [trajectory_generators.differential_drive_rotate_shortest_angle]: max_vel_x: 0.10
+[p2p_move_base_node-5] [INFO] [1795489519.621205709] [trajectory_generators.differential_drive_rotate_shortest_angle]: min_vel_theta: 0.10
+[p2p_move_base_node-5] [INFO] [1795489519.621893732] [trajectory_generators.differential_drive_rotate_shortest_angle]: max_vel_theta: 0.10
+[p2p_move_base_node-5] [INFO] [1795489519.623306356] [trajectory_generators.differential_drive_rotate_shortest_angle]: acc_lim_x: 0.30
+[p2p_move_base_node-5] [INFO] [1795489519.623501703] [trajectory_generators.differential_drive_rotate_shortest_angle]: acc_lim_theta: 0.50
+[p2p_move_base_node-5] [INFO] [1795489519.623638220] [trajectory_generators.differential_drive_rotate_shortest_angle]: prune_forward: 3.00
+[p2p_move_base_node-5] [INFO] [1795489519.623745922] [trajectory_generators.differential_drive_rotate_shortest_angle]: prune_backward: 1.00
+[p2p_move_base_node-5] [INFO] [1795489519.624202731] [trajectory_generators.differential_drive_rotate_shortest_angle]: max_motor_shaft_rpm: 3000.00
+[p2p_move_base_node-5] [INFO] [1795489519.625512903] [trajectory_generators.differential_drive_rotate_shortest_angle]: wheel_diameter: 0.15
+[p2p_move_base_node-5] [INFO] [1795489519.626814760] [trajectory_generators.differential_drive_rotate_shortest_angle]: gear_ratio: 30.00
+[p2p_move_base_node-5] [INFO] [1795489519.628000658] [trajectory_generators.differential_drive_rotate_shortest_angle]: robot_radius: 0.25
+[p2p_move_base_node-5] [INFO] [1795489519.628393577] [trajectory_generators.differential_drive_rotate_shortest_angle]: controller_frequency: 10.00
+[p2p_move_base_node-5] [INFO] [1795489519.629587641] [trajectory_generators.differential_drive_rotate_shortest_angle]: sim_time: 2.00
+[p2p_move_base_node-5] [INFO] [1795489519.630332520] [trajectory_generators.differential_drive_rotate_shortest_angle]: linear_x_sample: 10.00
+[p2p_move_base_node-5] [INFO] [1795489519.632712042] [trajectory_generators.differential_drive_rotate_shortest_angle]: angular_z_sample: 10.00
+[p2p_move_base_node-5] [INFO] [1795489519.634289146] [trajectory_generators.differential_drive_rotate_shortest_angle]: sim_granularity: 0.10
+[p2p_move_base_node-5] [INFO] [1795489519.637657807] [trajectory_generators.differential_drive_rotate_shortest_angle]: angular_sim_granularity: 0.05
+[p2p_move_base_node-5] [INFO] [1795489519.637910521] [trajectory_generators.differential_drive_rotate_shortest_angle]: rotation_speed: 0.50
+[p2p_move_base_node-5] [INFO] [1795489519.637928615] [trajectory_generators.differential_drive_rotate_shortest_angle]: Start to parse cuboid.
+[p2p_move_base_node-5] [INFO] [1795489519.638067537] [trajectory_generators.differential_drive_rotate_shortest_angle]: Cuboid flb: 0.42, 0.36, 0.00
+[p2p_move_base_node-5] [INFO] [1795489519.643110043] [trajectory_generators.differential_drive_rotate_shortest_angle]: Cuboid frb: 0.42, -0.36, 0.00
+[p2p_move_base_node-5] [INFO] [1795489519.645460530] [trajectory_generators.differential_drive_rotate_shortest_angle]: Cuboid flt: 0.42, 0.36, 0.60
+[p2p_move_base_node-5] [INFO] [1795489519.646669682] [trajectory_generators.differential_drive_rotate_shortest_angle]: Cuboid frt: 0.42, -0.36, 0.60
+[p2p_move_base_node-5] [INFO] [1795489519.648457732] [trajectory_generators.differential_drive_rotate_shortest_angle]: Cuboid blb: -0.35, 0.36, 0.00
+[p2p_move_base_node-5] [INFO] [1795489519.648694287] [trajectory_generators.differential_drive_rotate_shortest_angle]: Cuboid brb: -0.35, -0.36, 0.00
+[p2p_move_base_node-5] [INFO] [1795489519.648836564] [trajectory_generators.differential_drive_rotate_shortest_angle]: Cuboid blt: -0.35, 0.36, 0.60
+[p2p_move_base_node-5] [INFO] [1795489519.648971338] [trajectory_generators.differential_drive_rotate_shortest_angle]: Cuboid brt: -0.35, -0.36, 0.60
+[p2p_move_base_node-5] [INFO] [1795489519.679226756] [mpc_critics]: Trajectory generator: differential_drive_simple using ---> mpc_critics::CollisionModel
+[p2p_move_base_node-5] [INFO] [1795489519.683348071] [mpc_critics.collision]: weight: 1.00
+[p2p_move_base_node-5] [INFO] [1795489519.683928962] [mpc_critics]: Trajectory generator: differential_drive_simple using ---> mpc_critics::StickPathModel
+[p2p_move_base_node-5] [INFO] [1795489519.684177840] [mpc_critics.stick_path]: weight: 0.10
+[p2p_move_base_node-5] [INFO] [1795489519.684413202] [mpc_critics]: Trajectory generator: differential_drive_simple using ---> mpc_critics::PurePursuitModel
+[p2p_move_base_node-5] [INFO] [1795489519.684565218] [mpc_critics.pure_pursuit]: weight: 1.00
+[p2p_move_base_node-5] [INFO] [1795489519.684666528] [mpc_critics.pure_pursuit]: translation_weight: 1.00
+[p2p_move_base_node-5] [INFO] [1795489519.685246949] [mpc_critics.pure_pursuit]: orientation_weight: 0.01
+[p2p_move_base_node-5] [INFO] [1795489519.685987050] [mpc_critics]: Trajectory generator: differential_drive_simple using ---> mpc_critics::TowardGlobalPlanModel
+[p2p_move_base_node-5] [INFO] [1795489519.686281784] [mpc_critics.toward_global_plan]: weight: 1.00
+[p2p_move_base_node-5] [INFO] [1795489519.686766034] [mpc_critics]: Trajectory generator: differential_drive_rotate_inplace using ---> mpc_critics::CollisionModel
+[p2p_move_base_node-5] [INFO] [1795489519.687299266] [mpc_critics.collision_rotate]: weight: 1.00
+[p2p_move_base_node-5] [INFO] [1795489519.688017947] [mpc_critics]: Trajectory generator: differential_drive_rotate_shortest_angle using ---> mpc_critics::CollisionModel
+[p2p_move_base_node-5] [INFO] [1795489519.688398873] [mpc_critics.collision_rotate_shortest]: weight: 1.00
+[p2p_move_base_node-5] [INFO] [1795489519.689241206] [mpc_critics]: Trajectory generator: differential_drive_rotate_shortest_angle using ---> mpc_critics::ShortestAngleModel
+[p2p_move_base_node-5] [INFO] [1795489519.689545187] [mpc_critics.prefer_rotate_shortest]: weight: 1.00
+[p2p_move_base_node-5] [INFO] [1795489519.690053883] [perception_3d_local]: global_frame: map
+[p2p_move_base_node-5] [INFO] [1795489519.690229523] [perception_3d_local]: robot_base_frame: base_link
+[p2p_move_base_node-5] [INFO] [1795489519.690373443] [perception_3d_local]: max_obstacle_distance: 9999.0
+[p2p_move_base_node-5] [INFO] [1795489519.690499931] [perception_3d_local]: inscribed_radius: 0.50
+[p2p_move_base_node-5] [INFO] [1795489519.690618273] [perception_3d_local]: inflation_descending_rate: 2.00
+[p2p_move_base_node-5] [INFO] [1795489519.690738139] [perception_3d_local]: inflation_radius: 1.50
+[p2p_move_base_node-5] [INFO] [1795489519.690866420] [perception_3d_local]: sensors_collected_frequency: 10.00
+[p2p_move_base_node-5] [INFO] [1795489519.690985534] [perception_3d_local]: dgraph_publish_frequency: 0.00
+[p2p_move_base_node-5] [INFO] [1795489519.695827122] [perception_3d_local]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-7] [INFO] [1795489519.882138301] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-7] [INFO] [1795489519.882243659] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[rviz2-7] [INFO] [1795489519.936958773] [rviz2]: Stereo is NOT SUPPORTED
+[global_planner_node-4] [INFO] [1795489519.991169119] [perception_3d_global]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[p2p_move_base_node-5] [INFO] [1795489520.195908900] [perception_3d_local]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[global_planner_node-4] [INFO] [1795489520.490886572] [perception_3d_global]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[p2p_move_base_node-5] [INFO] [1795489520.695876903] [perception_3d_local]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[global_planner_node-4] [INFO] [1795489520.990886716] [perception_3d_global]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[p2p_move_base_node-5] [INFO] [1795489521.195878500] [perception_3d_local]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.407576628] [map1]: [1;32mPose graph is loaded.[0m 
+[global_planner_node-4] [INFO] [1795489521.490900155] [perception_3d_global]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.531337918] [map1]: Map pointcloud size: 54237
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.531422888] [map1]: Map pointcloud size after down size: 12899
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.572693276] [map1]: Surface pointcloud size: 643836
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.572759821] [map1]: Surf pointcloud size after down size: 267110
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.623807563] [map1]: Ground pointcloud size: 848666
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.623866344] [map1]: Ground pointcloud size after down size: 43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.629402748] [map1]: Done 0/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.630358033] [map1]: Done 11000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.631234551] [map1]: Done 30000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.631349156] [map1]: Done 14000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.630527802] [map1]: Done 41000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.630887178] [map1]: Done 3000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.632000811] [map1]: Done 6000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.632329388] [map1]: Done 33000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.633125765] [map1]: Done 9000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.633671450] [map1]: Done 17000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.633769565] [map1]: Done 28000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.634639900] [map1]: Done 36000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.634884560] [map1]: Done 1000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.634994206] [map1]: Done 25000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.635416470] [map1]: Done 22000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.635543508] [map1]: Done 39000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.635767079] [map1]: Done 31000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.636065079] [map1]: Done 4000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.636089494] [map1]: Done 15000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.636111736] [map1]: Done 12000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.636511327] [map1]: Done 7000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.637154356] [map1]: Done 42000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.637524090] [map1]: Done 10000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.637587339] [map1]: Done 34000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.639584973] [map1]: Done 2000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.640231027] [map1]: Done 29000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.639673199] [map1]: Done 20000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.640557451] [map1]: Done 16000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.640702243] [map1]: Done 5000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.639763920] [map1]: Done 40000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.641656887] [map1]: Done 43000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.641881800] [map1]: Done 8000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.642406786] [map1]: Done 37000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.642614937] [map1]: Done 32000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.643652928] [map1]: Done 23000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.643773725] [map1]: Done 13000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.645174768] [map1]: Done 35000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.646430909] [map1]: Done 18000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.647061774] [map1]: Done 26000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.649924925] [map1]: Done 21000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.650543437] [map1]: Done 38000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.651318354] [map1]: Done 24000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.652438308] [map1]: Done 27000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.653124788] [map1]: Done 19000/43526
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.659671030] [map1]: Surface detection done.
+[dddmr_pg_map_server_node-2] [INFO] [1795489521.660878399] [map1]: [1;32mMap and Ground published.[0m 
+[p2p_move_base_node-5] [INFO] [1795489521.695895947] [perception_3d_local]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[mcl_3dl-3] [WARN] [1795489521.987470493] [sub_maps]: Exceed request key frame number, shutdown thread.
+[mcl_3dl-3] [INFO] [1795489521.987576783] [sub_maps]: Sync cloud key frame number: 320 with total size: 320
+[mcl_3dl-3] [INFO] [1795489521.987687521] [sub_maps]: Sync surface key frame number: 320 with total size: 320
+[mcl_3dl-3] [INFO] [1795489521.987695877] [sub_maps]: Sync ground key frame number: 320 with total size: 320
+[global_planner_node-4] [INFO] [1795489521.990894779] [perception_3d_global]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[p2p_move_base_node-5] [INFO] [1795489522.195891522] [perception_3d_local]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[mcl_3dl-3] [INFO] [1795489522.227505083] [sub_maps]: Done 0/193854
+[mcl_3dl-3] [INFO] [1795489522.234209883] [sub_maps]: Done 170000/193854
+[mcl_3dl-3] [INFO] [1795489522.241146378] [sub_maps]: Done 110000/193854
+[mcl_3dl-3] [INFO] [1795489522.269924851] [sub_maps]: Done 160000/193854
+[mcl_3dl-3] [INFO] [1795489522.276738025] [sub_maps]: Done 40000/193854
+[mcl_3dl-3] [INFO] [1795489522.277811782] [sub_maps]: Done 100000/193854
+[mcl_3dl-3] [INFO] [1795489522.278972764] [sub_maps]: Done 50000/193854
+[mcl_3dl-3] [INFO] [1795489522.298111621] [sub_maps]: Done 150000/193854
+[mcl_3dl-3] [INFO] [1795489522.318918533] [sub_maps]: Done 30000/193854
+[mcl_3dl-3] [INFO] [1795489522.319144317] [sub_maps]: Done 90000/193854
+[mcl_3dl-3] [INFO] [1795489522.335378165] [sub_maps]: Done 140000/193854
+[mcl_3dl-3] [INFO] [1795489522.346820268] [sub_maps]: Done 20000/193854
+[mcl_3dl-3] [INFO] [1795489522.355414950] [sub_maps]: Done 130000/193854
+[mcl_3dl-3] [INFO] [1795489522.377304095] [sub_maps]: Done 180000/193854
+[mcl_3dl-3] [INFO] [1795489522.377895537] [sub_maps]: Done 70000/193854
+[mcl_3dl-3] [INFO] [1795489522.384333235] [sub_maps]: Done 10000/193854
+[mcl_3dl-3] [INFO] [1795489522.402578232] [sub_maps]: Done 190000/193854
+[mcl_3dl-3] [INFO] [1795489522.404261716] [sub_maps]: Done 80000/193854
+[mcl_3dl-3] [INFO] [1795489522.406120188] [sub_maps]: Done 120000/193854
+[mcl_3dl-3] [INFO] [1795489522.482197899] [sub_maps]: Done 60000/193854
+[global_planner_node-4] [INFO] [1795489522.492026118] [perception_3d_global]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[p2p_move_base_node-5] [INFO] [1795489522.695889813] [perception_3d_local]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[mcl_3dl-3] [INFO] [1795489522.857813932] [sub_maps]: All essential KD-tree are generated.
+[global_planner_node-4] [INFO] [1795489522.990900187] [perception_3d_global]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[mcl_feature-1] [INFO] [1795489523.162758404] [mcl_fa]: Detect odom to base_link TF, MO will not broadcast from odom to base_link.
+[mcl_3dl-3] [INFO] [1795489523.163305082] [sub_maps]: Receive initial pose at: 0.00, -0.00, 0.28
+[p2p_move_base_node-5] [INFO] [1795489523.195877083] [perception_3d_local]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[mcl_3dl-3] [INFO] [1795489523.280532674] [sub_maps]: Prepare warm up at: 0.00, -0.00, 0.28
+[mcl_3dl-3] [INFO] [1795489523.454318203] [sub_maps]: Done 0/193854
+[mcl_3dl-3] [INFO] [1795489523.469306620] [sub_maps]: Done 170000/193854
+[mcl_3dl-3] [INFO] [1795489523.481049188] [sub_maps]: Done 50000/193854
+[global_planner_node-4] [INFO] [1795489523.490910770] [perception_3d_global]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[mcl_3dl-3] [INFO] [1795489523.494596687] [sub_maps]: Done 110000/193854
+[mcl_3dl-3] [INFO] [1795489523.541793403] [sub_maps]: Done 160000/193854
+[mcl_3dl-3] [INFO] [1795489523.550293116] [sub_maps]: Done 100000/193854
+[mcl_3dl-3] [INFO] [1795489523.563969567] [sub_maps]: Done 140000/193854
+[mcl_3dl-3] [INFO] [1795489523.568098677] [sub_maps]: Done 90000/193854
+[mcl_3dl-3] [INFO] [1795489523.597907737] [sub_maps]: Done 150000/193854
+[mcl_3dl-3] [INFO] [1795489523.612576192] [sub_maps]: Done 40000/193854
+[mcl_3dl-3] [INFO] [1795489523.643072323] [sub_maps]: Done 20000/193854
+[mcl_3dl-3] [INFO] [1795489523.651407186] [sub_maps]: Done 130000/193854
+[mcl_3dl-3] [INFO] [1795489523.653405542] [sub_maps]: Done 120000/193854
+[mcl_3dl-3] [INFO] [1795489523.655128530] [sub_maps]: Done 30000/193854
+[mcl_3dl-3] [INFO] [1795489523.656512450] [sub_maps]: Done 190000/193854
+[mcl_3dl-3] [INFO] [1795489523.659779811] [sub_maps]: Done 60000/193854
+[p2p_move_base_node-5] [INFO] [1795489523.698054860] [perception_3d_local]: Timed out waiting for transform from base_link to map to become available, tf error: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[mcl_feature-1] [WARN] [1795489523.698774402] [mcl_fa]: The first odom is record: 0.09, 0.00, 0.20
+[mcl_3dl-3] [INFO] [1795489523.735872209] [sub_maps]: Done 10000/193854
+[mcl_3dl-3] [INFO] [1795489523.745188206] [sub_maps]: Done 80000/193854
+[mcl_3dl-3] [INFO] [1795489523.747319491] [sub_maps]: Done 180000/193854
+[mcl_3dl-3] [INFO] [1795489523.772700940] [sub_maps]: Done 70000/193854
+[global_planner_node-4] [INFO] [1795489523.990900215] [perception_3d_global]: Timed out waiting for transform from base_link to map to become available, tf error: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[p2p_move_base_node-5] [INFO] [1795489524.195874396] [perception_3d_local]: Timed out waiting for transform from base_link to map to become available, tf error: Could not find a connection between 'map' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[mcl_3dl-3] [INFO] [1795489524.299994035] [sub_maps]: All essential Warmup KD-tree are generated.
+[mcl_3dl-3] [INFO] [1795489524.331244373] [sub_maps]: KD-tree swapped.
+[mcl_3dl-3] [INFO] [1795489524.331346154] [mcl_3dl]: Found ground at z: -0.09
+[mcl_3dl-3] [INFO] [1795489524.331370219] [mcl_3dl]: Set initial pose at: 0.00, -0.00, -0.09
+[global_planner_node-4] [INFO] [1795489524.491380932] [perception_3d_global]: Use plugin name: map ---> perception_3d::StaticLayer
+[global_planner_node-4] [INFO] [1795489524.492906209] [perception_3d_global.map]: radius_of_ground_connection: 1.50
+[global_planner_node-4] [INFO] [1795489524.493617485] [perception_3d_global.map]: use_adaptive_connection: 0
+[global_planner_node-4] [INFO] [1795489524.493790771] [perception_3d_global.map]: adaptive_connection_number: 20
+[global_planner_node-4] [INFO] [1795489524.494045199] [perception_3d_global.map]: turning_weight: 0.10
+[global_planner_node-4] [INFO] [1795489524.494212904] [perception_3d_global.map]: intensity_search_radius: 3.00
+[global_planner_node-4] [INFO] [1795489524.494556690] [perception_3d_global.map]: intensity_search_punish_weight: 0.10
+[global_planner_node-4] [INFO] [1795489524.494734605] [perception_3d_global.map]: static_imposing_radius: 1.50
+[global_planner_node-4] [INFO] [1795489524.494839051] [perception_3d_global.map]: is_local_planner: 0
+[global_planner_node-4] [INFO] [1795489524.495000053] [perception_3d_global.map]: map_topic: map1/mapcloud
+[global_planner_node-4] [INFO] [1795489524.495264350] [perception_3d_global.map]: ground_topic: map1/mapground
+[global_planner_node-4] [INFO] [1795489524.495773156] [perception_3d_global.map]: mapping_mode: 0
+[global_planner_node-4] [INFO] [1795489524.496114227] [perception_3d_global.map]: enable_edge_detection: 1
+[global_planner_node-4] [INFO] [1795489524.496218203] [perception_3d_global.map]: generate_static_graph: 0
+[global_planner_node-4] [INFO] [1795489524.500438985] [perception_3d_global]: Use plugin name: lidar ---> perception_3d::MultiLayerSpinningLidar
+[global_planner_node-4] [INFO] [1795489524.500677303] [perception_3d_global.lidar]: topic: segmented_cloud_pure
+[global_planner_node-4] [INFO] [1795489524.500801326] [perception_3d_global.lidar]: vertical_FOV_top: 15.0
+[global_planner_node-4] [INFO] [1795489524.500901394] [perception_3d_global.lidar]: vertical_FOV_bottom: -15.0
+[global_planner_node-4] [INFO] [1795489524.501001261] [perception_3d_global.lidar]: scan_effective_positive_start: 30.0
+[global_planner_node-4] [INFO] [1795489524.501103774] [perception_3d_global.lidar]: scan_effective_positive_end: 180.0
+[global_planner_node-4] [INFO] [1795489524.501197520] [perception_3d_global.lidar]: scan_effective_negative_start: -30.0
+[global_planner_node-4] [INFO] [1795489524.501289172] [perception_3d_global.lidar]: scan_effective_negative_end: -180.0
+[global_planner_node-4] [INFO] [1795489524.501397706] [perception_3d_global.lidar]: euclidean_cluster_extraction_tolerance: 0.1
+[global_planner_node-4] [INFO] [1795489524.501498135] [perception_3d_global.lidar]: euclidean_cluster_extraction_min_cluster_size: 1
+[global_planner_node-4] [INFO] [1795489524.501571052] [perception_3d_global.lidar]: euclidean_cluster_minimum_accepted_size: 10
+[global_planner_node-4] [INFO] [1795489524.501651884] [perception_3d_global.lidar]: xy_resolution: 0.05
+[global_planner_node-4] [INFO] [1795489524.501728318] [perception_3d_global.lidar]: height_resolution: 0.05
+[global_planner_node-4] [INFO] [1795489524.501797939] [perception_3d_global.lidar]: marking_height: 2.00
+[global_planner_node-4] [INFO] [1795489524.501879111] [perception_3d_global.lidar]: marking_minimum_height: 0.30
+[global_planner_node-4] [INFO] [1795489524.501951948] [perception_3d_global.lidar]: perception_window_size: 5.00
+[global_planner_node-4] [INFO] [1795489524.502873590] [perception_3d_global.lidar]: segmentation_ignore_ratio: 1.10
+[global_planner_node-4] [INFO] [1795489524.503143137] [perception_3d_global.lidar]: is_local_planner: 0
+[global_planner_node-4] [INFO] [1795489524.503276688] [perception_3d_global.lidar]: expected_sensor_time: 0.10
+[global_planner_node-4] [INFO] [1795489524.503395351] [perception_3d_global.lidar]: pub_gbl_marking_for_visualization: 1
+[global_planner_node-4] [INFO] [1795489524.503893417] [perception_3d_global.lidar]: stitcher_num: 0
+[global_planner_node-4] [INFO] [1795489524.504052085] [perception_3d_global.lidar]: pub_gbl_marking_frequency: 1.0
+[global_planner_node-4] [WARN] [1795489524.515035556] [perception_3d_global]: Loop time: 100 ms
+[global_planner_node-4] [WARN] [1795489524.515108583] [perception_3d_global]: dGraph publish time: 1000 ms
+[global_planner_node-4] [INFO] [1795489524.518504665] [global_planner]: turning_weight: 0.10
+[global_planner_node-4] [INFO] [1795489524.518680596] [global_planner]: enable_detail_log: 0
+[global_planner_node-4] [INFO] [1795489524.518806101] [global_planner]: a_star_expanding_radius: 0.50
+[global_planner_node-4] [INFO] [1795489524.518934853] [global_planner]: use_pre_graph: 0
+[global_planner_node-4] [INFO] [1795489524.519048898] [global_planner]: find_start_tolerance: 0.50
+[global_planner_node-4] [INFO] [1795489524.537289867] [dynamic_window_aware_global_planner]: look_ahead_distance: 2.00
+[global_planner_node-4] [INFO] [1795489524.537621751] [dynamic_window_aware_global_planner]: recompute_frequency: 10.00
+[global_planner_node-4] [WARN] [1795489524.543823386] [perception_3d_global.map]: map receive new [1;32mMap[0m with size: 12899
+[global_planner_node-4] [WARN] [1795489524.550746075] [perception_3d_global.map]: map receive new [1;32mGround[0m with size: 43526
+[global_planner_node-4] [WARN] [1795489524.557535094] [perception_3d_global.lidar]: Topic: segmented_cloud_pure received with lantency higher than your expection: 1.557 seconds difference and your are expecting: 0.100
+[global_planner_node-4] [WARN] [1795489524.615305520] [perception_3d_global.map]: map has already received two msg.
+[global_planner_node-4] [INFO] [1795489524.615353811] [perception_3d_global.map]: map starts to reset dynamic graph.
+[p2p_move_base_node-5] [INFO] [1795489524.700546430] [perception_3d_local]: Use plugin name: map ---> perception_3d::StaticLayer
+[p2p_move_base_node-5] [INFO] [1795489524.710461564] [perception_3d_local.map]: radius_of_ground_connection: 1.00
+[p2p_move_base_node-5] [INFO] [1795489524.713266364] [perception_3d_local.map]: use_adaptive_connection: 1
+[p2p_move_base_node-5] [INFO] [1795489524.718144532] [perception_3d_local.map]: adaptive_connection_number: 20
+[p2p_move_base_node-5] [INFO] [1795489524.718390073] [perception_3d_local.map]: turning_weight: 0.10
+[p2p_move_base_node-5] [INFO] [1795489524.718551537] [perception_3d_local.map]: intensity_search_radius: 1.00
+[p2p_move_base_node-5] [INFO] [1795489524.718672795] [perception_3d_local.map]: intensity_search_punish_weight: 0.10
+[p2p_move_base_node-5] [INFO] [1795489524.718781599] [perception_3d_local.map]: static_imposing_radius: 0.25
+[p2p_move_base_node-5] [INFO] [1795489524.718897677] [perception_3d_local.map]: is_local_planner: 1
+[p2p_move_base_node-5] [INFO] [1795489524.719016200] [perception_3d_local.map]: map_topic: map1/mapcloud
+[p2p_move_base_node-5] [INFO] [1795489524.719122981] [perception_3d_local.map]: ground_topic: map1/mapground
+[p2p_move_base_node-5] [INFO] [1795489524.719213350] [perception_3d_local.map]: mapping_mode: 0
+[p2p_move_base_node-5] [INFO] [1795489524.719308449] [perception_3d_local.map]: enable_edge_detection: 1
+[p2p_move_base_node-5] [INFO] [1795489524.719401013] [perception_3d_local.map]: generate_static_graph: 0
+[p2p_move_base_node-5] [INFO] [1795489524.751626794] [perception_3d_local]: Use plugin name: path_blocked_strategy ---> perception_3d::PathBlockedStrategy
+[p2p_move_base_node-5] [INFO] [1795489524.755364839] [perception_3d_local.path_blocked_strategy]: check_radius: 0.30
+[p2p_move_base_node-5] [INFO] [1795489524.758869986] [perception_3d_local]: Use plugin name: lidar ---> perception_3d::MultiLayerSpinningLidar
+[p2p_move_base_node-5] [INFO] [1795489524.759188745] [perception_3d_local.lidar]: topic: segmented_cloud_pure
+[p2p_move_base_node-5] [INFO] [1795489524.759349297] [perception_3d_local.lidar]: vertical_FOV_top: 15.0
+[p2p_move_base_node-5] [INFO] [1795489524.759515970] [perception_3d_local.lidar]: vertical_FOV_bottom: -15.0
+[p2p_move_base_node-5] [INFO] [1795489524.759635625] [perception_3d_local.lidar]: scan_effective_positive_start: 30.0
+[p2p_move_base_node-5] [INFO] [1795489524.759748747] [perception_3d_local.lidar]: scan_effective_positive_end: 180.0
+[p2p_move_base_node-5] [INFO] [1795489524.759854546] [perception_3d_local.lidar]: scan_effective_negative_start: -30.0
+[p2p_move_base_node-5] [INFO] [1795489524.759979912] [perception_3d_local.lidar]: scan_effective_negative_end: -180.0
+[p2p_move_base_node-5] [INFO] [1795489524.760095629] [perception_3d_local.lidar]: euclidean_cluster_extraction_tolerance: 0.5
+[p2p_move_base_node-5] [INFO] [1795489524.760201608] [perception_3d_local.lidar]: euclidean_cluster_extraction_min_cluster_size: 1
+[p2p_move_base_node-5] [INFO] [1795489524.760301947] [perception_3d_local.lidar]: euclidean_cluster_minimum_accepted_size: 10
+[p2p_move_base_node-5] [INFO] [1795489524.760403438] [perception_3d_local.lidar]: xy_resolution: 0.00
+[p2p_move_base_node-5] [INFO] [1795489524.760497174] [perception_3d_local.lidar]: height_resolution: 0.05
+[p2p_move_base_node-5] [INFO] [1795489524.760588485] [perception_3d_local.lidar]: marking_height: 2.00
+[p2p_move_base_node-5] [INFO] [1795489524.760677032] [perception_3d_local.lidar]: marking_minimum_height: 0.30
+[p2p_move_base_node-5] [INFO] [1795489524.760775467] [perception_3d_local.lidar]: perception_window_size: 3.00
+[p2p_move_base_node-5] [INFO] [1795489524.760858202] [perception_3d_local.lidar]: segmentation_ignore_ratio: 0.50
+[p2p_move_base_node-5] [INFO] [1795489524.760937251] [perception_3d_local.lidar]: is_local_planner: 1
+[p2p_move_base_node-5] [INFO] [1795489524.772600209] [perception_3d_local.lidar]: expected_sensor_time: 0.20
+[p2p_move_base_node-5] [INFO] [1795489524.775260748] [perception_3d_local.lidar]: pub_gbl_marking_for_visualization: 0
+[p2p_move_base_node-5] [INFO] [1795489524.778570038] [perception_3d_local.lidar]: stitcher_num: 0
+[p2p_move_base_node-5] [INFO] [1795489524.781776143] [perception_3d_local.lidar]: pub_gbl_marking_frequency: 1.0
+[p2p_move_base_node-5] [WARN] [1795489524.809303354] [perception_3d_local]: Loop time: 100 ms
+[p2p_move_base_node-5] [INFO] [1795489524.830239899] [recovery_behaviors]: odom_topic: odom
+[p2p_move_base_node-5] [INFO] [1795489524.891806820] [recovery_behaviors]: Use behavior name: rotate_inplace ---> recovery_behaviors::RotateInPlaceBehavior
+[p2p_move_base_node-5] [INFO] [1795489524.897946368] [recovery_behaviors.rotate_inplace]: frequency: 10.00
+[p2p_move_base_node-5] [INFO] [1795489524.898979099] [recovery_behaviors.rotate_inplace]: tolerance: 0.30
+[p2p_move_base_node-5] [INFO] [1795489524.900878137] [recovery_behaviors.rotate_inplace]: trajectory_generator_name: differential_drive_rotate_inplace
+[p2p_move_base_node-5] [INFO] [1795489524.947217842] [local_planner]: odom_topic: odom
+[p2p_move_base_node-5] [INFO] [1795489524.948203965] [local_planner]: odom_topic_qos: best_effort
+[p2p_move_base_node-5] [INFO] [1795489524.949937503] [local_planner]: steering_state_topic: steering_state_topic
+[p2p_move_base_node-5] [INFO] [1795489524.950588577] [local_planner]: forward_prune: 3.00
+[p2p_move_base_node-5] [INFO] [1795489524.951033903] [local_planner]: backward_prune: 1.00
+[p2p_move_base_node-5] [INFO] [1795489524.951878140] [local_planner]: heading_tracking_distance: 0.50
+[p2p_move_base_node-5] [INFO] [1795489524.952750359] [local_planner]: heading_align_angle: 0.50
+[p2p_move_base_node-5] [INFO] [1795489524.953209833] [local_planner]: prune_plane_timeout: 3.00
+[p2p_move_base_node-5] [INFO] [1795489524.954499075] [local_planner]: xy_goal_tolerance: 1.00
+[p2p_move_base_node-5] [INFO] [1795489524.954834876] [local_planner]: yaw_goal_tolerance: 0.79
+[p2p_move_base_node-5] [INFO] [1795489524.955351006] [local_planner]: controller_frequency: 10.00
+[p2p_move_base_node-5] [INFO] [1795489524.983930144] [local_planner.local_planner]: Start to parse cuboid.
+[p2p_move_base_node-5] [INFO] [1795489524.995114653] [local_planner.local_planner]: Cuboid vertex are loaded, start to connect edges.
+[global_planner_node-4] [INFO] [1795489525.026034760] [global_planner]: Waiting for static layer
+[p2p_move_base_node-5] [INFO] [1795489525.048536317] [global_plan_manager]: P2P global plan manager uses [1;32mget_dwa_plan[0m service to query global plan.
+[p2p_move_base_node-5] [INFO] [1795489525.051533830] [global_plan_manager]: global_plan_query_frequency: 2.00
+[p2p_move_base_node-5] [INFO] [1795489525.119979718] [global_plan_manager]: Global plan manager is stopped
+[p2p_move_base_node-5] [INFO] [1795489525.120744936] [p2p_move_base]: planner_patience: 10.00
+[p2p_move_base_node-5] [INFO] [1795489525.121377334] [p2p_move_base]: oscillation_distance: 5.00
+[p2p_move_base_node-5] [INFO] [1795489525.122702154] [p2p_move_base]: oscillation_angle: 1.00
+[p2p_move_base_node-5] [INFO] [1795489525.124761484] [p2p_move_base]: oscillation_patience: 15.00
+[p2p_move_base_node-5] [INFO] [1795489525.125075244] [p2p_move_base]: controller_patience: 10.00
+[p2p_move_base_node-5] [INFO] [1795489525.125304645] [p2p_move_base]: no_plan_retry_num: 10
+[p2p_move_base_node-5] [INFO] [1795489525.125500112] [p2p_move_base]: waiting_patience: 10.00
+[p2p_move_base_node-5] [INFO] [1795489525.125682976] [p2p_move_base]: controller_frequency: 20.00
+[p2p_move_base_node-5] [INFO] [1795489525.125842576] [p2p_move_base]: use_stamped_twist: 0
+[p2p_move_base_node-5] [INFO] [1795489525.125975686] [p2p_move_base]: use_position_control_at_goal: 0
+[p2p_move_base_node-5] [INFO] [1795489525.126144433] [p2p_move_base]: main_trajectory_generator: differential_drive_simple
+[p2p_move_base_node-5] [INFO] [1795489525.126278625] [p2p_move_base]: heading_trajectory_generator: differential_drive_rotate_shortest_angle
+[p2p_move_base_node-5] [INFO] [1795489525.232457063] [p2p_move_base]: [1;32m---->[0m P2P move base launched.
+[p2p_move_base_node-5] [WARN] [1795489525.236512524] [perception_3d_local.map]: map receive new [1;32mMap[0m with size: 12899
+[p2p_move_base_node-5] [WARN] [1795489525.244300580] [perception_3d_local.lidar]: Topic: segmented_cloud_pure received with lantency higher than your expection: 1.958 seconds difference and your are expecting: 0.200
+[p2p_move_base_node-5] [WARN] [1795489525.254080740] [perception_3d_local.map]: map receive new [1;32mGround[0m with size: 43526
+[p2p_move_base_node-5] [WARN] [1795489525.309473808] [perception_3d_local.map]: map has already received two msg.
+[p2p_move_base_node-5] [INFO] [1795489525.309516629] [perception_3d_local.map]: map starts to reset dynamic graph.
+[global_planner_node-4] [INFO] [1795489526.524421000] [global_planner]: Waiting for static layer
+[global_planner_node-4] [INFO] [1795489528.024439047] [global_planner]: Waiting for static layer
+[global_planner_node-4] [INFO] [1795489529.524435915] [global_planner]: Waiting for static layer
+[global_planner_node-4] [INFO] [1795489531.024456347] [global_planner]: Waiting for static layer
+[global_planner_node-4] [INFO] [1795489531.799548524] [perception_3d_global.map]: Computation of Edge from ground point cloud is done.
+[global_planner_node-4] [INFO] [1795489531.799585273] [perception_3d_global.lidar]: lidar starts to reset dynamic graph.
+[global_planner_node-4] [INFO] [1795489531.807320069] [perception_3d_global.lidar]: lidar done dynamic graph regeneration.
+[global_planner_node-4] [pcl::KdTreeFLANN::setInputCloud] Cannot create a KDTree with an empty input cloud!
+[global_planner_node-4] [INFO] [1795489531.807364643] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [WARN] [1795489531.833190016] [perception_3d_global]: Map update loop missed its desired rate of 10.0000Hz... the loop actually took 5.3750 seconds
+[global_planner_node-4] [WARN] [1795489531.837103069] [perception_3d_global.lidar]: Topic: segmented_cloud_pure received with lantency higher than your expection: 5.299 seconds difference and your are expecting: 0.100
+[global_planner_node-4] [INFO] [1795489532.029879288] [global_planner]: Ground and Kd-tree ground have been received from perception_3d.
+[global_planner_node-4] [INFO] [1795489532.038374352] [global_planner]: Publish weighted ground point cloud.
+[global_planner_node-4] [INFO] [1795489532.915266379] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489534.015290832] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489535.115269328] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489536.215284664] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489537.315296163] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489538.415369889] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489539.515260321] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489540.615289083] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489541.715321983] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489542.815323945] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489543.915328893] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489545.015312972] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489546.115456551] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489547.215348447] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489548.315381859] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489549.415330132] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489550.515398751] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489551.615382710] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489552.715416224] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489553.815395195] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489554.915384034] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489556.015407940] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489557.115362736] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489558.215433370] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489559.315397444] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489560.415381325] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489561.515336122] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489562.615381740] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489563.715425995] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489564.815445705] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489565.915415310] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489567.015496175] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489568.115445062] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489569.215452750] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489570.315425151] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489571.415422249] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489572.515453261] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489573.615443106] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489574.715461926] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489575.815492548] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489576.915458248] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489578.015456249] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489579.115471893] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489580.215448384] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489581.315549880] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489582.415522584] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [INFO] [1795489583.520631861] [perception_3d_global.lidar]: Marking less than 5 points
+[p2p_move_base_node-5] [INFO] [1795489583.942553209] [global_plan_manager]: Global plan manager is resumed
+[p2p_move_base_node-5] [INFO] [1795489583.993161857] [global_plan_manager]: Goal accepted by: get_dwa_plan, waiting for result
+[global_planner_node-4] [INFO] [1795489583.993524598] [dynamic_window_aware_global_planner]: Received new goal at: 3.00, 0.00, 0.00
+[global_planner_node-4] [WARN] [1795489583.993618625] [global_planner]: Selected goal: 3.00, 0.00, 0.00, Nearest-> id: 5099, x: 2.91, y: 0.32, z: -0.05
+[global_planner_node-4] [WARN] [1795489583.993674009] [global_planner]: Selected start: 0.11, -0.02, 0.10, Nearest-> id: 29851, x: 0.12, y: -0.07, z: 0.07
+[global_planner_node-4] [INFO] [1795489584.345937921] [global_planner]: Path found from: 29851 to 5099
+[p2p_move_base_node-5] [INFO] [1795489584.392752088] [local_planner.local_planner]: Recieve new global plan.
+[p2p_move_base_node-5] [INFO] [1795489584.442869583] [global_plan_manager]: Goal accepted by: get_dwa_plan, waiting for result
+[rviz2-7] [INFO] [1795489584.445884849] [rviz]: Message Filter dropping message: frame '' at time 0.000 for reason 'the frame id of the message is empty'
+[global_planner_node-4] [INFO] [1795489584.743921984] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [WARN] [1795489584.746459232] [perception_3d_global]: Map update loop missed its desired rate of 10.0000Hz... the loop actually took 0.2200 seconds
+[global_planner_node-4] [WARN] [1795489584.906553083] [perception_3d_global]: Map update loop missed its desired rate of 10.0000Hz... the loop actually took 0.1400 seconds
+[global_planner_node-4] [WARN] [1795489585.069833111] [perception_3d_global]: Map update loop missed its desired rate of 10.0000Hz... the loop actually took 0.1550 seconds
+[global_planner_node-4] [WARN] [1795489585.221047656] [perception_3d_global.lidar]: Topic: segmented_cloud_pure received with lantency higher than your expection: 0.200 seconds difference and your are expecting: 0.100
+[global_planner_node-4] [WARN] [1795489585.225183949] [perception_3d_global]: Map update loop missed its desired rate of 10.0000Hz... the loop actually took 0.1400 seconds
+[global_planner_node-4] [WARN] [1795489585.591047338] [perception_3d_global]: Map update loop missed its desired rate of 10.0000Hz... the loop actually took 0.3400 seconds
+[global_planner_node-4] [WARN] [1795489585.799162564] [perception_3d_global]: Map update loop missed its desired rate of 10.0000Hz... the loop actually took 0.1900 seconds
+[global_planner_node-4] [INFO] [1795489586.025680865] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [WARN] [1795489586.027716992] [perception_3d_global]: Map update loop missed its desired rate of 10.0000Hz... the loop actually took 0.2150 seconds
+[global_planner_node-4] [WARN] [1795489586.296287310] [perception_3d_global]: Map update loop missed its desired rate of 10.0000Hz... the loop actually took 0.2500 seconds
+[global_planner_node-4] [INFO] [1795489586.296730784] [dynamic_window_aware_global_planner]: DWA goal reach the global path end at: 3.00, 0.00, 0.00
+[global_planner_node-4] [WARN] [1795489587.052786352] [perception_3d_global]: Map update loop missed its desired rate of 10.0000Hz... the loop actually took 0.6350 seconds
+[global_planner_node-4] [WARN] [1795489587.258755546] [perception_3d_global.lidar]: Topic: segmented_cloud_pure received with lantency higher than your expection: 0.599 seconds difference and your are expecting: 0.100
+[global_planner_node-4] [INFO] [1795489587.263704857] [perception_3d_global.lidar]: Marking less than 5 points
+[global_planner_node-4] [WARN] [1795489587.269379361] [perception_3d_global]: Map update loop missed its desired rate of 10.0000Hz... the loop actually took 0.1950 seconds
+[p2p_move_base_node-5] [INFO] [1795489587.392733598] [p2p_move_base]: Goal xy tolerance reach, switch to align goal heading state.
+[p2p_move_base_node-5] [INFO] [1795489587.442599340] [p2p_move_base]: Goal reach.
+[p2p_move_base_node-5] [INFO] [1795489587.443741576] [global_plan_manager]: Global plan manager is stopped
+[global_planner_node-4] [WARN] [1795489587.474043021] [perception_3d_global]: Map update loop missed its desired rate of 10.0000Hz... the loop actually took 0.1800 seconds
+[p2p_move_base_node-5] [INFO] [1795489587.575109493] [global_plan_manager]: Goal accepted by: get_dwa_plan, waiting for result
+[p2p_move_base_node-5] [INFO] [1795489587.575437910] [global_plan_manager]: Goal accepted by: get_dwa_plan, waiting for result
+[global_planner_node-4] [INFO] [1795489587.588061764] [cluster_marking]: only few projection
+[global_planner_node-4] [INFO] [1795489587.599835410] [cluster_marking]: only few projection
+[global_planner_node-4] [INFO] [1795489588.266357120] [perception_3d_global.lidar]: Receiving Lidar topic: segmented_cloud_pure
+[p2p_move_base_node-5] [INFO] [1795489588.266854735] [perception_3d_local.lidar]: Receiving Lidar topic: segmented_cloud_pure
+[global_planner_node-4] [INFO] [1795489588.418532270] [perception_3d_global.lidar]: Marking less than 5 points
+[mcl_feature-1] [WARN] [1795489594.047914991] [mcl_fa]: Time differ from odom msg and lidar msg: 1.100, overwrite odom stamp by lidar stamp

@@ -1,0 +1,71 @@
+{
+  "received_messages": {
+    "/dddmr/lidar_points": 4480,
+    "/ground_cloud": 4480,
+    "/laser_cloud_sharp": 4479,
+    "/laser_cloud_less_flat": 4479,
+    "/key_poses": 4478
+  },
+  "last_messages": {
+    "/dddmr/lidar_points": {
+      "points": 9634,
+      "frame": "dddmr_lidar"
+    },
+    "/ground_cloud": {
+      "points": 290,
+      "frame": "dddmr_lidar"
+    },
+    "/laser_cloud_sharp": {
+      "points": 2,
+      "frame": "dddmr_lidar"
+    },
+    "/laser_cloud_less_flat": {
+      "points": 58,
+      "frame": "dddmr_lidar"
+    },
+    "/key_poses": {
+      "poses": 232,
+      "frame": "map"
+    }
+  },
+  "maximum_key_poses": 232,
+  "save": {
+    "service_available": true,
+    "response_received": true
+  },
+  "tf": {
+    "base_link": {
+      "xyz": [
+        -0.612781576957965,
+        3.8696725638061378,
+        0.3331208400646978
+      ]
+    },
+    "dddmr_lidar": {
+      "xyz": [
+        -0.7017257618956563,
+        4.136996732023526,
+        0.3486445120921975
+      ]
+    },
+    "odom": {
+      "xyz": [
+        -0.29706589724913385,
+        -0.07614002524187358,
+        0.1592367978339001
+      ]
+    }
+  },
+  "maps": [
+    {
+      "directory": "maps/2026_11_25_11_54_17",
+      "points": {
+        "map": 1132,
+        "ground": 13333,
+        "poses": 232,
+        "edges": 232
+      },
+      "missing_keyframe_files": []
+    }
+  ]
+}

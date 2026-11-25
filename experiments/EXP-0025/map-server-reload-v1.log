@@ -1,0 +1,16 @@
+[INFO] [1795592121.399328304] [dddmr_pg_map_server_manager]: Initializing map: map1
+[INFO] [1795592121.401376084] [map1]: pose_graph_dir: /saved-map
+[INFO] [1795592121.401419827] [map1]: complete_map_voxel_size: 0.10
+[INFO] [1795592121.405485702] [map1]: Poses read: 24
+[INFO] [1795592121.424556858] [map1]: [1;32mPose graph is loaded.[0m 
+[INFO] [1795592121.425913462] [map1]: Map pointcloud size: 186
+[INFO] [1795592121.425940393] [map1]: Map pointcloud size after down size: 102
+[INFO] [1795592121.426075057] [map1]: Surface pointcloud size: 559
+[INFO] [1795592121.426089415] [map1]: Surf pointcloud size after down size: 354
+[INFO] [1795592121.426890068] [map1]: Ground pointcloud size: 16807
+[INFO] [1795592121.426918902] [map1]: Ground pointcloud size after down size: 2256
+[INFO] [1795592121.427902932] [map1]: Done 0/2256
+[INFO] [1795592121.428437903] [map1]: Done 2000/2256
+[INFO] [1795592121.434487788] [map1]: Done 1000/2256
+[INFO] [1795592121.440391797] [map1]: Surface detection done.
+[INFO] [1795592121.440818534] [map1]: [1;32mMap and Ground published.[0m 

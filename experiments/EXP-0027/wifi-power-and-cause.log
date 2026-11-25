@@ -1,0 +1,67 @@
+Nov 25 16:15:41 ubuntu NetworkManager[607]: <info>  [1795594541.1813] device (wlan0): state change: activated -> unmanaged (reason 'removed', sys-iface-state: 'removed')
+Nov 25 16:15:41 ubuntu NetworkManager[607]: <info>  [1795594541.2703] device (p2p-dev-wlan0): state change: disconnected -> unmanaged (reason 'removed', sys-iface-state: 'removed')
+Nov 25 16:15:41 ubuntu NetworkManager[607]: <warn>  [1795594541.2808] dns-sd-resolved[775d467d2216d865]: send-updates failed to update systemd-resolved: GDBus.Error:org.freedesktop.resolve1.NoSuchLink: Link 6 not known
+Nov 25 16:15:46 ubuntu NetworkManager[607]: <info>  [1795594546.1281] device (wlan0): driver supports Access Point (AP) mode
+Nov 25 16:15:46 ubuntu NetworkManager[607]: <info>  [1795594546.1741] device (wlan0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Nov 25 16:15:55 ubuntu NetworkManager[607]: <info>  [1795594555.6105] device (wlan0): supplicant interface state: starting -> ready
+Nov 25 16:15:55 ubuntu NetworkManager[607]: <info>  [1795594555.6114] device (p2p-dev-wlan0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Nov 25 16:15:55 ubuntu NetworkManager[607]: <info>  [1795594555.6127] device (p2p-dev-wlan0): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Nov 25 16:15:55 ubuntu NetworkManager[607]: <info>  [1795594555.6130] device (wlan0): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Nov 25 16:15:55 ubuntu NetworkManager[607]: <warn>  [1795594555.6200] sup-iface: failed to cancel p2p connect: P2P cancel failed
+Nov 25 16:16:02 ubuntu NetworkManager[607]: <info>  [1795594562.1276] device (wlan0): Activation: starting connection 'spin220' (69a1a2a2-ac6a-4442-9a27-a03520f9fd88)
+Nov 25 16:16:02 ubuntu NetworkManager[607]: <info>  [1795594562.1278] device (wlan0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov 25 16:16:02 ubuntu NetworkManager[607]: <info>  [1795594562.1284] device (wlan0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov 25 16:16:02 ubuntu NetworkManager[607]: <info>  [1795594562.1288] device (wlan0): Activation: (wifi) access point 'spin220' has security, but secrets are required.
+Nov 25 16:16:02 ubuntu NetworkManager[607]: <info>  [1795594562.1288] device (wlan0): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Nov 25 16:16:02 ubuntu NetworkManager[607]: <info>  [1795594562.1312] device (wlan0): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Nov 25 16:16:02 ubuntu NetworkManager[607]: <info>  [1795594562.1316] device (wlan0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Nov 25 16:16:02 ubuntu NetworkManager[607]: <info>  [1795594562.1320] device (wlan0): Activation: (wifi) connection 'spin220' has security, and secrets exist.  No new secrets needed.
+Nov 25 16:16:02 ubuntu NetworkManager[607]: <info>  [1795594562.1493] device (wlan0): supplicant interface state: ready -> associating
+Nov 25 16:16:02 ubuntu NetworkManager[607]: <info>  [1795594562.1494] device (p2p-dev-wlan0): supplicant management interface state: ready -> associating
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.6024] device (wlan0): supplicant interface state: associating -> associated
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.6025] device (p2p-dev-wlan0): supplicant management interface state: associating -> associated
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.6136] device (wlan0): supplicant interface state: associated -> 4-way handshake
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.6137] device (p2p-dev-wlan0): supplicant management interface state: associated -> 4-way handshake
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7361] device (wlan0): supplicant interface state: 4-way handshake -> completed
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7363] device (wlan0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "spin220"
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7363] device (p2p-dev-wlan0): supplicant management interface state: 4-way handshake -> completed
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7366] device (wlan0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7616] device (wlan0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7897] device (wlan0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.7901] device (wlan0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Nov 25 16:16:04 ubuntu NetworkManager[607]: <info>  [1795594564.8067] device (wlan0): Activation: successful, device activated.
+Nov 25 16:15:41 ubuntu kernel: usb 1-2: USB disconnect, device number 4
+Nov 25 16:15:41 ubuntu kernel: RTW: rtw_wdev_unregister(wdev=0000000005d1e21c)
+Nov 25 16:15:41 ubuntu kernel: RTW: rtw_wdev_unregister(wlan0) clear current_bss by cfg80211_disconnected
+Nov 25 16:15:41 ubuntu kernel: RTW: rtw_cfg80211_indicate_disconnect(wlan0) ,reason = 0
+Nov 25 16:15:41 ubuntu kernel: RTW: rtw_cfg80211_indicate_disconnect(wlan0) call cfg80211_disconnected, reason:0
+Nov 25 16:15:41 ubuntu kernel: RTW: cfg80211_rtw_disconnect(wlan0) - Start to Disconnect
+Nov 25 16:15:41 ubuntu kernel: RTW: _rtw_disconnect...call rtw_indicate_disconnect
+Nov 25 16:15:41 ubuntu kernel: RTW: rtw_cfg80211_indicate_disconnect(wlan0) ,reason = 0
+Nov 25 16:15:41 ubuntu kernel: RTW: rtw_cfg80211_indicate_disconnect(wlan0) call cfg80211_disconnected, reason:0
+Nov 25 16:15:41 ubuntu kernel: RTW: _rtw_disconnect: bDriverStopped=True, bup=1, hw_init_completed=1
+Nov 25 16:15:41 ubuntu kernel: RTW: cfg80211_rtw_disconnect(wlan0) return 0
+Nov 25 16:15:41 ubuntu kernel: RTW: rtw_cfg80211_indicate_disconnect(wlan0) ,reason = 0
+Nov 25 16:15:41 ubuntu kernel: RTW: rtw_cfg80211_indicate_disconnect(wlan0) call cfg80211_disconnected, reason:0
+Nov 25 16:15:41 ubuntu kernel: RTW: rtw_wiphy_unregister(phy1)
+Nov 25 16:15:41 ubuntu kernel: RTW: Vendor: Unregister RTW cfg80211 vendor interface
+Nov 25 16:15:41 ubuntu kernel: usb 1-2: new high-speed USB device number 5 using tegra-xusb
+Nov 25 16:15:41 ubuntu kernel: usb 1-2: New USB device found, idVendor=0bda, idProduct=1a2b, bcdDevice= 0.00
+Nov 25 16:15:41 ubuntu kernel: usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Nov 25 16:15:41 ubuntu kernel: usb 1-2: Product: DISK
+Nov 25 16:15:41 ubuntu kernel: usb 1-2: Manufacturer: Realtek
+Nov 25 16:15:41 ubuntu kernel: usb-storage 1-2:1.0: USB Mass Storage device detected
+Nov 25 16:15:42 ubuntu kernel: usb 1-2: USB disconnect, device number 5
+Nov 25 16:15:42 ubuntu kernel: tegra-xusb 3610000.xhci: entering ELPG done
+Nov 25 16:15:43 ubuntu kernel: tegra-xusb 3610000.xhci: Firmware timestamp: 2021-12-01 05:27:10 UTC, Version: 80.03 release
+Nov 25 16:15:43 ubuntu kernel: usb 1-2: new high-speed USB device number 6 using tegra-xusb
+Nov 25 16:15:43 ubuntu kernel: usb 1-2: New USB device found, idVendor=0bda, idProduct=c812, bcdDevice= 0.00
+Nov 25 16:15:43 ubuntu kernel: usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Nov 25 16:15:43 ubuntu kernel: usb 1-2: Product: 802.11ac NIC
+Nov 25 16:15:43 ubuntu kernel: usb 1-2: Manufacturer: Realtek
+Nov 25 16:15:43 ubuntu kernel: usb 1-2: SerialNumber: 123456
+Nov 25 16:15:45 ubuntu kernel: RTW: EEPROM USB Switch=0
+default
+Error: Failed to modify connection 'spin220': Insufficient privileges
+Power save: on
+sudo: a password is required

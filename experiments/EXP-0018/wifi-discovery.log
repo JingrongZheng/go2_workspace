@@ -1,0 +1,4 @@
+Read-only DDS probe: interface=wlp3s0 domain=0
+wlp3s0           UP             192.168.110.120/24 fe80::bac8:9ce2:8044:38a0/64 
+Discovered topics: {"/parameter_events": ["rcl_interfaces/msg/ParameterEvent"], "/rosout": ["rcl_interfaces/msg/Log"]}
+Hardware source is unconfirmed until driver/endpoint/wiring is checked.

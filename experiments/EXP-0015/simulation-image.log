@@ -1,0 +1,84 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 1.99kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ros:humble
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [ 1/10] FROM docker.io/library/ros:humble@sha256:a18afd4a42ad603579d03b9012385dfeaf2e848423f0a6c41699766e7849c86c
+#4 resolve docker.io/library/ros:humble@sha256:a18afd4a42ad603579d03b9012385dfeaf2e848423f0a6c41699766e7849c86c 0.0s done
+#4 DONE 0.0s
+
+#5 [ 2/10] RUN sed -i -e 's|http://archive.ubuntu.com/ubuntu|http://mirrors.ustc.edu.cn/ubuntu|g' -e 's|http://security.ubuntu.com/ubuntu|http://mirrors.ustc.edu.cn/ubuntu|g' /etc/apt/sources.list
+#5 CACHED
+
+#6 [ 3/10] RUN sed -i -e 's|http://packages.ros.org/ros2/ubuntu|http://mirrors.ustc.edu.cn/ros2/ubuntu|g' -e 's/ deb-src//g' /etc/apt/sources.list.d/ros2.sources
+#6 CACHED
+
+#7 [ 4/10] RUN apt-get update && apt-get install -y --no-install-recommends     git build-essential cmake python3-colcon-common-extensions     ros-humble-ament-cmake-python     ros-humble-ament-lint-auto     ros-humble-ament-lint-common     ros-humble-gazebo-ros-pkgs     ros-humble-robot-state-publisher     ros-humble-joint-state-publisher-gui     ros-humble-rviz2     ros-humble-joy     ros-humble-ecl-threads     ros-humble-gazebo-ros2-control     ros-humble-xacro     ros-humble-robot-localization     ros-humble-ros2-controllers     ros-humble-ros2-control     ros-humble-velodyne     ros-humble-velodyne-gazebo-plugins     ros-humble-velodyne-description     && rm -rf /var/lib/apt/lists/*
+#7 CACHED
+
+#8 [internal] load build context
+#8 transferring context: 26.85MB 0.1s done
+#8 DONE 0.1s
+
+#9 [ 5/10] COPY sources/go2-fdac259.tar.gz /tmp/go2-fdac259.tar.gz
+#9 DONE 0.1s
+
+#10 [ 6/10] RUN mkdir -p /ws_gz/src     && mkdir -p /ws_gz/src/unitree-go2-ros2 && tar -xzf /tmp/go2-fdac259.tar.gz -C /ws_gz/src/unitree-go2-ros2 --strip-components=1
+#10 DONE 0.5s
+
+#11 [ 7/10] COPY simulator/ /opt/dfl_mobilerobot_simulator/
+#11 DONE 0.0s
+
+#12 [ 8/10] RUN bash /opt/dfl_mobilerobot_simulator/scripts/apply_go2_changes.bash /ws_gz/src/unitree-go2-ros2
+#12 0.104 Go2 adaptations complete: /ws_gz/src/unitree-go2-ros2
+#12 DONE 0.1s
+
+#13 [ 9/10] WORKDIR /ws_gz
+#13 DONE 0.0s
+
+#14 [10/10] RUN source /opt/ros/humble/setup.bash     && MAKEFLAGS=-j2 CMAKE_BUILD_PARALLEL_LEVEL=2 colcon build --parallel-workers 2 --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
+#14 0.905 Starting >>> champ
+#14 0.914 Starting >>> champ_msgs
+#14 2.609 Finished <<< champ [1.70s]
+#14 2.609 Starting >>> champ_description
+#14 3.685 Finished <<< champ_description [1.08s]
+#14 3.685 Starting >>> champ_config
+#14 4.640 Finished <<< champ_config [0.95s]
+#14 4.640 Starting >>> champ_navigation
+#14 5.505 Finished <<< champ_navigation [0.86s]
+#14 5.505 Starting >>> champ_teleop
+#14 6.329 Finished <<< champ_teleop [0.82s]
+#14 6.329 Starting >>> go2_config
+#14 7.762 Finished <<< go2_config [1.43s]
+#14 7.762 Starting >>> go2_description
+#14 9.041 Finished <<< go2_description [1.28s]
+#14 15.51 Finished <<< champ_msgs [14.6s]
+#14 15.51 Starting >>> champ_base
+#14 15.51 Starting >>> champ_gazebo
+#14 36.70 Finished <<< champ_gazebo [21.2s]
+#14 59.59 Finished <<< champ_base [44.1s]
+#14 59.59 Starting >>> champ_bringup
+#14 60.87 Finished <<< champ_bringup [1.28s]
+#14 60.89 
+#14 60.89 Summary: 11 packages finished [1min 0s]
+#14 DONE 61.0s
+
+#15 exporting to image
+#15 exporting layers
+#15 exporting layers 3.1s done
+#15 exporting manifest sha256:be012b7080810bf192c87c23456617c8bcaa756dc103b31714efb7a64ba45ea1 done
+#15 exporting config sha256:6aa71998e076cb6e6b0d68d838ff745732e6e1404df729aa1f4783f3da82a9a0 done
+#15 exporting attestation manifest sha256:bcabdaba405cb59b4cb8ad249980397c5a30c038a2994e204a4060f02e7a8bd1 done
+#15 exporting manifest list sha256:4b444e23df73ab2308743369e5a6efc77a6f7d287699514e4975fe099caa13df done
+#15 naming to docker.io/library/dddmr-sim:go2-local done
+#15 unpacking to docker.io/library/dddmr-sim:go2-local
+#15 unpacking to docker.io/library/dddmr-sim:go2-local 0.7s done
+#15 DONE 3.8s

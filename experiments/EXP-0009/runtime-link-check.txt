@@ -1,0 +1,85 @@
+PACKAGE
+/unitree/module/graph_pid_ws/install/hesai_lidar
+hesai_lidar hesai_lidar_node
+BINARY
+/unitree/module/graph_pid_ws/install/hesai_lidar/lib/hesai_lidar/hesai_lidar_node: ELF 64-bit LSB shared object, ARM aarch64, version 1 (GNU/Linux), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, BuildID[sha1]=1fe938dbe6429562179ce3bb5c65a524bce4bff0, for GNU/Linux 3.7.0, not stripped
+DEPENDENCIES
+	linux-vdso.so.1 (0x0000ffffac469000)
+	libsensor_msgs__rosidl_typesupport_cpp.so => /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_cpp.so (0x0000ffffac311000)
+	libPandarGeneralSDK.so => /lib/libPandarGeneralSDK.so (0x0000ffffac284000)
+	librclcpp.so => /opt/ros/foxy/lib/librclcpp.so (0x0000ffffac0bc000)
+	liblibstatistics_collector.so => /opt/ros/foxy/lib/liblibstatistics_collector.so (0x0000ffffac0a6000)
+	libstd_msgs__rosidl_typesupport_cpp.so => /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so (0x0000ffffac08d000)
+	librcl.so => /opt/ros/foxy/lib/librcl.so (0x0000ffffac046000)
+	libstatistics_msgs__rosidl_typesupport_cpp.so => /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so (0x0000ffffac033000)
+	libtracetools.so => /opt/ros/foxy/lib/libtracetools.so (0x0000ffffac021000)
+	libhesai_lidar__rosidl_typesupport_cpp.so => /unitree/module/graph_pid_ws/install/hesai_lidar/lib/libhesai_lidar__rosidl_typesupport_cpp.so (0x0000ffffac00e000)
+	librcutils.so => /opt/ros/foxy/lib/librcutils.so (0x0000ffffabfe9000)
+	libstdc++.so.6 => /lib/aarch64-linux-gnu/libstdc++.so.6 (0x0000ffffabe04000)
+	libgcc_s.so.1 => /lib/aarch64-linux-gnu/libgcc_s.so.1 (0x0000ffffabde0000)
+	libc.so.6 => /lib/aarch64-linux-gnu/libc.so.6 (0x0000ffffabc6d000)
+	/lib/ld-linux-aarch64.so.1 (0x0000ffffac439000)
+	librosidl_typesupport_cpp.so => /opt/ros/foxy/lib/librosidl_typesupport_cpp.so (0x0000ffffabc58000)
+	libPandarGeneral.so => /unitree/module/graph_pid_ws/build/hesai_lidar/libPandarGeneral.so (0x0000ffffabbb6000)
+	libboost_thread.so.1.71.0 => /lib/aarch64-linux-gnu/libboost_thread.so.1.71.0 (0x0000ffffabb7b000)
+	libpthread.so.0 => /lib/aarch64-linux-gnu/libpthread.so.0 (0x0000ffffabb4a000)
+	librcl_yaml_param_parser.so => /opt/ros/foxy/lib/librcl_yaml_param_parser.so (0x0000ffffabb31000)
+	librosgraph_msgs__rosidl_typesupport_cpp.so => /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_cpp.so (0x0000ffffabb1f000)
+	librcl_interfaces__rosidl_typesupport_cpp.so => /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_cpp.so (0x0000ffffabb06000)
+	librmw_implementation.so => /opt/ros/foxy/lib/librmw_implementation.so (0x0000ffffabaec000)
+	librmw.so => /opt/ros/foxy/lib/librmw.so (0x0000ffffabad5000)
+	librcpputils.so => /opt/ros/foxy/lib/librcpputils.so (0x0000ffffababe000)
+	libm.so.6 => /lib/aarch64-linux-gnu/libm.so.6 (0x0000ffffaba13000)
+	librcl_interfaces__rosidl_typesupport_c.so => /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_c.so (0x0000ffffab9fc000)
+	librcl_logging_spdlog.so => /opt/ros/foxy/lib/librcl_logging_spdlog.so (0x0000ffffab9e1000)
+	librcl_interfaces__rosidl_generator_c.so => /opt/ros/foxy/lib/librcl_interfaces__rosidl_generator_c.so (0x0000ffffab9b7000)
+	librosidl_runtime_c.so => /opt/ros/foxy/lib/librosidl_runtime_c.so (0x0000ffffab99d000)
+	libdl.so.2 => /lib/aarch64-linux-gnu/libdl.so.2 (0x0000ffffab989000)
+	libpcap.so.0.8 => /lib/aarch64-linux-gnu/libpcap.so.0.8 (0x0000ffffab934000)
+	libyaml.so => /opt/ros/foxy/lib/libyaml.so (0x0000ffffab905000)
+	librosidl_typesupport_c.so => /opt/ros/foxy/lib/librosidl_typesupport_c.so (0x0000ffffab8f1000)
+	libspdlog.so.1 => /lib/aarch64-linux-gnu/libspdlog.so.1 (0x0000ffffab845000)
+	libbuiltin_interfaces__rosidl_generator_c.so => /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so (0x0000ffffab831000)
+INSTALLED_LAUNCH
+from launch import LaunchDescription
+import launch_ros.actions
+
+
+def generate_launch_description():
+    return LaunchDescription([
+        launch_ros.actions.Node(
+            package ='hesai_lidar',
+            namespace ='/',
+            executable ='hesai_lidar_node',
+            name ='hesai_node',
+            output ="screen",
+            parameters=[
+                {"pcap_file": ""},
+                {"server_ip"  : "192.168.123.20"},
+                {"lidar_recv_port"  : 2368},
+                {"gps_port"  : 10110},
+                {"start_angle"  : 0.0},
+                {"lidar_type"  : "PandarXT-16"},
+                {"frame_id"  : "rslidar"},
+                {"pcldata_type"  : 0},
+                {"publish_type"  : "both"},
+                {"timestamp_type"  : "realtime"},
+                {"data_type"  : ""},
+                {"lidar_correction_file"  : "/unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/config/PandarXT-16.csv"},
+                {"multicast_ip"  : ""},
+                {"coordinate_correction_flag"  : False},
+                {"fixed_frame"  : ""},
+                {"target_frame_frame"  : ""}
+            ]
+        )
+    ])
+
+
+
+CALIBRATION
+-rwxr-xr-x 1 root root 160 Jan  1  1970 /unitree/module/graph_pid_ws/src/HesaiLidar_General_ROS-ROS2/config/PandarXT-16.csv
+Channel,Elevation,Azimuth
+1,15,0
+2,13,0
+3,11,0
+4,9,0

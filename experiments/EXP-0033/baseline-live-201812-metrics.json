@@ -1,0 +1,27 @@
+{
+  "session": ".work/sessions/live-20261125-201812",
+  "bag": ".work/sessions/bag-20261125-201833",
+  "duration_s": 392.36,
+  "keyframes": 318,
+  "path_length_m": 55.552,
+  "ground_points": 17024,
+  "edge_points": 1494,
+  "start_xyz_m": [
+    -0.2814,
+    -0.0009,
+    -0.0007
+  ],
+  "end_xyz_m": [
+    -0.4,
+    -0.1534,
+    0.7413
+  ],
+  "closure_offset_xyz_m": [
+    -0.1186,
+    -0.1526,
+    0.742
+  ],
+  "closure_xy_m": 0.1933,
+  "closure_z_m": 0.742,
+  "closure_3d_m": 0.7667
+}

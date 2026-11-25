@@ -1,0 +1,76 @@
+{
+  "measurements": {
+    "lidar": {
+      "samples": 1499,
+      "median_accel_m_s2": [
+        4.2721099853515625,
+        -0.002155616879463196,
+        9.807682991027832
+      ],
+      "median_accel_norm_m_s2": 10.687949690651177,
+      "gyro_norm_p95_rad_s": 0.025121239080239083,
+      "dock_clock_minus_header_median_s": 42.958890899
+    },
+    "body": {
+      "samples": 121,
+      "median_accel_m_s2": [
+        0.8774749040603638,
+        0.08858546614646912,
+        9.467870712280273
+      ],
+      "median_accel_norm_m_s2": 9.509783119438683,
+      "gyro_norm_p95_rad_s": 0.034894520605080144
+    }
+  },
+  "angle_to_body_accel_deg": {
+    "old_urdf_and_parallel_lidar_imu": 176.80598521965848,
+    "firmware_cloud_to_base_and_parallel_lidar_imu": 141.95970827918674,
+    "cmu_l1_accel_rotation_only_without_bias": 136.0648922795896,
+    "identity": 18.250254717092577
+  },
+  "cloud_to_firmware_base": {
+    "convention": "p_base = R @ p_cloud + t",
+    "source": "/utlidar/cloud, /utlidar/cloud_base",
+    "translation_m": [
+      0.28215999599618025,
+      1.6813417769157013e-08,
+      -2.2347018249768702e-08
+    ],
+    "rotation_matrix": [
+      [
+        0.5261139320680797,
+        -0.8101357959786011,
+        0.25861964843758883
+      ],
+      [
+        -0.8386681536966942,
+        -0.5446427526117121,
+        1.585844622301047e-06
+      ],
+      [
+        0.1408540324550263,
+        -0.21689689739979073,
+        -0.9659792324059058
+      ]
+    ],
+    "rpy_deg": [
+      -167.34493540718526,
+      -8.097268426919893,
+      -57.89909837509541
+    ],
+    "quaternion_xyzw": [
+      -0.8713116430252865,
+      0.4730810046192178,
+      -0.11461848469785166,
+      0.06223332517723465
+    ],
+    "fit_median_error_m": 1.4917789406270122e-07,
+    "matched_points": 21257,
+    "status": "observed topic transform; LiDAR-to-IMU rotation remains undetermined",
+    "rotation_after_removing_nominal_urdf_pitch_rpy_deg": [
+      -0.08642953998196692,
+      -0.05623684583356799,
+      -123.00021147904062
+    ]
+  }
+}

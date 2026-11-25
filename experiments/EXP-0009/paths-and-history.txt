@@ -1,0 +1,125 @@
+total 200
+drwxr-xr-x 28 unitree unitree  4096 Jan  4  1970 .
+drwxr-xr-x  4 root    root     4096 Nov  7  2023 ..
+-rw-rw-r--  1 unitree unitree 14512 Aug 24 15:15 .99-realsense-libusb.rules
+-rw-------  1 unitree unitree     0 Jan  1  1970 .Xauthority
+-rw-------  1 unitree unitree 13670 Nov 19 18:33 .bash_history
+-rw-r--r--  1 unitree unitree   220 Sep  8  2022 .bash_logout
+-rw-r--r--  1 unitree unitree  4287 Mar 11  2024 .bashrc
+drwxr-xr-x 16 unitree unitree  4096 Jan  1  1970 .cache
+drwxrwxr-x  3 unitree unitree  4096 Sep  4  2023 .cmake
+drwx------ 19 unitree unitree  4096 Jan  1  1970 .config
+drwx------  3 unitree unitree  4096 Nov  7  2023 .dbus
+drwx------  3 unitree unitree  4096 Feb 21  2024 .gnupg
+drwxr-xr-x  5 unitree unitree  4096 Aug 24 15:42 .local
+drwx------  4 unitree unitree  4096 Sep  1  2023 .mozilla
+drwx------  3 unitree unitree  4096 Aug 24 15:42 .nv
+drwx------ 41 unitree unitree  4096 Jan  2  1970 .nx
+-rw-r--r--  1 unitree unitree   807 Sep  8  2022 .profile
+-rw-------  1 unitree unitree    50 Aug 24 14:27 .python_history
+drwx------  2 unitree unitree  4096 Nov  7  2023 .qt
+-rw-rw-r--  1 unitree unitree  7532 Aug 24 15:37 .realsense-config.json
+drwxrwxr-x  4 unitree unitree  4096 Nov 20 15:20 .ros
+drwxrwxr-x  2 unitree unitree  4096 Sep  4  2023 .rviz
+drwx------  2 unitree unitree  4096 Nov  1  2023 .ssh
+-rw-r--r--  1 unitree unitree     0 Sep  8  2022 .sudo_as_admin_successful
+drwxrwxr-x  5 unitree unitree  4096 Aug 24 15:42 .unitree_files
+-rw-------  1 unitree unitree 12551 Aug 24 15:07 .viminfo
+drwxr-x---  5 unitree unitree  4096 Jan  1  1970 .vscode-server
+-rw-rw-r--  1 unitree unitree   260 Aug 24 14:21 .wget-hsts
+-rw-r--r--  1 unitree unitree  4017 Sep  8  2022 .xsessionrc
+drwxr-xr-x  2 unitree unitree  4096 Nov  6  2023 Desktop
+drwxr-xr-x  4 unitree unitree  4096 Aug 24 15:42 Documents
+drwxr-xr-x  3 unitree unitree  4096 Nov  7  2023 Downloads
+drwxr-xr-x  2 unitree unitree  4096 Sep  8  2022 Music
+drwxr-xr-x  2 unitree unitree  4096 Jan  1  1970 Pictures
+drwxr-xr-x  2 unitree unitree  4096 Sep  8  2022 Public
+drwxr-xr-x  2 unitree unitree  4096 Sep  8  2022 Templates
+drwxr-xr-x  2 unitree unitree  4096 Sep  8  2022 Videos
+drwxrwxr-x  6 unitree unitree  4096 Nov  7  2023 cyclonedds_ws
+drwx------  3 unitree unitree  4096 Nov 19 18:20 go2-wifi-repair
+-rwxr-xr-x  1 unitree unitree    87 Jun  5  2023 nomachine.sh
+drwxrwxr-x  4 unitree unitree  4096 Aug 24 15:42 unitree
+total 24
+drwxr-xr-x  6 root root 4096 Feb 21  2024 .
+drwxr-xr-x 21 root root 4096 Aug 24 15:42 ..
+drwx--x--x  4 root root 4096 Feb 21  2024 containerd
+drwxr-xr-x 11 root root 4096 Aug 24 15:42 nvidia
+drwxr-xr-x  4 root root 4096 Sep  1  2023 ota_package
+drwxr-xr-x  4 root root 4096 Nov  6  2023 ros
+LOG: /home/unitree/.ros/log/hesai_lidar_node_10103_1699347967377.log
+[INFO] [1699347967.411067208] [hesai_node]: ip:192.168.123.20
+[INFO] [1699347967.411067208] [hesai_node]: ip:192.168.123.20
+LOG: /home/unitree/.ros/log/hesai_lidar_node_10332_1699347973171.log
+[INFO] [1699347973.191637608] [hesai_node]: ip:192.168.123.20
+[INFO] [1699347973.191637608] [hesai_node]: ip:192.168.123.20
+LOG: /home/unitree/.ros/log/hesai_lidar_node_12972_1699348291622.log
+[INFO] [1699348291.643521352] [hesai_node]: ip:192.168.123.20
+[INFO] [1699348291.643521352] [hesai_node]: ip:192.168.123.20
+LOG: /home/unitree/.ros/log/hesai_lidar_node_13284_1699348407485.log
+[INFO] [1699348407.518318504] [hesai_node]: ip:192.168.123.20
+[INFO] [1699348407.518318504] [hesai_node]: ip:192.168.123.20
+LOG: /home/unitree/.ros/log/hesai_lidar_node_19764_1699329002119.log
+[INFO] [1699329002.143950690] [hesai_node]: ip:192.168.123.20
+[INFO] [1699329004.382115669] [rclcpp]: signal_handler(signal_value=2)
+[INFO] [1699329002.143950690] [hesai_node]: ip:192.168.123.20
+[INFO] [1699329004.382115669] [rclcpp]: signal_handler(signal_value=2)
+LOG: /home/unitree/.ros/log/hesai_lidar_node_4375_1699347676775.log
+[INFO] [1699347676.803494760] [hesai_node]: ip:192.168.123.20
+[INFO] [1699347676.803494760] [hesai_node]: ip:192.168.123.20
+/usr/bin/docker
+permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/json?all=1": dial unix /var/run/docker.sock: connect: permission denied
+total 148984
+drwxr-xr-x  2 root root      4096 Aug 24 14:25 .
+drwxr-xr-x 13 root root      4096 Nov 19 18:27 ..
+-rwxr-xr-x  1 root root       252 Aug 24 14:25 convert-caffe2-to-onnx
+-rwxr-xr-x  1 root root       252 Aug 24 14:25 convert-onnx-to-caffe2
+-rwxr-xr-x  1 root root 104943896 Nov  6  2023 cryptest.exe
+-rw-r--r--  1 root root    253480 Nov  7  2023 ddsperf
+-rwxr-xr-x  1 root root   1002016 Nov  7  2023 idlc
+-rw-r--r--  1 root root    643920 Nov  7  2023 iox-introspection-client
+-rw-r--r--  1 root root   1193392 Nov  7  2023 iox-roudi
+-rwxr-xr-x  1 root root       205 Aug 24 14:25 isympy
+lrwxrwxrwx  1 root root        22 Aug 24 14:19 nsys -> /etc/alternatives/nsys
+lrwxrwxrwx  1 root root        25 Aug 24 14:19 nsys-ui -> /etc/alternatives/nsys-ui
+-rwxr-xr-x  1 root root   8094376 Aug 24 13:14 realsense-viewer
+-rwxr-xr-x  1 root root       214 Sep  1  2023 rosdepc
+-rwxr-xr-x  1 root root   1375968 Aug 24 12:35 rs-align
+-rwxr-xr-x  1 root root   1379992 Aug 24 12:35 rs-align-advanced
+-rwxr-xr-x  1 root root   1397976 Aug 24 12:38 rs-align-gl
+-rwxr-xr-x  1 root root    765024 Aug 24 12:38 rs-benchmark
+-rwxr-xr-x  1 root root    221344 Aug 24 12:33 rs-callback
+-rwxr-xr-x  1 root root   1238016 Aug 24 12:34 rs-capture
+-rwxr-xr-x  1 root root     14696 Aug 24 12:35 rs-color
+-rwxr-xr-x  1 root root    508552 Aug 24 12:37 rs-convert
+-rwxr-xr-x  1 root root    453080 Aug 24 12:38 rs-data-collect
+-rwxr-xr-x  1 root root     19288 Aug 24 12:35 rs-depth
+-rwxr-xr-x  1 root root   8176360 Aug 24 13:14 rs-depth-quality
+-rwxr-xr-x  1 root root     14600 Aug 24 12:35 rs-distance
+-rwxr-xr-x  1 root root    355168 Aug 24 12:23 rs-embed
+-rwxr-xr-x  1 root root    105008 Aug 24 12:37 rs-embedded-filters
+-rwxr-xr-x  1 root root    296376 Aug 24 12:37 rs-enumerate-devices
+-rwxr-xr-x  1 root root    221504 Aug 24 12:37 rs-eth-config
+-rwxr-xr-x  1 root root    242016 Aug 24 12:37 rs-fw-logger
+-rwxr-xr-x  1 root root    274480 Aug 24 12:37 rs-fw-update
+-rwxr-xr-x  1 root root   1260312 Aug 24 12:37 rs-gl
+-rwxr-xr-x  1 root root   1259064 Aug 24 12:37 rs-hdr
+-rwxr-xr-x  1 root root    208216 Aug 24 12:33 rs-hello-realsense
+-rwxr-xr-x  1 root root     19552 Aug 24 12:35 rs-infrared
+-rwxr-xr-x  1 root root   1222408 Aug 24 12:35 rs-labeled-pointcloud
+-rwxr-xr-x  1 root root   1405000 Aug 24 12:36 rs-measure
+-rwxr-xr-x  1 root root   1430616 Aug 24 12:37 rs-motion
+-rwxr-xr-x  1 root root   1253968 Aug 24 12:34 rs-multicam
+-rwxr-xr-x  1 root root     68448 Aug 24 12:37 rs-object-detection
+-rwxr-xr-x  1 root root    223480 Aug 24 12:37 rs-on-chip-calib
+-rwxr-xr-x  1 root root   1220224 Aug 24 12:34 rs-pointcloud
+-rwxr-xr-x  1 root root   1249848 Aug 24 12:36 rs-post-processing
+-rwxr-xr-x  1 root root    230976 Aug 24 12:37 rs-record
+-rwxr-xr-x  1 root root   1241648 Aug 24 12:36 rs-record-playback
+-rwxr-xr-x  1 root root   2261904 Aug 24 12:38 rs-rosbag-inspector
+-rwxr-xr-x  1 root root    130104 Aug 24 12:33 rs-save-to-disk
+-rwxr-xr-x  1 root root   1248664 Aug 24 12:36 rs-sensor-control
+-rwxr-xr-x  1 root root   1450664 Aug 24 12:34 rs-software-device
+-rwxr-xr-x  1 root root    416872 Aug 24 12:37 rs-terminal
+-rwxr-xr-x  1 root root       220 Aug 24 14:25 torchrun
+-rwxr-xr-x  1 root root   1437704 Nov  7  2023 wrap

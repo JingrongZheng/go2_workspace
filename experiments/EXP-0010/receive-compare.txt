@@ -1,0 +1,21 @@
+PACKAGE: /home/unitree/go2-lidar-diagnostic/hesai_v2_ws/install/hesai_ros_driver
+-------- Hesai Lidar ROS V2.0.12 --------
+-------- Hesai Lidar SDK V2.0.12 --------
+=== UDP listeners ===
+UNCONN    0         0                   0.0.0.0:2368             0.0.0.0:*       users:(("hesai_ros_drive",pid=9816,fd=15))                                     
+POINTCLOUD_FRAMES [0, 0]
+[INFO] [1795160539.935796512] [rclcpp]: signal_handler(signal_value=2)
+[2026-11-20 15:42:02][INFO]logger start to run
+[2026-11-20 15:42:02][INFO]OS current udp socket recv buff size is: 425984
+[2026-11-20 15:42:02][INFO]SocketSource::Open succeed, sock:15
+[2026-11-20 15:42:02][ERROR]channel fov file does not exist: Your channel fov filter file path
+[2026-11-20 15:42:02][INFO]Use thread num 2 to parse packet
+[2026-11-20 15:42:02][INFO]Lidar::Receive Udp Thread start to run
+[2026-11-20 15:42:02][INFO]Lidar::ParserThread start to run
+[2026-11-20 15:42:02][WARNING]Packet with invaild delimiter, len 1180, 0x00 0x00 0x00 0x00
+[2026-11-20 15:42:10][FATAL]get cloud point fail, init exit
+[2026-11-20 15:42:19][INFO]Hesai Lidar SDK is stopping...
+[2026-11-20 15:42:19][INFO]SocketSource::Close()
+[2026-11-20 15:42:19][INFO]Source::Close()
+Bounded probe exit=124
+=== Remaining compare processes ===
