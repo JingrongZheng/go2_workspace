@@ -1,0 +1,43 @@
+{
+  "sent_init": true,
+  "sent_goal": true,
+  "counts": {
+    "odom": 580,
+    "mcl_pose": 69,
+    "global_path": 61,
+    "cuboid": 0,
+    "best_traj": 146,
+    "cmd_vel": 299,
+    "local_obs": 564
+  },
+  "max_global_path_poses": 50,
+  "max_abs_vx_mps": 0.35,
+  "max_abs_wz_radps": 0.7874,
+  "cmd_vel_samples_tail": [
+    {
+      "vx": 0.0,
+      "vy": 0.0,
+      "wz": -0.5
+    },
+    {
+      "vx": 0.0,
+      "vy": 0.0,
+      "wz": -0.5
+    },
+    {
+      "vx": 0.0,
+      "vy": 0.0,
+      "wz": -0.5
+    },
+    {
+      "vx": 0.0,
+      "vy": 0.0,
+      "wz": -0.5
+    },
+    {
+      "vx": 0.0,
+      "vy": 0.0,
+      "wz": -0.5
+    }
+  ]
+}

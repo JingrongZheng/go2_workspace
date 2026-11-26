@@ -28,10 +28,12 @@ Daily real-robot mapping workflow:
   ./go2 map [SESSION_DIR] [GROUND_Z]
       Start unified Point-LIO + DDDMR mapping Docker (no controller).
       Default SESSION_DIR: .work/sessions/live-YYYYMMDD-HHMMSS
-  ./go2 rviz [mapping|l2|localize]
+  ./go2 rviz [mapping|l2|localize|nav]
       Launch RViz2 with matching ROS domain and layout (default: mapping).
   ./go2 localize <SAVED_MAP_DIR> [SESSION_DIR] [GROUND_Z]
       Start R3 3D MCL relocalization on a saved map (no planner or controller).
+  ./go2 nav-dryrun <SAVED_MAP_DIR> [SESSION_DIR] [GROUND_Z]
+      Start R3+R4 combined dry-run (MCL + A* global planner + P2P local planner + Cuboid + /cmd_vel audit; NO robot motion).
   ./go2 record [BAG_DIR]
       Record raw 3-topic sensor bag (/go2/relay/cloud, /go2/relay/imu, /go2/relay/chassis_imu).
       Default BAG_DIR: .work/sessions/bag-YYYYMMDD-HHMMSS
@@ -41,12 +43,22 @@ Daily real-robot mapping workflow:
       Run PC keyboard control over SSH (preview-only unless --robot is passed).
   ./go2 estop [wired|wifi] [--host IP] [--check|--robot]
       Dedicated emergency stop & BalanceStand terminal (Space/Enter latches 5 Hz StopMove+BalanceStand).
+  ./go2 cmd-bridge [wired|wifi] [--host IP] [--check|--robot] [--max-vx 0.35] [--max-wz 0.8]
+      R5 velocity bridge: forward PC /cmd_vel (domain 84) to Go2 sport /api/sport/request (preview unless --robot).
 
 Offline & utilities:
   ./go2 replay <BAG_DIR> [OUTPUT_DIR] [GROUND_Z] [YAML]
       Run isolated offline replay -> Point-LIO -> DDDMR -> map save verification.
   ./go2 view-map <SAVED_MAP_DIR> [--server-only]
       Load a saved DDDMR map (ground + surfaces + features + keyframes) and open in 3D RViz2.
+  ./go2 rgbd-record [wired|wifi] [--host IP] [--output DIR] [--hz 2.5] [--no-display]
+      Capture D435i color-aligned raw Z16 RGB-D keyframes + intrinsics + optional /mcl_pose for 3DGS.
+  ./go2 gs-build
+      Build the local CUDA + COLMAP + gsplat Docker image (go2-3dgs:latest) for RTX 3060.
+  ./go2 gs-train <RGBD_SESSION_DIR> [OUTPUT_DIR] [extra args...]
+      Run COLMAP SfM -> DDDMR nav-map Sim(3) alignment -> gsplat 3DGS training (.ply).
+  ./go2 gs-view <POINT_CLOUD.PLY>
+      Open an interactive browser 3DGS viewer (viser, http://localhost:8080).
   ./go2 help
       Show this help message.
 
@@ -127,8 +139,9 @@ cmd_rviz() {
     mapping)  rviz_cfg="$REAL_DIR/go2_mapping.rviz" ;;
     l2)       rviz_cfg="$REAL_DIR/go2_l2.rviz" ;;
     localize) rviz_cfg="$REAL_DIR/go2_localization.rviz" ;;
+    nav)      rviz_cfg="$REAL_DIR/go2_nav.rviz" ;;
     *)
-      echo "Unknown rviz profile '$profile' (use 'mapping', 'l2', or 'localize')." >&2
+      echo "Unknown rviz profile '$profile' (use 'mapping', 'l2', 'localize', or 'nav')." >&2
       exit 2
       ;;
   esac
@@ -191,6 +204,15 @@ cmd_estop() {
     "${EXTRA_ARGS[@]}"
 }
 
+cmd_cmd_bridge() {
+  parse_link_args "$@"
+  export ROS_DOMAIN_ID="$GO2_ROS_DOMAIN"
+  exec bash "$ROOT/shared/run_cmd_vel_bridge.sh" \
+    --host "$LINK_HOST" \
+    --socket "$LINK_SOCKET" \
+    "${EXTRA_ARGS[@]}"
+}
+
 cmd_replay() {
   if [[ $# -lt 1 || $# -gt 4 ]]; then
     echo "Usage: ./go2 replay <BAG_DIR> [OUTPUT_DIR] [GROUND_Z] [YAML]" >&2
@@ -221,6 +243,36 @@ cmd_localize() {
   exec bash "$REAL_DIR/run_live_localization.sh" "$@"
 }
 
+cmd_nav_dryrun() {
+  if [[ $# -lt 1 || $# -gt 3 ]]; then
+    echo "Usage: ./go2 nav-dryrun <SAVED_MAP_DIR> [SESSION_DIR] [GROUND_Z]" >&2
+    exit 2
+  fi
+  export ROS_DOMAIN_ID="$GO2_ROS_DOMAIN"
+  exec bash "$REAL_DIR/run_nav_dryrun.sh" "$@"
+}
+
+cmd_rgbd_record() {
+  parse_link_args "$@"
+  export ROS_DOMAIN_ID="$GO2_ROS_DOMAIN"
+  exec bash "$ROOT/shared/gs3d/run_rgbd_record.sh" \
+    --host "$GO2_USER@$LINK_HOST" \
+    --ssh-control "$LINK_SOCKET" \
+    "${EXTRA_ARGS[@]}"
+}
+
+cmd_gs_build() {
+  exec bash "$ROOT/shared/gs3d/build_docker.sh" "$@"
+}
+
+cmd_gs_train() {
+  exec bash "$ROOT/shared/gs3d/run_train.sh" "$@"
+}
+
+cmd_gs_view() {
+  exec bash "$ROOT/shared/gs3d/run_view.sh" "$@"
+}
+
 cmd="${1:-help}"
 if [[ $# -gt 0 ]]; then
   shift
@@ -235,9 +287,15 @@ case "$cmd" in
   save-map)   cmd_save_map "$@" ;;
   keyboard)   cmd_keyboard "$@" ;;
   estop)      cmd_estop "$@" ;;
+  cmd-bridge) cmd_cmd_bridge "$@" ;;
   replay)     cmd_replay "$@" ;;
   view-map)   cmd_view_map "$@" ;;
   localize)   cmd_localize "$@" ;;
+  nav-dryrun) cmd_nav_dryrun "$@" ;;
+  rgbd-record) cmd_rgbd_record "$@" ;;
+  gs-build)   cmd_gs_build "$@" ;;
+  gs-train)   cmd_gs_train "$@" ;;
+  gs-view)    cmd_gs_view "$@" ;;
   help|-h|--help) usage ;;
   *)
     echo "Unknown command: $cmd" >&2

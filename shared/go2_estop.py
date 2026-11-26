@@ -19,11 +19,13 @@ import tty
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+ESTOP_LOCK = ROOT / ".work/estop.lock"
 CLOCK_REPLY = struct.Struct("!q")
 
-DAMP = 1001
 BALANCE_STAND = 1002
 STOP_MOVE = 1003
+STAND_UP = 1004
+STAND_DOWN = 1005
 HOLD_INTERVAL_S = 0.2  # 5 Hz override while Hold-Stop is latched
 
 
@@ -112,13 +114,24 @@ def main():
             "=== PREVIEW MODE (dry-run; no real robot requests will be published) ==="
         )
         print(mode_banner)
-        print("  [Space / Enter]  HOLD-STOP: StopMove + BalanceStand (5 Hz override until R)")
-        print("  [B]              Single StopMove + BalanceStand")
-        print("  [R]              Release HOLD-STOP (stay armed)")
-        print("  [D]              Damp (1001, soft motor release)")
-        print("  [Q]              Quit cleanly", flush=True)
+        print("  [Space / Enter]  E-STOP + LOCK: cuts off cmd-bridge immediately & holds StopMove + BalanceStand")
+        print("  [1]              StandUp (1004, smooth stand up)")
+        print("  [2]              StopMove + BalanceStand (1002)")
+        print("  [3]              StandDown (1005, smooth lie down) + lock cmd-bridge")
+        print("  [R]              Release E-STOP lock (allow cmd-bridge again)")
+        print("  [Q]              Quit cleanly (keeps lock if currently latched)", flush=True)
 
         os.set_blocking(proc.stdin.fileno(), False)
+
+        def engage_lock(reason: str):
+            ESTOP_LOCK.parent.mkdir(parents=True, exist_ok=True)
+            ESTOP_LOCK.write_text(f"{reason} {time.time():.3f}\n")
+
+        def release_lock():
+            try:
+                ESTOP_LOCK.unlink()
+            except FileNotFoundError:
+                pass
 
         def send_api(api_id):
             data = (json.dumps({"api_id": api_id, "parameter": "", "sent_pc_ns": time.time_ns()}) + "\n").encode()
@@ -142,26 +155,33 @@ def main():
                     print("\nExiting E-Stop terminal.", flush=True)
                     return 0
                 if key in (" ", "\r", "\n"):
+                    engage_lock("estop_hold")
                     send_api(STOP_MOVE)
                     send_api(BALANCE_STAND)
                     holding = True
                     hold_count = 1
                     next_hold = now + HOLD_INTERVAL_S
-                    print("[E-STOP] HOLD-STOP ACTIVE: StopMove + BalanceStand (press R to release)", flush=True)
-                elif key == "b":
+                    print("[E-STOP] LOCKED! cmd-bridge blocked; holding StopMove + BalanceStand (press R to release)", flush=True)
+                elif key == "1":
+                    holding = False
+                    send_api(STAND_UP)
+                    print("[E-STOP] Sent smooth StandUp (1004)", flush=True)
+                elif key == "2":
                     holding = False
                     send_api(STOP_MOVE)
                     send_api(BALANCE_STAND)
-                    print("[E-STOP] Sent StopMove + BalanceStand", flush=True)
-                elif key == "r":
-                    if holding:
-                        holding = False
-                        print(f"[E-STOP] Released HOLD-STOP after {hold_count} override pulses (still armed).", flush=True)
-                elif key == "d":
+                    print("[E-STOP] Sent StopMove + BalanceStand (1002)", flush=True)
+                elif key == "3":
+                    engage_lock("stand_down")
                     holding = False
                     send_api(STOP_MOVE)
-                    send_api(DAMP)
-                    print("[E-STOP] Sent StopMove + Damp (1001)", flush=True)
+                    time.sleep(0.15)
+                    send_api(STAND_DOWN)
+                    print("[E-STOP] LOCKED + Sent smooth StandDown (1005)", flush=True)
+                elif key == "r":
+                    holding = False
+                    release_lock()
+                    print(f"[E-STOP] Released lock (after {hold_count} pulses); cmd-bridge allowed again.", flush=True)
 
             if holding and now >= next_hold:
                 send_api(STOP_MOVE)

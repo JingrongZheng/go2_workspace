@@ -10,3 +10,5 @@
 - [L2 点云＋机体 IMU 的实测输入基线](go2-l2-chassis-imu-baseline.md)：当前估计输入、WiFi 实测频率、时间戳与适用边界，来源 EXP-0024。
 
 - [DDDMR `lego_loam_bor` 在线回环并发段错误](dddmr-loop-closure-race-bug.md)：`mapOptimization.cpp` 跨回调组无锁并发读写 `isam`/`gtSAMgraph`/位姿容器的源码证据与规避方式，来源 EXP-0033。
+
+- [Go2 无线传感器转发需使用 5 GHz WiFi](go2-wifi-5ghz-throughput.md)：2.4 GHz（0.5 Mbps）与 5 GHz `spin220_5G`（97.2 Mbps，提升约 194 倍）实测吞吐对照、CN 国家码及自动重连优先级配置要点，来源 EXP-0037。
