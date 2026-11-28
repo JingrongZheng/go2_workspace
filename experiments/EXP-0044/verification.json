@@ -1,0 +1,26 @@
+{
+  "tests_passed": 13,
+  "comparison": {
+    "same_pre_generated_source": true,
+    "A": "buffered WebRTC PyAV",
+    "B": "pre-fix streaming RobotSink",
+    "C": "megaphone",
+    "user_feedback": "A and B both good; C too fast",
+    "latency_comparison": false
+  },
+  "fixed_real_job": {
+    "id": "458f2317aa424b53939747b65584eab4",
+    "status": "done",
+    "first_text_ms": 5908,
+    "llm_done_ms": 6248,
+    "first_audio_ms": 6813,
+    "done_ms": 12320,
+    "user_feedback": "Noise completely disappeared"
+  },
+  "changes": [
+    "stateful band-limited resampling",
+    "keep full sentence context",
+    "remove speak and voice-train go2 commands"
+  ],
+  "root_cause_uniquely_proven": false
+}

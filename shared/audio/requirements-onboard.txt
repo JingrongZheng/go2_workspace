@@ -1,0 +1,15 @@
+# ARM64 Ubuntu 20.04 / Python 3.8 isolated runtime.
+aiohttp==3.10.11
+aiortc==1.9.0
+av==12.3.0
+numpy==1.24.4
+pyOpenSSL==24.2.1
+cryptography==43.0.3
+pyee==11.1.1
+requests
+pycryptodome
+packaging
+sounddevice
+lz4
+wasmtime
+curl-cffi

@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-27",
+  "robot_computer": {
+    "address": "192.168.123.18",
+    "architecture": "aarch64",
+    "python": "3.8.10",
+    "directory": "/home/unitree/go2-dialogue",
+    "wifi_address": "192.168.110.87"
+  },
+  "runtime_imports": {
+    "aiohttp": "3.10.11",
+    "av": "12.3.0",
+    "aiortc": "1.9.0",
+    "sounddevice": "OK",
+    "unitree_webrtc_connect": "OK"
+  },
+  "systemd_user_service": {
+    "name": "go2-dialogue.service",
+    "active_state": "active",
+    "sub_state": "running",
+    "observed_pid": 20667,
+    "linger": false
+  },
+  "health": {
+    "service": "go2-onboard-dialogue",
+    "runs_on": "robot_computer",
+    "config_ready": true,
+    "config_problem": null,
+    "busy": false,
+    "audio_enabled": true,
+    "cloud_connectivity_verified": true
+  },
+  "local_protocol_tests_passed": 11,
+  "pending": [
+    "Long response overlap timing, multi-turn and submit-only real integration as needed",
+    "Microphone / ASR",
+    "Unattended boot startup and speech interruption"
+  ],
+  "model": {
+    "id": "kimi-k3.1-pro",
+    "reasoning_effort": "low",
+    "selection": "User chose available model after highspeed returned 404"
+  },
+  "credential": {
+    "installed": true,
+    "method": "SSH stdin atomic update",
+    "mode": "600",
+    "path": "/home/unitree/go2-dialogue/.work/dialogue.env"
+  },
+  "real_dialogue": {
+    "job_id": "6ec1c309c19c491784b1b3b310aa7fe4",
+    "status": "done",
+    "reply": "你好，我是机器狗。现在开始测试流式对话。",
+    "voice": "mambo",
+    "metrics": {
+      "first_text_ms": 2448,
+      "llm_done_ms": 2540,
+      "first_audio_ms": 2926,
+      "done_ms": 7540
+    },
+    "user_confirmed_audible_and_normal": true,
+    "note": "Short response: first PCM arrived after LLM completion; not evidence of real timing overlap"
+  },
+  "wireless_submission_fix": {
+    "issue": "PC ask selected wired control socket for Wi-Fi host",
+    "ssh_connection": "192.168.110.120 37028 192.168.110.87 22",
+    "health_ok": true,
+    "question": "你是谁？",
+    "job_id": "76cd919e56b04ef894866d6b99bbe35d",
+    "status": "done",
+    "metrics": {
+      "first_text_ms": 3892,
+      "llm_done_ms": 4398,
+      "first_audio_ms": 4576,
+      "done_ms": 12646
+    },
+    "user_acoustic_confirmation_for_this_turn": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-27",
+  "local_protocol_tests": {
+    "command": ".work/webrtc-venv/bin/python -m unittest discover -s shared/audio/tests -v",
+    "result": "7 tests passed",
+    "scope": "127.0.0.1 simulated SSE and WebSocket, not real LLM or robot"
+  },
+  "real_xfyun_smoke": {
+    "voice": "mambo",
+    "texts": ["你好，我是机器狗。", "现在测试流式对话。"],
+    "second_text_delay_seconds": 2,
+    "duplex": {"text_done_ms": 2175, "first_audio_ms": 2565, "chunks": 26, "audio_seconds": 3.5, "wav": ".work/audio/dialogue_duplex_smoke.wav"},
+    "sentences": {"text_done_ms": 2003, "first_audio_ms": 443, "chunks": 27, "audio_seconds": 4.16, "wav": ".work/audio/dialogue_sentence_smoke.wav"},
+    "scope": "Real cloud TTS saved as local WAV; not playback and not LLM latency"
+  },
+  "credential_file": {"path": ".work/dialogue.env", "mode": "600", "gitignored": true},
+  "pending": ["Real Kimi authentication and multi-turn streaming", "PC live PCM listening", "Go2 dialogue integration and acoustic latency"],
+  "reviewer": "Unavailable: Linux project write protection unsupported"
+}

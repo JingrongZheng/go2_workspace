@@ -59,6 +59,10 @@ Offline & utilities:
       Run COLMAP SfM -> DDDMR nav-map Sim(3) alignment -> gsplat 3DGS training (.ply).
   ./go2 gs-view <POINT_CLOUD.PLY>
       Open an interactive browser 3DGS viewer (viser, http://localhost:8080).
+  ./go2 ask [--host ROBOT_COMPUTER_IP] "问题"
+      Submit text only; the onboard service calls cloud APIs and plays audio.
+  ./go2 chat [--ip GO2_IP | --local-preview | --no-audio] [args...]
+      Text conversation: streaming LLM -> streaming iFlytek TTS -> live speaker.
   ./go2 help
       Show this help message.
 
@@ -296,6 +300,8 @@ case "$cmd" in
   gs-build)   cmd_gs_build "$@" ;;
   gs-train)   cmd_gs_train "$@" ;;
   gs-view)    cmd_gs_view "$@" ;;
+  ask)         exec python3 "$ROOT/shared/audio/send_onboard_question.py" "$@" ;;
+  chat)        exec bash "$ROOT/shared/audio/run_dialogue.sh" "$@" ;;
   help|-h|--help) usage ;;
   *)
     echo "Unknown command: $cmd" >&2

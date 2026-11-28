@@ -1,0 +1,17 @@
+{
+  "av_full": {
+    "samples": 277440,
+    "rms": 0.11363567411899567,
+    "above_14khz_fraction": 1.098088193152458e-09
+  },
+  "linear_20ms": {
+    "samples": 277440,
+    "rms": 0.11214742663126268,
+    "above_14khz_fraction": 0.0011427189073286825
+  },
+  "stateful_av": {
+    "samples": 277440,
+    "rms": 0.1136356673545826,
+    "above_14khz_fraction": 1.098088193152458e-09
+  }
+}
